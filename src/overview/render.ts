@@ -24,7 +24,7 @@ export function renderGlyph(r: CharRecord, opts: { showNumbers?: boolean; highli
     parts.push(`<path d="${s.outline}" fill="${fill}"/>`);
   }
   if (opts.showNumbers) {
-    for (const s of r.strokes) parts.push(`<text x="${s.numberAt[0]}" y="${s.numberAt[1]}" font-size="7" fill="#888" font-family="sans-serif">${s.n}</text>`);
+    for (const s of r.strokes) parts.push(`<text x="${s.numberAt[0]}" y="${s.numberAt[1]}" font-size="7" fill="#888" font-family="Arial, Helvetica, sans-serif">${s.n}</text>`);
   }
   parts.push("</g>");
   return parts.join("");
@@ -45,7 +45,7 @@ export function renderGrid(records: CharRecord[], opts: GridOptions): string {
     const y = Math.floor(i / columns) * cell;
     out.push(`<g transform="translate(${x + pad},${y + pad}) scale(${scale.toFixed(4)})">${renderGlyph(r, { showNumbers: opts.showNumbers ?? true })}</g>`);
     const label = opts.label?.(r);
-    if (label) out.push(`<text x="${x + 3}" y="${y + cell * 0.1}" font-size="${(cell * 0.09).toFixed(1)}" fill="#999" font-family="sans-serif">${esc(label)}</text>`);
+    if (label) out.push(`<text x="${x + 3}" y="${y + cell * 0.1}" font-size="${(cell * 0.09).toFixed(1)}" fill="#999" font-family="Arial, Helvetica, sans-serif">${esc(label)}</text>`);
   });
   out.push("</svg>");
   return out.join("\n");
