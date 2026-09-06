@@ -1,0 +1,4 @@
+node_modules/
+input/
+build/
+.DS_Store

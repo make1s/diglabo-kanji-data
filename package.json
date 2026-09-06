@@ -1,0 +1,26 @@
+{
+  "name": "diglabo-kanji-data",
+  "version": "0.1.0",
+  "private": true,
+  "description": "教育漢字 1,026 字とかなの字形・書き順・筆圧アウトライン・部品階層・教育用読みを、KanjiVG と KANJIDIC2 と文部科学省の音訓割り振り表から生成した公開データセット",
+  "type": "module",
+  "license": "CC-BY-SA-4.0",
+  "repository": "github:make1s/diglabo-kanji-data",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "fetch": "bash scripts/fetch-inputs.sh",
+    "mext": "tsx scripts/mext-to-json.ts",
+    "build:data": "tsx src/build/run.ts",
+    "overview": "tsx src/overview/render.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "sharp": "^0.35.3",
+    "tsx": "^4.20.6",
+    "typescript": "^5.6.3",
+    "vitest": "^4.1.4"
+  },
+  "packageManager": "pnpm@9.12.3"
+}
