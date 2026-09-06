@@ -1,0 +1,8452 @@
+{
+  "version": "0.1.0",
+  "generatedAt": "2026-09-06",
+  "license": "CC-BY-SA-4.0",
+  "sources": {
+    "kanjivg": {
+      "release": "r20250816",
+      "license": "CC-BY-SA-3.0",
+      "url": "https://github.com/KanjiVG/kanjivg/releases/tag/r20250816"
+    },
+    "kanjidic2": {
+      "databaseVersion": "2026-248",
+      "dateOfCreation": "2026-09-05",
+      "license": "CC-BY-SA-4.0",
+      "url": "http://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+    },
+    "mext": {
+      "title": "音訓の小・中・高等学校段階別割り振り表（平成29年3月）",
+      "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/__icsFiles/afieldfile/2017/05/15/1385768.pdf"
+    }
+  },
+  "profilesVersion": 1,
+  "counts": {
+    "kanji": 1026,
+    "hiragana": 86,
+    "katakana": 91,
+    "strokes": 10178
+  },
+  "chars": [
+    {
+      "char": "一",
+      "codepoint": "04e00",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 1
+    },
+    {
+      "char": "七",
+      "codepoint": "04e03",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 2
+    },
+    {
+      "char": "三",
+      "codepoint": "04e09",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 3
+    },
+    {
+      "char": "上",
+      "codepoint": "04e0a",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 3
+    },
+    {
+      "char": "下",
+      "codepoint": "04e0b",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 3
+    },
+    {
+      "char": "中",
+      "codepoint": "04e2d",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 4
+    },
+    {
+      "char": "九",
+      "codepoint": "04e5d",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 2
+    },
+    {
+      "char": "二",
+      "codepoint": "04e8c",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 2
+    },
+    {
+      "char": "五",
+      "codepoint": "04e94",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 4
+    },
+    {
+      "char": "人",
+      "codepoint": "04eba",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 2
+    },
+    {
+      "char": "休",
+      "codepoint": "04f11",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 6
+    },
+    {
+      "char": "先",
+      "codepoint": "05148",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 6
+    },
+    {
+      "char": "入",
+      "codepoint": "05165",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 2
+    },
+    {
+      "char": "八",
+      "codepoint": "0516b",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 2
+    },
+    {
+      "char": "六",
+      "codepoint": "0516d",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 4
+    },
+    {
+      "char": "円",
+      "codepoint": "05186",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 4
+    },
+    {
+      "char": "出",
+      "codepoint": "051fa",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 5
+    },
+    {
+      "char": "力",
+      "codepoint": "0529b",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 2
+    },
+    {
+      "char": "十",
+      "codepoint": "05341",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 2
+    },
+    {
+      "char": "千",
+      "codepoint": "05343",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 3
+    },
+    {
+      "char": "口",
+      "codepoint": "053e3",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 3
+    },
+    {
+      "char": "右",
+      "codepoint": "053f3",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 5
+    },
+    {
+      "char": "名",
+      "codepoint": "0540d",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 6
+    },
+    {
+      "char": "四",
+      "codepoint": "056db",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 5
+    },
+    {
+      "char": "土",
+      "codepoint": "0571f",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 3
+    },
+    {
+      "char": "夕",
+      "codepoint": "05915",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 3
+    },
+    {
+      "char": "大",
+      "codepoint": "05927",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 3
+    },
+    {
+      "char": "天",
+      "codepoint": "05929",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 4
+    },
+    {
+      "char": "女",
+      "codepoint": "05973",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 3
+    },
+    {
+      "char": "子",
+      "codepoint": "05b50",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 3
+    },
+    {
+      "char": "字",
+      "codepoint": "05b57",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 6
+    },
+    {
+      "char": "学",
+      "codepoint": "05b66",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 8
+    },
+    {
+      "char": "小",
+      "codepoint": "05c0f",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 3
+    },
+    {
+      "char": "山",
+      "codepoint": "05c71",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 3
+    },
+    {
+      "char": "川",
+      "codepoint": "05ddd",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 3
+    },
+    {
+      "char": "左",
+      "codepoint": "05de6",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 5
+    },
+    {
+      "char": "年",
+      "codepoint": "05e74",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 6
+    },
+    {
+      "char": "手",
+      "codepoint": "0624b",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 4
+    },
+    {
+      "char": "文",
+      "codepoint": "06587",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 4
+    },
+    {
+      "char": "日",
+      "codepoint": "065e5",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 4
+    },
+    {
+      "char": "早",
+      "codepoint": "065e9",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 6
+    },
+    {
+      "char": "月",
+      "codepoint": "06708",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 4
+    },
+    {
+      "char": "木",
+      "codepoint": "06728",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 4
+    },
+    {
+      "char": "本",
+      "codepoint": "0672c",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 5
+    },
+    {
+      "char": "村",
+      "codepoint": "06751",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 7
+    },
+    {
+      "char": "林",
+      "codepoint": "06797",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 8
+    },
+    {
+      "char": "校",
+      "codepoint": "06821",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 10
+    },
+    {
+      "char": "森",
+      "codepoint": "068ee",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 12
+    },
+    {
+      "char": "正",
+      "codepoint": "06b63",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 5
+    },
+    {
+      "char": "気",
+      "codepoint": "06c17",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 6
+    },
+    {
+      "char": "水",
+      "codepoint": "06c34",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 4
+    },
+    {
+      "char": "火",
+      "codepoint": "0706b",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 4
+    },
+    {
+      "char": "犬",
+      "codepoint": "072ac",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 4
+    },
+    {
+      "char": "玉",
+      "codepoint": "07389",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 5
+    },
+    {
+      "char": "王",
+      "codepoint": "0738b",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 4
+    },
+    {
+      "char": "生",
+      "codepoint": "0751f",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 5
+    },
+    {
+      "char": "田",
+      "codepoint": "07530",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 5
+    },
+    {
+      "char": "男",
+      "codepoint": "07537",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 7
+    },
+    {
+      "char": "町",
+      "codepoint": "0753a",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 7
+    },
+    {
+      "char": "白",
+      "codepoint": "0767d",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 5
+    },
+    {
+      "char": "百",
+      "codepoint": "0767e",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 6
+    },
+    {
+      "char": "目",
+      "codepoint": "076ee",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 5
+    },
+    {
+      "char": "石",
+      "codepoint": "077f3",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 5
+    },
+    {
+      "char": "空",
+      "codepoint": "07a7a",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 8
+    },
+    {
+      "char": "立",
+      "codepoint": "07acb",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 5
+    },
+    {
+      "char": "竹",
+      "codepoint": "07af9",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 6
+    },
+    {
+      "char": "糸",
+      "codepoint": "07cf8",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 6
+    },
+    {
+      "char": "耳",
+      "codepoint": "08033",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 6
+    },
+    {
+      "char": "花",
+      "codepoint": "082b1",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 7
+    },
+    {
+      "char": "草",
+      "codepoint": "08349",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 9
+    },
+    {
+      "char": "虫",
+      "codepoint": "0866b",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 6
+    },
+    {
+      "char": "見",
+      "codepoint": "0898b",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 7
+    },
+    {
+      "char": "貝",
+      "codepoint": "08c9d",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 7
+    },
+    {
+      "char": "赤",
+      "codepoint": "08d64",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 7
+    },
+    {
+      "char": "足",
+      "codepoint": "08db3",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 7
+    },
+    {
+      "char": "車",
+      "codepoint": "08eca",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 7
+    },
+    {
+      "char": "金",
+      "codepoint": "091d1",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 8
+    },
+    {
+      "char": "雨",
+      "codepoint": "096e8",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 8
+    },
+    {
+      "char": "青",
+      "codepoint": "09752",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 8
+    },
+    {
+      "char": "音",
+      "codepoint": "097f3",
+      "kind": "kanji",
+      "grade": 1,
+      "strokeCount": 9
+    },
+    {
+      "char": "万",
+      "codepoint": "04e07",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 3
+    },
+    {
+      "char": "丸",
+      "codepoint": "04e38",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 3
+    },
+    {
+      "char": "交",
+      "codepoint": "04ea4",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "京",
+      "codepoint": "04eac",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "今",
+      "codepoint": "04eca",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "会",
+      "codepoint": "04f1a",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "体",
+      "codepoint": "04f53",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "何",
+      "codepoint": "04f55",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "作",
+      "codepoint": "04f5c",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "元",
+      "codepoint": "05143",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "兄",
+      "codepoint": "05144",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 5
+    },
+    {
+      "char": "光",
+      "codepoint": "05149",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "公",
+      "codepoint": "0516c",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "内",
+      "codepoint": "05185",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "冬",
+      "codepoint": "051ac",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 5
+    },
+    {
+      "char": "刀",
+      "codepoint": "05200",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 2
+    },
+    {
+      "char": "分",
+      "codepoint": "05206",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "切",
+      "codepoint": "05207",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "前",
+      "codepoint": "0524d",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "北",
+      "codepoint": "05317",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 5
+    },
+    {
+      "char": "午",
+      "codepoint": "05348",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "半",
+      "codepoint": "0534a",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 5
+    },
+    {
+      "char": "南",
+      "codepoint": "05357",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "原",
+      "codepoint": "0539f",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 10
+    },
+    {
+      "char": "友",
+      "codepoint": "053cb",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "古",
+      "codepoint": "053e4",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 5
+    },
+    {
+      "char": "台",
+      "codepoint": "053f0",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 5
+    },
+    {
+      "char": "合",
+      "codepoint": "05408",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "同",
+      "codepoint": "0540c",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "回",
+      "codepoint": "056de",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "図",
+      "codepoint": "056f3",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "国",
+      "codepoint": "056fd",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "園",
+      "codepoint": "05712",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 13
+    },
+    {
+      "char": "地",
+      "codepoint": "05730",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "場",
+      "codepoint": "05834",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 12
+    },
+    {
+      "char": "声",
+      "codepoint": "058f0",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "売",
+      "codepoint": "058f2",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "夏",
+      "codepoint": "0590f",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 10
+    },
+    {
+      "char": "外",
+      "codepoint": "05916",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 5
+    },
+    {
+      "char": "多",
+      "codepoint": "0591a",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "夜",
+      "codepoint": "0591c",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "太",
+      "codepoint": "0592a",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "妹",
+      "codepoint": "059b9",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "姉",
+      "codepoint": "059c9",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "室",
+      "codepoint": "05ba4",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "家",
+      "codepoint": "05bb6",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 10
+    },
+    {
+      "char": "寺",
+      "codepoint": "05bfa",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "少",
+      "codepoint": "05c11",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "岩",
+      "codepoint": "05ca9",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "工",
+      "codepoint": "05de5",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 3
+    },
+    {
+      "char": "市",
+      "codepoint": "05e02",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 5
+    },
+    {
+      "char": "帰",
+      "codepoint": "05e30",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 10
+    },
+    {
+      "char": "広",
+      "codepoint": "05e83",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 5
+    },
+    {
+      "char": "店",
+      "codepoint": "05e97",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "弓",
+      "codepoint": "05f13",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 3
+    },
+    {
+      "char": "引",
+      "codepoint": "05f15",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "弟",
+      "codepoint": "05f1f",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "弱",
+      "codepoint": "05f31",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 10
+    },
+    {
+      "char": "強",
+      "codepoint": "05f37",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 11
+    },
+    {
+      "char": "当",
+      "codepoint": "05f53",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "形",
+      "codepoint": "05f62",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "後",
+      "codepoint": "05f8c",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "心",
+      "codepoint": "05fc3",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "思",
+      "codepoint": "0601d",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "戸",
+      "codepoint": "06238",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "才",
+      "codepoint": "0624d",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 3
+    },
+    {
+      "char": "教",
+      "codepoint": "06559",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 11
+    },
+    {
+      "char": "数",
+      "codepoint": "06570",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 13
+    },
+    {
+      "char": "新",
+      "codepoint": "065b0",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 13
+    },
+    {
+      "char": "方",
+      "codepoint": "065b9",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "明",
+      "codepoint": "0660e",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "星",
+      "codepoint": "0661f",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "春",
+      "codepoint": "06625",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "昼",
+      "codepoint": "0663c",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "時",
+      "codepoint": "06642",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 10
+    },
+    {
+      "char": "晴",
+      "codepoint": "06674",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 12
+    },
+    {
+      "char": "曜",
+      "codepoint": "066dc",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 18
+    },
+    {
+      "char": "書",
+      "codepoint": "066f8",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 10
+    },
+    {
+      "char": "朝",
+      "codepoint": "0671d",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 12
+    },
+    {
+      "char": "来",
+      "codepoint": "06765",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "東",
+      "codepoint": "06771",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "楽",
+      "codepoint": "0697d",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 13
+    },
+    {
+      "char": "歌",
+      "codepoint": "06b4c",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 14
+    },
+    {
+      "char": "止",
+      "codepoint": "06b62",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "歩",
+      "codepoint": "06b69",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "母",
+      "codepoint": "06bcd",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 5
+    },
+    {
+      "char": "毎",
+      "codepoint": "06bce",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "毛",
+      "codepoint": "06bdb",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "池",
+      "codepoint": "06c60",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "汽",
+      "codepoint": "06c7d",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "活",
+      "codepoint": "06d3b",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "海",
+      "codepoint": "06d77",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "点",
+      "codepoint": "070b9",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "父",
+      "codepoint": "07236",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "牛",
+      "codepoint": "0725b",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 4
+    },
+    {
+      "char": "理",
+      "codepoint": "07406",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 11
+    },
+    {
+      "char": "用",
+      "codepoint": "07528",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 5
+    },
+    {
+      "char": "画",
+      "codepoint": "0753b",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "番",
+      "codepoint": "0756a",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 12
+    },
+    {
+      "char": "直",
+      "codepoint": "076f4",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "矢",
+      "codepoint": "077e2",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 5
+    },
+    {
+      "char": "知",
+      "codepoint": "077e5",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "社",
+      "codepoint": "0793e",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "秋",
+      "codepoint": "079cb",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "科",
+      "codepoint": "079d1",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "答",
+      "codepoint": "07b54",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 12
+    },
+    {
+      "char": "算",
+      "codepoint": "07b97",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 14
+    },
+    {
+      "char": "米",
+      "codepoint": "07c73",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "紙",
+      "codepoint": "07d19",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 10
+    },
+    {
+      "char": "細",
+      "codepoint": "07d30",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 11
+    },
+    {
+      "char": "組",
+      "codepoint": "07d44",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 11
+    },
+    {
+      "char": "絵",
+      "codepoint": "07d75",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 12
+    },
+    {
+      "char": "線",
+      "codepoint": "07dda",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 15
+    },
+    {
+      "char": "羽",
+      "codepoint": "07fbd",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "考",
+      "codepoint": "08003",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "聞",
+      "codepoint": "0805e",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 14
+    },
+    {
+      "char": "肉",
+      "codepoint": "08089",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "自",
+      "codepoint": "081ea",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "船",
+      "codepoint": "08239",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 11
+    },
+    {
+      "char": "色",
+      "codepoint": "08272",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "茶",
+      "codepoint": "08336",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "行",
+      "codepoint": "0884c",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "西",
+      "codepoint": "0897f",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 6
+    },
+    {
+      "char": "親",
+      "codepoint": "089aa",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 16
+    },
+    {
+      "char": "角",
+      "codepoint": "089d2",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "言",
+      "codepoint": "08a00",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "計",
+      "codepoint": "08a08",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "記",
+      "codepoint": "08a18",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 10
+    },
+    {
+      "char": "話",
+      "codepoint": "08a71",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 13
+    },
+    {
+      "char": "語",
+      "codepoint": "08a9e",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 14
+    },
+    {
+      "char": "読",
+      "codepoint": "08aad",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 14
+    },
+    {
+      "char": "谷",
+      "codepoint": "08c37",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "買",
+      "codepoint": "08cb7",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 12
+    },
+    {
+      "char": "走",
+      "codepoint": "08d70",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "近",
+      "codepoint": "08fd1",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "通",
+      "codepoint": "0901a",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 10
+    },
+    {
+      "char": "週",
+      "codepoint": "09031",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 11
+    },
+    {
+      "char": "道",
+      "codepoint": "09053",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 12
+    },
+    {
+      "char": "遠",
+      "codepoint": "09060",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 13
+    },
+    {
+      "char": "里",
+      "codepoint": "091cc",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "野",
+      "codepoint": "091ce",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 11
+    },
+    {
+      "char": "長",
+      "codepoint": "09577",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "門",
+      "codepoint": "09580",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 8
+    },
+    {
+      "char": "間",
+      "codepoint": "09593",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 12
+    },
+    {
+      "char": "雪",
+      "codepoint": "096ea",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 11
+    },
+    {
+      "char": "雲",
+      "codepoint": "096f2",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 12
+    },
+    {
+      "char": "電",
+      "codepoint": "096fb",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 13
+    },
+    {
+      "char": "頭",
+      "codepoint": "0982d",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 16
+    },
+    {
+      "char": "顔",
+      "codepoint": "09854",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 18
+    },
+    {
+      "char": "風",
+      "codepoint": "098a8",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "食",
+      "codepoint": "098df",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "首",
+      "codepoint": "09996",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 9
+    },
+    {
+      "char": "馬",
+      "codepoint": "099ac",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 10
+    },
+    {
+      "char": "高",
+      "codepoint": "09ad8",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 10
+    },
+    {
+      "char": "魚",
+      "codepoint": "09b5a",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 11
+    },
+    {
+      "char": "鳥",
+      "codepoint": "09ce5",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 11
+    },
+    {
+      "char": "鳴",
+      "codepoint": "09cf4",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 14
+    },
+    {
+      "char": "麦",
+      "codepoint": "09ea6",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 7
+    },
+    {
+      "char": "黄",
+      "codepoint": "09ec4",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 11
+    },
+    {
+      "char": "黒",
+      "codepoint": "09ed2",
+      "kind": "kanji",
+      "grade": 2,
+      "strokeCount": 11
+    },
+    {
+      "char": "丁",
+      "codepoint": "04e01",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 2
+    },
+    {
+      "char": "世",
+      "codepoint": "04e16",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "両",
+      "codepoint": "04e21",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 6
+    },
+    {
+      "char": "主",
+      "codepoint": "04e3b",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "乗",
+      "codepoint": "04e57",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "予",
+      "codepoint": "04e88",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 4
+    },
+    {
+      "char": "事",
+      "codepoint": "04e8b",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "仕",
+      "codepoint": "04ed5",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "他",
+      "codepoint": "04ed6",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "代",
+      "codepoint": "04ee3",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "住",
+      "codepoint": "04f4f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 7
+    },
+    {
+      "char": "使",
+      "codepoint": "04f7f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "係",
+      "codepoint": "04fc2",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "倍",
+      "codepoint": "0500d",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "全",
+      "codepoint": "05168",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 6
+    },
+    {
+      "char": "具",
+      "codepoint": "05177",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "写",
+      "codepoint": "05199",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "列",
+      "codepoint": "05217",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 6
+    },
+    {
+      "char": "助",
+      "codepoint": "052a9",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 7
+    },
+    {
+      "char": "勉",
+      "codepoint": "052c9",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "動",
+      "codepoint": "052d5",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "勝",
+      "codepoint": "052dd",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "化",
+      "codepoint": "05316",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 4
+    },
+    {
+      "char": "区",
+      "codepoint": "0533a",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 4
+    },
+    {
+      "char": "医",
+      "codepoint": "0533b",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 7
+    },
+    {
+      "char": "去",
+      "codepoint": "053bb",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "反",
+      "codepoint": "053cd",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 4
+    },
+    {
+      "char": "取",
+      "codepoint": "053d6",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "受",
+      "codepoint": "053d7",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "号",
+      "codepoint": "053f7",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "向",
+      "codepoint": "05411",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 6
+    },
+    {
+      "char": "君",
+      "codepoint": "0541b",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 7
+    },
+    {
+      "char": "味",
+      "codepoint": "05473",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "命",
+      "codepoint": "0547d",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "和",
+      "codepoint": "0548c",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "品",
+      "codepoint": "054c1",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "員",
+      "codepoint": "054e1",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "商",
+      "codepoint": "05546",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "問",
+      "codepoint": "0554f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "坂",
+      "codepoint": "05742",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 7
+    },
+    {
+      "char": "央",
+      "codepoint": "0592e",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "始",
+      "codepoint": "059cb",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "委",
+      "codepoint": "059d4",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "守",
+      "codepoint": "05b88",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 6
+    },
+    {
+      "char": "安",
+      "codepoint": "05b89",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 6
+    },
+    {
+      "char": "定",
+      "codepoint": "05b9a",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "実",
+      "codepoint": "05b9f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "客",
+      "codepoint": "05ba2",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "宮",
+      "codepoint": "05bae",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "宿",
+      "codepoint": "05bbf",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "寒",
+      "codepoint": "05bd2",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "対",
+      "codepoint": "05bfe",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 7
+    },
+    {
+      "char": "局",
+      "codepoint": "05c40",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 7
+    },
+    {
+      "char": "屋",
+      "codepoint": "05c4b",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "岸",
+      "codepoint": "05cb8",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "島",
+      "codepoint": "05cf6",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "州",
+      "codepoint": "05dde",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 6
+    },
+    {
+      "char": "帳",
+      "codepoint": "05e33",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "平",
+      "codepoint": "05e73",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "幸",
+      "codepoint": "05e78",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "度",
+      "codepoint": "05ea6",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "庫",
+      "codepoint": "05eab",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "庭",
+      "codepoint": "05ead",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "式",
+      "codepoint": "05f0f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 6
+    },
+    {
+      "char": "役",
+      "codepoint": "05f79",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 7
+    },
+    {
+      "char": "待",
+      "codepoint": "05f85",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "急",
+      "codepoint": "06025",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "息",
+      "codepoint": "0606f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "悪",
+      "codepoint": "060aa",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "悲",
+      "codepoint": "060b2",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "想",
+      "codepoint": "060f3",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 13
+    },
+    {
+      "char": "意",
+      "codepoint": "0610f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 13
+    },
+    {
+      "char": "感",
+      "codepoint": "0611f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 13
+    },
+    {
+      "char": "所",
+      "codepoint": "06240",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "打",
+      "codepoint": "06253",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "投",
+      "codepoint": "06295",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 7
+    },
+    {
+      "char": "拾",
+      "codepoint": "062fe",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "持",
+      "codepoint": "06301",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "指",
+      "codepoint": "06307",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "放",
+      "codepoint": "0653e",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "整",
+      "codepoint": "06574",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 16
+    },
+    {
+      "char": "旅",
+      "codepoint": "065c5",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "族",
+      "codepoint": "065cf",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "昔",
+      "codepoint": "06614",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "昭",
+      "codepoint": "0662d",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "暑",
+      "codepoint": "06691",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "暗",
+      "codepoint": "06697",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 13
+    },
+    {
+      "char": "曲",
+      "codepoint": "066f2",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 6
+    },
+    {
+      "char": "有",
+      "codepoint": "06709",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 6
+    },
+    {
+      "char": "服",
+      "codepoint": "0670d",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "期",
+      "codepoint": "0671f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "板",
+      "codepoint": "0677f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "柱",
+      "codepoint": "067f1",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "根",
+      "codepoint": "06839",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "植",
+      "codepoint": "0690d",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "業",
+      "codepoint": "0696d",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 13
+    },
+    {
+      "char": "様",
+      "codepoint": "069d8",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 14
+    },
+    {
+      "char": "横",
+      "codepoint": "06a2a",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 15
+    },
+    {
+      "char": "橋",
+      "codepoint": "06a4b",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 16
+    },
+    {
+      "char": "次",
+      "codepoint": "06b21",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 6
+    },
+    {
+      "char": "歯",
+      "codepoint": "06b6f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "死",
+      "codepoint": "06b7b",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 6
+    },
+    {
+      "char": "氷",
+      "codepoint": "06c37",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "決",
+      "codepoint": "06c7a",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 7
+    },
+    {
+      "char": "油",
+      "codepoint": "06cb9",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "波",
+      "codepoint": "06ce2",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "注",
+      "codepoint": "06ce8",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "泳",
+      "codepoint": "06cf3",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "洋",
+      "codepoint": "06d0b",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "流",
+      "codepoint": "06d41",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "消",
+      "codepoint": "06d88",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "深",
+      "codepoint": "06df1",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "温",
+      "codepoint": "06e29",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "港",
+      "codepoint": "06e2f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "湖",
+      "codepoint": "06e56",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "湯",
+      "codepoint": "06e6f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "漢",
+      "codepoint": "06f22",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 13
+    },
+    {
+      "char": "炭",
+      "codepoint": "070ad",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "物",
+      "codepoint": "07269",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "球",
+      "codepoint": "07403",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "由",
+      "codepoint": "07531",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "申",
+      "codepoint": "07533",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "界",
+      "codepoint": "0754c",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "畑",
+      "codepoint": "07551",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "病",
+      "codepoint": "075c5",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "発",
+      "codepoint": "0767a",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "登",
+      "codepoint": "0767b",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "皮",
+      "codepoint": "076ae",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "皿",
+      "codepoint": "076bf",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "相",
+      "codepoint": "076f8",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "県",
+      "codepoint": "0770c",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "真",
+      "codepoint": "0771f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "着",
+      "codepoint": "07740",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "短",
+      "codepoint": "077ed",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "研",
+      "codepoint": "07814",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "礼",
+      "codepoint": "0793c",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 5
+    },
+    {
+      "char": "神",
+      "codepoint": "0795e",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "祭",
+      "codepoint": "0796d",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "福",
+      "codepoint": "0798f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 13
+    },
+    {
+      "char": "秒",
+      "codepoint": "079d2",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "究",
+      "codepoint": "07a76",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 7
+    },
+    {
+      "char": "章",
+      "codepoint": "07ae0",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "童",
+      "codepoint": "07ae5",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "笛",
+      "codepoint": "07b1b",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "第",
+      "codepoint": "07b2c",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "筆",
+      "codepoint": "07b46",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "等",
+      "codepoint": "07b49",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "箱",
+      "codepoint": "07bb1",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 15
+    },
+    {
+      "char": "級",
+      "codepoint": "07d1a",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "終",
+      "codepoint": "07d42",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "緑",
+      "codepoint": "07dd1",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 14
+    },
+    {
+      "char": "練",
+      "codepoint": "07df4",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 14
+    },
+    {
+      "char": "羊",
+      "codepoint": "07f8a",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 6
+    },
+    {
+      "char": "美",
+      "codepoint": "07f8e",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "習",
+      "codepoint": "07fd2",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "者",
+      "codepoint": "08005",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "育",
+      "codepoint": "080b2",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "苦",
+      "codepoint": "082e6",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "荷",
+      "codepoint": "08377",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "落",
+      "codepoint": "0843d",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "葉",
+      "codepoint": "08449",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "薬",
+      "codepoint": "085ac",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 16
+    },
+    {
+      "char": "血",
+      "codepoint": "08840",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 6
+    },
+    {
+      "char": "表",
+      "codepoint": "08868",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 8
+    },
+    {
+      "char": "詩",
+      "codepoint": "08a69",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 13
+    },
+    {
+      "char": "調",
+      "codepoint": "08abf",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 15
+    },
+    {
+      "char": "談",
+      "codepoint": "08ac7",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 15
+    },
+    {
+      "char": "豆",
+      "codepoint": "08c46",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 7
+    },
+    {
+      "char": "負",
+      "codepoint": "08ca0",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "起",
+      "codepoint": "08d77",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "路",
+      "codepoint": "08def",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 13
+    },
+    {
+      "char": "身",
+      "codepoint": "08eab",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 7
+    },
+    {
+      "char": "転",
+      "codepoint": "08ee2",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "軽",
+      "codepoint": "08efd",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "農",
+      "codepoint": "08fb2",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 13
+    },
+    {
+      "char": "返",
+      "codepoint": "08fd4",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 7
+    },
+    {
+      "char": "追",
+      "codepoint": "08ffd",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "送",
+      "codepoint": "09001",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "速",
+      "codepoint": "0901f",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "進",
+      "codepoint": "09032",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "遊",
+      "codepoint": "0904a",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "運",
+      "codepoint": "0904b",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "部",
+      "codepoint": "090e8",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "都",
+      "codepoint": "090fd",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 11
+    },
+    {
+      "char": "配",
+      "codepoint": "0914d",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "酒",
+      "codepoint": "09152",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "重",
+      "codepoint": "091cd",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "鉄",
+      "codepoint": "09244",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 13
+    },
+    {
+      "char": "銀",
+      "codepoint": "09280",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 14
+    },
+    {
+      "char": "開",
+      "codepoint": "0958b",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "院",
+      "codepoint": "09662",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 10
+    },
+    {
+      "char": "陽",
+      "codepoint": "0967d",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "階",
+      "codepoint": "0968e",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "集",
+      "codepoint": "096c6",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "面",
+      "codepoint": "09762",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 9
+    },
+    {
+      "char": "題",
+      "codepoint": "0984c",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 18
+    },
+    {
+      "char": "飲",
+      "codepoint": "098f2",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 12
+    },
+    {
+      "char": "館",
+      "codepoint": "09928",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 16
+    },
+    {
+      "char": "駅",
+      "codepoint": "099c5",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 14
+    },
+    {
+      "char": "鼻",
+      "codepoint": "09f3b",
+      "kind": "kanji",
+      "grade": 3,
+      "strokeCount": 14
+    },
+    {
+      "char": "不",
+      "codepoint": "04e0d",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 4
+    },
+    {
+      "char": "争",
+      "codepoint": "04e89",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 6
+    },
+    {
+      "char": "井",
+      "codepoint": "04e95",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 4
+    },
+    {
+      "char": "付",
+      "codepoint": "04ed8",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 5
+    },
+    {
+      "char": "令",
+      "codepoint": "04ee4",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 5
+    },
+    {
+      "char": "以",
+      "codepoint": "04ee5",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 5
+    },
+    {
+      "char": "仲",
+      "codepoint": "04ef2",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 6
+    },
+    {
+      "char": "伝",
+      "codepoint": "04f1d",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 6
+    },
+    {
+      "char": "位",
+      "codepoint": "04f4d",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "低",
+      "codepoint": "04f4e",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "佐",
+      "codepoint": "04f50",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "例",
+      "codepoint": "04f8b",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "便",
+      "codepoint": "04fbf",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "信",
+      "codepoint": "04fe1",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "倉",
+      "codepoint": "05009",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "候",
+      "codepoint": "05019",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "借",
+      "codepoint": "0501f",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "健",
+      "codepoint": "05065",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "側",
+      "codepoint": "05074",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "働",
+      "codepoint": "050cd",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 13
+    },
+    {
+      "char": "億",
+      "codepoint": "05104",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 15
+    },
+    {
+      "char": "兆",
+      "codepoint": "05146",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 6
+    },
+    {
+      "char": "児",
+      "codepoint": "05150",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "共",
+      "codepoint": "05171",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 6
+    },
+    {
+      "char": "兵",
+      "codepoint": "05175",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "典",
+      "codepoint": "05178",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "冷",
+      "codepoint": "051b7",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "初",
+      "codepoint": "0521d",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "別",
+      "codepoint": "05225",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "利",
+      "codepoint": "05229",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "刷",
+      "codepoint": "05237",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "副",
+      "codepoint": "0526f",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "功",
+      "codepoint": "0529f",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 5
+    },
+    {
+      "char": "加",
+      "codepoint": "052a0",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 5
+    },
+    {
+      "char": "努",
+      "codepoint": "052aa",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "労",
+      "codepoint": "052b4",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "勇",
+      "codepoint": "052c7",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "包",
+      "codepoint": "05305",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 5
+    },
+    {
+      "char": "卒",
+      "codepoint": "05352",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "協",
+      "codepoint": "05354",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "単",
+      "codepoint": "05358",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "博",
+      "codepoint": "0535a",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "印",
+      "codepoint": "05370",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 6
+    },
+    {
+      "char": "参",
+      "codepoint": "053c2",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "司",
+      "codepoint": "053f8",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 5
+    },
+    {
+      "char": "各",
+      "codepoint": "05404",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 6
+    },
+    {
+      "char": "周",
+      "codepoint": "05468",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "唱",
+      "codepoint": "05531",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "器",
+      "codepoint": "05668",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 15
+    },
+    {
+      "char": "固",
+      "codepoint": "056fa",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "城",
+      "codepoint": "057ce",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "埼",
+      "codepoint": "057fc",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "塩",
+      "codepoint": "05869",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 13
+    },
+    {
+      "char": "変",
+      "codepoint": "05909",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "夫",
+      "codepoint": "0592b",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 4
+    },
+    {
+      "char": "失",
+      "codepoint": "05931",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 5
+    },
+    {
+      "char": "奈",
+      "codepoint": "05948",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "好",
+      "codepoint": "0597d",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 6
+    },
+    {
+      "char": "媛",
+      "codepoint": "05a9b",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "季",
+      "codepoint": "05b63",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "孫",
+      "codepoint": "05b6b",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "完",
+      "codepoint": "05b8c",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "官",
+      "codepoint": "05b98",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "害",
+      "codepoint": "05bb3",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "富",
+      "codepoint": "05bcc",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "察",
+      "codepoint": "05bdf",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 14
+    },
+    {
+      "char": "岐",
+      "codepoint": "05c90",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "岡",
+      "codepoint": "05ca1",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "崎",
+      "codepoint": "05d0e",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "巣",
+      "codepoint": "05de3",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "差",
+      "codepoint": "05dee",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "希",
+      "codepoint": "05e0c",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "席",
+      "codepoint": "05e2d",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "帯",
+      "codepoint": "05e2f",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "底",
+      "codepoint": "05e95",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "府",
+      "codepoint": "05e9c",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "康",
+      "codepoint": "05eb7",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "建",
+      "codepoint": "05efa",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "径",
+      "codepoint": "05f84",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "徒",
+      "codepoint": "05f92",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "徳",
+      "codepoint": "05fb3",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 14
+    },
+    {
+      "char": "必",
+      "codepoint": "05fc5",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 5
+    },
+    {
+      "char": "念",
+      "codepoint": "05ff5",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "愛",
+      "codepoint": "0611b",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 13
+    },
+    {
+      "char": "成",
+      "codepoint": "06210",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 6
+    },
+    {
+      "char": "戦",
+      "codepoint": "06226",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 13
+    },
+    {
+      "char": "折",
+      "codepoint": "06298",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "挙",
+      "codepoint": "06319",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "改",
+      "codepoint": "06539",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "敗",
+      "codepoint": "06557",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "散",
+      "codepoint": "06563",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "料",
+      "codepoint": "06599",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "旗",
+      "codepoint": "065d7",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 14
+    },
+    {
+      "char": "昨",
+      "codepoint": "06628",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "景",
+      "codepoint": "0666f",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "最",
+      "codepoint": "06700",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "望",
+      "codepoint": "0671b",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "未",
+      "codepoint": "0672a",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 5
+    },
+    {
+      "char": "末",
+      "codepoint": "0672b",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 5
+    },
+    {
+      "char": "札",
+      "codepoint": "0672d",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 5
+    },
+    {
+      "char": "材",
+      "codepoint": "06750",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "束",
+      "codepoint": "0675f",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "松",
+      "codepoint": "0677e",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "果",
+      "codepoint": "0679c",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "栃",
+      "codepoint": "06803",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "栄",
+      "codepoint": "06804",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "案",
+      "codepoint": "06848",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "梅",
+      "codepoint": "06885",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "梨",
+      "codepoint": "068a8",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "械",
+      "codepoint": "068b0",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "極",
+      "codepoint": "06975",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "標",
+      "codepoint": "06a19",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 15
+    },
+    {
+      "char": "機",
+      "codepoint": "06a5f",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 16
+    },
+    {
+      "char": "欠",
+      "codepoint": "06b20",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 4
+    },
+    {
+      "char": "残",
+      "codepoint": "06b8b",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "氏",
+      "codepoint": "06c0f",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 4
+    },
+    {
+      "char": "民",
+      "codepoint": "06c11",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 5
+    },
+    {
+      "char": "求",
+      "codepoint": "06c42",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "沖",
+      "codepoint": "06c96",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "治",
+      "codepoint": "06cbb",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "法",
+      "codepoint": "06cd5",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "泣",
+      "codepoint": "06ce3",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "浅",
+      "codepoint": "06d45",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "浴",
+      "codepoint": "06d74",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "清",
+      "codepoint": "06e05",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "満",
+      "codepoint": "06e80",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "滋",
+      "codepoint": "06ecb",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "漁",
+      "codepoint": "06f01",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 14
+    },
+    {
+      "char": "潟",
+      "codepoint": "06f5f",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 15
+    },
+    {
+      "char": "灯",
+      "codepoint": "0706f",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 6
+    },
+    {
+      "char": "無",
+      "codepoint": "07121",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "然",
+      "codepoint": "07136",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "焼",
+      "codepoint": "0713c",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "照",
+      "codepoint": "07167",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 13
+    },
+    {
+      "char": "熊",
+      "codepoint": "0718a",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 14
+    },
+    {
+      "char": "熱",
+      "codepoint": "071b1",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 15
+    },
+    {
+      "char": "牧",
+      "codepoint": "07267",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "特",
+      "codepoint": "07279",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "産",
+      "codepoint": "07523",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "的",
+      "codepoint": "07684",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "省",
+      "codepoint": "07701",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "祝",
+      "codepoint": "0795d",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "票",
+      "codepoint": "07968",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "種",
+      "codepoint": "07a2e",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 14
+    },
+    {
+      "char": "積",
+      "codepoint": "07a4d",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 16
+    },
+    {
+      "char": "競",
+      "codepoint": "07af6",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 20
+    },
+    {
+      "char": "笑",
+      "codepoint": "07b11",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "管",
+      "codepoint": "07ba1",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 14
+    },
+    {
+      "char": "節",
+      "codepoint": "07bc0",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 13
+    },
+    {
+      "char": "約",
+      "codepoint": "07d04",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "結",
+      "codepoint": "07d50",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "給",
+      "codepoint": "07d66",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "続",
+      "codepoint": "07d9a",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 13
+    },
+    {
+      "char": "縄",
+      "codepoint": "07e04",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 15
+    },
+    {
+      "char": "置",
+      "codepoint": "07f6e",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 13
+    },
+    {
+      "char": "群",
+      "codepoint": "07fa4",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 13
+    },
+    {
+      "char": "老",
+      "codepoint": "08001",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 6
+    },
+    {
+      "char": "臣",
+      "codepoint": "081e3",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "良",
+      "codepoint": "0826f",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "芸",
+      "codepoint": "082b8",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "芽",
+      "codepoint": "082bd",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "英",
+      "codepoint": "082f1",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "茨",
+      "codepoint": "08328",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "菜",
+      "codepoint": "083dc",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "街",
+      "codepoint": "08857",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "衣",
+      "codepoint": "08863",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 6
+    },
+    {
+      "char": "要",
+      "codepoint": "08981",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "覚",
+      "codepoint": "0899a",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "観",
+      "codepoint": "089b3",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 18
+    },
+    {
+      "char": "訓",
+      "codepoint": "08a13",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "試",
+      "codepoint": "08a66",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 13
+    },
+    {
+      "char": "説",
+      "codepoint": "08aac",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 14
+    },
+    {
+      "char": "課",
+      "codepoint": "08ab2",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 15
+    },
+    {
+      "char": "議",
+      "codepoint": "08b70",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 20
+    },
+    {
+      "char": "貨",
+      "codepoint": "08ca8",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "賀",
+      "codepoint": "08cc0",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "軍",
+      "codepoint": "08ecd",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "輪",
+      "codepoint": "08f2a",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 15
+    },
+    {
+      "char": "辞",
+      "codepoint": "08f9e",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 13
+    },
+    {
+      "char": "辺",
+      "codepoint": "08fba",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 5
+    },
+    {
+      "char": "連",
+      "codepoint": "09023",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "達",
+      "codepoint": "09054",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "選",
+      "codepoint": "09078",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 15
+    },
+    {
+      "char": "郡",
+      "codepoint": "090e1",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 10
+    },
+    {
+      "char": "量",
+      "codepoint": "091cf",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "録",
+      "codepoint": "09332",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 16
+    },
+    {
+      "char": "鏡",
+      "codepoint": "093e1",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 19
+    },
+    {
+      "char": "関",
+      "codepoint": "095a2",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 14
+    },
+    {
+      "char": "阜",
+      "codepoint": "0961c",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 8
+    },
+    {
+      "char": "阪",
+      "codepoint": "0962a",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 7
+    },
+    {
+      "char": "陸",
+      "codepoint": "09678",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "隊",
+      "codepoint": "0968a",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "静",
+      "codepoint": "09759",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 14
+    },
+    {
+      "char": "順",
+      "codepoint": "09806",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "願",
+      "codepoint": "09858",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 19
+    },
+    {
+      "char": "類",
+      "codepoint": "0985e",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 18
+    },
+    {
+      "char": "飛",
+      "codepoint": "098db",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "飯",
+      "codepoint": "098ef",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 12
+    },
+    {
+      "char": "養",
+      "codepoint": "0990a",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 15
+    },
+    {
+      "char": "香",
+      "codepoint": "09999",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 9
+    },
+    {
+      "char": "験",
+      "codepoint": "09a13",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 18
+    },
+    {
+      "char": "鹿",
+      "codepoint": "09e7f",
+      "kind": "kanji",
+      "grade": 4,
+      "strokeCount": 11
+    },
+    {
+      "char": "久",
+      "codepoint": "04e45",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 3
+    },
+    {
+      "char": "仏",
+      "codepoint": "04ecf",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 4
+    },
+    {
+      "char": "仮",
+      "codepoint": "04eee",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 6
+    },
+    {
+      "char": "件",
+      "codepoint": "04ef6",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 6
+    },
+    {
+      "char": "任",
+      "codepoint": "04efb",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 6
+    },
+    {
+      "char": "似",
+      "codepoint": "04f3c",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "余",
+      "codepoint": "04f59",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "価",
+      "codepoint": "04fa1",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "保",
+      "codepoint": "04fdd",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 9
+    },
+    {
+      "char": "修",
+      "codepoint": "04fee",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "個",
+      "codepoint": "0500b",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "停",
+      "codepoint": "0505c",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "備",
+      "codepoint": "05099",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "像",
+      "codepoint": "050cf",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "再",
+      "codepoint": "0518d",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 6
+    },
+    {
+      "char": "刊",
+      "codepoint": "0520a",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 5
+    },
+    {
+      "char": "判",
+      "codepoint": "05224",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "制",
+      "codepoint": "05236",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "則",
+      "codepoint": "05247",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 9
+    },
+    {
+      "char": "効",
+      "codepoint": "052b9",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "務",
+      "codepoint": "052d9",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "勢",
+      "codepoint": "052e2",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 13
+    },
+    {
+      "char": "厚",
+      "codepoint": "0539a",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 9
+    },
+    {
+      "char": "句",
+      "codepoint": "053e5",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 5
+    },
+    {
+      "char": "可",
+      "codepoint": "053ef",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 5
+    },
+    {
+      "char": "史",
+      "codepoint": "053f2",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 5
+    },
+    {
+      "char": "告",
+      "codepoint": "0544a",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "喜",
+      "codepoint": "0559c",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "営",
+      "codepoint": "055b6",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "因",
+      "codepoint": "056e0",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 6
+    },
+    {
+      "char": "団",
+      "codepoint": "056e3",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 6
+    },
+    {
+      "char": "囲",
+      "codepoint": "056f2",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "圧",
+      "codepoint": "05727",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 5
+    },
+    {
+      "char": "在",
+      "codepoint": "05728",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 6
+    },
+    {
+      "char": "均",
+      "codepoint": "05747",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "型",
+      "codepoint": "0578b",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 9
+    },
+    {
+      "char": "基",
+      "codepoint": "057fa",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "堂",
+      "codepoint": "05802",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "報",
+      "codepoint": "05831",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "境",
+      "codepoint": "05883",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "墓",
+      "codepoint": "05893",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 13
+    },
+    {
+      "char": "増",
+      "codepoint": "05897",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "士",
+      "codepoint": "058eb",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 3
+    },
+    {
+      "char": "夢",
+      "codepoint": "05922",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 13
+    },
+    {
+      "char": "妻",
+      "codepoint": "059bb",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "婦",
+      "codepoint": "05a66",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "容",
+      "codepoint": "05bb9",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "寄",
+      "codepoint": "05bc4",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "導",
+      "codepoint": "05c0e",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 15
+    },
+    {
+      "char": "居",
+      "codepoint": "05c45",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "属",
+      "codepoint": "05c5e",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "布",
+      "codepoint": "05e03",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 5
+    },
+    {
+      "char": "師",
+      "codepoint": "05e2b",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "常",
+      "codepoint": "05e38",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "幹",
+      "codepoint": "05e79",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 13
+    },
+    {
+      "char": "序",
+      "codepoint": "05e8f",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "弁",
+      "codepoint": "05f01",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 5
+    },
+    {
+      "char": "張",
+      "codepoint": "05f35",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "往",
+      "codepoint": "05f80",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "得",
+      "codepoint": "05f97",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "復",
+      "codepoint": "05fa9",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "志",
+      "codepoint": "05fd7",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "応",
+      "codepoint": "05fdc",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "快",
+      "codepoint": "05feb",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "性",
+      "codepoint": "06027",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "情",
+      "codepoint": "060c5",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "態",
+      "codepoint": "0614b",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "慣",
+      "codepoint": "06163",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "技",
+      "codepoint": "06280",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "招",
+      "codepoint": "062db",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "授",
+      "codepoint": "06388",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "採",
+      "codepoint": "063a1",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "接",
+      "codepoint": "063a5",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "提",
+      "codepoint": "063d0",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "損",
+      "codepoint": "0640d",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 13
+    },
+    {
+      "char": "支",
+      "codepoint": "0652f",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 4
+    },
+    {
+      "char": "政",
+      "codepoint": "0653f",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 9
+    },
+    {
+      "char": "故",
+      "codepoint": "06545",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 9
+    },
+    {
+      "char": "救",
+      "codepoint": "06551",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "断",
+      "codepoint": "065ad",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "旧",
+      "codepoint": "065e7",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 5
+    },
+    {
+      "char": "易",
+      "codepoint": "06613",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "暴",
+      "codepoint": "066b4",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 15
+    },
+    {
+      "char": "条",
+      "codepoint": "06761",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "枝",
+      "codepoint": "0679d",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "査",
+      "codepoint": "067fb",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 9
+    },
+    {
+      "char": "格",
+      "codepoint": "0683c",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "桜",
+      "codepoint": "0685c",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "検",
+      "codepoint": "0691c",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "構",
+      "codepoint": "069cb",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "武",
+      "codepoint": "06b66",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "歴",
+      "codepoint": "06b74",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "殺",
+      "codepoint": "06bba",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "毒",
+      "codepoint": "06bd2",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "比",
+      "codepoint": "06bd4",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 4
+    },
+    {
+      "char": "永",
+      "codepoint": "06c38",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 5
+    },
+    {
+      "char": "河",
+      "codepoint": "06cb3",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "液",
+      "codepoint": "06db2",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "混",
+      "codepoint": "06df7",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "減",
+      "codepoint": "06e1b",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "測",
+      "codepoint": "06e2c",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "準",
+      "codepoint": "06e96",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 13
+    },
+    {
+      "char": "演",
+      "codepoint": "06f14",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "潔",
+      "codepoint": "06f54",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 15
+    },
+    {
+      "char": "災",
+      "codepoint": "0707d",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "燃",
+      "codepoint": "071c3",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 16
+    },
+    {
+      "char": "版",
+      "codepoint": "07248",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "犯",
+      "codepoint": "072af",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 5
+    },
+    {
+      "char": "状",
+      "codepoint": "072b6",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "独",
+      "codepoint": "072ec",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 9
+    },
+    {
+      "char": "率",
+      "codepoint": "07387",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "現",
+      "codepoint": "073fe",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "留",
+      "codepoint": "07559",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "略",
+      "codepoint": "07565",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "益",
+      "codepoint": "076ca",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "眼",
+      "codepoint": "0773c",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "破",
+      "codepoint": "07834",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "確",
+      "codepoint": "078ba",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 15
+    },
+    {
+      "char": "示",
+      "codepoint": "0793a",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 5
+    },
+    {
+      "char": "祖",
+      "codepoint": "07956",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 9
+    },
+    {
+      "char": "禁",
+      "codepoint": "07981",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 13
+    },
+    {
+      "char": "移",
+      "codepoint": "079fb",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "程",
+      "codepoint": "07a0b",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "税",
+      "codepoint": "07a0e",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "築",
+      "codepoint": "07bc9",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 16
+    },
+    {
+      "char": "粉",
+      "codepoint": "07c89",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "精",
+      "codepoint": "07cbe",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "紀",
+      "codepoint": "07d00",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 9
+    },
+    {
+      "char": "素",
+      "codepoint": "07d20",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "経",
+      "codepoint": "07d4c",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "統",
+      "codepoint": "07d71",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "絶",
+      "codepoint": "07d76",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "綿",
+      "codepoint": "07dbf",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "総",
+      "codepoint": "07dcf",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "編",
+      "codepoint": "07de8",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 15
+    },
+    {
+      "char": "績",
+      "codepoint": "07e3e",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 17
+    },
+    {
+      "char": "織",
+      "codepoint": "07e54",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 18
+    },
+    {
+      "char": "罪",
+      "codepoint": "07f6a",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 13
+    },
+    {
+      "char": "義",
+      "codepoint": "07fa9",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 13
+    },
+    {
+      "char": "耕",
+      "codepoint": "08015",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "職",
+      "codepoint": "08077",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 18
+    },
+    {
+      "char": "肥",
+      "codepoint": "080a5",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "能",
+      "codepoint": "080fd",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "脈",
+      "codepoint": "08108",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "興",
+      "codepoint": "08208",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 16
+    },
+    {
+      "char": "舎",
+      "codepoint": "0820e",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "航",
+      "codepoint": "0822a",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "術",
+      "codepoint": "08853",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "衛",
+      "codepoint": "0885b",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 16
+    },
+    {
+      "char": "製",
+      "codepoint": "088fd",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "複",
+      "codepoint": "08907",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "規",
+      "codepoint": "0898f",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "解",
+      "codepoint": "089e3",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 13
+    },
+    {
+      "char": "設",
+      "codepoint": "08a2d",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "許",
+      "codepoint": "08a31",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "証",
+      "codepoint": "08a3c",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "評",
+      "codepoint": "08a55",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "講",
+      "codepoint": "08b1b",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 17
+    },
+    {
+      "char": "謝",
+      "codepoint": "08b1d",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 17
+    },
+    {
+      "char": "識",
+      "codepoint": "08b58",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 19
+    },
+    {
+      "char": "護",
+      "codepoint": "08b77",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 20
+    },
+    {
+      "char": "豊",
+      "codepoint": "08c4a",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 13
+    },
+    {
+      "char": "象",
+      "codepoint": "08c61",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "財",
+      "codepoint": "08ca1",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "貧",
+      "codepoint": "08ca7",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "責",
+      "codepoint": "08cac",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "貯",
+      "codepoint": "08caf",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "貸",
+      "codepoint": "08cb8",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "費",
+      "codepoint": "08cbb",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "貿",
+      "codepoint": "08cbf",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "資",
+      "codepoint": "08cc7",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 13
+    },
+    {
+      "char": "賛",
+      "codepoint": "08cdb",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 15
+    },
+    {
+      "char": "賞",
+      "codepoint": "08cde",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 15
+    },
+    {
+      "char": "質",
+      "codepoint": "08cea",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 15
+    },
+    {
+      "char": "輸",
+      "codepoint": "08f38",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 16
+    },
+    {
+      "char": "述",
+      "codepoint": "08ff0",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "迷",
+      "codepoint": "08ff7",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 9
+    },
+    {
+      "char": "逆",
+      "codepoint": "09006",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 9
+    },
+    {
+      "char": "造",
+      "codepoint": "09020",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 10
+    },
+    {
+      "char": "過",
+      "codepoint": "0904e",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 12
+    },
+    {
+      "char": "適",
+      "codepoint": "09069",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "酸",
+      "codepoint": "09178",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "鉱",
+      "codepoint": "09271",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 13
+    },
+    {
+      "char": "銅",
+      "codepoint": "09285",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "防",
+      "codepoint": "09632",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 7
+    },
+    {
+      "char": "限",
+      "codepoint": "09650",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 9
+    },
+    {
+      "char": "険",
+      "codepoint": "0967a",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 11
+    },
+    {
+      "char": "際",
+      "codepoint": "0969b",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "雑",
+      "codepoint": "096d1",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "非",
+      "codepoint": "0975e",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 8
+    },
+    {
+      "char": "領",
+      "codepoint": "09818",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 14
+    },
+    {
+      "char": "額",
+      "codepoint": "0984d",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 18
+    },
+    {
+      "char": "飼",
+      "codepoint": "098fc",
+      "kind": "kanji",
+      "grade": 5,
+      "strokeCount": 13
+    },
+    {
+      "char": "並",
+      "codepoint": "04e26",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "乱",
+      "codepoint": "04e71",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 7
+    },
+    {
+      "char": "乳",
+      "codepoint": "04e73",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "亡",
+      "codepoint": "04ea1",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 3
+    },
+    {
+      "char": "仁",
+      "codepoint": "04ec1",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 4
+    },
+    {
+      "char": "供",
+      "codepoint": "04f9b",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "俳",
+      "codepoint": "04ff3",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "俵",
+      "codepoint": "04ff5",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "値",
+      "codepoint": "05024",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "傷",
+      "codepoint": "050b7",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "優",
+      "codepoint": "0512a",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 17
+    },
+    {
+      "char": "党",
+      "codepoint": "0515a",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "冊",
+      "codepoint": "0518a",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 5
+    },
+    {
+      "char": "処",
+      "codepoint": "051e6",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 5
+    },
+    {
+      "char": "券",
+      "codepoint": "05238",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "刻",
+      "codepoint": "0523b",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "割",
+      "codepoint": "05272",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "創",
+      "codepoint": "05275",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "劇",
+      "codepoint": "05287",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 15
+    },
+    {
+      "char": "勤",
+      "codepoint": "052e4",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "危",
+      "codepoint": "05371",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 6
+    },
+    {
+      "char": "卵",
+      "codepoint": "05375",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 7
+    },
+    {
+      "char": "厳",
+      "codepoint": "053b3",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 17
+    },
+    {
+      "char": "収",
+      "codepoint": "053ce",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 4
+    },
+    {
+      "char": "后",
+      "codepoint": "0540e",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 6
+    },
+    {
+      "char": "否",
+      "codepoint": "05426",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 7
+    },
+    {
+      "char": "吸",
+      "codepoint": "05438",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 6
+    },
+    {
+      "char": "呼",
+      "codepoint": "0547c",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "善",
+      "codepoint": "05584",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "困",
+      "codepoint": "056f0",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 7
+    },
+    {
+      "char": "垂",
+      "codepoint": "05782",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "域",
+      "codepoint": "057df",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "奏",
+      "codepoint": "0594f",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "奮",
+      "codepoint": "0596e",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 16
+    },
+    {
+      "char": "姿",
+      "codepoint": "059ff",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "存",
+      "codepoint": "05b58",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 6
+    },
+    {
+      "char": "孝",
+      "codepoint": "05b5d",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 7
+    },
+    {
+      "char": "宅",
+      "codepoint": "05b85",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 6
+    },
+    {
+      "char": "宇",
+      "codepoint": "05b87",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 6
+    },
+    {
+      "char": "宗",
+      "codepoint": "05b97",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "宙",
+      "codepoint": "05b99",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "宝",
+      "codepoint": "05b9d",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "宣",
+      "codepoint": "05ba3",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "密",
+      "codepoint": "05bc6",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "寸",
+      "codepoint": "05bf8",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 3
+    },
+    {
+      "char": "専",
+      "codepoint": "05c02",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "射",
+      "codepoint": "05c04",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "将",
+      "codepoint": "05c06",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "尊",
+      "codepoint": "05c0a",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "就",
+      "codepoint": "05c31",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "尺",
+      "codepoint": "05c3a",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 4
+    },
+    {
+      "char": "届",
+      "codepoint": "05c4a",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "展",
+      "codepoint": "05c55",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "層",
+      "codepoint": "05c64",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 14
+    },
+    {
+      "char": "己",
+      "codepoint": "05df1",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 3
+    },
+    {
+      "char": "巻",
+      "codepoint": "05dfb",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "幕",
+      "codepoint": "05e55",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "干",
+      "codepoint": "05e72",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 3
+    },
+    {
+      "char": "幼",
+      "codepoint": "05e7c",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 5
+    },
+    {
+      "char": "庁",
+      "codepoint": "05e81",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 5
+    },
+    {
+      "char": "座",
+      "codepoint": "05ea7",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "延",
+      "codepoint": "05ef6",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "律",
+      "codepoint": "05f8b",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "従",
+      "codepoint": "05f93",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "忘",
+      "codepoint": "05fd8",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 7
+    },
+    {
+      "char": "忠",
+      "codepoint": "05fe0",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "恩",
+      "codepoint": "06069",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "憲",
+      "codepoint": "061b2",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 16
+    },
+    {
+      "char": "我",
+      "codepoint": "06211",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 7
+    },
+    {
+      "char": "批",
+      "codepoint": "06279",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 7
+    },
+    {
+      "char": "承",
+      "codepoint": "0627f",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "担",
+      "codepoint": "062c5",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "拝",
+      "codepoint": "062dd",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "拡",
+      "codepoint": "062e1",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "捨",
+      "codepoint": "06368",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "探",
+      "codepoint": "063a2",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "推",
+      "codepoint": "063a8",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "揮",
+      "codepoint": "063ee",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "操",
+      "codepoint": "064cd",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 16
+    },
+    {
+      "char": "敬",
+      "codepoint": "0656c",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "敵",
+      "codepoint": "06575",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 15
+    },
+    {
+      "char": "映",
+      "codepoint": "06620",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "晩",
+      "codepoint": "06669",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "暖",
+      "codepoint": "06696",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "暮",
+      "codepoint": "066ae",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 14
+    },
+    {
+      "char": "朗",
+      "codepoint": "06717",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "机",
+      "codepoint": "0673a",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 6
+    },
+    {
+      "char": "枚",
+      "codepoint": "0679a",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "染",
+      "codepoint": "067d3",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "株",
+      "codepoint": "0682a",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "棒",
+      "codepoint": "068d2",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "模",
+      "codepoint": "06a21",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 14
+    },
+    {
+      "char": "権",
+      "codepoint": "06a29",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 15
+    },
+    {
+      "char": "樹",
+      "codepoint": "06a39",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 16
+    },
+    {
+      "char": "欲",
+      "codepoint": "06b32",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "段",
+      "codepoint": "06bb5",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "沿",
+      "codepoint": "06cbf",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "泉",
+      "codepoint": "06cc9",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "洗",
+      "codepoint": "06d17",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "派",
+      "codepoint": "06d3e",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "済",
+      "codepoint": "06e08",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "源",
+      "codepoint": "06e90",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "潮",
+      "codepoint": "06f6e",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 15
+    },
+    {
+      "char": "激",
+      "codepoint": "06fc0",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 16
+    },
+    {
+      "char": "灰",
+      "codepoint": "07070",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 6
+    },
+    {
+      "char": "熟",
+      "codepoint": "0719f",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 15
+    },
+    {
+      "char": "片",
+      "codepoint": "07247",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 4
+    },
+    {
+      "char": "班",
+      "codepoint": "073ed",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "異",
+      "codepoint": "07570",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "疑",
+      "codepoint": "07591",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 14
+    },
+    {
+      "char": "痛",
+      "codepoint": "075db",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "皇",
+      "codepoint": "07687",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "盛",
+      "codepoint": "076db",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "盟",
+      "codepoint": "076df",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "看",
+      "codepoint": "0770b",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "砂",
+      "codepoint": "07802",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "磁",
+      "codepoint": "078c1",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 14
+    },
+    {
+      "char": "私",
+      "codepoint": "079c1",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 7
+    },
+    {
+      "char": "秘",
+      "codepoint": "079d8",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "穀",
+      "codepoint": "07a40",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 14
+    },
+    {
+      "char": "穴",
+      "codepoint": "07a74",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 5
+    },
+    {
+      "char": "窓",
+      "codepoint": "07a93",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "筋",
+      "codepoint": "07b4b",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "策",
+      "codepoint": "07b56",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "簡",
+      "codepoint": "07c21",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 18
+    },
+    {
+      "char": "糖",
+      "codepoint": "07cd6",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 16
+    },
+    {
+      "char": "系",
+      "codepoint": "07cfb",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 7
+    },
+    {
+      "char": "紅",
+      "codepoint": "07d05",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "納",
+      "codepoint": "07d0d",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "純",
+      "codepoint": "07d14",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "絹",
+      "codepoint": "07d79",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "縦",
+      "codepoint": "07e26",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 16
+    },
+    {
+      "char": "縮",
+      "codepoint": "07e2e",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 17
+    },
+    {
+      "char": "署",
+      "codepoint": "07f72",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "翌",
+      "codepoint": "07fcc",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "聖",
+      "codepoint": "08056",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "肺",
+      "codepoint": "080ba",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "胃",
+      "codepoint": "080c3",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "背",
+      "codepoint": "080cc",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "胸",
+      "codepoint": "080f8",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "脳",
+      "codepoint": "08133",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "腸",
+      "codepoint": "08178",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "腹",
+      "codepoint": "08179",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "臓",
+      "codepoint": "081d3",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 19
+    },
+    {
+      "char": "臨",
+      "codepoint": "081e8",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 18
+    },
+    {
+      "char": "至",
+      "codepoint": "081f3",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 6
+    },
+    {
+      "char": "舌",
+      "codepoint": "0820c",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 6
+    },
+    {
+      "char": "若",
+      "codepoint": "082e5",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 8
+    },
+    {
+      "char": "著",
+      "codepoint": "08457",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "蒸",
+      "codepoint": "084b8",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "蔵",
+      "codepoint": "08535",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 15
+    },
+    {
+      "char": "蚕",
+      "codepoint": "08695",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "衆",
+      "codepoint": "08846",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "裁",
+      "codepoint": "088c1",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "装",
+      "codepoint": "088c5",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "裏",
+      "codepoint": "088cf",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "補",
+      "codepoint": "088dc",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "視",
+      "codepoint": "08996",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "覧",
+      "codepoint": "089a7",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 17
+    },
+    {
+      "char": "討",
+      "codepoint": "08a0e",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "訪",
+      "codepoint": "08a2a",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "訳",
+      "codepoint": "08a33",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "詞",
+      "codepoint": "08a5e",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "誌",
+      "codepoint": "08a8c",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 14
+    },
+    {
+      "char": "認",
+      "codepoint": "08a8d",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 14
+    },
+    {
+      "char": "誕",
+      "codepoint": "08a95",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 15
+    },
+    {
+      "char": "誠",
+      "codepoint": "08aa0",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "誤",
+      "codepoint": "08aa4",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 14
+    },
+    {
+      "char": "論",
+      "codepoint": "08ad6",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 15
+    },
+    {
+      "char": "諸",
+      "codepoint": "08af8",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 15
+    },
+    {
+      "char": "警",
+      "codepoint": "08b66",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 19
+    },
+    {
+      "char": "貴",
+      "codepoint": "08cb4",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 12
+    },
+    {
+      "char": "賃",
+      "codepoint": "08cc3",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "退",
+      "codepoint": "09000",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "遺",
+      "codepoint": "0907a",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 15
+    },
+    {
+      "char": "郵",
+      "codepoint": "090f5",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "郷",
+      "codepoint": "090f7",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "針",
+      "codepoint": "091dd",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "銭",
+      "codepoint": "092ad",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 14
+    },
+    {
+      "char": "鋼",
+      "codepoint": "092fc",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 16
+    },
+    {
+      "char": "閉",
+      "codepoint": "09589",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "閣",
+      "codepoint": "095a3",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 14
+    },
+    {
+      "char": "降",
+      "codepoint": "0964d",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "陛",
+      "codepoint": "0965b",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "除",
+      "codepoint": "09664",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "障",
+      "codepoint": "0969c",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 14
+    },
+    {
+      "char": "難",
+      "codepoint": "096e3",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 18
+    },
+    {
+      "char": "革",
+      "codepoint": "09769",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 9
+    },
+    {
+      "char": "頂",
+      "codepoint": "09802",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 11
+    },
+    {
+      "char": "預",
+      "codepoint": "09810",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 13
+    },
+    {
+      "char": "骨",
+      "codepoint": "09aa8",
+      "kind": "kanji",
+      "grade": 6,
+      "strokeCount": 10
+    },
+    {
+      "char": "ぁ",
+      "codepoint": "03041",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "あ",
+      "codepoint": "03042",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ぃ",
+      "codepoint": "03043",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "い",
+      "codepoint": "03044",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ぅ",
+      "codepoint": "03045",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "う",
+      "codepoint": "03046",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ぇ",
+      "codepoint": "03047",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "え",
+      "codepoint": "03048",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ぉ",
+      "codepoint": "03049",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "お",
+      "codepoint": "0304a",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "か",
+      "codepoint": "0304b",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "が",
+      "codepoint": "0304c",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "き",
+      "codepoint": "0304d",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "ぎ",
+      "codepoint": "0304e",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 6
+    },
+    {
+      "char": "く",
+      "codepoint": "0304f",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "ぐ",
+      "codepoint": "03050",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "け",
+      "codepoint": "03051",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "げ",
+      "codepoint": "03052",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "こ",
+      "codepoint": "03053",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ご",
+      "codepoint": "03054",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "さ",
+      "codepoint": "03055",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ざ",
+      "codepoint": "03056",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "し",
+      "codepoint": "03057",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "じ",
+      "codepoint": "03058",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "す",
+      "codepoint": "03059",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ず",
+      "codepoint": "0305a",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "せ",
+      "codepoint": "0305b",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ぜ",
+      "codepoint": "0305c",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "そ",
+      "codepoint": "0305d",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "ぞ",
+      "codepoint": "0305e",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "た",
+      "codepoint": "0305f",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "だ",
+      "codepoint": "03060",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 6
+    },
+    {
+      "char": "ち",
+      "codepoint": "03061",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ぢ",
+      "codepoint": "03062",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "っ",
+      "codepoint": "03063",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "つ",
+      "codepoint": "03064",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "づ",
+      "codepoint": "03065",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "て",
+      "codepoint": "03066",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "で",
+      "codepoint": "03067",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "と",
+      "codepoint": "03068",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ど",
+      "codepoint": "03069",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "な",
+      "codepoint": "0306a",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "に",
+      "codepoint": "0306b",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ぬ",
+      "codepoint": "0306c",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ね",
+      "codepoint": "0306d",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "の",
+      "codepoint": "0306e",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "は",
+      "codepoint": "0306f",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ば",
+      "codepoint": "03070",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "ぱ",
+      "codepoint": "03071",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "ひ",
+      "codepoint": "03072",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "び",
+      "codepoint": "03073",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ぴ",
+      "codepoint": "03074",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ふ",
+      "codepoint": "03075",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "ぶ",
+      "codepoint": "03076",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 6
+    },
+    {
+      "char": "ぷ",
+      "codepoint": "03077",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "へ",
+      "codepoint": "03078",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "べ",
+      "codepoint": "03079",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ぺ",
+      "codepoint": "0307a",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ほ",
+      "codepoint": "0307b",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "ぼ",
+      "codepoint": "0307c",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 6
+    },
+    {
+      "char": "ぽ",
+      "codepoint": "0307d",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "ま",
+      "codepoint": "0307e",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "み",
+      "codepoint": "0307f",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "む",
+      "codepoint": "03080",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "め",
+      "codepoint": "03081",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "も",
+      "codepoint": "03082",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ゃ",
+      "codepoint": "03083",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "や",
+      "codepoint": "03084",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ゅ",
+      "codepoint": "03085",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ゆ",
+      "codepoint": "03086",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ょ",
+      "codepoint": "03087",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "よ",
+      "codepoint": "03088",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ら",
+      "codepoint": "03089",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "り",
+      "codepoint": "0308a",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "る",
+      "codepoint": "0308b",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "れ",
+      "codepoint": "0308c",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ろ",
+      "codepoint": "0308d",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "ゎ",
+      "codepoint": "0308e",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "わ",
+      "codepoint": "0308f",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ゐ",
+      "codepoint": "03090",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "ゑ",
+      "codepoint": "03091",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "を",
+      "codepoint": "03092",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ん",
+      "codepoint": "03093",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "ゔ",
+      "codepoint": "03094",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "ゕ",
+      "codepoint": "03095",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ゖ",
+      "codepoint": "03096",
+      "kind": "hiragana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ァ",
+      "codepoint": "030a1",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ア",
+      "codepoint": "030a2",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ィ",
+      "codepoint": "030a3",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "イ",
+      "codepoint": "030a4",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ゥ",
+      "codepoint": "030a5",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ウ",
+      "codepoint": "030a6",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ェ",
+      "codepoint": "030a7",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "エ",
+      "codepoint": "030a8",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ォ",
+      "codepoint": "030a9",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "オ",
+      "codepoint": "030aa",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "カ",
+      "codepoint": "030ab",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ガ",
+      "codepoint": "030ac",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "キ",
+      "codepoint": "030ad",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ギ",
+      "codepoint": "030ae",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "ク",
+      "codepoint": "030af",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "グ",
+      "codepoint": "030b0",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "ケ",
+      "codepoint": "030b1",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ゲ",
+      "codepoint": "030b2",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "コ",
+      "codepoint": "030b3",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ゴ",
+      "codepoint": "030b4",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "サ",
+      "codepoint": "030b5",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ザ",
+      "codepoint": "030b6",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "シ",
+      "codepoint": "030b7",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ジ",
+      "codepoint": "030b8",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "ス",
+      "codepoint": "030b9",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ズ",
+      "codepoint": "030ba",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "セ",
+      "codepoint": "030bb",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ゼ",
+      "codepoint": "030bc",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "ソ",
+      "codepoint": "030bd",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ゾ",
+      "codepoint": "030be",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "タ",
+      "codepoint": "030bf",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ダ",
+      "codepoint": "030c0",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "チ",
+      "codepoint": "030c1",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ヂ",
+      "codepoint": "030c2",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "ッ",
+      "codepoint": "030c3",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ツ",
+      "codepoint": "030c4",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ヅ",
+      "codepoint": "030c5",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "テ",
+      "codepoint": "030c6",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "デ",
+      "codepoint": "030c7",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "ト",
+      "codepoint": "030c8",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ド",
+      "codepoint": "030c9",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "ナ",
+      "codepoint": "030ca",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ニ",
+      "codepoint": "030cb",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ヌ",
+      "codepoint": "030cc",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ネ",
+      "codepoint": "030cd",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "ノ",
+      "codepoint": "030ce",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "ハ",
+      "codepoint": "030cf",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "バ",
+      "codepoint": "030d0",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "パ",
+      "codepoint": "030d1",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ヒ",
+      "codepoint": "030d2",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ビ",
+      "codepoint": "030d3",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "ピ",
+      "codepoint": "030d4",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "フ",
+      "codepoint": "030d5",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "ブ",
+      "codepoint": "030d6",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "プ",
+      "codepoint": "030d7",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ヘ",
+      "codepoint": "030d8",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "ベ",
+      "codepoint": "030d9",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ペ",
+      "codepoint": "030da",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ホ",
+      "codepoint": "030db",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "ボ",
+      "codepoint": "030dc",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 6
+    },
+    {
+      "char": "ポ",
+      "codepoint": "030dd",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "マ",
+      "codepoint": "030de",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ミ",
+      "codepoint": "030df",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ム",
+      "codepoint": "030e0",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "メ",
+      "codepoint": "030e1",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "モ",
+      "codepoint": "030e2",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ャ",
+      "codepoint": "030e3",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ヤ",
+      "codepoint": "030e4",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ュ",
+      "codepoint": "030e5",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ユ",
+      "codepoint": "030e6",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ョ",
+      "codepoint": "030e7",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ヨ",
+      "codepoint": "030e8",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ラ",
+      "codepoint": "030e9",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "リ",
+      "codepoint": "030ea",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ル",
+      "codepoint": "030eb",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "レ",
+      "codepoint": "030ec",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 1
+    },
+    {
+      "char": "ロ",
+      "codepoint": "030ed",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ヮ",
+      "codepoint": "030ee",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ワ",
+      "codepoint": "030ef",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ヰ",
+      "codepoint": "030f0",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "ヱ",
+      "codepoint": "030f1",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ヲ",
+      "codepoint": "030f2",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ン",
+      "codepoint": "030f3",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ヴ",
+      "codepoint": "030f4",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "ヵ",
+      "codepoint": "030f5",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 2
+    },
+    {
+      "char": "ヶ",
+      "codepoint": "030f6",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 3
+    },
+    {
+      "char": "ヷ",
+      "codepoint": "030f7",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 4
+    },
+    {
+      "char": "ヸ",
+      "codepoint": "030f8",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 6
+    },
+    {
+      "char": "ヹ",
+      "codepoint": "030f9",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "ヺ",
+      "codepoint": "030fa",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 5
+    },
+    {
+      "char": "ー",
+      "codepoint": "030fc",
+      "kind": "katakana",
+      "grade": null,
+      "strokeCount": 1
+    }
+  ]
+}
