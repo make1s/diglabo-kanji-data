@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 7,
-  "radical": 33,
+  "radical": {
+    "number": 33,
+    "element": "士",
+    "position": "top",
+    "name": "さむらい",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "バイ"

@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 5,
-  "radical": 17,
+  "radical": {
+    "number": 17,
+    "element": "凵",
+    "position": null,
+    "name": "うけばこ",
+    "strokes": [
+      4,
+      5
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "シュツ",

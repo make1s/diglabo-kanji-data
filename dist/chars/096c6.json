@@ -4,7 +4,23 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 12,
-  "radical": 172,
+  "radical": {
+    "number": 172,
+    "element": "隹",
+    "position": "top",
+    "name": "ふるとり",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "シュウ"

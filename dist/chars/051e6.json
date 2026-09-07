@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 5,
-  "radical": 16,
+  "radical": {
+    "number": 16,
+    "element": "几",
+    "position": "nyoc",
+    "name": "つくえ",
+    "strokes": [
+      4,
+      5
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ショ"

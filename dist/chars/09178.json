@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 14,
-  "radical": 164,
+  "radical": {
+    "number": 164,
+    "element": "酉",
+    "position": "left",
+    "name": "とりへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "サン"

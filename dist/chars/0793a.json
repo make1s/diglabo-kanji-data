@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 5,
-  "radical": 113,
+  "radical": {
+    "number": 113,
+    "element": "示",
+    "position": null,
+    "name": "しめす",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ジ",

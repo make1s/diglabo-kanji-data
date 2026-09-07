@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 3,
-  "radical": 37,
+  "radical": {
+    "number": 37,
+    "element": "大",
+    "position": null,
+    "name": "だい",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ダイ",

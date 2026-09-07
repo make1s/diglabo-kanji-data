@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 8,
-  "radical": 29,
+  "radical": {
+    "number": 29,
+    "element": "又",
+    "position": "right",
+    "name": "また",
+    "strokes": [
+      7,
+      8
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "シュ"

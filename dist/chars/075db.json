@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 12,
-  "radical": 104,
+  "radical": {
+    "number": 104,
+    "element": "疒",
+    "position": "tare",
+    "name": "やまいだれ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ツウ"

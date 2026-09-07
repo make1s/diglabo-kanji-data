@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 4,
-  "radical": 13,
+  "radical": {
+    "number": 13,
+    "element": "冂",
+    "position": null,
+    "name": "どうがまえ",
+    "strokes": [
+      1,
+      2
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "エン"

@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 9,
-  "radical": 79,
+  "radical": {
+    "number": 79,
+    "element": "殳",
+    "position": "right",
+    "name": "るまた",
+    "strokes": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ダン",

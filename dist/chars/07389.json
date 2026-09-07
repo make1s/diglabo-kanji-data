@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 5,
-  "radical": 96,
+  "radical": {
+    "number": 96,
+    "element": "玉",
+    "position": null,
+    "name": "たま",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ギョク"

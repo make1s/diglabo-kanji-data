@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 15,
-  "radical": 154,
+  "radical": {
+    "number": 154,
+    "element": "貝",
+    "position": "bottom",
+    "name": "かい",
+    "strokes": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "サン"

@@ -4,7 +4,23 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 8,
-  "radical": 168,
+  "radical": {
+    "number": 168,
+    "element": "長",
+    "position": null,
+    "name": "ながい",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "チョウ"

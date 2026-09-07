@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 5,
-  "radical": 80,
+  "radical": {
+    "number": 80,
+    "element": "毋",
+    "position": null,
+    "name": "なかれ",
+    "strokes": [
+      1,
+      2,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ボ"

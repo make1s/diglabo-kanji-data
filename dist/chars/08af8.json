@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 15,
-  "radical": 149,
+  "radical": {
+    "number": 149,
+    "element": "言",
+    "position": "left",
+    "name": "ごんべん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ショ"

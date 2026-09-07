@@ -4,7 +4,16 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 3,
-  "radical": 3,
+  "radical": {
+    "number": 3,
+    "element": "丶",
+    "position": null,
+    "name": "てん",
+    "strokes": [
+      3
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ガン"

@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 5,
-  "radical": 106,
+  "radical": {
+    "number": 106,
+    "element": "白",
+    "position": null,
+    "name": "しろ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ハク",

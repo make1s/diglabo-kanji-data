@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 10,
-  "radical": 19,
+  "radical": {
+    "number": 19,
+    "element": "力",
+    "position": "nyoc",
+    "name": "ちから",
+    "strokes": [
+      9,
+      10
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ベン"

@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 10,
-  "radical": 64,
+  "radical": {
+    "number": 64,
+    "element": "手",
+    "position": "bottom",
+    "name": "て",
+    "strokes": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "キョ"

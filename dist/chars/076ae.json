@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 5,
-  "radical": 107,
+  "radical": {
+    "number": 107,
+    "element": "皮",
+    "position": null,
+    "name": "けがわ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ヒ"

@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 5,
-  "radical": 15,
+  "radical": {
+    "number": 15,
+    "element": "冫",
+    "position": "bottom",
+    "name": "にすい",
+    "strokes": [
+      4,
+      5
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "トウ"

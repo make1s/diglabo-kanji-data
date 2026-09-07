@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 6,
-  "radical": 62,
+  "radical": {
+    "number": 62,
+    "element": "戈",
+    "position": null,
+    "name": "ほこ",
+    "strokes": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "セイ",

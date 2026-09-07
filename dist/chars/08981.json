@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 9,
-  "radical": 146,
+  "radical": {
+    "number": 146,
+    "element": "覀",
+    "position": "top",
+    "name": "にし",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ヨウ"

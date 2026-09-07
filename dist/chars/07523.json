@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 11,
-  "radical": 100,
+  "radical": {
+    "number": 100,
+    "element": "生",
+    "position": "tarec",
+    "name": "うまれる",
+    "strokes": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "サン"

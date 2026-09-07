@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 5,
-  "radical": 101,
+  "radical": {
+    "number": 101,
+    "element": "用",
+    "position": null,
+    "name": "もちいる",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ヨウ"

@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 16,
-  "radical": 134,
+  "radical": {
+    "number": 134,
+    "element": "𦥑",
+    "position": null,
+    "name": "うす",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12,
+      13
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "コウ",

@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 4,
-  "radical": 82,
+  "radical": {
+    "number": 82,
+    "element": "毛",
+    "position": null,
+    "name": "け",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "モウ"

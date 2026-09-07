@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 12,
-  "radical": 109,
+  "radical": {
+    "number": 109,
+    "element": "目",
+    "position": "tarec",
+    "name": "め",
+    "strokes": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "チャク",

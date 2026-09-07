@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 9,
-  "radical": 113,
+  "radical": {
+    "number": 113,
+    "element": "礻",
+    "position": "left",
+    "name": "しめすへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "シュク",

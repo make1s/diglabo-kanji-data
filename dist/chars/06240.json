@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 8,
-  "radical": 63,
+  "radical": {
+    "number": 63,
+    "element": "戸",
+    "position": "left",
+    "name": "と",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ショ"

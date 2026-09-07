@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 6,
-  "radical": 146,
+  "radical": {
+    "number": 146,
+    "element": "西",
+    "position": null,
+    "name": "にし",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "セイ",

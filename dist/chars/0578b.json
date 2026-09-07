@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 9,
-  "radical": 32,
+  "radical": {
+    "number": 32,
+    "element": "土",
+    "position": "bottom",
+    "name": "つち",
+    "strokes": [
+      7,
+      8,
+      9
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ケイ"

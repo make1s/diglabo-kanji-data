@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 13,
-  "radical": 151,
+  "radical": {
+    "number": 151,
+    "element": "豆",
+    "position": "bottom",
+    "name": "まめ",
+    "strokes": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ホウ",

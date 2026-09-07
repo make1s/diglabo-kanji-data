@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 12,
-  "radical": 86,
+  "radical": {
+    "number": 86,
+    "element": "灬",
+    "position": "bottom",
+    "name": "れんが",
+    "strokes": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ゼン",

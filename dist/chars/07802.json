@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 9,
-  "radical": 112,
+  "radical": {
+    "number": 112,
+    "element": "石",
+    "position": "left",
+    "name": "いしへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "サ",

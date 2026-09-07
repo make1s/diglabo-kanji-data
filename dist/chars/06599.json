@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 10,
-  "radical": 68,
+  "radical": {
+    "number": 68,
+    "element": "斗",
+    "position": "right",
+    "name": "とます",
+    "strokes": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "リョウ"

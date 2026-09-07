@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 9,
-  "radical": 123,
+  "radical": {
+    "number": 123,
+    "element": "⺷",
+    "position": "top",
+    "name": "ひつじ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ビ",

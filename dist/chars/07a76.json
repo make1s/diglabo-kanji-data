@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 7,
-  "radical": 116,
+  "radical": {
+    "number": 116,
+    "element": "穴",
+    "position": "top",
+    "name": "あなかんむり",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "キュウ",

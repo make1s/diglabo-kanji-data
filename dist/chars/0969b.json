@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 14,
-  "radical": 170,
+  "radical": {
+    "number": 170,
+    "element": "⻖",
+    "position": "left",
+    "name": "こざとへん",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "サイ"

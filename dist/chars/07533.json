@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 5,
-  "radical": 102,
+  "radical": {
+    "number": 102,
+    "element": "日",
+    "position": null,
+    "name": "た",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "シン"

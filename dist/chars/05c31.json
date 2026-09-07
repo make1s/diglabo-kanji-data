@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 12,
-  "radical": 43,
+  "radical": {
+    "number": 43,
+    "element": "尢",
+    "position": null,
+    "name": "だいのまげあし",
+    "strokes": [
+      9,
+      10,
+      11
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "シュウ",

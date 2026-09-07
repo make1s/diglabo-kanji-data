@@ -4,7 +4,24 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 9,
-  "radical": 180,
+  "radical": {
+    "number": 180,
+    "element": "音",
+    "position": null,
+    "name": "おと",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "オン",

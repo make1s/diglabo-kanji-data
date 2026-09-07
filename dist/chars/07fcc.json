@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 11,
-  "radical": 124,
+  "radical": {
+    "number": 124,
+    "element": "羽",
+    "position": "top",
+    "name": "はね",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ヨク"

@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 13,
-  "radical": 51,
+  "radical": {
+    "number": 51,
+    "element": "干",
+    "position": "bottom",
+    "name": "かん",
+    "strokes": [
+      11,
+      12,
+      13
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "カン"

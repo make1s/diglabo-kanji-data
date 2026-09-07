@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 5,
-  "radical": 19,
+  "radical": {
+    "number": 19,
+    "element": "力",
+    "position": "left",
+    "name": "ちから",
+    "strokes": [
+      1,
+      2
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "カ"

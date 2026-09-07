@@ -4,7 +4,23 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 8,
-  "radical": 175,
+  "radical": {
+    "number": 175,
+    "element": "非",
+    "position": null,
+    "name": "あらず",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ヒ"

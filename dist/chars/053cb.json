@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 4,
-  "radical": 29,
+  "radical": {
+    "number": 29,
+    "element": "又",
+    "position": "kamaec",
+    "name": "また",
+    "strokes": [
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ユウ"

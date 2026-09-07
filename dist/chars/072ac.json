@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 4,
-  "radical": 94,
+  "radical": {
+    "number": 94,
+    "element": "犬",
+    "position": null,
+    "name": "いぬ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ケン"

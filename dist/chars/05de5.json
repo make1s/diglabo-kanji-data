@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 3,
-  "radical": 48,
+  "radical": {
+    "number": 48,
+    "element": "工",
+    "position": null,
+    "name": "たくみ",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "コウ",

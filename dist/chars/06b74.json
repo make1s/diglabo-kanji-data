@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 14,
-  "radical": 77,
+  "radical": {
+    "number": 77,
+    "element": "止",
+    "position": null,
+    "name": "とめる",
+    "strokes": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "レキ",

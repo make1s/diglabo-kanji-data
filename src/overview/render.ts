@@ -16,11 +16,27 @@ export interface GridOptions {
 
 const esc = (s: string): string => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
 
-/** 1字を 109 単位系のまま描く <g>。highlight を渡すとその鍵の画だけ赤、他は灰 */
-export function renderGlyph(r: CharRecord, opts: { showNumbers?: boolean; highlight?: string; muted?: string } = {}): string {
+/**
+ * 1字を 109 単位系のまま描く <g>。
+ * highlight を渡すとその鍵の画だけ赤、dimNonRadical を渡すと部首の画だけ黒（紙面の部首欄と同じ見え方）。
+ */
+export function renderGlyph(
+  r: CharRecord,
+  opts: { showNumbers?: boolean; highlight?: string; muted?: string; dimNonRadical?: boolean } = {}
+): string {
+  const radical = opts.dimNonRadical ? new Set(r.radical?.strokes ?? []) : null;
   const parts: string[] = [`<g data-char="${esc(r.char)}">`];
   for (const s of r.strokes) {
-    const fill = opts.highlight === undefined ? "#000" : s.profile === opts.highlight ? "#d00" : (opts.muted ?? "#bbb");
+    const fill =
+      radical !== null
+        ? radical.has(s.n)
+          ? "#000"
+          : (opts.muted ?? "#bbb")
+        : opts.highlight === undefined
+          ? "#000"
+          : s.profile === opts.highlight
+            ? "#d00"
+            : (opts.muted ?? "#bbb");
     parts.push(`<path d="${s.outline}" fill="${fill}"/>`);
   }
   if (opts.showNumbers) {
@@ -86,6 +102,36 @@ export function renderTypesPage(records: CharRecord[], table: ProfileTable, samp
   return wrapHtml("画種別サンプル", head + sections.join("\n"));
 }
 
+/**
+ * 部首の呼び名と「どの画が部首か」の一覧。
+ * 呼び名 data/radical-names.json は出典を持たない自前の表なので、ここを目視して直す。
+ */
+export function renderRadicalsPage(records: CharRecord[], samplesPer: number): string {
+  const groups = new Map<string, { element: string; position: string | null; name: string | null; chars: CharRecord[] }>();
+  for (const r of records) {
+    if (!r.radical) continue;
+    // 同じ字形・位置でも辞典の部首が分かれる（月＝つきへん／にくづき）ので呼び名も鍵に入れる
+    const key = `${r.radical.element}\t${r.radical.position ?? ""}\t${r.radical.name ?? ""}`;
+    const e = groups.get(key) ?? { element: r.radical.element, position: r.radical.position, name: r.radical.name, chars: [] };
+    e.chars.push(r);
+    groups.set(key, e);
+  }
+  const keys = [...groups.keys()].sort((a, b) => groups.get(b)!.chars.length - groups.get(a)!.chars.length);
+  const sections = keys.map((key) => {
+    const g = groups.get(key)!;
+    const samples = g.chars
+      .slice(0, samplesPer)
+      .map((r) => `<svg viewBox="-4 -4 117 117" xmlns="http://www.w3.org/2000/svg">${renderGlyph(r, { dimNonRadical: true, showNumbers: false })}</svg>`)
+      .join("");
+    const name = g.name ?? '<span style="color:#d00">呼び名なし</span>';
+    const chars = g.chars.map((r) => r.char).join("");
+    return `<section><h2>${name} <small>${esc(g.element)}・${esc(g.position ?? "位置なし")}・${g.chars.length} 字</small></h2><div class="samples">${samples}</div><pre>${esc(chars)}</pre></section>`;
+  });
+  const withoutName = keys.filter((k) => groups.get(k)!.name === null).length;
+  const head = `<h1>部首の呼び名と部首の画</h1><p>${keys.length} 通り（字形 × 位置）・呼び名なし ${withoutName} 通り。黒が部首の画で、紙面の部首欄はこの見え方で出る。呼び名は data/radical-names.json。</p>`;
+  return wrapHtml("部首の一覧", head + sections.join("\n"));
+}
+
 // ---- CLI ----
 async function main(): Promise<void> {
   const { readFileSync, writeFileSync, mkdirSync } = await import("node:fs");
@@ -110,6 +156,8 @@ async function main(): Promise<void> {
   await write("overview-kana", renderGrid(kana, { columns: 20, cell: 96 }), "かな 177 字");
   writeFileSync(root + "build/overview-types.html", renderTypesPage([...kanji, ...kana], table, 10));
   console.log("wrote build/overview-types.html");
+  writeFileSync(root + "build/overview-radicals.html", renderRadicalsPage(kanji, 8));
+  console.log("wrote build/overview-radicals.html");
 }
 
 if (process.argv[1] && import.meta.url === new URL(`file://${process.argv[1]}`).href) {

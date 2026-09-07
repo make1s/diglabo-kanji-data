@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 5,
-  "radical": 9,
+  "radical": {
+    "number": 9,
+    "element": "人",
+    "position": "right",
+    "name": "ひと",
+    "strokes": [
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "イ"

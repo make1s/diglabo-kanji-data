@@ -4,7 +4,24 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 9,
-  "radical": 182,
+  "radical": {
+    "number": 182,
+    "element": "風",
+    "position": null,
+    "name": "かぜ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "フウ",

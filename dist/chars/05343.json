@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 3,
-  "radical": 24,
+  "radical": {
+    "number": 24,
+    "element": "十",
+    "position": "bottom",
+    "name": "じゅう",
+    "strokes": [
+      2,
+      3
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "セン"

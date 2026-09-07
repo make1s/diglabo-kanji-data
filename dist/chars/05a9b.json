@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 12,
-  "radical": 38,
+  "radical": {
+    "number": 38,
+    "element": "女",
+    "position": "left",
+    "name": "おんなへん",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "エン"

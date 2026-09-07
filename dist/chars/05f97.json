@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 11,
-  "radical": 60,
+  "radical": {
+    "number": 60,
+    "element": "彳",
+    "position": "left",
+    "name": "ぎょうにんべん",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "トク"

@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 6,
-  "radical": 139,
+  "radical": {
+    "number": 139,
+    "element": "色",
+    "position": null,
+    "name": "いろ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ショク",

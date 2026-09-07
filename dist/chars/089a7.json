@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 17,
-  "radical": 147,
+  "radical": {
+    "number": 147,
+    "element": "見",
+    "position": "bottom",
+    "name": "みる",
+    "strokes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ラン"

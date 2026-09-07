@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 14,
-  "radical": 115,
+  "radical": {
+    "number": 115,
+    "element": "禾",
+    "position": "bottom",
+    "name": "のぎ",
+    "strokes": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "コク"

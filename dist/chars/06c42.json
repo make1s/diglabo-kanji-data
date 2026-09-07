@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 7,
-  "radical": 85,
+  "radical": {
+    "number": 85,
+    "element": "氺",
+    "position": null,
+    "name": "したみず",
+    "strokes": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "キュウ",

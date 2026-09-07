@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 11,
-  "radical": 115,
+  "radical": {
+    "number": 115,
+    "element": "禾",
+    "position": "left",
+    "name": "のぎへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "イ"

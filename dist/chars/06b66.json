@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 8,
-  "radical": 77,
+  "radical": {
+    "number": 77,
+    "element": "止",
+    "position": "kamaec",
+    "name": "とめる",
+    "strokes": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ブ",

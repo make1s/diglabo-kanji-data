@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 7,
-  "radical": 131,
+  "radical": {
+    "number": 131,
+    "element": "臣",
+    "position": null,
+    "name": "しん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "シン",

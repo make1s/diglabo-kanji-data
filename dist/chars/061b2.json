@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 16,
-  "radical": 61,
+  "radical": {
+    "number": 61,
+    "element": "心",
+    "position": "bottom",
+    "name": "こころ",
+    "strokes": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ケン"

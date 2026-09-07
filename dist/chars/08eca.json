@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 7,
-  "radical": 159,
+  "radical": {
+    "number": 159,
+    "element": "車",
+    "position": null,
+    "name": "くるま",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "シャ"

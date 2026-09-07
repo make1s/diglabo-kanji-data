@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 12,
-  "radical": 111,
+  "radical": {
+    "number": 111,
+    "element": "矢",
+    "position": "left",
+    "name": "やへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "タン"

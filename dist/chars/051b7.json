@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 7,
-  "radical": 15,
+  "radical": {
+    "number": 15,
+    "element": "冫",
+    "position": "left",
+    "name": "にすい",
+    "strokes": [
+      1,
+      2
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "レイ"

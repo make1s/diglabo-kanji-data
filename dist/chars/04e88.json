@@ -4,7 +4,16 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 4,
-  "radical": 6,
+  "radical": {
+    "number": 6,
+    "element": "亅",
+    "position": null,
+    "name": "はねぼう",
+    "strokes": [
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ヨ",

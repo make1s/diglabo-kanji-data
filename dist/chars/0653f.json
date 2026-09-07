@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 9,
-  "radical": 66,
+  "radical": {
+    "number": 66,
+    "element": "攵",
+    "position": "right",
+    "name": "のぶん",
+    "strokes": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "セイ",

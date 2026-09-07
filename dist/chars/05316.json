@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 4,
-  "radical": 21,
+  "radical": {
+    "number": 21,
+    "element": "匕",
+    "position": "right",
+    "name": "ひ",
+    "strokes": [
+      3,
+      4
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "カ",

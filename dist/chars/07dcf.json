@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 14,
-  "radical": 120,
+  "radical": {
+    "number": 120,
+    "element": "糸",
+    "position": "left",
+    "name": "いとへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ソウ"

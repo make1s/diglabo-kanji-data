@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 7,
-  "radical": 57,
+  "radical": {
+    "number": 57,
+    "element": "弓",
+    "position": null,
+    "name": "ゆみ",
+    "strokes": [
+      3,
+      4,
+      5
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "テイ",

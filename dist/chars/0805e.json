@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 14,
-  "radical": 128,
+  "radical": {
+    "number": 128,
+    "element": "耳",
+    "position": null,
+    "name": "みみ",
+    "strokes": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ブン",

@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 14,
-  "radical": 162,
+  "radical": {
+    "number": 162,
+    "element": "⻌",
+    "position": "nyo",
+    "name": "しんにょう",
+    "strokes": [
+      12,
+      13,
+      14
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "テキ"

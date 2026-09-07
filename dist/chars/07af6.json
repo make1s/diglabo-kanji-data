@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 20,
-  "radical": 117,
+  "radical": {
+    "number": 117,
+    "element": "立",
+    "position": "top",
+    "name": "たつ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "キョウ",

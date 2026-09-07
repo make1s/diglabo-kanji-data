@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 7,
-  "radical": 30,
+  "radical": {
+    "number": 30,
+    "element": "口",
+    "position": "bottom",
+    "name": "くち",
+    "strokes": [
+      5,
+      6,
+      7
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ヒ"

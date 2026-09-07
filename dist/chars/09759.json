@@ -4,7 +4,23 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 14,
-  "radical": 174,
+  "radical": {
+    "number": 174,
+    "element": "青",
+    "position": "left",
+    "name": "あお",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "セイ",

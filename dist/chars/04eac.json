@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 8,
-  "radical": 8,
+  "radical": {
+    "number": 8,
+    "element": "亠",
+    "position": "top",
+    "name": "なべぶた",
+    "strokes": [
+      1,
+      2
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "キョウ",

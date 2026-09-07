@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 3,
-  "radical": 49,
+  "radical": {
+    "number": 49,
+    "element": "己",
+    "position": null,
+    "name": "おのれ",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "コ",

@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 13,
-  "radical": 36,
+  "radical": {
+    "number": 36,
+    "element": "夕",
+    "position": "bottom",
+    "name": "ゆうべ",
+    "strokes": [
+      11,
+      12,
+      13
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ム",

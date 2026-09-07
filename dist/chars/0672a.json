@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 5,
-  "radical": 75,
+  "radical": {
+    "number": 75,
+    "element": "木",
+    "position": null,
+    "name": "き",
+    "strokes": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ミ",

@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 7,
-  "radical": 23,
+  "radical": {
+    "number": 23,
+    "element": "匸",
+    "position": "kamae",
+    "name": "かくしがまえ",
+    "strokes": [
+      1,
+      7
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "イ"

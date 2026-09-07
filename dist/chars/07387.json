@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 11,
-  "radical": 95,
+  "radical": {
+    "number": 95,
+    "element": "玄",
+    "position": null,
+    "name": "げん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ソツ",

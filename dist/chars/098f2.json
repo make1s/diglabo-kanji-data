@@ -4,7 +4,23 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 12,
-  "radical": 184,
+  "radical": {
+    "number": 184,
+    "element": "飠",
+    "position": "left",
+    "name": "しょくへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "イン",

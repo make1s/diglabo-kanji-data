@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 4,
-  "radical": 88,
+  "radical": {
+    "number": 88,
+    "element": "父",
+    "position": null,
+    "name": "ちち",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "フ"

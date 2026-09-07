@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 8,
-  "radical": 93,
+  "radical": {
+    "number": 93,
+    "element": "牛",
+    "position": "left",
+    "name": "うしへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ブツ",

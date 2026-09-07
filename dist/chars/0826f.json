@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 7,
-  "radical": 138,
+  "radical": {
+    "number": 138,
+    "element": "艮",
+    "position": null,
+    "name": "こんづくり",
+    "strokes": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "リョウ"

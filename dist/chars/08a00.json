@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 7,
-  "radical": 149,
+  "radical": {
+    "number": 149,
+    "element": "言",
+    "position": null,
+    "name": "げん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ゲン",

@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 8,
-  "radical": 102,
+  "radical": {
+    "number": 102,
+    "element": "田",
+    "position": null,
+    "name": "た",
+    "strokes": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ガ",

@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 5,
-  "radical": 108,
+  "radical": {
+    "number": 108,
+    "element": "皿",
+    "position": null,
+    "name": "さら",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ベイ"

@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 9,
-  "radical": 72,
+  "radical": {
+    "number": 72,
+    "element": "日",
+    "position": "top",
+    "name": "ひ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "セイ",

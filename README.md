@@ -17,7 +17,8 @@
 // dist/chars/05316.json（化）抜粋
 {
   "char": "化", "codepoint": "05316", "kind": "kanji",
-  "grade": 3, "strokeCount": 4, "radical": 21,
+  "grade": 3, "strokeCount": 4,
+  "radical": { "number": 21, "element": "匕", "position": "right", "name": "さじ", "strokes": [3, 4], "source": "tradit" },
   "readings":    { "on": ["カ", "ケ"], "kun": ["ば.ける", "ば.かす", "ふ.ける", "け.する"] },  // KANJIDIC2 の全読み
   "eduReadings": { "on": ["カ"],       "kun": ["ば.ける", "ば.かす"] },                       // 小学校段階の読み
   "eduReadingsSpecial": [],       // 割り振り表で1字下げ（特別・用法が狭い）だった読み
@@ -40,6 +41,13 @@
 ```
 
 - `kind` は `kanji` / `hiragana`（U+3041〜3096）/ `katakana`（U+30A1〜30FA と長音符 U+30FC）。かなは `grade` `radical` が null で読みは空
+- `radical` は KANJIDIC2 の康熙番号（`number`）に、KanjiVG から取った 字形・位置・部首にあたる画番号 を重ねたもの。
+  `strokes` だけ濃く描けば「その字のどこが部首か」を示せる（紙面の部首欄はこの形で出す）。
+  `source` は KanjiVG のどの印から取ったかで、`general`（その字の部首）が 812 字、残り 214 字は伝統部首 `tradit`。
+  呼び名 `name`（「きへん」）だけは KANJIDIC2 にも KanjiVG にも無いので `data/radical-names.json`（字形 × 位置、189 字形）で与える。
+  呼び名は漢字ペディア（日本漢字能力検定協会）の部首索引に載るものだけを使い、複数あるときは小学生になじみのある方を採る。
+  KanjiVG の部品と KANJIDIC2 の部首がずれる 7 字（全・申・由・書・曲・最・夏）も、`strokes` が指す位置は辞典の部首と一致する
+  （「申」なら部首の田が字のほぼ全体）ことを目視で確かめてある。変えたら `build/overview-radicals.html` を目視する
 - `eduReadings` は割り振り表の順（主要な読みが先、1字下げの読みは末尾）。紙に載せるときは先頭から6つまでを目安にする（「生」のように小学校段階だけで 10 個ある字がある）
 - 送り仮名の区切りは KANJIDIC2 の記法（`ば.ける` の `.`）。割り振り表に無い区切りは KANJIDIC2 から写しているので、`data/edu-readings-overrides.json` で 3 字だけ手当てしている
 - `dist/index.json` の `sources` に入力の版（KanjiVG のリリース、KANJIDIC2 の database_version）を記録する
@@ -64,7 +72,7 @@ pnpm install
 pnpm fetch        # input/ に KanjiVG r20250816・kanjidic2.xml・文科省 PDF を取得（pdftotext が要る）
 pnpm mext         # PDF → data/mext-onkun-2017.json（検証つき）
 pnpm build:data   # dist/ を生成。警告は build/report.json
-pnpm overview     # 目視用: build/overview-kanji.png（学年順の 1,026 字）・overview-kana.png・overview-types.html（画種別サンプル）
+pnpm overview     # 目視用: build/overview-kanji.png（学年順の 1,026 字）・overview-kana.png・overview-types.html（画種別サンプル）・overview-radicals.html（部首の呼び名と部首の画）
 pnpm test
 ```
 

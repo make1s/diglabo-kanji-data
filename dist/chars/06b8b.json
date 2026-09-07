@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 10,
-  "radical": 78,
+  "radical": {
+    "number": 78,
+    "element": "歹",
+    "position": "left",
+    "name": "かばねへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ザン",

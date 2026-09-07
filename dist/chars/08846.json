@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 12,
-  "radical": 143,
+  "radical": {
+    "number": 143,
+    "element": "血",
+    "position": "top",
+    "name": "ち",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "シュウ",

@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 6,
-  "radical": 135,
+  "radical": {
+    "number": 135,
+    "element": "舌",
+    "position": null,
+    "name": "した",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ゼツ"

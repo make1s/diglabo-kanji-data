@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 7,
-  "radical": 59,
+  "radical": {
+    "number": 59,
+    "element": "彡",
+    "position": "right",
+    "name": "さんづくり",
+    "strokes": [
+      5,
+      6,
+      7
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ケイ",

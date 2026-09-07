@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 4,
-  "radical": 74,
+  "radical": {
+    "number": 74,
+    "element": "月",
+    "position": null,
+    "name": "つき",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ゲツ",

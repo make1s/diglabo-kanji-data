@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 8,
-  "radical": 40,
+  "radical": {
+    "number": 40,
+    "element": "宀",
+    "position": "top",
+    "name": "うかんむり",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "テイ",

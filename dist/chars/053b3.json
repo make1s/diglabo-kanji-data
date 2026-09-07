@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 17,
-  "radical": 27,
+  "radical": {
+    "number": 27,
+    "element": "厂",
+    "position": "kamae",
+    "name": "がんだれ",
+    "strokes": [
+      4,
+      5
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ゲン",

@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 11,
-  "radical": 69,
+  "radical": {
+    "number": 69,
+    "element": "斤",
+    "position": "right",
+    "name": "おのづくり",
+    "strokes": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ダン"

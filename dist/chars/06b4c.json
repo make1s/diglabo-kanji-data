@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 14,
-  "radical": 76,
+  "radical": {
+    "number": 76,
+    "element": "欠",
+    "position": "right",
+    "name": "あくび",
+    "strokes": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "カ"

@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 10,
-  "radical": 44,
+  "radical": {
+    "number": 44,
+    "element": "尸",
+    "position": "tare",
+    "name": "しかばね",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "テン"

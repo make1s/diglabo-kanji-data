@@ -4,7 +4,16 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 4,
-  "radical": 1,
+  "radical": {
+    "number": 1,
+    "element": "一",
+    "position": null,
+    "name": "いち",
+    "strokes": [
+      1
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "フ",

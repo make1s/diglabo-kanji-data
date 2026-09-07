@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 10,
-  "radical": 137,
+  "radical": {
+    "number": 137,
+    "element": "舟",
+    "position": "left",
+    "name": "ふねへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "コウ"

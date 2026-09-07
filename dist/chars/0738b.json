@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 4,
-  "radical": 96,
+  "radical": {
+    "number": 96,
+    "element": "王",
+    "position": null,
+    "name": "おう",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "オウ",

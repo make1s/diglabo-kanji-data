@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 4,
-  "radical": 70,
+  "radical": {
+    "number": 70,
+    "element": "方",
+    "position": null,
+    "name": "ほう",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ホウ"

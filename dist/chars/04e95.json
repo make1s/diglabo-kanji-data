@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 4,
-  "radical": 7,
+  "radical": {
+    "number": 7,
+    "element": "二",
+    "position": null,
+    "name": "に",
+    "strokes": [
+      1,
+      2
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "セイ",

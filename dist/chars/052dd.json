@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 12,
-  "radical": 19,
+  "radical": {
+    "number": 19,
+    "element": "力",
+    "position": null,
+    "name": "ちから",
+    "strokes": [
+      11,
+      12
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ショウ"

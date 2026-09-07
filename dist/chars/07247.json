@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 4,
-  "radical": 91,
+  "radical": {
+    "number": 91,
+    "element": "片",
+    "position": null,
+    "name": "かた",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ヘン"

@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 2,
-  "radical": 12,
+  "radical": {
+    "number": 12,
+    "element": "八",
+    "position": null,
+    "name": "はち",
+    "strokes": [
+      1,
+      2
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ハチ",

@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 6,
-  "radical": 132,
+  "radical": {
+    "number": 132,
+    "element": "自",
+    "position": null,
+    "name": "みずから",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ジ",

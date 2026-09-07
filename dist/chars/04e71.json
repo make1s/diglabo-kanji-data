@@ -4,7 +4,16 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 7,
-  "radical": 5,
+  "radical": {
+    "number": 5,
+    "element": "乙",
+    "position": "right",
+    "name": "おつ",
+    "strokes": [
+      7
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ラン",

@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 6,
-  "radical": 10,
+  "radical": {
+    "number": 10,
+    "element": "儿",
+    "position": null,
+    "name": "ひとあし",
+    "strokes": [
+      5,
+      6
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "コウ"

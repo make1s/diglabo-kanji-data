@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 14,
-  "radical": 9,
+  "radical": {
+    "number": 9,
+    "element": "亻",
+    "position": "left",
+    "name": "にんべん",
+    "strokes": [
+      1,
+      2
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ゾウ"

@@ -4,7 +4,16 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 8,
-  "radical": 5,
+  "radical": {
+    "number": 5,
+    "element": "乙",
+    "position": "right",
+    "name": "おつ",
+    "strokes": [
+      8
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ニュウ"

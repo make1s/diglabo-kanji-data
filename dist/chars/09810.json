@@ -4,7 +4,24 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 13,
-  "radical": 181,
+  "radical": {
+    "number": 181,
+    "element": "頁",
+    "position": "right",
+    "name": "おおがい",
+    "strokes": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ヨ"

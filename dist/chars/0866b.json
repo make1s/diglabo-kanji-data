@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 6,
-  "radical": 142,
+  "radical": {
+    "number": 142,
+    "element": "虫",
+    "position": null,
+    "name": "むし",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "チュウ",

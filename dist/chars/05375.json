@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 7,
-  "radical": 26,
+  "radical": {
+    "number": 26,
+    "element": "卩",
+    "position": "right",
+    "name": "ふしづくり",
+    "strokes": [
+      5,
+      7
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ラン"

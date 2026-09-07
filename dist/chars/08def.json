@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 13,
-  "radical": 157,
+  "radical": {
+    "number": 157,
+    "element": "足",
+    "position": "left",
+    "name": "あしへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ロ",

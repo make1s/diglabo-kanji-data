@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 6,
-  "radical": 11,
+  "radical": {
+    "number": 11,
+    "element": "人",
+    "position": "top",
+    "name": "いる",
+    "strokes": [
+      1,
+      2
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ゼン"

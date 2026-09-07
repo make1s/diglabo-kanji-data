@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 7,
-  "radical": 199,
+  "radical": {
+    "number": 199,
+    "element": "麦",
+    "position": null,
+    "name": "むぎ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "バク"

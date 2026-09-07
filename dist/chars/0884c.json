@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 6,
-  "radical": 144,
+  "radical": {
+    "number": 144,
+    "element": "行",
+    "position": null,
+    "name": "ぎょうがまえ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "コウ",

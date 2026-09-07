@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 7,
-  "radical": 120,
+  "radical": {
+    "number": 120,
+    "element": "糸",
+    "position": "bottom",
+    "name": "いと",
+    "strokes": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ケイ"

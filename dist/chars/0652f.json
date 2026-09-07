@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 4,
-  "radical": 65,
+  "radical": {
+    "number": 65,
+    "element": "支",
+    "position": null,
+    "name": "し",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "シ"

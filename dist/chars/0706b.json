@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 4,
-  "radical": 86,
+  "radical": {
+    "number": 86,
+    "element": "火",
+    "position": null,
+    "name": "ひ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "カ"

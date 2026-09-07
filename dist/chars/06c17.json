@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 6,
-  "radical": 84,
+  "radical": {
+    "number": 84,
+    "element": "气",
+    "position": "kamae",
+    "name": "きがまえ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "キ",

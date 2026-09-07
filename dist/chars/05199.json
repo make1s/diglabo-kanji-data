@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 5,
-  "radical": 14,
+  "radical": {
+    "number": 14,
+    "element": "冖",
+    "position": "top",
+    "name": "わかんむり",
+    "strokes": [
+      1,
+      2
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "シャ",

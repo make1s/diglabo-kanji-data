@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 9,
-  "radical": 34,
+  "radical": {
+    "number": 34,
+    "element": "夂",
+    "position": "bottom",
+    "name": "ふゆがしら",
+    "strokes": [
+      7,
+      8,
+      9
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ヘン"

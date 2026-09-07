@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 7,
-  "radical": 155,
+  "radical": {
+    "number": 155,
+    "element": "赤",
+    "position": null,
+    "name": "あか",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "セキ",

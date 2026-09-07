@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 7,
-  "radical": 150,
+  "radical": {
+    "number": 150,
+    "element": "谷",
+    "position": null,
+    "name": "たに",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "コク"

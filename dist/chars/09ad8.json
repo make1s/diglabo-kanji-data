@@ -4,7 +4,25 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 10,
-  "radical": 189,
+  "radical": {
+    "number": 189,
+    "element": "高",
+    "position": null,
+    "name": "たかい",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "コウ"

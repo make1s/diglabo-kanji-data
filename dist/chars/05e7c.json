@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 5,
-  "radical": 52,
+  "radical": {
+    "number": 52,
+    "element": "幺",
+    "position": "left",
+    "name": "いとがしら",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ヨウ"

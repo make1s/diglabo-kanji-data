@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 6,
-  "radical": 73,
+  "radical": {
+    "number": 73,
+    "element": "日",
+    "position": null,
+    "name": "ひらび",
+    "strokes": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "キョク"

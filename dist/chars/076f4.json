@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 8,
-  "radical": 109,
+  "radical": {
+    "number": 109,
+    "element": "目",
+    "position": null,
+    "name": "め",
+    "strokes": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "チョク",

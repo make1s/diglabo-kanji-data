@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 12,
-  "radical": 154,
+  "radical": {
+    "number": 154,
+    "element": "貝",
+    "position": "left",
+    "name": "かいへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "チョ"

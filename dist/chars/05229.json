@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 7,
-  "radical": 18,
+  "radical": {
+    "number": 18,
+    "element": "刂",
+    "position": "right",
+    "name": "りっとう",
+    "strokes": [
+      6,
+      7
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "リ"

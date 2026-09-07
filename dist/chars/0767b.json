@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 12,
-  "radical": 105,
+  "radical": {
+    "number": 105,
+    "element": "癶",
+    "position": "top",
+    "name": "はつがしら",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "トウ",

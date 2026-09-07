@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 8,
-  "radical": 61,
+  "radical": {
+    "number": 61,
+    "element": "忄",
+    "position": "left",
+    "name": "りっしんべん",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "セイ",

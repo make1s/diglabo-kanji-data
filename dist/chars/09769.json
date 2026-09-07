@@ -4,7 +4,24 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 9,
-  "radical": 177,
+  "radical": {
+    "number": 177,
+    "element": "革",
+    "position": null,
+    "name": "かくのかわ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "カク"

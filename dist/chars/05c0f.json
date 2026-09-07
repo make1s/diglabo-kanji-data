@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 3,
-  "radical": 42,
+  "radical": {
+    "number": 42,
+    "element": "小",
+    "position": null,
+    "name": "しょう",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ショウ"

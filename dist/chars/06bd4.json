@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 4,
-  "radical": 81,
+  "radical": {
+    "number": 81,
+    "element": "比",
+    "position": null,
+    "name": "くらべる",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ヒ"

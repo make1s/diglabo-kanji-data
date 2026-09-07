@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 5,
-  "radical": 100,
+  "radical": {
+    "number": 100,
+    "element": "生",
+    "position": null,
+    "name": "うまれる",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "セイ",

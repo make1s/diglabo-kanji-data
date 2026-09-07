@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 12,
-  "radical": 166,
+  "radical": {
+    "number": 166,
+    "element": "里",
+    "position": "bottom",
+    "name": "さと",
+    "strokes": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "リョウ"

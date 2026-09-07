@@ -4,7 +4,22 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 7,
-  "radical": 148,
+  "radical": {
+    "number": 148,
+    "element": "角",
+    "position": null,
+    "name": "つの",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "カク"

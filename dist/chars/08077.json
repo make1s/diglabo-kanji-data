@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 18,
-  "radical": 128,
+  "radical": {
+    "number": 128,
+    "element": "耳",
+    "position": "left",
+    "name": "みみへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ショク",

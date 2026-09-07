@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 8,
-  "radical": 46,
+  "radical": {
+    "number": 46,
+    "element": "山",
+    "position": "top",
+    "name": "やま",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ガン"

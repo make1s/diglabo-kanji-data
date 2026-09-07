@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 10,
-  "radical": 53,
+  "radical": {
+    "number": 53,
+    "element": "广",
+    "position": "tare",
+    "name": "まだれ",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "テイ"

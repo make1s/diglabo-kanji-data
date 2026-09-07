@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 11,
-  "radical": 57,
+  "radical": {
+    "number": 57,
+    "element": "弓",
+    "position": "left",
+    "name": "ゆみへん",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "チョウ"

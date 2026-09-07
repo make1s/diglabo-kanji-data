@@ -4,7 +4,16 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 4,
-  "radical": 2,
+  "radical": {
+    "number": 2,
+    "element": "丨",
+    "position": null,
+    "name": "たてぼう",
+    "strokes": [
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "チュウ"

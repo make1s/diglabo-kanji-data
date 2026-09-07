@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 13,
-  "radical": 69,
+  "radical": {
+    "number": 69,
+    "element": "斤",
+    "position": "right",
+    "name": "おのづくり",
+    "strokes": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "シン"

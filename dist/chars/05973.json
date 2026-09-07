@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 3,
-  "radical": 38,
+  "radical": {
+    "number": 38,
+    "element": "女",
+    "position": null,
+    "name": "おんな",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ジョ",

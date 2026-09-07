@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 10,
-  "radical": 75,
+  "radical": {
+    "number": 75,
+    "element": "木",
+    "position": "left",
+    "name": "きへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "バイ"

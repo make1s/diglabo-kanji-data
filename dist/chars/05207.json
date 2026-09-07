@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 4,
-  "radical": 18,
+  "radical": {
+    "number": 18,
+    "element": "刀",
+    "position": "right",
+    "name": "かたな",
+    "strokes": [
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "セツ",

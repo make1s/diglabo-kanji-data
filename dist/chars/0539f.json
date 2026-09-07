@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 10,
-  "radical": 27,
+  "radical": {
+    "number": 27,
+    "element": "厂",
+    "position": "tare",
+    "name": "がんだれ",
+    "strokes": [
+      1,
+      2
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ゲン"

@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 9,
-  "radical": 85,
+  "radical": {
+    "number": 85,
+    "element": "水",
+    "position": "bottom",
+    "name": "みず",
+    "strokes": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "セン"

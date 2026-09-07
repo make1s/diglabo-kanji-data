@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 15,
-  "radical": 86,
+  "radical": {
+    "number": 86,
+    "element": "灬",
+    "position": "bottom",
+    "name": "れんが",
+    "strokes": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ネツ"

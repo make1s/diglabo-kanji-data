@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 9,
-  "radical": 54,
+  "radical": {
+    "number": 54,
+    "element": "廴",
+    "position": "nyo",
+    "name": "えんにょう",
+    "strokes": [
+      7,
+      8,
+      9
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ケン",

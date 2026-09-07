@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 6,
-  "radical": 145,
+  "radical": {
+    "number": 145,
+    "element": "衣",
+    "position": null,
+    "name": "ころも",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "イ",

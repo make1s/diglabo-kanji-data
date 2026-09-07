@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 8,
-  "radical": 125,
+  "radical": {
+    "number": 125,
+    "element": "耂",
+    "position": "tare",
+    "name": "おいかんむり",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "シャ"

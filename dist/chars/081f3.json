@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 6,
-  "radical": 133,
+  "radical": {
+    "number": 133,
+    "element": "至",
+    "position": null,
+    "name": "いたる",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "シ"

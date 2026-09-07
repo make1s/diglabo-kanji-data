@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 6,
-  "radical": 47,
+  "radical": {
+    "number": 47,
+    "element": "川",
+    "position": null,
+    "name": "かわ",
+    "strokes": [
+      2,
+      4,
+      6
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "シュウ",

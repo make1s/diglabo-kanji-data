@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 6,
-  "radical": 39,
+  "radical": {
+    "number": 39,
+    "element": "子",
+    "position": "tarec",
+    "name": "こ",
+    "strokes": [
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ソン",

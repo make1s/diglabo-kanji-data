@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 6,
-  "radical": 31,
+  "radical": {
+    "number": 31,
+    "element": "囗",
+    "position": "kamae",
+    "name": "くにがまえ",
+    "strokes": [
+      1,
+      2,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "イン"

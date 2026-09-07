@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 8,
-  "radical": 64,
+  "radical": {
+    "number": 64,
+    "element": "扌",
+    "position": "left",
+    "name": "てへん",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "カク",

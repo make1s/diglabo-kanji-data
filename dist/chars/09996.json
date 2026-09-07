@@ -4,7 +4,24 @@
   "kind": "kanji",
   "grade": 2,
   "strokeCount": 9,
-  "radical": 185,
+  "radical": {
+    "number": 185,
+    "element": "首",
+    "position": null,
+    "name": "くび",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "シュ"

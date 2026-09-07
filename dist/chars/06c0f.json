@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 4,
-  "radical": 83,
+  "radical": {
+    "number": 83,
+    "element": "氏",
+    "position": null,
+    "name": "うじ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "シ"

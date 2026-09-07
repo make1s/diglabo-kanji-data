@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 6,
-  "radical": 13,
+  "radical": {
+    "number": 13,
+    "element": "冂",
+    "position": null,
+    "name": "どうがまえ",
+    "strokes": [
+      2,
+      3
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "サイ",

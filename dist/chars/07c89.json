@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 10,
-  "radical": 119,
+  "radical": {
+    "number": 119,
+    "element": "米",
+    "position": "left",
+    "name": "こめへん",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "フン"

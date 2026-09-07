@@ -4,7 +4,21 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 16,
-  "radical": 144,
+  "radical": {
+    "number": 144,
+    "element": "行",
+    "position": "kamae",
+    "name": "ぎょうがまえ",
+    "strokes": [
+      1,
+      2,
+      3,
+      14,
+      15,
+      16
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "エイ",

@@ -4,7 +4,20 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 11,
-  "radical": 113,
+  "radical": {
+    "number": 113,
+    "element": "示",
+    "position": "bottom",
+    "name": "しめす",
+    "strokes": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ヒョウ"

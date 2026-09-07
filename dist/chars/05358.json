@@ -4,7 +4,17 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 9,
-  "radical": 24,
+  "radical": {
+    "number": 24,
+    "element": "十",
+    "position": null,
+    "name": "じゅう",
+    "strokes": [
+      8,
+      9
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "タン"

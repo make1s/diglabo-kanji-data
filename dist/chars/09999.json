@@ -4,7 +4,24 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 9,
-  "radical": 186,
+  "radical": {
+    "number": 186,
+    "element": "香",
+    "position": null,
+    "name": "かおり",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "コウ",

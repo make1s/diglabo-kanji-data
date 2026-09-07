@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 4,
   "strokeCount": 11,
-  "radical": 47,
+  "radical": {
+    "number": 47,
+    "element": "⺍",
+    "position": "top",
+    "name": "つかんむり",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ソウ"

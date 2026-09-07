@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 14,
-  "radical": 32,
+  "radical": {
+    "number": 32,
+    "element": "土",
+    "position": "left",
+    "name": "つちへん",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "キョウ",

@@ -4,7 +4,23 @@
   "kind": "kanji",
   "grade": 6,
   "strokeCount": 11,
-  "radical": 169,
+  "radical": {
+    "number": 169,
+    "element": "門",
+    "position": "kamae",
+    "name": "もんがまえ",
+    "strokes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ヘイ"

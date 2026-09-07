@@ -4,7 +4,19 @@
   "kind": "kanji",
   "grade": 5,
   "strokeCount": 10,
-  "radical": 130,
+  "radical": {
+    "number": 130,
+    "element": "月",
+    "position": "bottom",
+    "name": "にくづき",
+    "strokes": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "ノウ"

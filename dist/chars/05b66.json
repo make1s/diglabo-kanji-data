@@ -4,7 +4,18 @@
   "kind": "kanji",
   "grade": 1,
   "strokeCount": 8,
-  "radical": 39,
+  "radical": {
+    "number": 39,
+    "element": "子",
+    "position": "bottom",
+    "name": "こ",
+    "strokes": [
+      6,
+      7,
+      8
+    ],
+    "source": "general"
+  },
   "readings": {
     "on": [
       "ガク"

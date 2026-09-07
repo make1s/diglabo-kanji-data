@@ -4,7 +4,16 @@
   "kind": "kanji",
   "grade": 3,
   "strokeCount": 5,
-  "radical": 3,
+  "radical": {
+    "number": 3,
+    "element": "丶",
+    "position": null,
+    "name": "てん",
+    "strokes": [
+      1
+    ],
+    "source": "tradit"
+  },
   "readings": {
     "on": [
       "シュ",
