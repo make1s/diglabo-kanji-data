@@ -1,4 +1,4 @@
 node_modules/
 input/
-build/
+/build/
 .DS_Store
