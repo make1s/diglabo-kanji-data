@@ -18,7 +18,7 @@
 {
   "char": "化", "codepoint": "05316", "kind": "kanji",
   "grade": 3, "strokeCount": 4,
-  "radical": { "number": 21, "element": "匕", "position": "right", "name": "さじ", "strokes": [3, 4], "source": "tradit" },
+  "radical": { "number": 21, "element": "匕", "position": "right", "name": "ひ", "strokes": [3, 4], "source": "tradit" },
   "readings":    { "on": ["カ", "ケ"], "kun": ["ば.ける", "ば.かす", "ふ.ける", "け.する"] },  // KANJIDIC2 の全読み
   "eduReadings": { "on": ["カ"],       "kun": ["ば.ける", "ば.かす"] },                       // 小学校段階の読み
   "eduReadingsSpecial": [],       // 割り振り表で1字下げ（特別・用法が狭い）だった読み
