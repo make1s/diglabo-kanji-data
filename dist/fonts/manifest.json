@@ -1,9 +1,9 @@
 {
-  "version": "0.2.0",
-  "profilesVersion": 1,
+  "version": "0.3.0",
+  "profilesVersion": 2,
   "family": "DiglaboTehon",
   "file": "tehon.woff2",
-  "sha256": "fe08591a788074642d75d33c7e52c940f3bc455bdbe655dd3797658c710bc131",
-  "bytes": 440804,
+  "sha256": "8f1ad05049653e22a0d6a395865d3ea2c1d19ee171eb7e11385d47d271d14344",
+  "bytes": 516000,
   "glyphCount": 1203
 }

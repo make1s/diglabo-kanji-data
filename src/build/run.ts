@@ -85,6 +85,7 @@ for (const t of targets) {
 
 writeFileSync(p("dist/index.json"), JSON.stringify(index, null, 2) + "\n");
 const tehon = buildTehonFont(records);
+writeFileSync(p("dist/fonts/tehon.otf"), tehon.otf);
 writeFileSync(p(`dist/fonts/${TEHON_FILE}`), tehon.woff2);
 const manifest = tehonManifest(tehon.woff2, tehon.glyphCount, { version: pkg.version, profilesVersion: table.version });
 writeFileSync(p("dist/fonts/manifest.json"), JSON.stringify(manifest, null, 2) + "\n");

@@ -54,13 +54,14 @@ export function buildChar(input: BuildInput): { record: CharRecord; warnings: st
 
   const strokeBBoxes = new Map<number, BBox>();
   const strokes: StrokeRecord[] = kvg.strokes.map((s, i) => {
-    const sampled = sampleCenterline(parseSvgPath(s.d));
     const profileKey = resolveProfileKey(s.type, table);
-    const poly = simplifyPolyline(buildOutline(sampled, table.profiles[profileKey]!, table.stemWidth));
+    const profile = table.profiles[profileKey]!;
+    const sampled = sampleCenterline(parseSvgPath(s.d), profile.refinement ? 0.3 : 1.5);
+    const poly = simplifyPolyline(buildOutline(sampled, profile, table.stemWidth), profile.refinement ? 0.015 : 0.08);
     const bbox = roundBBox(bboxOfPoints(poly));
     strokeBBoxes.set(s.n, bbox);
     const numberAt = kvg.numbers[i]!;
-    return { n: s.n, type: s.type, profile: profileKey, centerline: s.d, outline: toPathD(poly), length: round(sampled.length, 1), numberAt, bbox };
+    return { n: s.n, type: s.type, profile: profileKey, centerline: s.d, outline: toPathD(poly, profile.refinement ? 3 : 1), length: round(sampled.length, 1), numberAt, bbox };
   });
 
   if (input.dic && input.dic.strokeCount !== strokes.length) warnings.push(`${char}: 画数が違う（KanjiVG ${strokes.length}・KANJIDIC2 ${input.dic.strokeCount}）`);

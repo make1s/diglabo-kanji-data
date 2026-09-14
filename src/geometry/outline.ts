@@ -1,6 +1,7 @@
 import type { StrokeProfile } from "../profiles/types.js";
 import type { Point } from "./path.js";
 import type { Sampled } from "./sample.js";
+import { buildRefinedOutline, refinedWidthCurve } from "./refined-outline.js";
 
 const clamp01 = (v: number): number => (v < 0 ? 0 : v > 1 ? 1 : v);
 
@@ -17,6 +18,7 @@ function interpolateKeys(keys: readonly (readonly [number, number])[], u: number
 
 /** 弧長 s での太さ（直径） */
 export function widthAt(s: number, sampled: Sampled, profile: StrokeProfile, stemWidth: number): number {
+  if (profile.refinement) return refinedWidthCurve(sampled, profile, stemWidth)(s);
   const L = sampled.length;
   let f = interpolateKeys(profile.keys, L > 0 ? clamp01(s / L) : 0);
   const taper = profile.endTaper;
@@ -48,6 +50,7 @@ function halfCircle(center: Point, r: number, axis: Point, side: Point, steps: n
  * point の端は左右の点が端点に一致する（太さ 0）。
  */
 export function buildOutline(sampled: Sampled, profile: StrokeProfile, stemWidth: number): Point[] {
+  if (profile.refinement) return buildRefinedOutline(sampled, profile, stemWidth);
   const pts = sampled.points;
   const n = pts.length;
   if (n === 0) return [];

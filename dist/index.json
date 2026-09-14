@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "generatedAt": "2026-09-14",
   "license": "CC-BY-SA-4.0",
   "sources": {
@@ -19,7 +19,7 @@
       "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/__icsFiles/afieldfile/2017/05/15/1385768.pdf"
     }
   },
-  "profilesVersion": 1,
+  "profilesVersion": 2,
   "counts": {
     "kanji": 1026,
     "hiragana": 86,

@@ -58,6 +58,11 @@
 ## 筆圧つきアウトラインの決め方
 
 太さは **画種ごとの設計図** `data/stroke-profiles.json` だけで決まり、**字ごとの上書きは持たない**。
+`profilesVersion: 2` では、承認済みの輪郭を6画種（㇏・㇒・㇓・㇟・㇈・㇇）へ適用する。
+しんにょうの `㇏a` は専用の `joinedSweep` とし、書き出しの太さを保って前画の終点を受ける（25字）。
+設計図に `refinement` がある場合は `keys` / `endTaper` に代えて、画種共通の滑らかな幅曲線を使う。
+右払いは左右にわずかな非対称性を持たせ、はねと折れからの払いは曲線の向きから終端区間を求める。
+幅の指定点間は単調3次Hermite補間とし、細まり方が段々になるのを防ぐ。ほかの画種とかなは従来の設定を使う。
 KanjiVG の `kvg:type`（添字込み 69 通り）から 完全一致 → 「／」の左側 → 添字を落とした基本形 25 種 の順で設計図を引き、型の無い画（かな）は `kana` を使う。
 
 ```jsonc
@@ -78,6 +83,8 @@ pnpm build:data   # dist/ を生成（字データと手本フォント dist/fon
 pnpm overview     # 目視用: build/overview-kanji.png（学年順の 1,026 字）・overview-kana.png・overview-types.html（画種別サンプル）・overview-radicals.html（部首の呼び名と部首の画）
 pnpm test
 ```
+
+`dist/fonts/tehon.otf` も同じビルドで出力する。WOFF2とOTFは同じアウトラインから生成される。
 
 ## 版
 
