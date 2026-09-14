@@ -51,6 +51,9 @@
 - `eduReadings` は割り振り表の順（主要な読みが先、1字下げの読みは末尾）。紙に載せるときは先頭から6つまでを目安にする（「生」のように小学校段階だけで 10 個ある字がある）
 - 送り仮名の区切りは KANJIDIC2 の記法（`ば.ける` の `.`）。割り振り表に無い区切りは KANJIDIC2 から写しているので、`data/edu-readings-overrides.json` で 3 字だけ手当てしている
 - `dist/index.json` の `sources` に入力の版（KanjiVG のリリース、KANJIDIC2 の database_version）を記録する
+- `dist/fonts/tehon.woff2` は全 1,203 字の筆圧アウトラインを塗った手本フォント（family `DiglaboTehon`・UPM 1000・y は上向き）。`dist/fonts/manifest.json` に版・sha256・字数を書く。
+  バイト列は輪郭だけで決まる（作成・更新日時は固定、版番号は入れない）ので、版を上げても字形が同じなら sha256 は変わらない。
+  1 グリフに画を重ねたまま入れている（重なりは除いていない）。1 画ずつ色を変える・画番号を出す用途には `strokes[].outline` を使う
 
 ## 筆圧つきアウトラインの決め方
 
@@ -71,7 +74,7 @@ KanjiVG の `kvg:type`（添字込み 69 通り）から 完全一致 → 「／
 pnpm install
 pnpm fetch        # input/ に KanjiVG r20250816・kanjidic2.xml・文科省 PDF を取得（pdftotext が要る）
 pnpm mext         # PDF → data/mext-onkun-2017.json（検証つき）
-pnpm build:data   # dist/ を生成。警告は build/report.json
+pnpm build:data   # dist/ を生成（字データと手本フォント dist/fonts/）。警告は build/report.json
 pnpm overview     # 目視用: build/overview-kanji.png（学年順の 1,026 字）・overview-kana.png・overview-types.html（画種別サンプル）・overview-radicals.html（部首の呼び名と部首の画）
 pnpm test
 ```
