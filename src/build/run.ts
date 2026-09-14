@@ -12,7 +12,8 @@ import type { ReadingOverride } from "../readings/edu.js";
 import { buildChar } from "./char.js";
 import type { RadicalNameTable } from "./radical.js";
 import { KANJIDIC2_URL, KANJIVG_RELEASE, KANJIVG_URL } from "./sources.js";
-import type { CharKind, DatasetIndex } from "./types.js";
+import { buildTehonFont, tehonManifest, TEHON_FILE } from "../font/tehon.js";
+import type { CharKind, CharRecord, DatasetIndex } from "./types.js";
 
 const root = fileURLToPath(new URL("../../", import.meta.url));
 const p = (rel: string): string => root + rel;
@@ -38,6 +39,8 @@ targets.push({ cp: 0x30fc, kind: "katakana" });
 
 rmSync(p("dist/chars"), { recursive: true, force: true });
 mkdirSync(p("dist/chars"), { recursive: true });
+rmSync(p("dist/fonts"), { recursive: true, force: true });
+mkdirSync(p("dist/fonts"), { recursive: true });
 mkdirSync(p("build"), { recursive: true });
 
 const warnings: string[] = [];
@@ -56,6 +59,8 @@ const index: DatasetIndex = {
 };
 const profileUse = new Map<string, number>();
 let bytes = 0;
+/** 手本フォントの材料。字データと同じ回の records から書き出す＝版が割れない（spec 2026-09-14 §3） */
+const records: CharRecord[] = [];
 
 for (const t of targets) {
   const cp = hex(t.cp);
@@ -71,6 +76,7 @@ for (const t of targets) {
   const json = JSON.stringify(record, null, 2);
   bytes += Buffer.byteLength(json);
   writeFileSync(p(`dist/chars/${cp}.json`), json + "\n");
+  records.push(record);
   index.counts[t.kind]++;
   index.counts.strokes += record.strokes.length;
   index.chars.push({ char, codepoint: cp, kind: t.kind, grade: record.grade, strokeCount: record.strokeCount });
@@ -78,8 +84,21 @@ for (const t of targets) {
 }
 
 writeFileSync(p("dist/index.json"), JSON.stringify(index, null, 2) + "\n");
-const report = { generatedAt: new Date().toISOString(), counts: index.counts, files: readdirSync(p("dist/chars")).length, bytes, profileUse: Object.fromEntries([...profileUse].sort((a, b) => b[1] - a[1])), warnings };
+const tehon = buildTehonFont(records);
+writeFileSync(p(`dist/fonts/${TEHON_FILE}`), tehon.woff2);
+const manifest = tehonManifest(tehon.woff2, tehon.glyphCount, { version: pkg.version, profilesVersion: table.version });
+writeFileSync(p("dist/fonts/manifest.json"), JSON.stringify(manifest, null, 2) + "\n");
+const report = {
+  generatedAt: new Date().toISOString(),
+  counts: index.counts,
+  files: readdirSync(p("dist/chars")).length,
+  bytes,
+  font: { bytes: manifest.bytes, sha256: manifest.sha256 },
+  profileUse: Object.fromEntries([...profileUse].sort((a, b) => b[1] - a[1])),
+  warnings,
+};
 writeFileSync(p("build/report.json"), JSON.stringify(report, null, 2) + "\n");
 console.log(`chars ${report.files}（漢字 ${index.counts.kanji}・ひらがな ${index.counts.hiragana}・カタカナ ${index.counts.katakana}）・画 ${index.counts.strokes}・${(bytes / 1e6).toFixed(1)}MB・警告 ${warnings.length} 件`);
+console.log(`手本フォント ${TEHON_FILE}・${manifest.glyphCount} 字・${(manifest.bytes / 1024).toFixed(0)}KB・sha256 ${manifest.sha256.slice(0, 16)}`);
 for (const w of warnings.slice(0, 40)) console.log("  warn:", w);
 if (warnings.length > 40) console.log(`  ... ほか ${warnings.length - 40} 件（build/report.json）`);
