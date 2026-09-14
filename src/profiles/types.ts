@@ -1,5 +1,6 @@
 /** 端の形。round＝半円のとめ、flat＝切りっぱなし、point＝端の太さを 0 に強制（はらい・はね） */
 export type Cap = "round" | "flat" | "point";
+export type Refinement = "rightSweep" | "joinedSweep" | "leftSweep" | "hook" | "foldedSweep";
 
 /**
  * 終端側で太さを 1→0 に落とす領域。倍率は (1-u)^ease（u は領域内の進み 0→1）。
@@ -18,6 +19,8 @@ export interface StrokeProfile {
   end: Cap;
   keys: [number, number][];
   endTaper?: EndTaper;
+  /** 承認済みの滑らかな輪郭。指定時は keys/endTaper に代えて画種と幾何から幅を求める。 */
+  refinement?: Refinement;
 }
 
 export interface ProfileTable {
@@ -59,6 +62,12 @@ function validateProfile(key: string, v: unknown): StrokeProfile {
   }
   if (keys[0][0] !== 0 || keys[keys.length - 1][0] !== 1) throw new Error(`${key}.keys は 0 で始まり 1 で終わらなければならない`);
   const profile: StrokeProfile = { width: v["width"], start: v["start"] as Cap, end: v["end"] as Cap, keys: keys as [number, number][] };
+  if (v["refinement"] !== undefined) {
+    const refinement = v["refinement"];
+    if (refinement !== "rightSweep" && refinement !== "joinedSweep" && refinement !== "leftSweep" && refinement !== "hook" && refinement !== "foldedSweep") throw new Error(`${key}.refinement が不正`);
+    if (profile.end !== "point" || profile.start === "flat") throw new Error(`${key}: refinement は round/point 始端・point 終端に限る`);
+    profile.refinement = refinement;
+  }
   if (v["endTaper"] !== undefined) {
     const t = v["endTaper"];
     if (!isRecord(t)) throw new Error(`${key}.endTaper がオブジェクトでない`);
