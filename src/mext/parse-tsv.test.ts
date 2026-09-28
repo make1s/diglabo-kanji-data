@@ -1,4 +1,4 @@
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { parseMextAppendix, parseMextTsv } from "./parse-tsv.js";
 
@@ -58,8 +58,10 @@ describe("parseMextTsv", () => {
   });
 });
 
-describe("parseMextAppendix", () => {
-  const tsv = readFileSync(new URL("../../input/mext-onkun-2017.tsv", import.meta.url), "utf8");
+const appendixInputPath = new URL("../../input/mext-onkun-2017.tsv", import.meta.url);
+
+describe.skipIf(!existsSync(appendixInputPath))("parseMextAppendix", () => {
+  const tsv = readFileSync(appendixInputPath, "utf8");
   const { jukujikun, prefectures, warnings } = parseMextAppendix(tsv);
 
   it("付表1 に 迷子・真っ青・明日 がある", () => {
