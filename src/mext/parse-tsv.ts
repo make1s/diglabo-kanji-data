@@ -91,6 +91,83 @@ function stageOf(rel: number): Stage | null {
   return best;
 }
 
+export interface MextWord {
+  word: string;
+  reading: string;
+  stage: Stage;
+}
+
+export interface MextAppendix {
+  jukujikun: MextWord[];
+  prefectures: MextWord[];
+  warnings: string[];
+}
+
+// 付表１・付表２ は本表と同じ3段組・同じ○の位置だが、語（熟字訓・都道府県名）は1マスに収まらず
+// 学年欄が無いぶん本表よりわずかに右へ寄る（列ごとに 70/310/550 からの実際のずれが -2〜-7pt と段によって違う）。
+// 読みの列もその分だけ動くので、window は3段とも余裕を持たせている（実測: 52.5〜57.5pt）
+const APPENDIX_REL = { word: -2, readingMin: 47, readingMax: 80 };
+
+/**
+ * 文科省「音訓の小・中・高等学校段階別割り振り表」の付表１（熟字訓）・付表２（都道府県名）を読む。
+ * 付表２は52ページの「付表２」見出しの行から始まる。付表１の続きが同じページの1段目に載っているため、
+ * ページでなく「見出しと同じ行以降・同じ段」で判定する。
+ *
+ * ⚠ 海女／海士・叔父／伯父 のように同じ読みを別表記で載せる行は、読みと○を持たず直前行と{ブレース}で
+ * まとめて印字される（TSVには何も出ない）。そのときは同じ段の直前に読み取った読み・段階を引き継ぐ。
+ * ⚠ 「師走」の読み「しわす」には注記「（「しはす」とも言う。）」が付き、はみ出した続きが次の行に回るが
+ * groupLines の行判定（先頭語からの y 差）で同じ行にまとまる。読みは先頭のかな連続だけを取る。
+ */
+export function parseMextAppendix(tsv: string): MextAppendix {
+  const words = readWords(tsv);
+  const page1 = Math.min(...words.filter((w) => /^付表[１1]$/.test(w.text)).map((w) => w.page));
+  const head2 = words.find((w) => /^付表[２2]$/.test(w.text));
+  if (!Number.isFinite(page1) || !head2) throw new Error("付表１・付表２ の見出しが見つからない");
+
+  const jukujikun: MextWord[] = [];
+  const prefectures: MextWord[] = [];
+  const warnings: string[] = [];
+  const isWord = (t: string): boolean => /^[\p{Script=Han}ぁ-ゖー々]+$/u.test(t) && /\p{Script=Han}/u.test(t);
+  const kanaPrefixOf = (t: string): string => t.match(/^[ぁ-ゖァ-ヺー]+/u)?.[0] ?? "";
+  // 段（COLUMN_X の各値）ごとに、直前に読み取った読み・段階を覚えておく（ブレースで共有する行の引き継ぎ用）
+  const lastByColumn = new Map<number, { reading: string; stage: Stage }>();
+
+  for (const line of groupLines(words.filter((w) => w.page >= page1))) {
+    for (const base of COLUMN_X) {
+      // 本表の -6 だと3段目の語（実測 base-6.8pt）を取りこぼすので、付表は -10 まで広げる
+      const ws = line.filter((w) => w.x >= base - 10 && w.x < base + COLUMN_WIDTH).map((w) => ({ ...w, rel: w.x - base }));
+      if (ws.length === 0) continue;
+      if (ws.some((w) => w.text === "字" && w.rel >= 12 && w.rel <= 22)) continue; // 見出し行「漢 字  音 訓」
+      const word = ws.find((w) => Math.abs(w.rel - APPENDIX_REL.word) <= 5 && isWord(w.text));
+      if (!word) continue;
+
+      const readingWord = ws.find((w) => w.rel >= APPENDIX_REL.readingMin && w.rel <= APPENDIX_REL.readingMax && kanaPrefixOf(w.text).length > 0);
+      const circle = ws.find((w) => w.text === "○");
+      let reading = readingWord ? kanaPrefixOf(readingWord.text) : null;
+      let stage = circle ? stageOf(circle.rel) : null;
+
+      if (!readingWord && !circle) {
+        // 読み・○ともに無い＝ブレースで直前行と同じ読みを共有している
+        const prev = lastByColumn.get(base);
+        if (prev) {
+          reading = prev.reading;
+          stage = prev.stage;
+        }
+      }
+      if (!reading || !stage) {
+        warnings.push(`p${word.page} ${word.text}: 読みか○が無い`);
+        continue;
+      }
+      lastByColumn.set(base, { reading, stage });
+
+      // 付表２は「付表２」の見出しと同じページ・同じ段で、見出しより下の行から
+      const isPref = word.page > head2.page || (word.page === head2.page && word.y > head2.y && word.x >= head2.x - 10);
+      (isPref ? prefectures : jukujikun).push({ word: word.text, reading, stage });
+    }
+  }
+  return { jukujikun, prefectures, warnings };
+}
+
 export function parseMextTsv(tsv: string): MextTable {
   const words = readWords(tsv);
   const appendixPage = Math.min(...words.filter((w) => /^付表[１1]$/.test(w.text)).map((w) => w.page), Number.POSITIVE_INFINITY);
