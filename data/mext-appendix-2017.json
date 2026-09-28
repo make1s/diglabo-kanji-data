@@ -1,0 +1,687 @@
+{
+ "source": {
+  "title": "音訓の小・中・高等学校段階別割り振り表（平成29年3月）付表１・付表２",
+  "publisher": "文部科学省",
+  "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/__icsFiles/afieldfile/2017/05/15/1385768.pdf",
+  "note": "付表１は熟字訓、付表２は都道府県名（常用漢字表の音訓欄に無い読みのみ・12語）。○の位置で段階を読んだ"
+ },
+ "jukujikun": [
+  {
+   "word": "明日",
+   "reading": "あす",
+   "stage": "elementary"
+  },
+  {
+   "word": "蚊帳",
+   "reading": "かや",
+   "stage": "senior"
+  },
+  {
+   "word": "白髪",
+   "reading": "しらが",
+   "stage": "junior"
+  },
+  {
+   "word": "小豆",
+   "reading": "あずき",
+   "stage": "junior"
+  },
+  {
+   "word": "為替",
+   "reading": "かわせ",
+   "stage": "junior"
+  },
+  {
+   "word": "素人",
+   "reading": "しろうと",
+   "stage": "senior"
+  },
+  {
+   "word": "海女",
+   "reading": "あま",
+   "stage": "senior"
+  },
+  {
+   "word": "河原",
+   "reading": "かわら",
+   "stage": "elementary"
+  },
+  {
+   "word": "師走",
+   "reading": "しわす",
+   "stage": "senior"
+  },
+  {
+   "word": "海士",
+   "reading": "あま",
+   "stage": "senior"
+  },
+  {
+   "word": "川原",
+   "reading": "かわら",
+   "stage": "elementary"
+  },
+  {
+   "word": "硫黄",
+   "reading": "いおう",
+   "stage": "junior"
+  },
+  {
+   "word": "昨日",
+   "reading": "きのう",
+   "stage": "elementary"
+  },
+  {
+   "word": "数寄屋",
+   "reading": "すきや",
+   "stage": "senior"
+  },
+  {
+   "word": "意気地",
+   "reading": "いくじ",
+   "stage": "junior"
+  },
+  {
+   "word": "今日",
+   "reading": "きょう",
+   "stage": "elementary"
+  },
+  {
+   "word": "数奇屋",
+   "reading": "すきや",
+   "stage": "senior"
+  },
+  {
+   "word": "田舎",
+   "reading": "いなか",
+   "stage": "junior"
+  },
+  {
+   "word": "果物",
+   "reading": "くだもの",
+   "stage": "elementary"
+  },
+  {
+   "word": "相撲",
+   "reading": "すもう",
+   "stage": "junior"
+  },
+  {
+   "word": "息吹",
+   "reading": "いぶき",
+   "stage": "senior"
+  },
+  {
+   "word": "玄人",
+   "reading": "くろうと",
+   "stage": "senior"
+  },
+  {
+   "word": "草履",
+   "reading": "ぞうり",
+   "stage": "junior"
+  },
+  {
+   "word": "海原",
+   "reading": "うなばら",
+   "stage": "junior"
+  },
+  {
+   "word": "今朝",
+   "reading": "けさ",
+   "stage": "elementary"
+  },
+  {
+   "word": "山車",
+   "reading": "だし",
+   "stage": "senior"
+  },
+  {
+   "word": "乳母",
+   "reading": "うば",
+   "stage": "junior"
+  },
+  {
+   "word": "景色",
+   "reading": "けしき",
+   "stage": "elementary"
+  },
+  {
+   "word": "太刀",
+   "reading": "たち",
+   "stage": "junior"
+  },
+  {
+   "word": "浮気",
+   "reading": "うわき",
+   "stage": "senior"
+  },
+  {
+   "word": "心地",
+   "reading": "ここち",
+   "stage": "junior"
+  },
+  {
+   "word": "立ち退く",
+   "reading": "たちのく",
+   "stage": "junior"
+  },
+  {
+   "word": "浮つく",
+   "reading": "うわつく",
+   "stage": "junior"
+  },
+  {
+   "word": "居士",
+   "reading": "こじ",
+   "stage": "senior"
+  },
+  {
+   "word": "七夕",
+   "reading": "たなばた",
+   "stage": "elementary"
+  },
+  {
+   "word": "笑顔",
+   "reading": "えがお",
+   "stage": "junior"
+  },
+  {
+   "word": "今年",
+   "reading": "ことし",
+   "stage": "elementary"
+  },
+  {
+   "word": "足袋",
+   "reading": "たび",
+   "stage": "junior"
+  },
+  {
+   "word": "叔父",
+   "reading": "おじ",
+   "stage": "junior"
+  },
+  {
+   "word": "早乙女",
+   "reading": "さおとめ",
+   "stage": "junior"
+  },
+  {
+   "word": "稚児",
+   "reading": "ちご",
+   "stage": "senior"
+  },
+  {
+   "word": "伯父",
+   "reading": "おじ",
+   "stage": "junior"
+  },
+  {
+   "word": "雑魚",
+   "reading": "ざこ",
+   "stage": "senior"
+  },
+  {
+   "word": "一日",
+   "reading": "ついたち",
+   "stage": "elementary"
+  },
+  {
+   "word": "大人",
+   "reading": "おとな",
+   "stage": "elementary"
+  },
+  {
+   "word": "桟敷",
+   "reading": "さじき",
+   "stage": "senior"
+  },
+  {
+   "word": "築山",
+   "reading": "つきやま",
+   "stage": "senior"
+  },
+  {
+   "word": "乙女",
+   "reading": "おとめ",
+   "stage": "junior"
+  },
+  {
+   "word": "差し支える",
+   "reading": "さしつかえる",
+   "stage": "junior"
+  },
+  {
+   "word": "梅雨",
+   "reading": "つゆ",
+   "stage": "junior"
+  },
+  {
+   "word": "叔母",
+   "reading": "おば",
+   "stage": "junior"
+  },
+  {
+   "word": "五月",
+   "reading": "さつき",
+   "stage": "junior"
+  },
+  {
+   "word": "凸凹",
+   "reading": "でこぼこ",
+   "stage": "junior"
+  },
+  {
+   "word": "伯母",
+   "reading": "おば",
+   "stage": "junior"
+  },
+  {
+   "word": "早苗",
+   "reading": "さなえ",
+   "stage": "junior"
+  },
+  {
+   "word": "手伝う",
+   "reading": "てつだう",
+   "stage": "elementary"
+  },
+  {
+   "word": "お巡りさん",
+   "reading": "おまわりさん",
+   "stage": "junior"
+  },
+  {
+   "word": "五月雨",
+   "reading": "さみだれ",
+   "stage": "junior"
+  },
+  {
+   "word": "伝馬船",
+   "reading": "てんません",
+   "stage": "senior"
+  },
+  {
+   "word": "お神酒",
+   "reading": "おみき",
+   "stage": "senior"
+  },
+  {
+   "word": "時雨",
+   "reading": "しぐれ",
+   "stage": "junior"
+  },
+  {
+   "word": "投網",
+   "reading": "とあみ",
+   "stage": "senior"
+  },
+  {
+   "word": "母屋",
+   "reading": "おもや",
+   "stage": "senior"
+  },
+  {
+   "word": "尻尾",
+   "reading": "しっぽ",
+   "stage": "junior"
+  },
+  {
+   "word": "父さん",
+   "reading": "とうさん",
+   "stage": "elementary"
+  },
+  {
+   "word": "母家",
+   "reading": "おもや",
+   "stage": "senior"
+  },
+  {
+   "word": "竹刀",
+   "reading": "しない",
+   "stage": "junior"
+  },
+  {
+   "word": "十重二十重",
+   "reading": "とえはたえ",
+   "stage": "senior"
+  },
+  {
+   "word": "母さん",
+   "reading": "かあさん",
+   "stage": "elementary"
+  },
+  {
+   "word": "老舗",
+   "reading": "しにせ",
+   "stage": "junior"
+  },
+  {
+   "word": "読経",
+   "reading": "どきょう",
+   "stage": "senior"
+  },
+  {
+   "word": "神楽",
+   "reading": "かぐら",
+   "stage": "senior"
+  },
+  {
+   "word": "芝生",
+   "reading": "しばふ",
+   "stage": "junior"
+  },
+  {
+   "word": "時計",
+   "reading": "とけい",
+   "stage": "elementary"
+  },
+  {
+   "word": "河岸",
+   "reading": "かし",
+   "stage": "senior"
+  },
+  {
+   "word": "清水",
+   "reading": "しみず",
+   "stage": "elementary"
+  },
+  {
+   "word": "友達",
+   "reading": "ともだち",
+   "stage": "elementary"
+  },
+  {
+   "word": "鍛冶",
+   "reading": "かじ",
+   "stage": "junior"
+  },
+  {
+   "word": "三味線",
+   "reading": "しゃみせん",
+   "stage": "junior"
+  },
+  {
+   "word": "仲人",
+   "reading": "なこうど",
+   "stage": "senior"
+  },
+  {
+   "word": "風邪",
+   "reading": "かぜ",
+   "stage": "junior"
+  },
+  {
+   "word": "砂利",
+   "reading": "じゃり",
+   "stage": "junior"
+  },
+  {
+   "word": "名残",
+   "reading": "なごり",
+   "stage": "junior"
+  },
+  {
+   "word": "固唾",
+   "reading": "かたず",
+   "stage": "junior"
+  },
+  {
+   "word": "数珠",
+   "reading": "じゅず",
+   "stage": "senior"
+  },
+  {
+   "word": "雪崩",
+   "reading": "なだれ",
+   "stage": "junior"
+  },
+  {
+   "word": "仮名",
+   "reading": "かな",
+   "stage": "junior"
+  },
+  {
+   "word": "上手",
+   "reading": "じょうず",
+   "stage": "elementary"
+  },
+  {
+   "word": "兄さん",
+   "reading": "にいさん",
+   "stage": "elementary"
+  },
+  {
+   "word": "姉さん",
+   "reading": "ねえさん",
+   "stage": "elementary"
+  },
+  {
+   "word": "浴衣",
+   "reading": "ゆかた",
+   "stage": "senior"
+  },
+  {
+   "word": "野良",
+   "reading": "のら",
+   "stage": "senior"
+  },
+  {
+   "word": "行方",
+   "reading": "ゆくえ",
+   "stage": "junior"
+  },
+  {
+   "word": "祝詞",
+   "reading": "のりと",
+   "stage": "senior"
+  },
+  {
+   "word": "寄席",
+   "reading": "よせ",
+   "stage": "senior"
+  },
+  {
+   "word": "博士",
+   "reading": "はかせ",
+   "stage": "elementary"
+  },
+  {
+   "word": "若人",
+   "reading": "わこうど",
+   "stage": "junior"
+  },
+  {
+   "word": "二十",
+   "reading": "はたち",
+   "stage": "junior"
+  },
+  {
+   "word": "二十歳",
+   "reading": "はたち",
+   "stage": "junior"
+  },
+  {
+   "word": "二十日",
+   "reading": "はつか",
+   "stage": "elementary"
+  },
+  {
+   "word": "波止場",
+   "reading": "はとば",
+   "stage": "junior"
+  },
+  {
+   "word": "一人",
+   "reading": "ひとり",
+   "stage": "elementary"
+  },
+  {
+   "word": "日和",
+   "reading": "ひより",
+   "stage": "junior"
+  },
+  {
+   "word": "二人",
+   "reading": "ふたり",
+   "stage": "elementary"
+  },
+  {
+   "word": "二日",
+   "reading": "ふつか",
+   "stage": "elementary"
+  },
+  {
+   "word": "吹雪",
+   "reading": "ふぶき",
+   "stage": "junior"
+  },
+  {
+   "word": "下手",
+   "reading": "へた",
+   "stage": "elementary"
+  },
+  {
+   "word": "部屋",
+   "reading": "へや",
+   "stage": "elementary"
+  },
+  {
+   "word": "迷子",
+   "reading": "まいご",
+   "stage": "elementary"
+  },
+  {
+   "word": "真面目",
+   "reading": "まじめ",
+   "stage": "elementary"
+  },
+  {
+   "word": "真っ赤",
+   "reading": "まっか",
+   "stage": "elementary"
+  },
+  {
+   "word": "真っ青",
+   "reading": "まっさお",
+   "stage": "elementary"
+  },
+  {
+   "word": "土産",
+   "reading": "みやげ",
+   "stage": "junior"
+  },
+  {
+   "word": "息子",
+   "reading": "むすこ",
+   "stage": "junior"
+  },
+  {
+   "word": "眼鏡",
+   "reading": "めがね",
+   "stage": "elementary"
+  },
+  {
+   "word": "猛者",
+   "reading": "もさ",
+   "stage": "senior"
+  },
+  {
+   "word": "紅葉",
+   "reading": "もみじ",
+   "stage": "junior"
+  },
+  {
+   "word": "木綿",
+   "reading": "もめん",
+   "stage": "junior"
+  },
+  {
+   "word": "最寄り",
+   "reading": "もより",
+   "stage": "junior"
+  },
+  {
+   "word": "八百長",
+   "reading": "やおちょう",
+   "stage": "senior"
+  },
+  {
+   "word": "八百屋",
+   "reading": "やおや",
+   "stage": "elementary"
+  },
+  {
+   "word": "大和",
+   "reading": "やまと",
+   "stage": "junior"
+  },
+  {
+   "word": "弥生",
+   "reading": "やよい",
+   "stage": "junior"
+  }
+ ],
+ "prefectures": [
+  {
+   "word": "愛媛",
+   "reading": "えひめ",
+   "stage": "elementary"
+  },
+  {
+   "word": "茨城",
+   "reading": "いばらき",
+   "stage": "elementary"
+  },
+  {
+   "word": "岐阜",
+   "reading": "ぎふ",
+   "stage": "elementary"
+  },
+  {
+   "word": "鹿児島",
+   "reading": "かごしま",
+   "stage": "elementary"
+  },
+  {
+   "word": "滋賀",
+   "reading": "しが",
+   "stage": "elementary"
+  },
+  {
+   "word": "宮城",
+   "reading": "みやぎ",
+   "stage": "elementary"
+  },
+  {
+   "word": "神奈川",
+   "reading": "かながわ",
+   "stage": "elementary"
+  },
+  {
+   "word": "鳥取",
+   "reading": "とっとり",
+   "stage": "elementary"
+  },
+  {
+   "word": "大阪",
+   "reading": "おおさか",
+   "stage": "elementary"
+  },
+  {
+   "word": "富山",
+   "reading": "とやま",
+   "stage": "elementary"
+  },
+  {
+   "word": "大分",
+   "reading": "おおいた",
+   "stage": "elementary"
+  },
+  {
+   "word": "奈良",
+   "reading": "なら",
+   "stage": "elementary"
+  }
+ ]
+}

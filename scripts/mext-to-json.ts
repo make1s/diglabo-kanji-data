@@ -4,7 +4,7 @@
  */
 import { readFileSync, writeFileSync } from "node:fs";
 import { parseKanjidic2 } from "../src/kanjidic/parse.js";
-import { parseMextTsv } from "../src/mext/parse-tsv.js";
+import { parseMextAppendix, parseMextTsv } from "../src/mext/parse-tsv.js";
 
 const tsv = readFileSync(new URL("../input/mext-onkun-2017.tsv", import.meta.url), "utf8");
 const { entries, warnings } = parseMextTsv(tsv);
@@ -53,3 +53,31 @@ const out = {
 };
 writeFileSync(new URL("../data/mext-onkun-2017.json", import.meta.url), JSON.stringify(out, null, 1).replace(/\n\s+"reading"/g, ' "reading"'));
 console.log("wrote data/mext-onkun-2017.json");
+
+// 付表１（熟字訓）・付表２（都道府県名）
+// ⚠ 付表２は「都道府県名に用いる漢字で、常用漢字表の音訓欄に無い読み」だけを載せる注記表（PDF内の説明文どおり）。
+// 47都道府県ぶんではなく12語（愛媛・茨城・岐阜・鹿児島・滋賀・宮城・神奈川・鳥取・大阪・富山・大分・奈良）で全数
+const appendix = parseMextAppendix(tsv);
+console.log(`付表１ ${appendix.jukujikun.length} 語・付表２ ${appendix.prefectures.length} 語・警告 ${appendix.warnings.length} 件`);
+for (const w of appendix.warnings) console.log("  warn(付表):", w);
+if (appendix.warnings.length > 0 || appendix.prefectures.length !== 12) {
+  console.error(`付表の検証に失敗した（付表2 ${appendix.prefectures.length} 語）。data/ は書かない`);
+  process.exit(1);
+}
+writeFileSync(
+  new URL("../data/mext-appendix-2017.json", import.meta.url),
+  JSON.stringify(
+    {
+      source: {
+        ...out.source,
+        title: "音訓の小・中・高等学校段階別割り振り表（平成29年3月）付表１・付表２",
+        note: "付表１は熟字訓、付表２は都道府県名（常用漢字表の音訓欄に無い読みのみ・12語）。○の位置で段階を読んだ",
+      },
+      jukujikun: appendix.jukujikun,
+      prefectures: appendix.prefectures,
+    },
+    null,
+    1,
+  ),
+);
+console.log("wrote data/mext-appendix-2017.json");

@@ -78,7 +78,7 @@ KanjiVG の `kvg:type`（添字込み 69 通り）から 完全一致 → 「／
 ```bash
 pnpm install
 pnpm fetch        # input/ に KanjiVG r20250816・kanjidic2.xml・文科省 PDF を取得（pdftotext が要る）
-pnpm mext         # PDF → data/mext-onkun-2017.json（検証つき）
+pnpm mext         # PDF → data/mext-onkun-2017.json・data/mext-appendix-2017.json（検証つき）
 pnpm build:data   # dist/ を生成（字データと手本フォント dist/fonts/）。警告は build/report.json
 pnpm overview     # 目視用: build/overview-kanji.png（学年順の 1,026 字）・overview-kana.png・overview-types.html（画種別サンプル）・overview-radicals.html（部首の呼び名と部首の画）
 pnpm test
@@ -92,7 +92,6 @@ pnpm test
 
 ## 既知の制限
 
-- 都道府県名にだけ使う読み（岐阜の「ぎ」、大阪の「さか」など、割り振り表の付表２）は入っていない
 - かなは `kvg:type` が無いので一律の設計図。第1リリースの紙には出さない
 - 割り振り表の PDF で「𠮟」だけ文字層に無く、変換スクリプトで読みを戻している
 
