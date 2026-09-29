@@ -80,6 +80,61 @@ describe("buildTehonFont", () => {
   });
 });
 
+/** sfnt の表を 1 つ切り出す（テスト用） */
+function table(otf: Buffer, tag: string): Buffer | null {
+  const count = otf.readUInt16BE(4);
+  for (let i = 0; i < count; i++) {
+    const dir = 12 + i * 16;
+    if (otf.toString("latin1", dir, dir + 4) !== tag) continue;
+    const offset = otf.readUInt32BE(dir + 8);
+    return otf.subarray(offset, offset + otf.readUInt32BE(dir + 12));
+  }
+  return null;
+}
+
+describe("縦書きでの字の置き方（2026-09-29 漢字だけ左に寄る件）", () => {
+  it("横書きの行の上下は 936 / -64（合計 1000 のまま中心を Klee One と揃える）", () => {
+    const { otf } = buildTehonFont(CHARS);
+    const hhea = table(otf, "hhea")!;
+    expect(hhea.readInt16BE(4)).toBe(936);
+    expect(hhea.readInt16BE(6)).toBe(-64);
+    const os2 = table(otf, "OS/2")!;
+    expect(os2.readUInt16BE(74)).toBe(936); // usWinAscent
+    expect(os2.readUInt16BE(76)).toBe(64); // usWinDescent
+  });
+
+  it("縦書き用の表（vhea・vmtx）を持ち、全字の送り幅は 1000・字の枠の上端は 880 のまま", () => {
+    const { otf } = buildTehonFont(CHARS);
+    const vhea = table(otf, "vhea")!;
+    const vmtx = table(otf, "vmtx")!;
+    expect(vhea.readUInt16BE(34)).toBe(3); // numOfLongVerMetrics（.notdef ＋ 2 字）
+    const metrics = [0, 1, 2].map((i) => ({ advance: vmtx.readUInt16BE(i * 4), tsb: vmtx.readInt16BE(i * 4 + 2) }));
+    // .notdef は輪郭なし。一 の上端は 380、二 の上端は 880 − 32.7/109×1000 = 580
+    expect(metrics).toEqual([
+      { advance: 1000, tsb: 0 },
+      { advance: 1000, tsb: 880 - 380 },
+      { advance: 1000, tsb: 880 - 580 },
+    ]);
+  });
+
+  it("表を足しても、フォント全体のチェックサムと各表のチェックサムが合う", () => {
+    const { otf } = buildTehonFont(CHARS);
+    expect(sfntChecksum(otf, 0, otf.length)).toBe(0xb1b0afba);
+    const count = otf.readUInt16BE(4);
+    for (let i = 0; i < count; i++) {
+      const dir = 12 + i * 16;
+      const tag = otf.toString("latin1", dir, dir + 4);
+      if (tag === "head") continue; // head は checkSumAdjustment を 0 として数える決まり
+      expect(sfntChecksum(otf, otf.readUInt32BE(dir + 8), otf.readUInt32BE(dir + 12)), tag).toBe(otf.readUInt32BE(dir + 4));
+    }
+  });
+
+  it("輪郭は今までどおり opentype.js で読み戻せる", () => {
+    const font = parse(buildTehonFont(CHARS).otf);
+    expect(font.charToGlyph("一").path.commands.length).toBeGreaterThan(0);
+  });
+});
+
 describe("tehonManifest", () => {
   it("sha256 と bytes は woff2 の実バイトから取る", () => {
     const { woff2 } = buildTehonFont(CHARS);
