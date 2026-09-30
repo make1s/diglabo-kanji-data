@@ -32,6 +32,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ト",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "on foot",
     "junior",
@@ -45,6 +54,7 @@
     "party",
     "people"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

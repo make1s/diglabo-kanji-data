@@ -34,10 +34,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ユ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あぶら",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "oil",
     "fat"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

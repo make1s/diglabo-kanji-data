@@ -37,9 +37,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "バイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "か.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "buy"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -40,6 +40,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヨウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "やしな.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "foster",
     "bring up",
@@ -47,6 +61,7 @@
     "develop",
     "nurture"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

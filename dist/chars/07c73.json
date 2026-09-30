@@ -40,11 +40,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ベイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "マイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こめ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "rice",
     "USA",
     "metre"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

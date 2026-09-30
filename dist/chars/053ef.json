@@ -33,11 +33,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "can",
     "passable",
     "approval"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

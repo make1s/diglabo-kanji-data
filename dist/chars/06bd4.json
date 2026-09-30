@@ -34,12 +34,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くら.べる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "compare",
     "race",
     "ratio",
     "Philippines"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -32,12 +32,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジュン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "genuine",
     "purity",
     "innocence",
     "net (profit)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -33,10 +33,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ノウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "agriculture",
     "farmers"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

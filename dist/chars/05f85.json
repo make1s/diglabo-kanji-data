@@ -34,10 +34,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ま.つ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "wait",
     "depend on"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

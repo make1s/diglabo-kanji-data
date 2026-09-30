@@ -32,10 +32,25 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "す",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "state",
     "province"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

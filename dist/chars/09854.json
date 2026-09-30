@@ -39,10 +39,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ガン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かお",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "face",
     "expression"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

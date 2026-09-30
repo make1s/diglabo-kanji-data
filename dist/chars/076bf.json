@@ -33,11 +33,21 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [],
+    "kun": [
+      {
+        "reading": "さら",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "dish",
     "a helping",
     "plate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

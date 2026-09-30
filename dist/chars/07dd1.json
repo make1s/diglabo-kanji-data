@@ -37,9 +37,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リョク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ロク",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みどり",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "green"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

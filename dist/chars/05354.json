@@ -28,10 +28,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "co-",
     "cooperation"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

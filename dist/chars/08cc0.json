@@ -33,10 +33,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ガ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "congratulations",
     "joy"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

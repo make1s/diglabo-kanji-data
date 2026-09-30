@@ -36,10 +36,37 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジョ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ニョ",
+        "stage": "junior"
+      },
+      {
+        "reading": "ニョウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おんな",
+        "stage": "elementary"
+      },
+      {
+        "reading": "め",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "woman",
     "female"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

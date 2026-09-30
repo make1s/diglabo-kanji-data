@@ -36,9 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ち",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "blood"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

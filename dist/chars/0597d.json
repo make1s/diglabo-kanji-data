@@ -37,11 +37,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "この.む",
+        "stage": "elementary"
+      },
+      {
+        "reading": "す.く",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "fond",
     "pleasing",
     "like something"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

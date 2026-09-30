@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "にわ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "courtyard",
     "garden",
     "yard"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

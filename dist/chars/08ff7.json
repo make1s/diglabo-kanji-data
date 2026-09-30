@@ -31,6 +31,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "メイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まよ.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "astray",
     "be perplexed",
@@ -39,6 +53,7 @@
     "err",
     "illusion"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

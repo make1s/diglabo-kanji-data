@@ -32,11 +32,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ミャク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "vein",
     "pulse",
     "hope"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

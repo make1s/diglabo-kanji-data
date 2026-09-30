@@ -35,6 +35,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゲン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "へ.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "へ.らす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "dwindle",
     "decrease",
@@ -43,6 +61,7 @@
     "curtail",
     "get hungry"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

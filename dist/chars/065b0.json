@@ -39,9 +39,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あたら.しい",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あら.た",
+        "stage": "elementary"
+      },
+      {
+        "reading": "にい-",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "new"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

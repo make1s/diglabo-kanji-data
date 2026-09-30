@@ -47,11 +47,38 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たか.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "たか",
+        "stage": "elementary"
+      },
+      {
+        "reading": "たか.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "たか.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "tall",
     "high",
     "expensive"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -34,6 +34,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ズ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ト",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はか.る",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "map",
     "drawing",
@@ -41,6 +59,7 @@
     "extraordinary",
     "audacious"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

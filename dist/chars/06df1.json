@@ -39,12 +39,35 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ふか.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ふか.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ふか.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "deep",
     "heighten",
     "intensify",
     "strengthen"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

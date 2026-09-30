@@ -37,11 +37,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "しる.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "scribe",
     "account",
     "narrative"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

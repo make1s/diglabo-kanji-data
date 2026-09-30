@@ -43,11 +43,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セツ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "サイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "き.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "き.れる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "cut",
     "cutoff",
     "be sharp"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

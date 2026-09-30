@@ -28,11 +28,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "system",
     "law",
     "rule"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

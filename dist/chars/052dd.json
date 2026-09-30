@@ -36,12 +36,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "か.つ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "まさ.る",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "victory",
     "win",
     "prevail",
     "excel"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

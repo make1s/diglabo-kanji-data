@@ -34,10 +34,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みせ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "store",
     "shop"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -31,12 +31,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "ballot",
     "label",
     "ticket",
     "sign"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

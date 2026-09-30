@@ -34,11 +34,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かたき",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "enemy",
     "foe",
     "opponent"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -31,6 +31,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "bureau",
     "board",
@@ -41,6 +50,7 @@
     "lady-in-waiting",
     "her apartment"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -47,12 +47,35 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リツ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "リュウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "た.つ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "た.てる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "stand up",
     "rise",
     "set up",
     "erect"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

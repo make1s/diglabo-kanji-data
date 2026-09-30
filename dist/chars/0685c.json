@@ -33,9 +33,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "オウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さくら",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "cherry"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

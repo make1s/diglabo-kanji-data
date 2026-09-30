@@ -37,11 +37,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "タ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ふと.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ふと.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "plump",
     "thick",
     "big around"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

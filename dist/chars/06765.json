@@ -41,6 +41,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ライ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "く.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "きた.る",
+        "stage": "junior"
+      },
+      {
+        "reading": "きた.す",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "come",
     "due",
@@ -48,6 +70,7 @@
     "cause",
     "become"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

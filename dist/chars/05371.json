@@ -34,11 +34,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あぶ.ない",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あや.うい",
+        "stage": "junior"
+      },
+      {
+        "reading": "あや.ぶむ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "dangerous",
     "fear",
     "uneasy"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

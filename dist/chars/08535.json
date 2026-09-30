@@ -34,6 +34,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゾウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くら",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "storehouse",
     "hide",
@@ -41,6 +55,7 @@
     "have",
     "possess"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

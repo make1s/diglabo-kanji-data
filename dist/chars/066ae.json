@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ボ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "く.れる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "く.らす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "evening",
     "twilight",
@@ -42,6 +60,7 @@
     "make a living",
     "spend time"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

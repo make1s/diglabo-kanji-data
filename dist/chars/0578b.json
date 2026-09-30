@@ -34,11 +34,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かた",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "mould",
     "type",
     "model"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

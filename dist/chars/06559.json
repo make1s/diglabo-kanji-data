@@ -36,11 +36,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おし.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "おそ.わる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "teach",
     "faith",
     "doctrine"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

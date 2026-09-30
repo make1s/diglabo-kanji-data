@@ -32,12 +32,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "accomplished",
     "reach",
     "arrive",
     "attain"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

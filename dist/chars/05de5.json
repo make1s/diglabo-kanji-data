@@ -32,11 +32,25 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "craft",
     "construction",
     "katakana e radical (no. 48)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

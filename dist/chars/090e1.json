@@ -31,10 +31,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "グン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "county",
     "district"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

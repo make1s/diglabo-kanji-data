@@ -40,12 +40,35 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ツウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いた.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "いた.む",
+        "stage": "elementary"
+      },
+      {
+        "reading": "いた.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "pain",
     "hurt",
     "damage",
     "bruise"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

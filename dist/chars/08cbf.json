@@ -33,10 +33,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ボウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "trade",
     "exchange"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

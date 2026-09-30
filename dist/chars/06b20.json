@@ -37,12 +37,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "か.ける",
+        "stage": "elementary"
+      },
+      {
+        "reading": "か.く",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "lack",
     "gap",
     "fail",
     "yawning radical (no. 76)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -34,6 +34,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "きず",
+        "stage": "elementary"
+      },
+      {
+        "reading": "いた.む",
+        "stage": "junior"
+      },
+      {
+        "reading": "いた.める",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "wound",
     "hurt",
@@ -46,6 +68,7 @@
     "scar",
     "weak point"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

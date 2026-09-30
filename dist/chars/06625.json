@@ -34,10 +34,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "springtime",
     "spring (season)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

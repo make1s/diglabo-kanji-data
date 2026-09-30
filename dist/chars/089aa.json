@@ -42,6 +42,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おや",
+        "stage": "elementary"
+      },
+      {
+        "reading": "した.しい",
+        "stage": "elementary"
+      },
+      {
+        "reading": "した.しむ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "parent",
     "intimacy",
@@ -49,6 +71,7 @@
     "familiarity",
     "dealer (cards)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

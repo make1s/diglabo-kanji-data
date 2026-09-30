@@ -39,10 +39,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ワ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はな.す",
+        "stage": "elementary"
+      },
+      {
+        "reading": "はなし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "tale",
     "talk"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

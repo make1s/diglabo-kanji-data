@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まい.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "nonplussed",
     "three (in documents)",
@@ -49,6 +63,7 @@
     "participate",
     "take part in"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

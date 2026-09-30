@@ -32,11 +32,25 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "モ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ボ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "imitation",
     "copy",
     "mock"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

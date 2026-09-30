@@ -33,6 +33,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヨウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "は",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "leaf",
     "plane",
@@ -44,6 +58,7 @@
     "fragment",
     "piece"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

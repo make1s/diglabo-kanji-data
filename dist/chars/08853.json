@@ -34,6 +34,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジュツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "art",
     "technique",
@@ -43,6 +52,7 @@
     "resources",
     "magic"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

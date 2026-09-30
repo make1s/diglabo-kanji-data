@@ -33,12 +33,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "intestines",
     "guts",
     "bowels",
     "viscera"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

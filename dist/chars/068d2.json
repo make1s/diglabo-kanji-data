@@ -30,6 +30,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ボウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "rod",
     "stick",
@@ -38,6 +47,7 @@
     "club",
     "line"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

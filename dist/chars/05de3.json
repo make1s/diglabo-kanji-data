@@ -32,6 +32,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "nest",
     "rookery",
@@ -39,6 +53,7 @@
     "cobweb",
     "den"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

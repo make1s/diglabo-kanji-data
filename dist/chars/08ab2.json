@@ -33,6 +33,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "chapter",
     "lesson",
@@ -41,6 +50,7 @@
     "division",
     "counter for chapters (of a book)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

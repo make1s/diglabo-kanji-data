@@ -31,12 +31,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "senior"
+      },
+      {
+        "reading": "ショウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "well",
     "well crib",
     "town",
     "community"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

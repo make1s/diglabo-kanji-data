@@ -28,9 +28,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "ticket"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

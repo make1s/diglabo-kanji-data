@@ -54,10 +54,57 @@
   "eduReadingsSpecial": [
     "うわ-"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジョウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ショウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うえ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かみ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あ.げる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あ.がる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "のぼ.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "うわ-",
+        "stage": "elementary"
+      },
+      {
+        "reading": "のぼ.せる",
+        "stage": "junior"
+      },
+      {
+        "reading": "のぼ.す",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "above",
     "up"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

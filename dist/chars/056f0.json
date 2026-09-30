@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こま.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "quandary",
     "become distressed",
     "annoyed"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

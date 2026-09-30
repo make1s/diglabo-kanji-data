@@ -34,10 +34,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ナ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "Nara",
     "what?"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

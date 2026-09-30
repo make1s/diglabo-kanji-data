@@ -34,6 +34,28 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "む.す",
+        "stage": "junior"
+      },
+      {
+        "reading": "む.れる",
+        "stage": "junior"
+      },
+      {
+        "reading": "む.らす",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "steam",
     "heat",
@@ -41,6 +63,7 @@
     "foment",
     "get musty"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -33,11 +33,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "lecture",
     "club",
     "association"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

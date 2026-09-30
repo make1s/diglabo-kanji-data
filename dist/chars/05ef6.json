@@ -38,10 +38,33 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "の.びる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "の.べる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "の.ばす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "prolong",
     "stretching"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

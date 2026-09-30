@@ -31,12 +31,27 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ホウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "むく.いる",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "report",
     "news",
     "reward",
     "retribution"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

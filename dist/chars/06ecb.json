@@ -28,6 +28,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "nourishing",
     "more & more",
@@ -35,6 +44,7 @@
     "planting",
     "turbidity"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

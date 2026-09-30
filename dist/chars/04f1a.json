@@ -35,6 +35,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "エ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あ.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "meeting",
     "meet",
@@ -43,6 +61,7 @@
     "interview",
     "join"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -33,11 +33,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "post",
     "employment",
     "work"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

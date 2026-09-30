@@ -34,9 +34,28 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "キ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おのれ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "self"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

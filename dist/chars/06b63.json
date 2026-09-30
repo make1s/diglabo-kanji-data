@@ -41,12 +41,39 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ただ.しい",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ただ.す",
+        "stage": "elementary"
+      },
+      {
+        "reading": "まさ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "correct",
     "justice",
     "righteous",
     "10**40"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

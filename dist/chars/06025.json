@@ -36,12 +36,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いそ.ぐ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "hurry",
     "emergency",
     "sudden",
     "steep"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

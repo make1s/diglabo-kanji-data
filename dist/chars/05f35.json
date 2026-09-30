@@ -35,12 +35,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "は.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "counter for bows & stringed instruments",
     "stretch",
     "spread",
     "put up (tent)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

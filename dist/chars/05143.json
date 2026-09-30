@@ -34,11 +34,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゲン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ガン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "もと",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "beginning",
     "former time",
     "origin"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -30,11 +30,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "き.く",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "profit",
     "advantage",
     "benefit"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

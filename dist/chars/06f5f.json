@@ -32,9 +32,19 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [],
+    "kun": [
+      {
+        "reading": "かた",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "lagoon"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

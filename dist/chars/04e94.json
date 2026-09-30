@@ -34,9 +34,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゴ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いつ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "いつ.つ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "five"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

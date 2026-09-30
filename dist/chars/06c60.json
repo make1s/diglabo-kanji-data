@@ -33,12 +33,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いけ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "pond",
     "cistern",
     "pool",
     "reservoir"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

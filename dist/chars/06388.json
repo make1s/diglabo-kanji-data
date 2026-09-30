@@ -32,12 +32,31 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジュ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さず.ける",
+        "stage": "junior"
+      },
+      {
+        "reading": "さず.かる",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "impart",
     "instruct",
     "grant",
     "confer"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

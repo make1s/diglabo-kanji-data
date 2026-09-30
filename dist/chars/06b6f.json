@@ -45,10 +45,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "は",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "tooth",
     "cog"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -34,6 +34,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うけたまわ.る",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "acquiesce",
     "hear",
@@ -41,6 +55,7 @@
     "be informed",
     "receive"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

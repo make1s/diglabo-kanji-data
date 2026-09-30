@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たて",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "vertical",
     "length",
@@ -43,6 +57,7 @@
     "self-indulgent",
     "wayward"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

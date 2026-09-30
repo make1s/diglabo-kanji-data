@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "アン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "やす.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "relax",
     "cheap",
@@ -45,6 +59,7 @@
     "contented",
     "peaceful"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -34,9 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はな",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "flower"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

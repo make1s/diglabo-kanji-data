@@ -34,9 +34,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒャク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "hundred"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

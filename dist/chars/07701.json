@@ -38,11 +38,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はぶ.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かえり.みる",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "government ministry",
     "conserve",
     "omit"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

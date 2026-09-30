@@ -41,6 +41,36 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "チ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おさ.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "おさ.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "なお.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "なお.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "reign",
     "be at peace",
@@ -53,6 +83,7 @@
     "rule",
     "conserve"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

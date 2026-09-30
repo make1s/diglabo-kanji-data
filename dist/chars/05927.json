@@ -39,10 +39,37 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ダイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "タイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おお-",
+        "stage": "elementary"
+      },
+      {
+        "reading": "おお.きい",
+        "stage": "elementary"
+      },
+      {
+        "reading": "-おお.いに",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "large",
     "big"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

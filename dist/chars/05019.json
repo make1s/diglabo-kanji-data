@@ -30,6 +30,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "そうろう",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "climate",
     "season",
@@ -37,6 +51,7 @@
     "wait for",
     "expect"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

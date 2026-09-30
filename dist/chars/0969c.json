@@ -31,11 +31,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さわ.る",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "hinder",
     "hurt",
     "harm"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

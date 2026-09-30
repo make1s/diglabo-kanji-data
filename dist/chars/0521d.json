@@ -40,10 +40,41 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はじ.め",
+        "stage": "elementary"
+      },
+      {
+        "reading": "はじ.めて",
+        "stage": "elementary"
+      },
+      {
+        "reading": "はつ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "うい-",
+        "stage": "senior"
+      },
+      {
+        "reading": "-そ.める",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "first time",
     "beginning"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

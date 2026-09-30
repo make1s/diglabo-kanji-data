@@ -38,12 +38,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "か.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "domesticate",
     "raise",
     "keep",
     "feed"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

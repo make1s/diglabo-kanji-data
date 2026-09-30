@@ -36,12 +36,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "バン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いた",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "plank",
     "board",
     "plate",
     "stage"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

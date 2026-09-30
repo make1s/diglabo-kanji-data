@@ -36,11 +36,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "アイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "love",
     "affection",
     "favourite"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

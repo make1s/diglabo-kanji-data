@@ -32,6 +32,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "アン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "plan",
     "suggestion",
@@ -45,6 +54,7 @@
     "table",
     "bench"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

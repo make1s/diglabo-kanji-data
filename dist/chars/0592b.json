@@ -36,10 +36,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "フウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おっと",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "husband",
     "man"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

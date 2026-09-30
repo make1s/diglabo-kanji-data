@@ -29,10 +29,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ユウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "mail",
     "stagecoach stop"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -40,12 +40,30 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シツ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "シチ",
+        "stage": "junior"
+      },
+      {
+        "reading": "チ",
+        "stage": "senior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "substance",
     "quality",
     "matter",
     "temperament"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

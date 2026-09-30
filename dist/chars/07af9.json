@@ -36,9 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たけ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bamboo"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

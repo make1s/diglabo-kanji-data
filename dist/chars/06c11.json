@@ -32,11 +32,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ミン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たみ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "people",
     "nation",
     "subjects"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

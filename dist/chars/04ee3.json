@@ -44,6 +44,36 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ダイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "タイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "か.わる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "か.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "よ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "しろ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "substitute",
     "change",
@@ -57,6 +87,7 @@
     "rate",
     "fee"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -37,12 +37,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヤク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "わけ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "translate",
     "reason",
     "circumstance",
     "case"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

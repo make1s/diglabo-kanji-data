@@ -35,11 +35,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おお.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "many",
     "frequent",
     "much"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

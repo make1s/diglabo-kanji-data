@@ -33,10 +33,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おく.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "escort",
     "send"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

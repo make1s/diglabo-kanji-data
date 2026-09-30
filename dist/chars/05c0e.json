@@ -33,12 +33,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ドウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みちび.く",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "guidance",
     "leading",
     "conduct",
     "usher"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

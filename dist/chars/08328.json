@@ -36,10 +36,20 @@
   "eduReadingsSpecial": [
     "いばら"
   ],
+  "readingStages": {
+    "on": [],
+    "kun": [
+      {
+        "reading": "いばら",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "briar",
     "thorn"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

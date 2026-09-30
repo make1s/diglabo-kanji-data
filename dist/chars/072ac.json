@@ -35,9 +35,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いぬ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "dog"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

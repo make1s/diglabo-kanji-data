@@ -34,9 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bridge"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

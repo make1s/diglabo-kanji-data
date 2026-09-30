@@ -34,11 +34,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いきお.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "forces",
     "energy",
     "military strength"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

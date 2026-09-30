@@ -37,12 +37,27 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かわ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "leather",
     "skin",
     "reform",
     "become serious"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

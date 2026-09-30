@@ -29,10 +29,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハン",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "heights",
     "slope"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

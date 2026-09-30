@@ -31,12 +31,27 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おおやけ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "public",
     "prince",
     "official",
     "governmental"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

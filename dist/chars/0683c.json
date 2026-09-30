@@ -33,6 +33,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "コウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "status",
     "rank",
@@ -40,6 +53,7 @@
     "character",
     "case (law, grammar)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

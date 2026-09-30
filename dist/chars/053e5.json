@@ -29,6 +29,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "phrase",
     "clause",
@@ -37,6 +46,7 @@
     "paragraph",
     "counter for haiku"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

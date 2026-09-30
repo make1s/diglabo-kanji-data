@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ふえ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "flute",
     "clarinet",
@@ -44,6 +58,7 @@
     "bagpipe",
     "piccolo"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

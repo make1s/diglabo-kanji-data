@@ -33,10 +33,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゲン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みなもと",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "source",
     "origin"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

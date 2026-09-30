@@ -34,11 +34,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゼツ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "した",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "tongue",
     "reed",
     "clapper"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

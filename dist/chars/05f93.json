@@ -38,6 +38,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジュウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ショウ",
+        "stage": "senior"
+      },
+      {
+        "reading": "ジュ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "したが.う",
+        "stage": "elementary"
+      },
+      {
+        "reading": "したが.える",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "accompany",
     "obey",
@@ -48,6 +74,7 @@
     "incidental",
     "subordinate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

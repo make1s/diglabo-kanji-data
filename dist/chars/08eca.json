@@ -37,9 +37,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シャ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くるま",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "car"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

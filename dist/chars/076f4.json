@@ -45,6 +45,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ただ.ちに",
+        "stage": "elementary"
+      },
+      {
+        "reading": "なお.す",
+        "stage": "elementary"
+      },
+      {
+        "reading": "なお.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "straightaway",
     "honesty",
@@ -52,6 +78,7 @@
     "fix",
     "repair"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

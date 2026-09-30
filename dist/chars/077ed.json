@@ -35,6 +35,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みじか.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "short",
     "brevity",
@@ -42,6 +56,7 @@
     "defect",
     "weak point"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

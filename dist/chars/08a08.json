@@ -39,12 +39,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はか.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "はか.らう",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "plot",
     "plan",
     "scheme",
     "measure"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

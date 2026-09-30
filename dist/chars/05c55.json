@@ -29,10 +29,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "unfold",
     "expand"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

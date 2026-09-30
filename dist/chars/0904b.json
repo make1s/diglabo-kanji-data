@@ -33,6 +33,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ウン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はこ.ぶ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "carry",
     "luck",
@@ -43,6 +57,7 @@
     "progress",
     "advance"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

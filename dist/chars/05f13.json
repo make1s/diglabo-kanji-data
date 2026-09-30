@@ -31,10 +31,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キュウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ゆみ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bow",
     "bow (archery, violin)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

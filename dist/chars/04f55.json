@@ -36,9 +36,28 @@
   "eduReadingsSpecial": [
     "なん"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "なに",
+        "stage": "elementary"
+      },
+      {
+        "reading": "なん",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "what"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -36,9 +36,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "シャ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "すな",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "sand"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

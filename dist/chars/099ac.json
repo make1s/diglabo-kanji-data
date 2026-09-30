@@ -48,9 +48,28 @@
   "eduReadingsSpecial": [
     "ま"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "バ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うま",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ま",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "horse"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

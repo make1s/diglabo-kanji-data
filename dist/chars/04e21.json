@@ -30,12 +30,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "both",
     "old Japanese coin",
     "counter for carriages (e.g., in a train)",
     "two"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -31,10 +31,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "world",
     "boundary"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -36,12 +36,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ぬの",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "linen",
     "cloth",
     "spread",
     "distribute"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

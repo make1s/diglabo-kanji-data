@@ -42,6 +42,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ホウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はな.す",
+        "stage": "elementary"
+      },
+      {
+        "reading": "はな.つ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "はな.れる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ほう.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "set free",
     "release",
@@ -51,6 +77,7 @@
     "banish",
     "liberate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

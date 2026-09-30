@@ -31,11 +31,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハン",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さか",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "slope",
     "incline",
     "hill"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

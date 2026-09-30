@@ -35,12 +35,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ス",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "elementary",
     "principle",
     "naked",
     "uncovered"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

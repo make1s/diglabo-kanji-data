@@ -42,10 +42,37 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジャク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "よわ.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "よわ.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "よわ.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "よわ.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "weak",
     "frail"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

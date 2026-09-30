@@ -41,6 +41,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いただ.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "いただき",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "place on the head",
     "receive",
@@ -49,6 +67,7 @@
     "summit",
     "peak"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

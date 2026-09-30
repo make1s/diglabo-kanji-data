@@ -1,8 +1,8 @@
 {
   "name": "diglabo-kanji-data",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
-  "description": "教育漢字 1,026 字とかなの字形・書き順・筆圧アウトライン・部品階層・教育用読みを、KanjiVG と KANJIDIC2 と文部科学省の音訓割り振り表から生成した公開データセット",
+  "description": "常用漢字 2,136 字とかなの字形・書き順・筆圧アウトライン・部品階層・教育用読み・読みの段階を、KanjiVG と KANJIDIC2 と文部科学省の音訓割り振り表から生成した公開データセット",
   "type": "module",
   "license": "CC-BY-SA-4.0",
   "repository": "github:make1s/diglabo-kanji-data",

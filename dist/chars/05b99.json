@@ -29,6 +29,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "mid-air",
     "air",
@@ -37,6 +46,7 @@
     "memorization",
     "interval of time"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

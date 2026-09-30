@@ -31,6 +31,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "director",
     "official",
@@ -38,6 +47,7 @@
     "rule",
     "administer"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

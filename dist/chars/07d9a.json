@@ -42,11 +42,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゾク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つづ.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "つづ.ける",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "continue",
     "series",
     "sequel"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

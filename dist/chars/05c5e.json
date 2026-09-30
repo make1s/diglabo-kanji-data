@@ -34,12 +34,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゾク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "belong",
     "genus",
     "subordinate official",
     "affiliated"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

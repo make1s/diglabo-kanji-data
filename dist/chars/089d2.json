@@ -39,6 +39,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かど",
+        "stage": "elementary"
+      },
+      {
+        "reading": "つの",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "angle",
     "corner",
@@ -46,6 +64,7 @@
     "horn",
     "antlers"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

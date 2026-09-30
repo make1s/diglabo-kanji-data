@@ -39,11 +39,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ザン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "のこ.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "のこ.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "remainder",
     "leftover",
     "balance"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

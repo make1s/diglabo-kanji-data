@@ -34,6 +34,28 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ド",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ト",
+        "stage": "senior"
+      },
+      {
+        "reading": "タク",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たび",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "degrees",
     "occurrence",
@@ -42,6 +64,7 @@
     "consider",
     "attitude"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -39,11 +39,34 @@
   "eduReadingsSpecial": [
     "とん"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "モン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "と.う",
+        "stage": "elementary"
+      },
+      {
+        "reading": "と.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "とん",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "question",
     "ask",
     "problem"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -32,11 +32,25 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ユイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "bequeath",
     "leave behind",
     "reserve"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

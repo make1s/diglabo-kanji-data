@@ -39,6 +39,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "う.む",
+        "stage": "elementary"
+      },
+      {
+        "reading": "う.まれる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "うぶ-",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "products",
     "bear",
@@ -48,6 +70,7 @@
     "native",
     "property"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

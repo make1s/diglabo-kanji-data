@@ -30,9 +30,23 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チャ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "サ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "tea"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -30,6 +30,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ザイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "lumber",
     "log",
@@ -39,6 +48,7 @@
     "ingredients",
     "talent"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

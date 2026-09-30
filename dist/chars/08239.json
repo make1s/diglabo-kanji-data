@@ -40,10 +40,29 @@
   "eduReadingsSpecial": [
     "ふな-"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ふね",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ふな-",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "ship",
     "boat"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

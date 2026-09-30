@@ -34,10 +34,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "むら",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "village",
     "town"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

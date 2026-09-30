@@ -32,6 +32,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "scheme",
     "plan",
@@ -39,6 +48,7 @@
     "step",
     "means"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

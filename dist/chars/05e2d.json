@@ -31,12 +31,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "seat",
     "mat",
     "occasion",
     "place"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

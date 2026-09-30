@@ -33,6 +33,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "nativity",
     "be born",
@@ -40,6 +49,7 @@
     "lie",
     "be arbitrary"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

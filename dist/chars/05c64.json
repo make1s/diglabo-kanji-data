@@ -29,6 +29,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "stratum",
     "social class",
@@ -36,6 +45,7 @@
     "story",
     "floor"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

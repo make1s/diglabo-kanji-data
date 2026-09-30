@@ -38,11 +38,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たたか.う",
+        "stage": "elementary"
+      },
+      {
+        "reading": "いくさ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "war",
     "battle",
     "match"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

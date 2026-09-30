@@ -46,6 +46,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゲ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "と.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "と.かす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "と.ける",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "unravel",
     "notes",
@@ -61,6 +87,7 @@
     "explain",
     "minute"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

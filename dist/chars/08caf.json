@@ -36,6 +36,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "savings",
     "store",
@@ -43,6 +52,7 @@
     "keep",
     "wear mustache"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

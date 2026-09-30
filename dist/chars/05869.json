@@ -33,9 +33,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "しお",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "salt"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

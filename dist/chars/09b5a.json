@@ -44,9 +44,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ギョ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うお",
+        "stage": "elementary"
+      },
+      {
+        "reading": "さかな",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "fish"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

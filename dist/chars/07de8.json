@@ -37,6 +37,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヘン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あ.む",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "compilation",
     "knit",
@@ -47,6 +61,7 @@
     "completed poem",
     "part of a book"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -39,12 +39,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "やかた",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "building",
     "mansion",
     "large building",
     "palace"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

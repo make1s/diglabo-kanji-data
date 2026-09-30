@@ -33,12 +33,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "す.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "suck",
     "imbibe",
     "inhale",
     "sip"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

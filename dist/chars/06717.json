@@ -33,6 +33,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ロウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ほが.らか",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "melodious",
     "clear",
@@ -40,6 +54,7 @@
     "serene",
     "cheerful"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

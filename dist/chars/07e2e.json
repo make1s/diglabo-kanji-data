@@ -44,6 +44,36 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ちぢ.む",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ちぢ.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ちぢ.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ちぢ.れる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ちぢ.らす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "shrink",
     "contract",
@@ -51,6 +81,7 @@
     "wrinkle",
     "reduce"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

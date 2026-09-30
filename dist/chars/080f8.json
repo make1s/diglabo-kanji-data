@@ -35,6 +35,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "むね",
+        "stage": "elementary"
+      },
+      {
+        "reading": "むな-",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "bosom",
     "breast",
@@ -42,6 +60,7 @@
     "heart",
     "feelings"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -34,6 +34,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ほど",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "extent",
     "degree",
@@ -43,6 +57,7 @@
     "limits",
     "amount"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -38,6 +38,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジョウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "な.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "な.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "turn into",
     "become",
@@ -46,6 +68,7 @@
     "elapse",
     "reach"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

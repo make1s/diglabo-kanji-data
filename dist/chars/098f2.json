@@ -40,11 +40,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "の.む",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "drink",
     "smoke",
     "take"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

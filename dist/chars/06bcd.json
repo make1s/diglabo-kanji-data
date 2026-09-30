@@ -34,9 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ボ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はは",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "mother"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

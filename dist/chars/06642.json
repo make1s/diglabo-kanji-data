@@ -35,10 +35,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "とき",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "time",
     "hour"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -30,6 +30,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "オン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "grace",
     "kindness",
@@ -39,6 +48,7 @@
     "blessing",
     "benefit"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

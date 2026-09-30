@@ -33,10 +33,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "や",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "dart",
     "arrow"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

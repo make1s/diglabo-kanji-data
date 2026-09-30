@@ -35,9 +35,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゲ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "なつ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "summer"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -33,9 +33,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "およ.ぐ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "swim"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

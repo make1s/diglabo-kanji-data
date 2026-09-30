@@ -37,6 +37,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ま.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "まき",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "scroll",
     "volume",
@@ -48,6 +66,7 @@
     "coil",
     "counter for texts (or book scrolls)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

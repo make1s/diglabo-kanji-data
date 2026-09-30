@@ -33,6 +33,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヤク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くすり",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "medicine",
     "chemical",
@@ -40,6 +54,7 @@
     "gunpowder",
     "benefit"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

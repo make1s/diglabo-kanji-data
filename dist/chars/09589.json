@@ -44,10 +44,37 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヘイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "と.じる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "し.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "し.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "と.ざす",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "closed",
     "shut"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -29,6 +29,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "バク",
+        "stage": "senior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "Dr.",
     "command",
@@ -38,6 +51,7 @@
     "exposition",
     "fair"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

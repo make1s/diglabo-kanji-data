@@ -29,12 +29,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "benevolence",
     "virtue",
     "goodness",
     "commanding respect"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

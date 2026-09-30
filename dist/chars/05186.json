@@ -36,11 +36,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まる.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "circle",
     "yen",
     "round"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

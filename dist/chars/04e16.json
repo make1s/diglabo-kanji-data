@@ -34,12 +34,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "セ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "よ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "generation",
     "world",
     "society",
     "public"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

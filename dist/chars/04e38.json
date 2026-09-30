@@ -35,6 +35,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ガン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "まる.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "まる.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "round",
     "full (month)",
@@ -47,6 +69,7 @@
     "seduce",
     "explain away"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -37,6 +37,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "レン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ね.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "practice",
     "gloss",
@@ -45,6 +59,7 @@
     "polish",
     "refine"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

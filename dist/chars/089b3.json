@@ -36,6 +36,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "outlook",
     "look",
@@ -43,6 +52,7 @@
     "condition",
     "view"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

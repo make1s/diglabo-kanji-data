@@ -39,11 +39,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヘイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ビョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たい.ら",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひら",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "even",
     "flat",
     "peace"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

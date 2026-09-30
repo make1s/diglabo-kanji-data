@@ -36,12 +36,35 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "やす.む",
+        "stage": "elementary"
+      },
+      {
+        "reading": "やす.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "やす.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "rest",
     "day off",
     "retire",
     "sleep"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

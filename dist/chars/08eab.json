@@ -37,11 +37,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "み",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "somebody",
     "person",
     "one's station in life"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

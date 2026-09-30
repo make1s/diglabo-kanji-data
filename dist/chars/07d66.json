@@ -36,6 +36,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "salary",
     "wage",
@@ -44,6 +53,7 @@
     "grant",
     "bestow on"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

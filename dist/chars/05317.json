@@ -32,9 +32,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ホク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "きた",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "north"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

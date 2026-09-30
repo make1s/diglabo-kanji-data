@@ -35,10 +35,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジョウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "なわ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "straw rope",
     "cord"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

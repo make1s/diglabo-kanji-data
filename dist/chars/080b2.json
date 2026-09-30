@@ -39,12 +39,35 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "そだ.つ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "そだ.てる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "はぐく.む",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bring up",
     "grow up",
     "raise",
     "rear"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -29,6 +29,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "borough",
     "urban prefecture",
@@ -36,6 +45,7 @@
     "representative body",
     "storehouse"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -34,12 +34,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "クン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "きみ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "mister",
     "you",
     "ruler",
     "male name suffix"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

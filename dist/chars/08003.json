@@ -35,10 +35,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かんが.える",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "consider",
     "think over"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

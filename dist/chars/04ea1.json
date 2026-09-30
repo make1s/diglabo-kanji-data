@@ -35,12 +35,31 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ボウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "モウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "な.い",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "deceased",
     "the late",
     "dying",
     "perish"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -31,10 +31,25 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あたい",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "value",
     "price"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

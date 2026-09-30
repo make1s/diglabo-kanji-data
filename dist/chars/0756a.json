@@ -33,10 +33,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "バン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "turn",
     "number in a series"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

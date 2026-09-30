@@ -31,10 +31,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "cereals",
     "grain"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -44,10 +44,37 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジキ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "く.う",
+        "stage": "elementary"
+      },
+      {
+        "reading": "た.べる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "く.らう",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "eat",
     "food"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

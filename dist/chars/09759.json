@@ -45,9 +45,40 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジョウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "しず-",
+        "stage": "elementary"
+      },
+      {
+        "reading": "しず.か",
+        "stage": "elementary"
+      },
+      {
+        "reading": "しず.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "しず.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "quiet"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

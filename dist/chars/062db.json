@@ -33,12 +33,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まね.く",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "beckon",
     "invite",
     "summon",
     "engage"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

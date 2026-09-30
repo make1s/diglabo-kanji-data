@@ -33,10 +33,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゼン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まえ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "in front",
     "before"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

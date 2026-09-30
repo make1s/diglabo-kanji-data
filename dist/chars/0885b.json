@@ -33,10 +33,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "defense",
     "protection"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

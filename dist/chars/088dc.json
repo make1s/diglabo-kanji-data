@@ -35,6 +35,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ホ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おぎな.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "supplement",
     "supply",
@@ -44,6 +58,7 @@
     "assistant",
     "learner"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

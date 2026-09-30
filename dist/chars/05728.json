@@ -33,12 +33,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ザイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あ.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "exist",
     "outskirts",
     "suburbs",
     "located in"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

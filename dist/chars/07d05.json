@@ -39,10 +39,33 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ク",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "べに",
+        "stage": "elementary"
+      },
+      {
+        "reading": "くれない",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "crimson",
     "deep red"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

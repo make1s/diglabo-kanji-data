@@ -35,12 +35,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "シュ",
+        "stage": "senior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "masses",
     "great numbers",
     "multitude",
     "populace"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

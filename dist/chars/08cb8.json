@@ -37,9 +37,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "か.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "lend"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

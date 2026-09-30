@@ -31,6 +31,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "expert",
     "teacher",
@@ -40,6 +49,7 @@
     "army (incl. counter)",
     "war"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

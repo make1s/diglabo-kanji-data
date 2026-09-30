@@ -41,9 +41,40 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ガイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゲ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "そと",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ほか",
+        "stage": "elementary"
+      },
+      {
+        "reading": "はず.す",
+        "stage": "elementary"
+      },
+      {
+        "reading": "はず.れる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "outside"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

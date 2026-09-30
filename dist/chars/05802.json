@@ -29,10 +29,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ドウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "public chamber",
     "hall"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

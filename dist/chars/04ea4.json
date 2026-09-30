@@ -45,12 +45,51 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まじ.わる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "まじ.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ま.じる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ま.ざる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ま.ぜる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "-か.う",
+        "stage": "junior"
+      },
+      {
+        "reading": "か.わす",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "mingle",
     "mixing",
     "association",
     "coming & going"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

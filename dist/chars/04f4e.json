@@ -36,11 +36,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひく.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひく.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひく.まる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "lower",
     "short",
     "humble"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

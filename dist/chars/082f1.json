@@ -31,6 +31,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "England",
     "English",
@@ -38,6 +47,7 @@
     "outstanding",
     "calyx"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

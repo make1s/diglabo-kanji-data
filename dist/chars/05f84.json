@@ -34,11 +34,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "diameter",
     "path",
     "method"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

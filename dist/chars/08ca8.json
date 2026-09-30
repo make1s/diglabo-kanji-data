@@ -35,11 +35,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "freight",
     "goods",
     "property"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

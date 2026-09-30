@@ -38,11 +38,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ネン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "も.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "も.やす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "も.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "burn",
     "blaze",
     "glow"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

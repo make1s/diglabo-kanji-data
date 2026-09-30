@@ -39,6 +39,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サツ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "サイ",
+        "stage": "senior"
+      },
+      {
+        "reading": "セツ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ころ.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "kill",
     "murder",
@@ -49,6 +71,7 @@
     "reduce",
     "spoil"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

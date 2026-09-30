@@ -35,10 +35,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "も.つ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "hold",
     "have"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

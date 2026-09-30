@@ -32,6 +32,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ソウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "religion",
     "sect",
@@ -40,6 +53,7 @@
     "origin",
     "essence"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -34,9 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ギュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "cow"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

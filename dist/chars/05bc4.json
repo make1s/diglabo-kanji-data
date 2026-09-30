@@ -36,6 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "よ.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "よ.せる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "draw near",
     "stop in",
@@ -45,6 +63,7 @@
     "send",
     "forward"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

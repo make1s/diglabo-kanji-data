@@ -35,9 +35,19 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [],
+    "kun": [
+      {
+        "reading": "かい",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "shellfish"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

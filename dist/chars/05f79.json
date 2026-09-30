@@ -30,6 +30,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヤク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "エキ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "duty",
     "war",
@@ -39,6 +52,7 @@
     "service",
     "role"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

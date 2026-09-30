@@ -37,6 +37,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ケ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ば.ける",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ば.かす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "change",
     "take the form of",
@@ -45,6 +67,7 @@
     "delude",
     "-ization"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

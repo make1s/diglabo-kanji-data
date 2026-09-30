@@ -36,12 +36,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "サ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つく.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "make",
     "production",
     "prepare",
     "build"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

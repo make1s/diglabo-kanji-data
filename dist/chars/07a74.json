@@ -33,6 +33,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケツ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あな",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "hole",
     "aperture",
@@ -40,6 +54,7 @@
     "cave",
     "den"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

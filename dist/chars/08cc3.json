@@ -33,6 +33,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "fare",
     "fee",
@@ -41,6 +50,7 @@
     "wages",
     "charge"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

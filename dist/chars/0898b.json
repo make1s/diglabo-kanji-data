@@ -41,6 +41,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "み.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "み.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "み.せる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "see",
     "hopes",
@@ -50,6 +72,7 @@
     "look at",
     "visible"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -34,12 +34,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いとな.む",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "camp",
     "perform",
     "build",
     "conduct (business)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

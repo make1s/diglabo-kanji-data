@@ -34,6 +34,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ネツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あつ.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "heat",
     "temperature",
@@ -41,6 +55,7 @@
     "mania",
     "passion"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

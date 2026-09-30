@@ -35,11 +35,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゲン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かぎ.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "limit",
     "restrict",
     "to best of ability"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

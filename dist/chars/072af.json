@@ -32,11 +32,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おか.す",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "crime",
     "sin",
     "offense"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

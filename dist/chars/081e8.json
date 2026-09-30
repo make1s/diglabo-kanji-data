@@ -35,6 +35,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "のぞ.む",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "look to",
     "face",
@@ -43,6 +57,7 @@
     "attend",
     "call on"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

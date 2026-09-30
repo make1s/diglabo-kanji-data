@@ -36,11 +36,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "フウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "と.む",
+        "stage": "elementary"
+      },
+      {
+        "reading": "とみ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "wealth",
     "enrich",
     "abundant"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

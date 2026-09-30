@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "え.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "う.る",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "gain",
     "get",
@@ -47,6 +65,7 @@
     "advantage",
     "benefit"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

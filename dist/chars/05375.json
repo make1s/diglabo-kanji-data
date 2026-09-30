@@ -30,12 +30,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ラン",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たまご",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "egg",
     "ovum",
     "spawn",
     "roe"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

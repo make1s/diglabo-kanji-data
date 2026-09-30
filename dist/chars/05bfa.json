@@ -33,9 +33,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "てら",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "Buddhist temple"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

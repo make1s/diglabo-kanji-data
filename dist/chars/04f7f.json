@@ -35,6 +35,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つか.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "use",
     "send on a mission",
@@ -44,6 +58,7 @@
     "ambassador",
     "cause"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

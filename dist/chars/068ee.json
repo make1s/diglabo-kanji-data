@@ -34,10 +34,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "もり",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "forest",
     "woods"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

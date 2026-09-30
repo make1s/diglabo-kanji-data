@@ -40,11 +40,38 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ま.じる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ま.ざる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ま.ぜる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "こ.む",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "mix",
     "blend",
     "confuse"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

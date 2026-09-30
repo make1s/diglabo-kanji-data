@@ -41,10 +41,37 @@
   "eduReadingsSpecial": [
     "よう"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハチ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "や",
+        "stage": "elementary"
+      },
+      {
+        "reading": "や.つ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "やっ.つ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "よう",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "eight",
     "eight radical (no. 12)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

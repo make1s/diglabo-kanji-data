@@ -31,10 +31,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "メイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "alliance",
     "oath"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

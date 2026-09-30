@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "お.く",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "placement",
     "put",
@@ -46,6 +60,7 @@
     "employ",
     "pawn"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

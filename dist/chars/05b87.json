@@ -29,12 +29,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "eaves",
     "roof",
     "house",
     "heaven"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

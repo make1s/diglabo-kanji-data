@@ -36,6 +36,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つい.やす",
+        "stage": "junior"
+      },
+      {
+        "reading": "つい.える",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "expense",
     "cost",
@@ -43,6 +61,7 @@
     "consume",
     "waste"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

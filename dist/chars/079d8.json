@@ -35,10 +35,25 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひ.める",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "secret",
     "conceal"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

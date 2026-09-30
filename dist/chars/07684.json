@@ -35,6 +35,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まと",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bull's eye",
     "mark",
@@ -42,6 +56,7 @@
     "object",
     "adjective ending"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

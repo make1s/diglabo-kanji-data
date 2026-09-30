@@ -38,9 +38,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ゆき",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "snow"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

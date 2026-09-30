@@ -35,9 +35,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くち",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "mouth"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

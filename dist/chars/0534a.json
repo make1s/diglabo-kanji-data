@@ -32,6 +32,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "なか.ば",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "half",
     "middle",
@@ -39,6 +53,7 @@
     "semi-",
     "part-"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

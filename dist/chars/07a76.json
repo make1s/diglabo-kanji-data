@@ -34,10 +34,25 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "きわ.める",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "research",
     "study"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

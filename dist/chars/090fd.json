@@ -35,12 +35,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ト",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みやこ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "metropolis",
     "capital",
     "all",
     "everything"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

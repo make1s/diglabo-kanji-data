@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いた.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "climax",
     "arrive",
@@ -44,6 +58,7 @@
     "attain",
     "result in"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

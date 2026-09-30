@@ -43,6 +43,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ツウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ツ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "とお.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "とお.す",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かよ.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "traffic",
     "pass through",
@@ -50,6 +76,7 @@
     "commute",
     "counter for letters, notes, documents, etc."
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

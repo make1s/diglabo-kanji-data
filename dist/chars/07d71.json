@@ -34,12 +34,27 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "す.べる",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "overall",
     "relationship",
     "ruling",
     "governing"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -34,10 +34,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひか.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひかり",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "ray",
     "light"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

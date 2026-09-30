@@ -33,9 +33,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "キン",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いま",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "now"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

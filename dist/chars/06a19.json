@@ -33,6 +33,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "signpost",
     "seal",
@@ -46,6 +55,7 @@
     "souvenir",
     "target"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

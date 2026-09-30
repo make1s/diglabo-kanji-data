@@ -36,10 +36,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "し.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "know",
     "wisdom"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

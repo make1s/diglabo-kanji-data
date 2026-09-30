@@ -37,6 +37,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ツイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "vis-a-vis",
     "opposite",
@@ -46,6 +59,7 @@
     "anti-",
     "compare"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

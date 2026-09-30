@@ -48,10 +48,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "と.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "と.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "stop",
     "halt"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

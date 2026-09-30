@@ -36,6 +36,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "un-",
     "mistake",
@@ -43,6 +52,7 @@
     "injustice",
     "non-"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

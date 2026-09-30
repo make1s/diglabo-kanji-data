@@ -32,9 +32,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ふゆ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "winter"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -38,6 +38,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハツ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ホツ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "departure",
     "discharge",
@@ -47,6 +60,7 @@
     "disclose",
     "counter for gunshots"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

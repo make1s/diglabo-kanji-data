@@ -32,6 +32,15 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [],
+    "kun": [
+      {
+        "reading": "かぶ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "stocks",
     "stump",
@@ -39,6 +48,7 @@
     "stock",
     "counter for small plants"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

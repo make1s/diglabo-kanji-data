@@ -42,10 +42,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "お.わる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "お.える",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "end",
     "finish"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

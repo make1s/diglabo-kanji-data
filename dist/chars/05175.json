@@ -32,6 +32,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヘイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ヒョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "soldier",
     "private",
@@ -41,6 +54,7 @@
     "strategy",
     "tactics"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

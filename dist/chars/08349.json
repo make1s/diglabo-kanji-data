@@ -35,6 +35,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くさ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "grass",
     "weeds",
@@ -43,6 +57,7 @@
     "write",
     "draft"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -38,12 +38,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ラン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みだ.れる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "みだ.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "riot",
     "war",
     "disorder",
     "disturb"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

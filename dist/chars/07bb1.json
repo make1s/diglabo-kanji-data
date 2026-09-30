@@ -34,6 +34,15 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [],
+    "kun": [
+      {
+        "reading": "はこ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "box",
     "chest",
@@ -41,6 +50,7 @@
     "bin",
     "railway car"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

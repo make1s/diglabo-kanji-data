@@ -32,6 +32,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "えだ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bough",
     "branch",
@@ -39,6 +53,7 @@
     "limb",
     "counter for branches"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

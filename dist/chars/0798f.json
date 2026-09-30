@@ -30,12 +30,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "blessing",
     "fortune",
     "luck",
     "wealth"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

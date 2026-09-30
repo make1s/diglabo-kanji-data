@@ -34,11 +34,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さが.す",
+        "stage": "elementary"
+      },
+      {
+        "reading": "さぐ.る",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "grope",
     "search",
     "look for"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

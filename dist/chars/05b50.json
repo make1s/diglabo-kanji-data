@@ -38,12 +38,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ス",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "child",
     "sign of the rat",
     "11PM-1AM",
     "first sign of Chinese zodiac"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -37,11 +37,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "わたくし",
+        "stage": "elementary"
+      },
+      {
+        "reading": "わたし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "private",
     "I",
     "me"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

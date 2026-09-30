@@ -31,6 +31,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "レイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ライ",
+        "stage": "senior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "salute",
     "bow",
@@ -38,6 +51,7 @@
     "thanks",
     "remuneration"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

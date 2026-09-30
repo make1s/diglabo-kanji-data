@@ -34,10 +34,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シャ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "もの",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "someone",
     "person"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

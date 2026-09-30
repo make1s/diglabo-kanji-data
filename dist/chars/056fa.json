@@ -38,12 +38,35 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かた.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かた.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かた.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "harden",
     "set",
     "clot",
     "curdle"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

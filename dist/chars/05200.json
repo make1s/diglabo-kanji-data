@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かたな",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "sword",
     "saber",
     "knife"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

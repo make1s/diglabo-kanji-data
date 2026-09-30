@@ -28,10 +28,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゲキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "drama",
     "play"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

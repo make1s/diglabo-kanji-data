@@ -35,12 +35,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゾウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つく.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "create",
     "make",
     "structure",
     "physique"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -38,6 +38,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "モク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ボク",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "め",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ま-",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "eye",
     "class",
@@ -47,6 +69,7 @@
     "care",
     "favor"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

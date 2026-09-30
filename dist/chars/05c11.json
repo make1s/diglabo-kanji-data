@@ -35,10 +35,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "すく.ない",
+        "stage": "elementary"
+      },
+      {
+        "reading": "すこ.し",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "few",
     "little"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

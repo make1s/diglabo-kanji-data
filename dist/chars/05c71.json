@@ -34,9 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "やま",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "mountain"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

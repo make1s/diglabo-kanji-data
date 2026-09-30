@@ -36,12 +36,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ふで",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "writing brush",
     "writing",
     "painting brush",
     "handwriting"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

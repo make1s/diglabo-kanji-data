@@ -33,10 +33,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヨウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おさな.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "infancy",
     "childhood"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

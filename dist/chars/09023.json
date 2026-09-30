@@ -38,6 +38,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "レン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つら.なる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "つら.ねる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "つ.れる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "take along",
     "lead",
@@ -47,6 +69,7 @@
     "gang",
     "clique"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

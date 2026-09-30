@@ -29,6 +29,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "performance",
     "act",
@@ -36,6 +45,7 @@
     "render",
     "stage"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

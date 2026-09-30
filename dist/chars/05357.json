@@ -33,9 +33,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ナン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ナ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みなみ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "south"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

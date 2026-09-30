@@ -42,6 +42,36 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くる.しい",
+        "stage": "elementary"
+      },
+      {
+        "reading": "くる.しむ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "くる.しめる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "にが.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "にが.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "suffering",
     "trial",
@@ -50,6 +80,7 @@
     "feel bitter",
     "scowl"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -31,6 +31,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セン",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あさ.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "shallow",
     "superficial",
@@ -38,6 +52,7 @@
     "wretched",
     "shameful"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

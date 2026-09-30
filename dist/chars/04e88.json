@@ -30,12 +30,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヨ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "beforehand",
     "previous",
     "myself",
     "I"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

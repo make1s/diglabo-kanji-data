@@ -39,12 +39,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "なが.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "long",
     "leader",
     "superior",
     "senior"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

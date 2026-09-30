@@ -31,6 +31,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "きざ.す",
+        "stage": "senior"
+      },
+      {
+        "reading": "きざ.し",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "portent",
     "10**12",
@@ -39,6 +57,7 @@
     "omen",
     "symptoms"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

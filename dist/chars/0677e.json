@@ -34,9 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まつ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "pine tree"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

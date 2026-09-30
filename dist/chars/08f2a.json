@@ -37,6 +37,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "わ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "wheel",
     "ring",
@@ -45,6 +59,7 @@
     "loop",
     "counter for wheels and flowers"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

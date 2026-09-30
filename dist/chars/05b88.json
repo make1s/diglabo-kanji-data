@@ -41,12 +41,35 @@
   "eduReadingsSpecial": [
     "ス"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ス",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まも.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "もり",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "guard",
     "protect",
     "defend",
     "obey"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

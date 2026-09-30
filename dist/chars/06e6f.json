@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ゆ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "hot water",
     "bath",
     "hot spring"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

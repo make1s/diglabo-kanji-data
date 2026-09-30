@@ -34,6 +34,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ホン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "もと",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "book",
     "present",
@@ -43,6 +57,7 @@
     "real",
     "counter for long cylindrical things"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -39,6 +39,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "く.む",
+        "stage": "elementary"
+      },
+      {
+        "reading": "くみ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "association",
     "braid",
@@ -49,6 +67,7 @@
     "cooperate",
     "grapple"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -33,12 +33,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "とな.える",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "chant",
     "recite",
     "call upon",
     "yell"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

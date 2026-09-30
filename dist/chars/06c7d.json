@@ -29,10 +29,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "vapor",
     "steam"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

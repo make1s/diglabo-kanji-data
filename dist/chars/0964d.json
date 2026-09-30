@@ -41,12 +41,35 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "お.りる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "お.ろす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ふ.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "descend",
     "precipitate",
     "fall",
     "surrender"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

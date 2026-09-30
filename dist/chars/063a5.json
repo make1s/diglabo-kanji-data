@@ -32,12 +32,27 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つ.ぐ",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "touch",
     "contact",
     "adjoin",
     "piece together"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

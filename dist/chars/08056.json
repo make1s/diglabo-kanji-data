@@ -35,6 +35,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "holy",
     "saint",
@@ -42,6 +51,7 @@
     "master",
     "priest"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

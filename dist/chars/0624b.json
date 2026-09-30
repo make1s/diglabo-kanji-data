@@ -38,9 +38,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "て",
+        "stage": "elementary"
+      },
+      {
+        "reading": "た-",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "hand"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

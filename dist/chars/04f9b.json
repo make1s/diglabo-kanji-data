@@ -38,6 +38,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ク",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "そな.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "とも",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "submit",
     "offer",
@@ -45,6 +67,7 @@
     "serve (meal)",
     "accompany"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

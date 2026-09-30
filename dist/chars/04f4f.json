@@ -37,12 +37,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "す.む",
+        "stage": "elementary"
+      },
+      {
+        "reading": "す.まう",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "dwell",
     "reside",
     "live",
     "inhabit"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

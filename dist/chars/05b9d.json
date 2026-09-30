@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ホウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たから",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "treasure",
     "wealth",
     "valuables"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

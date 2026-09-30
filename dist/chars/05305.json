@@ -33,12 +33,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ホウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つつ.む",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "wrap",
     "pack up",
     "cover",
     "conceal"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

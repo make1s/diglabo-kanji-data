@@ -42,9 +42,36 @@
   "eduReadingsSpecial": [
     "しら-"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ビャク",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "しろ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "しろ.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "しら-",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "white"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

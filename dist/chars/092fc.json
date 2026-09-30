@@ -36,9 +36,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はがね",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "steel"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -38,10 +38,37 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ホ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ブ",
+        "stage": "junior"
+      },
+      {
+        "reading": "フ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ある.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あゆ.む",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "walk",
     "counter for steps"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -32,12 +32,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たわら",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bag",
     "bale",
     "sack",
     "counter for bags"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

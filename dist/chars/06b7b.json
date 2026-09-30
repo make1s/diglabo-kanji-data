@@ -35,10 +35,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "し.ぬ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "death",
     "die"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

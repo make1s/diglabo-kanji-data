@@ -32,11 +32,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゾウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "entrails",
     "viscera",
     "bowels"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

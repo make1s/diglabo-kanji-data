@@ -33,12 +33,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つ.げる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "revelation",
     "tell",
     "inform",
     "announce"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

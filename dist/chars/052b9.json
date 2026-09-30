@@ -34,12 +34,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "き.く",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "merit",
     "efficacy",
     "efficiency",
     "benefit"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

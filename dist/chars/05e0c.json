@@ -33,6 +33,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "hope",
     "beg",
@@ -45,6 +54,7 @@
     "few",
     "phenomenal"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

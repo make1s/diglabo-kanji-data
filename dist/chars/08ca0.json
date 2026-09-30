@@ -41,6 +41,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ま.ける",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ま.かす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "お.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "defeat",
     "negative",
@@ -50,6 +72,7 @@
     "owe",
     "assume a responsibility"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

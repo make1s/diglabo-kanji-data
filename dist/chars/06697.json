@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "アン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くら.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "darkness",
     "disappear",
@@ -44,6 +58,7 @@
     "grow dark",
     "be blinded"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

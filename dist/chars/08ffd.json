@@ -33,6 +33,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ツイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "お.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "chase",
     "drive away",
@@ -40,6 +54,7 @@
     "pursue",
     "meanwhile"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

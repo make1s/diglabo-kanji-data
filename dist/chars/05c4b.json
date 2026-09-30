@@ -33,6 +33,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "オク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "や",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "roof",
     "house",
@@ -40,6 +54,7 @@
     "dealer",
     "seller"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

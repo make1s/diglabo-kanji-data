@@ -36,12 +36,35 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゲン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゴン",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "きび.しい",
+        "stage": "elementary"
+      },
+      {
+        "reading": "おごそ.か",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "stern",
     "strictness",
     "severity",
     "rigidity"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

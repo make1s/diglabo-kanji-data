@@ -33,6 +33,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ユウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "やさ.しい",
+        "stage": "junior"
+      },
+      {
+        "reading": "すぐ.れる",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "tenderness",
     "excel",
@@ -41,6 +59,7 @@
     "superiority",
     "gentleness"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

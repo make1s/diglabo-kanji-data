@@ -34,9 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひがし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "east"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

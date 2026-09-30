@@ -30,11 +30,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "ancestor",
     "pioneer",
     "founder"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

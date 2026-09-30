@@ -33,6 +33,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シャ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "す.てる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "discard",
     "throw away",
@@ -41,6 +55,7 @@
     "reject",
     "sacrifice"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

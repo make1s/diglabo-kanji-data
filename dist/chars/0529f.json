@@ -31,6 +31,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ク",
+        "stage": "senior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "achievement",
     "merits",
@@ -38,6 +51,7 @@
     "honor",
     "credit"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

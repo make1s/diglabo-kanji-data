@@ -32,12 +32,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "code",
     "ceremony",
     "law",
     "rule"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

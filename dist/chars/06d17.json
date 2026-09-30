@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あら.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "wash",
     "inquire into",
     "probe"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

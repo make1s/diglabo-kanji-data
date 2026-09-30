@@ -35,9 +35,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "スイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みず",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "water"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

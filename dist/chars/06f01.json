@@ -33,10 +33,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ギョ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "リョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "fishing",
     "fishery"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -32,6 +32,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "きわ",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "occasion",
     "side",
@@ -43,6 +57,7 @@
     "time",
     "when"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

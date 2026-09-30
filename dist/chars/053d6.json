@@ -36,11 +36,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "と.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "take",
     "fetch",
     "take up"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -37,11 +37,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "せ.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "blame",
     "condemn",
     "censure"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

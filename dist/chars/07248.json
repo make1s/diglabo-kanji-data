@@ -30,6 +30,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "printing block",
     "printing plate",
@@ -37,6 +46,7 @@
     "impression",
     "label"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

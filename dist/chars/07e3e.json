@@ -32,11 +32,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "exploits",
     "achievements",
     "unreeling cocoons"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

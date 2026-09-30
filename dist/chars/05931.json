@@ -34,6 +34,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うしな.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "lose",
     "error",
@@ -41,6 +55,7 @@
     "disadvantage",
     "loss"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

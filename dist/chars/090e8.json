@@ -31,6 +31,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ブ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "section",
     "bureau",
@@ -41,6 +50,7 @@
     "portion",
     "counter for copies of a newspaper or magazine"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

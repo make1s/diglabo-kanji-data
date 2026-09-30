@@ -36,9 +36,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ギン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "silver"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

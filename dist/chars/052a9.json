@@ -36,11 +36,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジョ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たす.ける",
+        "stage": "elementary"
+      },
+      {
+        "reading": "たす.かる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "すけ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "help",
     "rescue",
     "assist"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

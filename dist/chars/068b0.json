@@ -32,12 +32,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "contraption",
     "fetter",
     "machine",
     "instrument"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

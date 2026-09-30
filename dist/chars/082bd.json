@@ -33,12 +33,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ガ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "め",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bud",
     "sprout",
     "spear",
     "germ"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

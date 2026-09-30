@@ -30,12 +30,27 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "すこ.やか",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "healthy",
     "health",
     "strength",
     "persistence"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -37,6 +37,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たば",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bundle",
     "sheaf",
@@ -46,6 +60,7 @@
     "manage",
     "control"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

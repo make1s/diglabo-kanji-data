@@ -36,9 +36,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "iron"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

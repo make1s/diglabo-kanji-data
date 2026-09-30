@@ -35,10 +35,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "バク",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "むぎ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "barley",
     "wheat"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

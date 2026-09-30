@@ -35,11 +35,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヨク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あ.びる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あ.びせる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bathe",
     "be favored with",
     "bask in"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

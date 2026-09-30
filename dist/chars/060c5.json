@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジョウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "セイ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "なさ.け",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "feelings",
     "emotion",
@@ -42,6 +60,7 @@
     "circumstances",
     "facts"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -38,6 +38,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たし.か",
+        "stage": "elementary"
+      },
+      {
+        "reading": "たし.かめる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "assurance",
     "firm",
@@ -48,6 +66,7 @@
     "clear",
     "evident"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

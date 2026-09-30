@@ -34,9 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "しろ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "castle"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

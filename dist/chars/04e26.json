@@ -37,6 +37,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヘイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "な.み",
+        "stage": "elementary"
+      },
+      {
+        "reading": "なら.べる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "なら.ぶ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "なら.びに",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "row",
     "and",
@@ -47,6 +73,7 @@
     "rival",
     "equal"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

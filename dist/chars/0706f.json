@@ -36,12 +36,27 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひ",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "lamp",
     "a light",
     "light",
     "counter for lights"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

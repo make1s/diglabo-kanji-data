@@ -36,11 +36,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たがや.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "till",
     "plow",
     "cultivate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

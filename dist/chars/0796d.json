@@ -38,6 +38,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まつ.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "まつ.り",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "ritual",
     "offer prayers",
@@ -46,6 +64,7 @@
     "enshrine",
     "worship"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

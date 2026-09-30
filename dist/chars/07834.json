@@ -38,6 +38,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "やぶ.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "やぶ.れる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "rend",
     "rip",
@@ -47,6 +65,7 @@
     "defeat",
     "frustrate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

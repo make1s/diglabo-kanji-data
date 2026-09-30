@@ -41,10 +41,29 @@
   "eduReadingsSpecial": [
     "さか-"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さけ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "さか-",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "sake",
     "alcohol"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

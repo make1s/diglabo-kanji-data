@@ -42,10 +42,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ビ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はな",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "nose",
     "snout"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -35,10 +35,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "retainer",
     "subject"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

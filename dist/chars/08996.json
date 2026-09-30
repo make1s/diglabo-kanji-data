@@ -35,12 +35,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "inspection",
     "regard as",
     "see",
     "look at"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

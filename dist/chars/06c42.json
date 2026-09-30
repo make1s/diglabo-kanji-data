@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "もと.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "request",
     "want",
@@ -43,6 +57,7 @@
     "require",
     "demand"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

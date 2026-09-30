@@ -38,9 +38,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ダン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ナン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おとこ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "male"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

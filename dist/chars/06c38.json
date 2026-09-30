@@ -34,11 +34,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "なが.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "eternity",
     "long",
     "lengthy"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

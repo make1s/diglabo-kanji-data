@@ -37,12 +37,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヘン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かえ.す",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かえ.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "return",
     "answer",
     "fade",
     "repay"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

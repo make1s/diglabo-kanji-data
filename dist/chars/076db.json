@@ -36,11 +36,38 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "junior"
+      },
+      {
+        "reading": "ジョウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "も.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "さか.る",
+        "stage": "junior"
+      },
+      {
+        "reading": "さか.ん",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "boom",
     "prosper",
     "copulate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

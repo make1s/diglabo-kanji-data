@@ -37,9 +37,32 @@
   "eduReadingsSpecial": [
     "なの"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シチ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "なな",
+        "stage": "elementary"
+      },
+      {
+        "reading": "なな.つ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "なの",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "seven"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

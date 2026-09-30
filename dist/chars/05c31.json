@@ -33,6 +33,28 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジュ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つ.く",
+        "stage": "junior"
+      },
+      {
+        "reading": "つ.ける",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "concerning",
     "settle",
@@ -41,6 +63,7 @@
     "study",
     "per"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

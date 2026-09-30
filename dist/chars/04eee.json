@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ケ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かり",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "sham",
     "temporary",
@@ -41,6 +59,7 @@
     "assumed (name)",
     "informal"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

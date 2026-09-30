@@ -46,11 +46,38 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひら.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひら.ける",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あ.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あ.ける",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "open",
     "unfold",
     "unseal"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

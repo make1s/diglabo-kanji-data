@@ -30,12 +30,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キャク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "カク",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "guest",
     "visitor",
     "customer",
     "client"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

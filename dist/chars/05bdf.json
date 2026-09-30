@@ -29,6 +29,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "guess",
     "presume",
@@ -36,6 +45,7 @@
     "judge",
     "understand"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

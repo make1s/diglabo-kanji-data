@@ -41,12 +41,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヨ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あず.ける",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あず.かる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "deposit",
     "custody",
     "leave with",
     "entrust to"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

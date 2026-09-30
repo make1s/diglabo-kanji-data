@@ -34,10 +34,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "よろこ.ぶ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "rejoice",
     "take pleasure in"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

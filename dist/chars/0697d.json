@@ -40,11 +40,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ガク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ラク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たの.しい",
+        "stage": "elementary"
+      },
+      {
+        "reading": "たの.しむ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "music",
     "comfort",
     "ease"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

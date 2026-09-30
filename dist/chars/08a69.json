@@ -35,10 +35,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "poem",
     "poetry"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

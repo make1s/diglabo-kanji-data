@@ -37,12 +37,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ギャク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さか",
+        "stage": "elementary"
+      },
+      {
+        "reading": "さか.らう",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "inverted",
     "reverse",
     "opposite",
     "wicked"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

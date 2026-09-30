@@ -37,10 +37,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "は",
+        "stage": "elementary"
+      },
+      {
+        "reading": "はね",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "feathers",
     "counter for birds, rabbits"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

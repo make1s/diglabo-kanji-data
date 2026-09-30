@@ -32,11 +32,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はい",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "ashes",
     "puckery juice",
     "cremate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

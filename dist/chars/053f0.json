@@ -35,11 +35,25 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ダイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "タイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "pedestal",
     "a stand",
     "counter for machines and vehicles"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

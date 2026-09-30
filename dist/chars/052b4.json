@@ -35,6 +35,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ロウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "labor",
     "thank for",
@@ -42,6 +51,7 @@
     "toil",
     "trouble"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

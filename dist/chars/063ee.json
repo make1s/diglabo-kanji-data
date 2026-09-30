@@ -31,6 +31,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "brandish",
     "wave",
@@ -38,6 +47,7 @@
     "swing",
     "shake"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

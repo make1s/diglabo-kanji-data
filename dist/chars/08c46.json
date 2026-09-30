@@ -42,11 +42,30 @@
   "eduReadingsSpecial": [
     "ズ"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ズ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まめ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "beans",
     "pea",
     "midget"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

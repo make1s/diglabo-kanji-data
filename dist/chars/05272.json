@@ -36,6 +36,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カツ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "わ.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "わり",
+        "stage": "elementary"
+      },
+      {
+        "reading": "わ.れる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "さ.く",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "proportion",
     "comparatively",
@@ -44,6 +70,7 @@
     "separate",
     "split"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

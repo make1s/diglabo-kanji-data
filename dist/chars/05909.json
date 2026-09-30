@@ -36,11 +36,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヘン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "か.わる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "か.える",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "unusual",
     "change",
     "strange"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

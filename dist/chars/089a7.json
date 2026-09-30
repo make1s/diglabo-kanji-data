@@ -35,10 +35,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ラン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "perusal",
     "see"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

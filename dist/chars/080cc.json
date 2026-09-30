@@ -38,6 +38,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "せ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "せい",
+        "stage": "elementary"
+      },
+      {
+        "reading": "そむ.く",
+        "stage": "junior"
+      },
+      {
+        "reading": "そむ.ける",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "stature",
     "height",
@@ -48,6 +74,7 @@
     "go back on",
     "rebel"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

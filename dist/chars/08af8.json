@@ -35,12 +35,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "various",
     "many",
     "several",
     "together"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -43,6 +43,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "せき",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かか.わる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "connection",
     "barrier",
@@ -50,6 +68,7 @@
     "involve",
     "concerning"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -33,11 +33,21 @@
   "eduReadingsSpecial": [
     "おか"
   ],
+  "readingStages": {
+    "on": [],
+    "kun": [
+      {
+        "reading": "おか",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "mount",
     "hill",
     "knoll"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

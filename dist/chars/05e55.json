@@ -33,11 +33,25 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "マク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "バク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "curtain",
     "bunting",
     "act of play"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

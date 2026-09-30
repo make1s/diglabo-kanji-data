@@ -34,12 +34,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "がわ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "side",
     "lean",
     "oppose",
     "regret"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

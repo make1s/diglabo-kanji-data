@@ -35,11 +35,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シャ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あやま.る",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "apologize",
     "thank",
     "refuse"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -32,6 +32,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジュ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "timber",
     "trees",
@@ -39,6 +48,7 @@
     "establish",
     "set up"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

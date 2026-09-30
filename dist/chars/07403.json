@@ -34,10 +34,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たま",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "ball",
     "sphere"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

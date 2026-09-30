@@ -33,12 +33,31 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ギョウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゴウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "わざ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "business",
     "vocation",
     "arts",
     "performance"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

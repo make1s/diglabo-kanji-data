@@ -42,11 +42,25 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゲン",
+        "stage": "senior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "verification",
     "effect",
     "testing"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

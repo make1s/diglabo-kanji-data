@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "すじ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "muscle",
     "sinew",
@@ -45,6 +59,7 @@
     "plan",
     "descent"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

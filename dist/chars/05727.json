@@ -36,6 +36,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "アツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "pressure",
     "push",
@@ -43,6 +52,7 @@
     "oppress",
     "dominate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

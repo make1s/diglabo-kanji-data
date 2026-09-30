@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "なみ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "waves",
     "billows",
     "Poland"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

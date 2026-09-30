@@ -39,12 +39,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あ.たる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あ.てる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "hit",
     "right",
     "appropriate",
     "himself"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

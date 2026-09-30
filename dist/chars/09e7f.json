@@ -43,9 +43,23 @@
   "eduReadingsSpecial": [
     "か"
   ],
+  "readingStages": {
+    "on": [],
+    "kun": [
+      {
+        "reading": "しか",
+        "stage": "elementary"
+      },
+      {
+        "reading": "か",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "deer"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

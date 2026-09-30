@@ -35,6 +35,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヨウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "もち.いる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "utilize",
     "business",
@@ -42,6 +56,7 @@
     "use",
     "employ"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

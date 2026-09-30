@@ -38,10 +38,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ビン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ヒン",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まず.しい",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "poverty",
     "poor"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

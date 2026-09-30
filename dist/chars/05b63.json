@@ -29,9 +29,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "seasons"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

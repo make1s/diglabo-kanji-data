@@ -33,6 +33,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くらい",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "rank",
     "grade",
@@ -41,6 +55,7 @@
     "about",
     "some"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

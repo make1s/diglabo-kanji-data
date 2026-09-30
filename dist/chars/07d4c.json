@@ -42,6 +42,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "キョウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "へ.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "sutra",
     "longitude",
@@ -49,6 +67,7 @@
     "expire",
     "warp"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

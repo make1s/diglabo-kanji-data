@@ -36,6 +36,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ショウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "refined",
     "ghost",
@@ -47,6 +60,7 @@
     "purity",
     "skill"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

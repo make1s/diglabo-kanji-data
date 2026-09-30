@@ -43,12 +43,39 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あし",
+        "stage": "elementary"
+      },
+      {
+        "reading": "た.りる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "た.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "た.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "leg",
     "foot",
     "be sufficient",
     "counter for pairs of footwear"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

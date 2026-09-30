@@ -35,11 +35,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "す.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "printing",
     "print",
     "brush"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

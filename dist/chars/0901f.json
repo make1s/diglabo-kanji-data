@@ -38,10 +38,37 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はや.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "はや.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "はや.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "すみ.やか",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "quick",
     "fast"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

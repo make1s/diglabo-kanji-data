@@ -43,6 +43,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "エ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まわ.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "まわ.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "-times",
     "round",
@@ -50,6 +72,7 @@
     "revolve",
     "counter for occurrences"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

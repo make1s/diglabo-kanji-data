@@ -152,7 +152,10 @@ async function main(): Promise<void> {
     await sharp(Buffer.from(svg)).png({ compressionLevel: 9 }).toFile(`${root}build/${name}.png`);
     console.log(`wrote build/${name}.{svg,html,png}`);
   };
-  await write("overview-kanji", renderGrid(kanji, { columns: 30, cell: 96, label: (r) => String(r.grade) }), "教育漢字 1,026 字（学年順）");
+  const edu = kanji.filter((r) => r.grade !== null);
+  const junior = kanji.filter((r) => r.grade === null);
+  await write("overview-kanji", renderGrid(edu, { columns: 30, cell: 96, label: (r) => String(r.grade) }), "教育漢字 1,026 字（学年順）");
+  await write("overview-joyo", renderGrid(junior, { columns: 30, cell: 96, label: (r) => r.codepoint }), `中学で習う常用漢字 ${junior.length} 字（codepoint 順）`);
   await write("overview-kana", renderGrid(kana, { columns: 20, cell: 96 }), "かな 177 字");
   writeFileSync(root + "build/overview-types.html", renderTypesPage([...kanji, ...kana], table, 10));
   console.log("wrote build/overview-types.html");

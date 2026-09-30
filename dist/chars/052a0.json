@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くわ.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "くわ.わる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "add",
     "addition",
@@ -42,6 +60,7 @@
     "include",
     "Canada"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -33,11 +33,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うじ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "family name",
     "surname",
     "clan"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

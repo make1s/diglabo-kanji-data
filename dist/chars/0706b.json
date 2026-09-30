@@ -36,9 +36,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ほ-",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "fire"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

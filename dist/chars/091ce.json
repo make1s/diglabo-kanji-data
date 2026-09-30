@@ -39,12 +39,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヤ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "の",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "plains",
     "field",
     "rustic",
     "civilian life"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

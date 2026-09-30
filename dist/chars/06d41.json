@@ -38,12 +38,35 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リュウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ル",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "なが.れる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "なが.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "current",
     "a sink",
     "flow",
     "forfeit"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

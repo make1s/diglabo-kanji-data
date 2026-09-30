@@ -45,6 +45,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "クウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "そら",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あ.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あ.ける",
+        "stage": "elementary"
+      },
+      {
+        "reading": "から",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "empty",
     "sky",
@@ -52,6 +78,7 @@
     "vacant",
     "vacuum"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

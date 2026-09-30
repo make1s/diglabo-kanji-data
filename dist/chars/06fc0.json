@@ -33,6 +33,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゲキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はげ.しい",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "violent",
     "get excited",
@@ -40,6 +54,7 @@
     "chafe",
     "incite"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

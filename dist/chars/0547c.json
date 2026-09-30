@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "よ.ぶ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "call",
     "call out to",
     "invite"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

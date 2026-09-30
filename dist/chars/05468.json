@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まわ.り",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "circumference",
     "circuit",
     "lap"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

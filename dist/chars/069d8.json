@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヨウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さま",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "Esq.",
     "way",
@@ -43,6 +57,7 @@
     "situation",
     "polite suffix"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

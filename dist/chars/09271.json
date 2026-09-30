@@ -36,10 +36,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "mineral",
     "ore"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

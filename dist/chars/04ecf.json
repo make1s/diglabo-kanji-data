@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ブツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ほとけ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "Buddha",
     "the dead",
     "France"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -33,9 +33,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かわ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "river"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

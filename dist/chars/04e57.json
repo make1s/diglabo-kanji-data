@@ -35,6 +35,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "の.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "の.せる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "ride",
     "power",
@@ -45,6 +63,7 @@
     "mount",
     "join"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -37,6 +37,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リツ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ソツ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひき.いる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "ratio",
     "rate",
@@ -47,6 +65,7 @@
     "spearhead",
     "command"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

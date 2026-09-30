@@ -30,12 +30,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "clothing",
     "admit",
     "obey",
     "discharge"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

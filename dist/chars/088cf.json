@@ -34,6 +34,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うら",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "back",
     "amidst",
@@ -46,6 +60,7 @@
     "lining",
     "wrong side"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

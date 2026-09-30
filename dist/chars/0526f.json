@@ -28,6 +28,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "vice-",
     "assistant",
@@ -35,6 +44,7 @@
     "duplicate",
     "copy"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

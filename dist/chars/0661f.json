@@ -36,12 +36,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ショウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ほし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "star",
     "spot",
     "dot",
     "mark"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

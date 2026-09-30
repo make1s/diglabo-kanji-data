@@ -38,11 +38,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ぜに",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "coin",
     ".01 yen",
     "money"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

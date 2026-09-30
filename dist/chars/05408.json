@@ -49,12 +49,43 @@
   "eduReadingsSpecial": [
     "カッ"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゴウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ガッ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "カッ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あ.う",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あ.わす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あ.わせる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "fit",
     "suit",
     "join",
     "0.1"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

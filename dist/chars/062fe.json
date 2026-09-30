@@ -32,6 +32,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュウ",
+        "stage": "junior"
+      },
+      {
+        "reading": "ジュウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひろ.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "pick up",
     "gather",
@@ -39,6 +57,7 @@
     "go on foot",
     "ten"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

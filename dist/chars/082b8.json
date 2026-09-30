@@ -34,6 +34,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゲイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "technique",
     "art",
@@ -43,6 +52,7 @@
     "trick",
     "stunt"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

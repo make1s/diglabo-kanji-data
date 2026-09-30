@@ -38,12 +38,35 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "て.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "て.らす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "て.れる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "illuminate",
     "shine",
     "compare",
     "bashful"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

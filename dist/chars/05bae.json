@@ -36,12 +36,35 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キュウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "グウ",
+        "stage": "junior"
+      },
+      {
+        "reading": "ク",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みや",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "Shinto shrine",
     "constellations",
     "palace",
     "princess"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

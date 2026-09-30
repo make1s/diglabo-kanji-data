@@ -37,10 +37,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ギョク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たま",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "jewel",
     "ball"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

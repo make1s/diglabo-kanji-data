@@ -33,12 +33,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こころよ.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "cheerful",
     "pleasant",
     "agreeable",
     "comfortable"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

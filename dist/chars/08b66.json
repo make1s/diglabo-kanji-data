@@ -35,10 +35,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "admonish",
     "commandment"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

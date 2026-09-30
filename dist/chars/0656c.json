@@ -35,12 +35,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うやま.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "awe",
     "respect",
     "honor",
     "revere"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

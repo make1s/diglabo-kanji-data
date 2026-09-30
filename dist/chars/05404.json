@@ -31,11 +31,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おのおの",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "each",
     "every",
     "either"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -36,6 +36,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セン",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "そ.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "そ.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "し.みる",
+        "stage": "senior"
+      },
+      {
+        "reading": "し.み",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "dye",
     "color",
@@ -43,6 +69,7 @@
     "stain",
     "print"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -29,12 +29,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "スン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "measurement",
     "tenth of a shaku",
     "a little",
     "small"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -43,6 +43,40 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ノウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ナッ",
+        "stage": "junior"
+      },
+      {
+        "reading": "ナ",
+        "stage": "senior"
+      },
+      {
+        "reading": "ナン",
+        "stage": "senior"
+      },
+      {
+        "reading": "トウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おさ.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "おさ.まる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "settlement",
     "obtain",
@@ -51,6 +85,7 @@
     "supply",
     "store"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

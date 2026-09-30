@@ -31,11 +31,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ダン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "grade",
     "steps",
     "stairs"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

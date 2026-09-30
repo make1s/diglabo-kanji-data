@@ -33,10 +33,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まご",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "grandchild",
     "descendants"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

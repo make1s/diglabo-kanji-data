@@ -36,9 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コク",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たに",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "valley"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

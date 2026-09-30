@@ -45,10 +45,37 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ズ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ト",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あたま",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かしら",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "head",
     "counter for large animals"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

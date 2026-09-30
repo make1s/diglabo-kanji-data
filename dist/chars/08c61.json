@@ -37,6 +37,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゾウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "elephant",
     "pattern after",
@@ -45,6 +58,7 @@
     "shape",
     "sign (of the times)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

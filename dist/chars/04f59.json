@@ -36,6 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヨ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あま.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あま.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "too much",
     "myself",
@@ -43,6 +61,7 @@
     "other",
     "remainder"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -37,10 +37,25 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "モン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かど",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "gate",
     "counter for cannons"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

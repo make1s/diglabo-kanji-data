@@ -34,12 +34,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シン",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "もう.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "have the honor to",
     "sign of the monkey",
     "3-5PM",
     "ninth sign of Chinese zodiac"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

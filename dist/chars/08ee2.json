@@ -47,11 +47,38 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ころ.がる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ころ.げる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ころ.がす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ころ.ぶ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "revolve",
     "turn around",
     "change"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

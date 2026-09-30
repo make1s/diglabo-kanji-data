@@ -31,6 +31,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "に.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "becoming",
     "resemble",
@@ -38,6 +52,7 @@
     "imitate",
     "suitable"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

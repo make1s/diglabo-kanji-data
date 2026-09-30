@@ -38,12 +38,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "スイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "た.れる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "た.らす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "droop",
     "suspend",
     "hang",
     "slouch"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

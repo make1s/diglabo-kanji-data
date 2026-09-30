@@ -33,6 +33,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あらわ.す",
+        "stage": "junior"
+      },
+      {
+        "reading": "いちじる.しい",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "renowned",
     "publish",
@@ -47,6 +65,7 @@
     "counter for suits of clothing",
     "literary work"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

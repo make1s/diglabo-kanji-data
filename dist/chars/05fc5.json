@@ -34,11 +34,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かなら.ず",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "invariably",
     "certain",
     "inevitable"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

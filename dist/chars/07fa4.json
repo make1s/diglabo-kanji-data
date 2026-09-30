@@ -43,6 +43,28 @@
   "eduReadingsSpecial": [
     "むら"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "グン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "む.れる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "む.れ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "むら",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "flock",
     "group",
@@ -51,6 +73,7 @@
     "swarm",
     "cluster"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

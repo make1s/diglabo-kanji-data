@@ -34,11 +34,25 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ニ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "newborn babe",
     "child",
     "young of animals"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

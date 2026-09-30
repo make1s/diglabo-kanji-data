@@ -31,6 +31,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うつわ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "utensil",
     "vessel",
@@ -42,6 +56,7 @@
     "tool",
     "set"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

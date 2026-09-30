@@ -28,10 +28,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "オク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "hundred million",
     "10**8"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -35,6 +35,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "グン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "army",
     "force",
@@ -42,6 +51,7 @@
     "war",
     "battle"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

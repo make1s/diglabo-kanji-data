@@ -32,6 +32,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "rule",
     "law",
@@ -39,6 +48,7 @@
     "based on",
     "model after"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

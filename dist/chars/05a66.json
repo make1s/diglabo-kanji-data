@@ -31,12 +31,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "lady",
     "woman",
     "wife",
     "bride"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

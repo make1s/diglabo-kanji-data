@@ -41,10 +41,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ト",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "のぼ.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "ascend",
     "climb up"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

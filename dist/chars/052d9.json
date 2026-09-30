@@ -33,10 +33,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ム",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つと.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "つと.まる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "task",
     "duties"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

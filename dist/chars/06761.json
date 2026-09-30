@@ -35,6 +35,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "article",
     "clause",
@@ -44,6 +53,7 @@
     "stripe",
     "streak"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

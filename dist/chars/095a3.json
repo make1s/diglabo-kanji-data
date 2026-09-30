@@ -34,11 +34,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "tower",
     "tall building",
     "palace"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

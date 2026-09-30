@@ -33,12 +33,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つか.える",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "attend",
     "doing",
     "official",
     "serve"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

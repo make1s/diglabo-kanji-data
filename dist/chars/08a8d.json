@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ニン",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みと.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "acknowledge",
     "witness",
@@ -44,6 +58,7 @@
     "appreciate",
     "believe"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

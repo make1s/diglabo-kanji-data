@@ -36,6 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ダン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ことわ.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "た.つ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "severance",
     "decline",
@@ -48,6 +66,7 @@
     "judgement",
     "cutting"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

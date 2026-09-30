@@ -35,6 +35,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "き.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "け.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "extinguish",
     "blow out",
@@ -42,6 +60,7 @@
     "neutralize",
     "cancel"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

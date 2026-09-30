@@ -31,6 +31,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リツ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "リチ",
+        "stage": "senior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "rhythm",
     "law",
@@ -38,6 +51,7 @@
     "gauge",
     "control"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

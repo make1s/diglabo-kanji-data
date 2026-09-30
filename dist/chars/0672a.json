@@ -35,6 +35,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ミ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "un-",
     "not yet",
@@ -45,6 +54,7 @@
     "1-3PM",
     "eighth sign of Chinese zodiac"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

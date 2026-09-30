@@ -35,11 +35,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ね",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "root",
     "radical",
     "head (pimple)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

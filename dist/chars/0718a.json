@@ -32,9 +32,19 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [],
+    "kun": [
+      {
+        "reading": "くま",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bear"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

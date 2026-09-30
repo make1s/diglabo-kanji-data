@@ -32,9 +32,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ボウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "わす.れる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "forget"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

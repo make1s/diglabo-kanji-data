@@ -30,9 +30,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "investigate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

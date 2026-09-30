@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つね",
+        "stage": "elementary"
+      },
+      {
+        "reading": "とこ-",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "usual",
     "ordinary",
@@ -44,6 +62,7 @@
     "always",
     "long-lasting"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

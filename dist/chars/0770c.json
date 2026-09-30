@@ -33,9 +33,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "prefecture"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

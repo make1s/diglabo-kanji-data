@@ -31,6 +31,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "むろ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "room",
     "apartment",
@@ -38,6 +52,7 @@
     "greenhouse",
     "cellar"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -36,6 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あらた.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あらた.まる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "reformation",
     "change",
@@ -46,6 +64,7 @@
     "inspect",
     "search"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

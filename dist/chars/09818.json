@@ -37,6 +37,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "jurisdiction",
     "dominion",
@@ -44,6 +53,7 @@
     "fief",
     "reign"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

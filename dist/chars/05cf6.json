@@ -33,9 +33,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "しま",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "island"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

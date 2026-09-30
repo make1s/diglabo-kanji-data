@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゼン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まった.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "すべ.て",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "whole",
     "entire",
@@ -41,6 +59,7 @@
     "complete",
     "fulfill"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

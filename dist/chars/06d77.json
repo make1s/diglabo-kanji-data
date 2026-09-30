@@ -33,10 +33,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うみ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "sea",
     "ocean"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

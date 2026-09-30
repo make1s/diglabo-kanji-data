@@ -31,12 +31,27 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "その",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "park",
     "garden",
     "yard",
     "farm"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

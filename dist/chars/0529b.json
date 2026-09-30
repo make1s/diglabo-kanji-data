@@ -35,6 +35,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リョク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "リキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ちから",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "power",
     "strength",
@@ -43,6 +61,7 @@
     "bear up",
     "exert"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ふる.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "stirred up",
     "be invigorated",
     "flourish"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

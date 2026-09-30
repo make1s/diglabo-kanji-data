@@ -32,6 +32,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ユウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いさ.む",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "courage",
     "cheer up",
@@ -39,6 +53,7 @@
     "bravery",
     "heroism"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

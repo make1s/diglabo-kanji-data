@@ -48,6 +48,36 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジュウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "チョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "え",
+        "stage": "elementary"
+      },
+      {
+        "reading": "おも.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かさ.ねる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かさ.なる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "heavy",
     "important",
@@ -58,6 +88,7 @@
     "nest of boxes",
     "-fold"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

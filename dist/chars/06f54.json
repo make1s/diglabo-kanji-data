@@ -31,6 +31,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いさぎよ.い",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "undefiled",
     "pure",
@@ -38,6 +52,7 @@
     "righteous",
     "gallant"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

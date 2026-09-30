@@ -39,11 +39,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゴ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かた.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かた.らう",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "word",
     "speech",
     "language"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

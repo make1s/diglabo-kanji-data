@@ -39,6 +39,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ルイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たぐ.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "sort",
     "kind",
@@ -46,6 +60,7 @@
     "class",
     "genus"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

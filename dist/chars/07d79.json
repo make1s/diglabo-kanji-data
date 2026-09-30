@@ -34,9 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケン",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "きぬ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "silk"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

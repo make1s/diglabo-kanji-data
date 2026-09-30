@@ -35,10 +35,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ロン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "argument",
     "discourse"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

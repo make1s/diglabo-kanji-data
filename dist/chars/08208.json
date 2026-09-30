@@ -38,6 +38,28 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "キョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おこ.る",
+        "stage": "senior"
+      },
+      {
+        "reading": "おこ.す",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "entertain",
     "revive",
@@ -45,6 +67,7 @@
     "interest",
     "pleasure"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

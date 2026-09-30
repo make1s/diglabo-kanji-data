@@ -41,9 +41,36 @@
   "eduReadingsSpecial": [
     "むい"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ロク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "む",
+        "stage": "elementary"
+      },
+      {
+        "reading": "む.つ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "むっ.つ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "むい",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "six"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

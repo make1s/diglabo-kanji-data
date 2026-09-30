@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つく.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "genesis",
     "wound",
@@ -44,6 +58,7 @@
     "start",
     "originate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

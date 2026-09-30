@@ -34,10 +34,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "daytime",
     "noon"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

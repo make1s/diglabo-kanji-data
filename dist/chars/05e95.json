@@ -33,6 +33,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "そこ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bottom",
     "sole",
@@ -42,6 +56,7 @@
     "kind",
     "sort"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

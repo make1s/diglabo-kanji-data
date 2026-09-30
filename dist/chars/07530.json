@@ -35,10 +35,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "デン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "た",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "rice field",
     "rice paddy"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

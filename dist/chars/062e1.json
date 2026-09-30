@@ -34,12 +34,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "broaden",
     "extend",
     "expand",
     "enlarge"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

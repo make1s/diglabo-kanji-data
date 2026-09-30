@@ -31,11 +31,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "prohibition",
     "ban",
     "forbid"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

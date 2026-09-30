@@ -41,10 +41,33 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゲン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゴン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "い.う",
+        "stage": "elementary"
+      },
+      {
+        "reading": "こと",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "say",
     "word"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

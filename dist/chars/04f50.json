@@ -28,10 +28,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "assistant",
     "help"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -38,11 +38,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うつ.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "うつ.す",
+        "stage": "elementary"
+      },
+      {
+        "reading": "は.える",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "reflect",
     "reflection",
     "projection"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

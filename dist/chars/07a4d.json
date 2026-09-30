@@ -39,6 +39,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つ.む",
+        "stage": "elementary"
+      },
+      {
+        "reading": "つ.もる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "volume",
     "product (x*y)",
@@ -49,6 +67,7 @@
     "load",
     "amass"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

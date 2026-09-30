@@ -54,10 +54,61 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "メイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ミョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あ.かり",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あか.るい",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あか.るむ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あか.らむ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あき.らか",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あ.ける",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あ.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あ.くる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あ.かす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bright",
     "light"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

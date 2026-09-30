@@ -41,11 +41,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かる.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かろ.やか",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "lightly",
     "trifling",
     "unimportant"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

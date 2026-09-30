@@ -31,12 +31,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ミツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "secrecy",
     "density (pop)",
     "minuteness",
     "carefulness"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

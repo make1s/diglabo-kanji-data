@@ -47,12 +47,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つ.ける",
+        "stage": "elementary"
+      },
+      {
+        "reading": "つ.く",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "adhere",
     "attach",
     "refer to",
     "append"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

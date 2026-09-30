@@ -36,6 +36,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ボウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "バク",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あば.れる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あば.く",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "outburst",
     "rave",
@@ -45,6 +67,7 @@
     "cruelty",
     "outrage"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

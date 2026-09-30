@@ -35,9 +35,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ショウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こえ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "こわ-",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "voice"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

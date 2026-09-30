@@ -37,10 +37,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "や.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "や.ける",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bake",
     "burning"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

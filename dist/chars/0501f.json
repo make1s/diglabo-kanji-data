@@ -32,10 +32,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シャク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "か.りる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "borrow",
     "rent"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

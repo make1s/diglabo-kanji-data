@@ -38,12 +38,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はり",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "needle",
     "pin",
     "staple",
     "stinger"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -31,11 +31,25 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サツ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "サク",
+        "stage": "senior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "tome",
     "counter for books",
     "volume"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

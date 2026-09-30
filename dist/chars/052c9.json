@@ -30,6 +30,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ベン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "exertion",
     "endeavour",
@@ -38,6 +47,7 @@
     "make effort",
     "diligent"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

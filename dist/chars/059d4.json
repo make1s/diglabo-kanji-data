@@ -33,6 +33,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ゆだ.ねる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "committee",
     "entrust to",
@@ -40,6 +54,7 @@
     "devote",
     "discard"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

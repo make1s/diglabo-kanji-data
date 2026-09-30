@@ -32,10 +32,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キュウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ク",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひさ.しい",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "long time",
     "old story"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

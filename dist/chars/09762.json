@@ -40,12 +40,35 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "メン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おも",
+        "stage": "junior"
+      },
+      {
+        "reading": "おもて",
+        "stage": "junior"
+      },
+      {
+        "reading": "つら",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "mask",
     "face",
     "features",
     "surface"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

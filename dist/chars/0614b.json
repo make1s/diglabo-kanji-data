@@ -32,6 +32,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "attitude",
     "condition",
@@ -39,6 +48,7 @@
     "appearance",
     "voice (of verbs)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

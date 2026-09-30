@@ -34,9 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "バイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うめ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "plum"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -31,12 +31,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゴ",
+        "stage": "senior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "period",
     "time",
     "date",
     "term"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

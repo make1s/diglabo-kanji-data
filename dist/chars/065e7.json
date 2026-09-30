@@ -33,6 +33,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "old times",
     "old things",
@@ -40,6 +49,7 @@
     "former",
     "ex-"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

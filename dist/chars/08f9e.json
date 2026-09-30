@@ -36,12 +36,27 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "や.める",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "resign",
     "word",
     "term",
     "expression"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

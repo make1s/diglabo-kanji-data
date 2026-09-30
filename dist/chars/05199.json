@@ -37,11 +37,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シャ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うつ.す",
+        "stage": "elementary"
+      },
+      {
+        "reading": "うつ.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "copy",
     "be photographed",
     "describe"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

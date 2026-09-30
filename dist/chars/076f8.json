@@ -36,6 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ショウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あい-",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "inter-",
     "mutual",
@@ -47,6 +65,7 @@
     "phase",
     "physiognomy"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

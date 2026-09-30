@@ -34,6 +34,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "calculate",
     "divining",
@@ -41,6 +50,7 @@
     "abacus",
     "probability"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

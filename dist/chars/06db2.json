@@ -29,6 +29,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "fluid",
     "liquid",
@@ -36,6 +45,7 @@
     "sap",
     "secretion"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

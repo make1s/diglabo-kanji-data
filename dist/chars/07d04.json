@@ -36,11 +36,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヤク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "promise",
     "approximately",
     "shrink"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

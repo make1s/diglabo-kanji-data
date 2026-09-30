@@ -37,11 +37,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ロウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "お.いる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ふ.ける",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "old man",
     "old age",
     "grow old"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

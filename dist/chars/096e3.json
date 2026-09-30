@@ -43,6 +43,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ナン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "むずか.しい",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かた.い",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "difficult",
     "impossible",
@@ -50,6 +68,7 @@
     "accident",
     "defect"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

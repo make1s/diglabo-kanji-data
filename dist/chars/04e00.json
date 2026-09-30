@@ -35,10 +35,33 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イチ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "イツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひと-",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひと.つ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "one",
     "one radical (no.1)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

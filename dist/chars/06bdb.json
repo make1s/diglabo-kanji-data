@@ -34,12 +34,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "モウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "け",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "fur",
     "hair",
     "feather",
     "down"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -31,9 +31,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ビョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "second (1/60 minute)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

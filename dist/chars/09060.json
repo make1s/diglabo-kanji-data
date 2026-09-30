@@ -34,10 +34,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "オン",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "とお.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "distant",
     "far"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

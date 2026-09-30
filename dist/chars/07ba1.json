@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くだ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "pipe",
     "tube",
@@ -44,6 +58,7 @@
     "control",
     "jurisdiction"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

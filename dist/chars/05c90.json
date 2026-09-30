@@ -28,6 +28,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "branch off",
     "fork in road",
@@ -35,6 +44,7 @@
     "arena",
     "theater"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

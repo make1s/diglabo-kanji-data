@@ -35,6 +35,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジョ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "のぞ.く",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "exclude",
     "division (x/3)",
@@ -43,6 +61,7 @@
     "cancel",
     "except"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

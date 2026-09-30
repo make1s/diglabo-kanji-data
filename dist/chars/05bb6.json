@@ -38,6 +38,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ケ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いえ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "や",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "house",
     "home",
@@ -46,6 +68,7 @@
     "expert",
     "performer"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

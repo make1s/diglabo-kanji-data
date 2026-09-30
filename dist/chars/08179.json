@@ -34,11 +34,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はら",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "abdomen",
     "belly",
     "stomach"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

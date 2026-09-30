@@ -37,6 +37,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ま.がる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ま.げる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bend",
     "music",
@@ -50,6 +68,7 @@
     "perverse",
     "lean"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

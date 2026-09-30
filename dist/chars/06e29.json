@@ -40,9 +40,36 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "オン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あたた.か",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あたた.かい",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あたた.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あたた.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "warm"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

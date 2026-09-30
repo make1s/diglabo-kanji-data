@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ズ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こと",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "matter",
     "thing",
@@ -42,6 +60,7 @@
     "reason",
     "possibly"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

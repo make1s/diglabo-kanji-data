@@ -36,9 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "か.く",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "write"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

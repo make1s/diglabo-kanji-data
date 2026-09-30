@@ -30,12 +30,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "simple",
     "one",
     "single",
     "merely"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -35,12 +35,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "すす.む",
+        "stage": "elementary"
+      },
+      {
+        "reading": "すす.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "advance",
     "proceed",
     "progress",
     "promote"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -34,9 +34,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "デン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "electricity"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

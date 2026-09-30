@@ -39,6 +39,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュツ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "スイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "で.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "だ.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "exit",
     "leave",
@@ -47,6 +69,7 @@
     "put out",
     "protrude"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

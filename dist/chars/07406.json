@@ -32,6 +32,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "logic",
     "arrangement",
@@ -39,6 +48,7 @@
     "justice",
     "truth"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

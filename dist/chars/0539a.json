@@ -31,6 +31,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あつ.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "thick",
     "heavy",
@@ -40,6 +54,7 @@
     "brazen",
     "shameless"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

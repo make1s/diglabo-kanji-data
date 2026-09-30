@@ -30,6 +30,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "idea",
     "mind",
@@ -40,6 +49,7 @@
     "care",
     "liking"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -33,12 +33,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ギ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "deliberation",
     "consultation",
     "debate",
     "consideration"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

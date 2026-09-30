@@ -38,9 +38,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かいこ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "silkworm"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

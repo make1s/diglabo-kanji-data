@@ -33,12 +33,27 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あざ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "character",
     "letter",
     "word",
     "section of village"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

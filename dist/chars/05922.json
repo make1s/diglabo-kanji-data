@@ -36,11 +36,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ム",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ゆめ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "dream",
     "vision",
     "illusion"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -34,6 +34,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "な.げる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "throw",
     "discard",
@@ -45,6 +59,7 @@
     "give up",
     "sell at a loss"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

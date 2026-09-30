@@ -34,12 +34,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ドク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひと.り",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "single",
     "alone",
     "spontaneously",
     "Germany"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

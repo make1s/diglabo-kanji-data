@@ -34,6 +34,19 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [],
+    "kun": [
+      {
+        "reading": "とど.ける",
+        "stage": "elementary"
+      },
+      {
+        "reading": "とど.く",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "deliver",
     "reach",
@@ -42,6 +55,7 @@
     "notify",
     "forward"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

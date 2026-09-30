@@ -38,6 +38,32 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たっと.い",
+        "stage": "junior"
+      },
+      {
+        "reading": "とうと.い",
+        "stage": "junior"
+      },
+      {
+        "reading": "たっと.ぶ",
+        "stage": "junior"
+      },
+      {
+        "reading": "とうと.ぶ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "precious",
     "value",
@@ -45,6 +71,7 @@
     "esteem",
     "honor"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

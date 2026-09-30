@@ -37,9 +37,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はし.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "run"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

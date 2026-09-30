@@ -37,6 +37,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゼン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ネン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "sort of thing",
     "so",
@@ -44,6 +57,7 @@
     "in that case",
     "well"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

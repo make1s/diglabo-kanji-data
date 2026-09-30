@@ -35,6 +35,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "お.びる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "おび",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "sash",
     "belt",
@@ -42,6 +60,7 @@
     "zone",
     "region"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

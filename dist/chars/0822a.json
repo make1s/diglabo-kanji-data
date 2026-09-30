@@ -32,12 +32,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "navigate",
     "sail",
     "cruise",
     "fly"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

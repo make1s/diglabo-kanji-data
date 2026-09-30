@@ -32,10 +32,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ケイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "capital",
     "10**16"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

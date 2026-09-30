@@ -35,6 +35,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "そそ.ぐ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "pour",
     "irrigate",
@@ -45,6 +59,7 @@
     "comment",
     "annotate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -32,6 +32,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "dispose",
     "manage",
@@ -42,6 +51,7 @@
     "behave",
     "place"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

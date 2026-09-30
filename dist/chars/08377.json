@@ -31,6 +31,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "に",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "baggage",
     "shoulder-pole load",
@@ -40,6 +54,7 @@
     "cargo",
     "freight"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

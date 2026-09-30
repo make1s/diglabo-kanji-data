@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ガン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いわ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "boulder",
     "rock",
     "cliff"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

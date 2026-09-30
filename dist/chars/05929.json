@@ -37,11 +37,30 @@
   "eduReadingsSpecial": [
     "あま-"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あま-",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あめ",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "heavens",
     "sky",
     "imperial"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

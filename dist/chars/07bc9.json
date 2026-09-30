@@ -36,11 +36,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "きず.く",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "fabricate",
     "build",
     "construct"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -41,6 +41,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "は.たす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "は.てる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "は.て",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "fruit",
     "reward",
@@ -51,6 +73,7 @@
     "finish",
     "succeed"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

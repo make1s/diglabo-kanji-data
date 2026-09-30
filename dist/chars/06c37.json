@@ -36,6 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こおり",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひ",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "icicle",
     "ice",
@@ -43,6 +61,7 @@
     "freeze",
     "congeal"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

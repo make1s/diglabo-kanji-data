@@ -34,6 +34,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "しるし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "stamp",
     "seal",
@@ -46,6 +60,7 @@
     "souvenir",
     "India"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

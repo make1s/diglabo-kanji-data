@@ -34,11 +34,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チュウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おき",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "open sea",
     "offing",
     "rise high into sky"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

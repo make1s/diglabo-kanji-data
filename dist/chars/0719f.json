@@ -32,12 +32,27 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジュク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "う.れる",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "mellow",
     "ripen",
     "mature",
     "acquire skill"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

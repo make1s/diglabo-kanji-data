@@ -42,12 +42,43 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チャク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジャク",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "き.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "き.せる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "つ.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "つ.ける",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "don",
     "arrive",
     "wear",
     "counter for suits of clothing"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

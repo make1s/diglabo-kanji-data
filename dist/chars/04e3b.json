@@ -36,6 +36,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ス",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ぬし",
+        "stage": "elementary"
+      },
+      {
+        "reading": "おも",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "lord",
     "chief",
@@ -43,6 +65,7 @@
     "main thing",
     "principal"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

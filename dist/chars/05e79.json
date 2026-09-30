@@ -33,12 +33,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みき",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "tree trunk",
     "main part",
     "talent",
     "capability"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

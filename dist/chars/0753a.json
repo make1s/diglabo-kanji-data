@@ -35,12 +35,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まち",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "town",
     "village",
     "block",
     "street"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

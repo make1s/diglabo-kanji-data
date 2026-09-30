@@ -37,11 +37,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ま",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "true",
     "reality",
     "Buddhist sect"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

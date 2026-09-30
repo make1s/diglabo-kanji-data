@@ -36,9 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あき",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "autumn"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

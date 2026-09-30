@@ -36,12 +36,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かか.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かかり",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "person in charge",
     "connection",
     "duty",
     "concern oneself"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

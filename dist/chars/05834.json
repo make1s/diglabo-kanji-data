@@ -34,10 +34,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ば",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "location",
     "place"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

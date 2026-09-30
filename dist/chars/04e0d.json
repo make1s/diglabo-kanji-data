@@ -29,6 +29,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ブ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "negative",
     "non-",
@@ -36,6 +49,7 @@
     "ugly",
     "clumsy"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

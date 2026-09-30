@@ -37,6 +37,36 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ワ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "オ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "やわ.らぐ",
+        "stage": "junior"
+      },
+      {
+        "reading": "やわ.らげる",
+        "stage": "junior"
+      },
+      {
+        "reading": "なご.む",
+        "stage": "junior"
+      },
+      {
+        "reading": "なご.やか",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "harmony",
     "Japanese style",
@@ -44,6 +74,7 @@
     "soften",
     "Japan"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -39,6 +39,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "み",
+        "stage": "elementary"
+      },
+      {
+        "reading": "みの.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "reality",
     "truth",
@@ -46,6 +64,7 @@
     "fruit",
     "nut"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

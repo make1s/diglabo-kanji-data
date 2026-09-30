@@ -36,12 +36,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ささ.える",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "branch",
     "support",
     "sustain",
     "branch radical (no. 65)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -45,6 +45,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "メイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "な.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "な.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "な.らす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "chirp",
     "cry",
@@ -54,6 +76,7 @@
     "echo",
     "honk"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

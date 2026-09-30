@@ -32,6 +32,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "chronicle",
     "account",
@@ -40,6 +49,7 @@
     "annals",
     "geologic period"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

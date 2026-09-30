@@ -36,6 +36,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "approve",
     "praise",
@@ -43,6 +52,7 @@
     "assist",
     "agree with"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

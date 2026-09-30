@@ -36,10 +36,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うた",
+        "stage": "elementary"
+      },
+      {
+        "reading": "うた.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "song",
     "sing"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

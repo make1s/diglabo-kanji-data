@@ -35,6 +35,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジュン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "obey",
     "order",
@@ -43,6 +52,7 @@
     "docility",
     "occasion"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

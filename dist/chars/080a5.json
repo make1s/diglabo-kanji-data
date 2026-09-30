@@ -41,6 +41,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こ.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "こえ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "こ.やす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "こ.やし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "fertilizer",
     "get fat",
@@ -48,6 +74,7 @@
     "manure",
     "pamper"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

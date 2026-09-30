@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ニン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まか.せる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "まか.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "responsibility",
     "duty",
@@ -41,6 +59,7 @@
     "entrust to",
     "appoint"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

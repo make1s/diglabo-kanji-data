@@ -32,10 +32,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つくえ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "desk",
     "table"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

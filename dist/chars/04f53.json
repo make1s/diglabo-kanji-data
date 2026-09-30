@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "テイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "からだ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "body",
     "substance",
@@ -41,6 +59,7 @@
     "reality",
     "counter for images"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

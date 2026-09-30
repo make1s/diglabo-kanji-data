@@ -32,10 +32,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ク",
+        "stage": "senior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "warehouse",
     "storehouse"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

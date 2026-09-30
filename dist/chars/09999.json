@@ -42,11 +42,38 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "junior"
+      },
+      {
+        "reading": "キョウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "か",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かお.り",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かお.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "incense",
     "smell",
     "perfume"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

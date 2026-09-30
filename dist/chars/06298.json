@@ -40,6 +40,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "お.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "おり",
+        "stage": "elementary"
+      },
+      {
+        "reading": "お.れる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "fold",
     "break",
@@ -48,6 +70,7 @@
     "yield",
     "submit"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

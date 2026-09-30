@@ -38,10 +38,33 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ビョウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ヘイ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "やまい",
+        "stage": "elementary"
+      },
+      {
+        "reading": "や.む",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "ill",
     "sick"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

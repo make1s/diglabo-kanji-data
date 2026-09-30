@@ -46,9 +46,32 @@
   "eduReadingsSpecial": [
     "かな-"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "コン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かね",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かな-",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "gold"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

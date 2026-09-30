@@ -33,9 +33,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ガン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "きし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "beach"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -35,10 +35,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ミ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あじ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あじ.わう",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "flavor",
     "taste"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

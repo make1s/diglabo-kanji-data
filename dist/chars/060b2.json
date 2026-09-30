@@ -36,12 +36,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かな.しい",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かな.しむ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "grieve",
     "sad",
     "deplore",
     "regret"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

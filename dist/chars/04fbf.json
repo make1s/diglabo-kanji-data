@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ベン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ビン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たよ.り",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "convenience",
     "facility",
@@ -42,6 +60,7 @@
     "letter",
     "chance"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

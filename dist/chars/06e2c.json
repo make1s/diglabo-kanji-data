@@ -33,12 +33,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はか.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "fathom",
     "plan",
     "scheme",
     "measure"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

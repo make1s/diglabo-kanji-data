@@ -34,10 +34,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はやし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "grove",
     "forest"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

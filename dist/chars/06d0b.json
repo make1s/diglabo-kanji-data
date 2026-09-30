@@ -29,12 +29,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヨウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "ocean",
     "sea",
     "foreign",
     "Western style"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

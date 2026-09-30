@@ -39,6 +39,32 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゴク",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "きわ.める",
+        "stage": "junior"
+      },
+      {
+        "reading": "きわ.まる",
+        "stage": "junior"
+      },
+      {
+        "reading": "きわ.み",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "extreme",
     "pole",
@@ -51,6 +77,7 @@
     "conclusion",
     "highest rank"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

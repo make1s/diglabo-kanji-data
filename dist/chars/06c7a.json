@@ -37,12 +37,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "き.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "き.まる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "decide",
     "fix",
     "agree upon",
     "appoint"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

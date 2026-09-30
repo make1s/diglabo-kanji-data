@@ -34,6 +34,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ふだ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "tag",
     "paper money",
@@ -41,6 +55,7 @@
     "placard",
     "bid"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

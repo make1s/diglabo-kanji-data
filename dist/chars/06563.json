@@ -44,12 +44,39 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ち.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ち.らす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ち.らかす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ち.らかる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "scatter",
     "disperse",
     "spend",
     "squander"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

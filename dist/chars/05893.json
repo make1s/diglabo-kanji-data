@@ -33,10 +33,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ボ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はか",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "grave",
     "tomb"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

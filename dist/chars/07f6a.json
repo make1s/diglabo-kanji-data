@@ -35,6 +35,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ザイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つみ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "guilt",
     "sin",
@@ -43,6 +57,7 @@
     "blame",
     "offense"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

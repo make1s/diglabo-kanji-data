@@ -29,11 +29,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "perfect",
     "completion",
     "end"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

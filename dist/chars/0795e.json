@@ -38,11 +38,38 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かみ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かん-",
+        "stage": "junior"
+      },
+      {
+        "reading": "こう-",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "gods",
     "mind",
     "soul"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

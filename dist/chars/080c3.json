@@ -30,12 +30,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "stomach",
     "paunch",
     "crop",
     "craw"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

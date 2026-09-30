@@ -35,12 +35,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シャ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "い.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "shoot",
     "shine into",
     "onto",
     "archery"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

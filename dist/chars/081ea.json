@@ -40,9 +40,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みずか.ら",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "oneself"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

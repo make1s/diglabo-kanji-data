@@ -33,12 +33,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "lively",
     "resuscitation",
     "being helped",
     "living"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

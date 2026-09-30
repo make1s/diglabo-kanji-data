@@ -41,12 +41,35 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おもて",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あらわ.す",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あらわ.れる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "surface",
     "table",
     "chart",
     "diagram"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

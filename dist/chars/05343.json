@@ -32,9 +32,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ち",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "thousand"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -35,12 +35,35 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "シュ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おさ.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "おさ.まる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "discipline",
     "conduct oneself well",
     "study",
     "master"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

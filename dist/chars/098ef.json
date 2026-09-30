@@ -38,10 +38,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "めし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "meal",
     "boiled rice"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

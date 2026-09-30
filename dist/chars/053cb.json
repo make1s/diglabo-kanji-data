@@ -32,9 +32,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ユウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "とも",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "friend"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

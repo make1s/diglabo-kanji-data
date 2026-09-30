@@ -34,6 +34,23 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ホウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ハッ",
+        "stage": "senior"
+      },
+      {
+        "reading": "ホッ",
+        "stage": "senior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "method",
     "law",
@@ -42,6 +59,7 @@
     "model",
     "system"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

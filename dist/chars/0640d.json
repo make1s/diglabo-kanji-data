@@ -35,6 +35,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "そこ.なう",
+        "stage": "junior"
+      },
+      {
+        "reading": "そこ.ねる",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "damage",
     "loss",
@@ -42,6 +60,7 @@
     "hurt",
     "injure"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

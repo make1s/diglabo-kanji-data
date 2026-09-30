@@ -34,12 +34,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "エ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "picture",
     "drawing",
     "painting",
     "sketch"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -36,6 +36,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "general",
     "whole",
@@ -43,6 +52,7 @@
     "full",
     "total"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

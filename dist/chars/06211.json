@@ -35,6 +35,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ガ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "われ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "わ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "ego",
     "I",
@@ -42,6 +60,7 @@
     "our",
     "oneself"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

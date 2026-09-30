@@ -34,11 +34,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おが.む",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "worship",
     "adore",
     "pray to"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

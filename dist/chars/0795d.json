@@ -35,10 +35,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "シュウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いわ.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "celebrate",
     "congratulate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

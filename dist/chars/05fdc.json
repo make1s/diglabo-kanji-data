@@ -38,6 +38,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "オウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こた.える",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "apply",
     "answer",
@@ -46,6 +60,7 @@
     "reply",
     "accept"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

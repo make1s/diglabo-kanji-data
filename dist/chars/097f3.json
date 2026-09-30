@@ -43,10 +43,33 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "オン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "イン",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おと",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ね",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "sound",
     "noise"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

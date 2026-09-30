@@ -33,12 +33,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジュツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "の.べる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "mention",
     "state",
     "speak",
     "relate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

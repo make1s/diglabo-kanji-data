@@ -38,6 +38,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジャク",
+        "stage": "junior"
+      },
+      {
+        "reading": "ニャク",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "わか.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "も.しくは",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "young",
     "if",
@@ -46,6 +68,7 @@
     "low number",
     "immature"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

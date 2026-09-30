@@ -33,6 +33,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ナイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ダイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うち",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "inside",
     "within",
@@ -41,6 +59,7 @@
     "house",
     "home"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

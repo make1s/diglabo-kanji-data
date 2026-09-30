@@ -34,11 +34,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ケイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さかい",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "boundary",
     "border",
     "region"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -39,9 +39,23 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ザツ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゾウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "miscellaneous"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

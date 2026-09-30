@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いち",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "market",
     "city",
     "town"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

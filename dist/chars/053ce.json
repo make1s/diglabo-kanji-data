@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おさ.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "おさ.まる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "income",
     "obtain",
@@ -42,6 +60,7 @@
     "supply",
     "store"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

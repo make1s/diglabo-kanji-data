@@ -34,11 +34,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "しお",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "tide",
     "salt water",
     "opportunity"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

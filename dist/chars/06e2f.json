@@ -33,9 +33,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みなと",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "harbor"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

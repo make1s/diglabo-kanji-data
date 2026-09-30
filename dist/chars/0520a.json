@@ -28,11 +28,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "publish",
     "carve",
     "engrave"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

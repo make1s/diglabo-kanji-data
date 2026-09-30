@@ -33,6 +33,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヨク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ほっ.する",
+        "stage": "senior"
+      },
+      {
+        "reading": "ほ.しい",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "longing",
     "covetousness",
@@ -41,6 +59,7 @@
     "desire",
     "craving"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

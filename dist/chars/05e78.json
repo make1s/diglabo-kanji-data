@@ -36,11 +36,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さいわ.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "しあわ.せ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "さち",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "happiness",
     "blessing",
     "fortune"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

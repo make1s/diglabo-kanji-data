@@ -37,11 +37,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ブツ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "モツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "もの",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "thing",
     "object",
     "matter"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -36,6 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かこ.む",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かこ.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "surround",
     "besiege",
@@ -46,6 +64,7 @@
     "preserve",
     "keep"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

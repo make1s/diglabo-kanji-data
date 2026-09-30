@@ -36,9 +36,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "う.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "う.わる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "plant"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

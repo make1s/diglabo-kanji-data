@@ -37,6 +37,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うつ.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "うつ.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "shift",
     "move",
@@ -45,6 +63,7 @@
     "catch (cold, fire)",
     "pass into"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

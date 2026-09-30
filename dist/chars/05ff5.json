@@ -30,6 +30,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ネン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "wish",
     "sense",
@@ -39,6 +48,7 @@
     "desire",
     "attention"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

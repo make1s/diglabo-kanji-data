@@ -36,12 +36,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "い.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "reside",
     "to be",
     "exist",
     "live with"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

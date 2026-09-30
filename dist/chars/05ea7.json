@@ -31,6 +31,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ザ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "すわ.る",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "squat",
     "seat",
@@ -38,6 +52,7 @@
     "gathering",
     "sit"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

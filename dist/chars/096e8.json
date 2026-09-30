@@ -43,9 +43,28 @@
   "eduReadingsSpecial": [
     "あま-"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あめ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あま-",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "rain"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

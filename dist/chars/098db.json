@@ -42,11 +42,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "と.ぶ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "と.ばす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "fly",
     "skip (pages)",
     "scatter"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

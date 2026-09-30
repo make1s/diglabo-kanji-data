@@ -39,12 +39,35 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ニチ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "-か",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "day",
     "sun",
     "Japan",
     "counter for days"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -33,11 +33,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "と.ぐ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "polish",
     "study of",
     "sharpen"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

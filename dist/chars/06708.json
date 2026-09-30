@@ -36,10 +36,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゲツ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ガツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つき",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "month",
     "moon"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

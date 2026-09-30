@@ -30,10 +30,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "shining",
     "bright"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

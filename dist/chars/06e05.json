@@ -39,6 +39,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ショウ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "きよ.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "きよ.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "きよ.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "pure",
     "purify",
@@ -46,6 +72,7 @@
     "exorcise",
     "Manchu dynasty"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

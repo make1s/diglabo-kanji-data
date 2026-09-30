@@ -32,6 +32,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "バン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "judgement",
     "judgment",
@@ -39,6 +52,7 @@
     "stamp",
     "seal"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

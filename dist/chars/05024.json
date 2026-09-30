@@ -33,11 +33,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ね",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あたい",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "price",
     "cost",
     "value"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

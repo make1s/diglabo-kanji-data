@@ -34,11 +34,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あつ.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "sultry",
     "hot",
     "summer heat"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

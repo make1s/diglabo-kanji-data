@@ -39,11 +39,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ブン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "モン",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "き.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "き.こえる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "hear",
     "ask",
     "listen"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

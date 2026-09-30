@@ -43,6 +43,40 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ブン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "フン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ブ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "わ.ける",
+        "stage": "elementary"
+      },
+      {
+        "reading": "わ.かれる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "わ.かる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "わ.かつ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "part",
     "minute of time",
@@ -58,6 +92,7 @@
     "chances",
     "shaku/100"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

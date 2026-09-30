@@ -38,12 +38,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゴ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あやま.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "mistake",
     "err",
     "do wrong",
     "mislead"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

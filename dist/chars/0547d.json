@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "メイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ミョウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いのち",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "fate",
     "command",
@@ -42,6 +60,7 @@
     "life",
     "appoint"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

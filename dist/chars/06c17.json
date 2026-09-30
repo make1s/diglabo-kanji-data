@@ -35,6 +35,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ケ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "spirit",
     "mind",
@@ -42,6 +55,7 @@
     "atmosphere",
     "mood"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

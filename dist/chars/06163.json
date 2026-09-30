@@ -35,11 +35,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "な.れる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "な.らす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "accustomed",
     "get used to",
     "become experienced"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

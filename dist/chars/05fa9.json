@@ -31,12 +31,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "restore",
     "return to",
     "revert",
     "resume"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -40,9 +40,36 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ホン",
+        "stage": "senior"
+      },
+      {
+        "reading": "タン",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "そ.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "そ.らす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "anti-"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

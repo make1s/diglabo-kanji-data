@@ -39,11 +39,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "こな",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "flour",
     "powder",
     "dust"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

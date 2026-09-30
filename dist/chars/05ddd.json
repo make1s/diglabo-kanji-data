@@ -31,11 +31,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セン",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かわ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "stream",
     "river",
     "river or three-stroke river radical (no. 47)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

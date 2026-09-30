@@ -44,12 +44,35 @@
   "eduReadingsSpecial": [
     "ル"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リュウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ル",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "と.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "と.まる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "detain",
     "fasten",
     "halt",
     "stop"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

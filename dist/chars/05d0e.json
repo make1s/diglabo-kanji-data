@@ -33,11 +33,21 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [],
+    "kun": [
+      {
+        "reading": "さき",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "promontory",
     "cape",
     "spit"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

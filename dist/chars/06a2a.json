@@ -34,6 +34,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "オウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "よこ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "sideways",
     "side",
@@ -43,6 +57,7 @@
     "unreasonable",
     "perverse"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

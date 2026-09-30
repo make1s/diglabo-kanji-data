@@ -33,9 +33,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みずうみ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "lake"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

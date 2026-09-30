@@ -33,6 +33,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "けわ.しい",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "precipitous",
     "inaccessible place",
@@ -40,6 +54,7 @@
     "steep place",
     "sharp eyes"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

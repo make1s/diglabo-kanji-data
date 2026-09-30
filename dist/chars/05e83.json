@@ -41,11 +41,42 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひろ.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひろ.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひろ.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひろ.がる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひろ.げる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "wide",
     "broad",
     "spacious"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -41,11 +41,42 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゴ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "のち",
+        "stage": "elementary"
+      },
+      {
+        "reading": "うし.ろ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あと",
+        "stage": "elementary"
+      },
+      {
+        "reading": "おく.れる",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "behind",
     "back",
     "later"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

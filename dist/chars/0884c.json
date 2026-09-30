@@ -48,6 +48,36 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ギョウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "アン",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "い.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゆ.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "おこな.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "going",
     "journey",
@@ -58,6 +88,7 @@
     "row",
     "bank"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -39,9 +39,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ウン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くも",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "cloud"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

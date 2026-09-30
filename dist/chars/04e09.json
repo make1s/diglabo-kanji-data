@@ -36,9 +36,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "み",
+        "stage": "elementary"
+      },
+      {
+        "reading": "み.つ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "みっ.つ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "three"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -30,6 +30,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "status quo",
     "conditions",
@@ -37,6 +46,7 @@
     "form",
     "appearance"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

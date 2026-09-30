@@ -31,10 +31,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "ground",
     "earth"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

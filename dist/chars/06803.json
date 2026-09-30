@@ -32,10 +32,20 @@
   "eduReadingsSpecial": [
     "とち"
   ],
+  "readingStages": {
+    "on": [],
+    "kun": [
+      {
+        "reading": "とち",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "horse chestnut",
     "(kokuji)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

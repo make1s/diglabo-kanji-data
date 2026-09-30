@@ -37,6 +37,28 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ケイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "きそ.う",
+        "stage": "junior"
+      },
+      {
+        "reading": "せ.る",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "emulate",
     "compete with",
@@ -46,6 +68,7 @@
     "contest",
     "race"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チュウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "なか",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "in",
     "inside",
@@ -41,6 +59,7 @@
     "mean",
     "center"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

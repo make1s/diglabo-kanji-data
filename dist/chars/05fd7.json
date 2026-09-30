@@ -37,6 +37,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こころざ.す",
+        "stage": "elementary"
+      },
+      {
+        "reading": "こころざし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "intention",
     "plan",
@@ -46,6 +64,7 @@
     "hopes",
     "shilling"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

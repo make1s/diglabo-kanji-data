@@ -45,11 +45,50 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "レイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つめ.たい",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひ.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひ.や",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひ.やす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ひ.やかす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "さ.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "さ.ます",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "cool",
     "cold (beer, person)",
     "chill"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -35,10 +35,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゴ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "safeguard",
     "protect"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

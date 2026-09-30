@@ -34,12 +34,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はしら",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "pillar",
     "post",
     "cylinder",
     "support"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -38,6 +38,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "spot",
     "point",
@@ -45,6 +54,7 @@
     "speck",
     "decimal point"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

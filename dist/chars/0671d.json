@@ -34,6 +34,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あさ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "morning",
     "dynasty",
@@ -42,6 +56,7 @@
     "period",
     "(North) Korea"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

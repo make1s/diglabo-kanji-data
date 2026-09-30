@@ -30,10 +30,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "ward",
     "district"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

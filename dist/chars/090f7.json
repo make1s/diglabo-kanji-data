@@ -32,12 +32,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゴウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "home town",
     "village",
     "native place",
     "district"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

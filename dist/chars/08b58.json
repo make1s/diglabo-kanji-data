@@ -36,11 +36,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "discriminating",
     "know",
     "write"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

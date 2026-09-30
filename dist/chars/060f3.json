@@ -33,12 +33,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ソ",
+        "stage": "senior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "idea",
     "thought",
     "conception",
     "think"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

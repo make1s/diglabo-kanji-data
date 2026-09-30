@@ -36,11 +36,30 @@
   "eduReadingsSpecial": [
     "サ"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "サ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ふたた.び",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "again",
     "twice",
     "second time"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

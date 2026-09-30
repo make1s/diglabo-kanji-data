@@ -36,6 +36,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ショウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "よそお.う",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "attire",
     "dress",
@@ -43,6 +61,7 @@
     "disguise",
     "profess"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

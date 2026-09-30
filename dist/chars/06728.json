@@ -40,10 +40,33 @@
   "eduReadingsSpecial": [
     "こ-"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ボク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "モク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "き",
+        "stage": "elementary"
+      },
+      {
+        "reading": "こ-",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "tree",
     "wood"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

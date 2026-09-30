@@ -38,12 +38,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セツ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゼイ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "と.く",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "opinion",
     "theory",
     "explanation",
     "rumor"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -38,12 +38,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "クン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "instruction",
     "Japanese character reading",
     "explanation",
     "read"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -38,12 +38,39 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さだ.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "さだ.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "さだ.か",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "determine",
     "fix",
     "establish",
     "decide"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -38,6 +38,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こころ.みる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ため.す",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "test",
     "try",
@@ -45,6 +63,7 @@
     "experiment",
     "ordeal"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

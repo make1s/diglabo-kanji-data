@@ -37,6 +37,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はか.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "quantity",
     "measure",
@@ -46,6 +60,7 @@
     "estimate",
     "surmise"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

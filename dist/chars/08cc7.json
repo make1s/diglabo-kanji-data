@@ -33,6 +33,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "assets",
     "resources",
@@ -42,6 +51,7 @@
     "be conducive to",
     "contribute to"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

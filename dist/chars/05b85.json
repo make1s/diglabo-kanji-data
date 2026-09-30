@@ -29,6 +29,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "home",
     "house",
@@ -36,6 +45,7 @@
     "our house",
     "my husband"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

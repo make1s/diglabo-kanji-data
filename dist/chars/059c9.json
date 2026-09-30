@@ -32,9 +32,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あね",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "elder sister"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

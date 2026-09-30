@@ -39,6 +39,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "しりぞ.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "しりぞ.ける",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "retreat",
     "withdraw",
@@ -48,6 +66,7 @@
     "expel",
     "reject"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

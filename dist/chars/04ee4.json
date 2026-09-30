@@ -28,6 +28,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "レイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "orders",
     "laws",
@@ -35,6 +44,7 @@
     "decree",
     "good"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -41,6 +41,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あつ.まる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あつ.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "つど.う",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "gather",
     "meet",
@@ -48,6 +70,7 @@
     "swarm",
     "flock"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

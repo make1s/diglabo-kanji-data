@@ -30,6 +30,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ニ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "humanity",
     "virtue",
@@ -38,6 +51,7 @@
     "man",
     "kernel"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

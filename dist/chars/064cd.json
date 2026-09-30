@@ -33,6 +33,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "みさお",
+        "stage": "senior"
+      },
+      {
+        "reading": "あやつ.る",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "maneuver",
     "manipulate",
@@ -42,6 +60,7 @@
     "virginity",
     "fidelity"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

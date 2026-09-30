@@ -36,10 +36,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "simplicity",
     "brevity"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

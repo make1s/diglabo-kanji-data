@@ -37,10 +37,33 @@
   "eduReadingsSpecial": [
     "ダイ"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ダイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "テイ",
+        "stage": "junior"
+      },
+      {
+        "reading": "デ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おとうと",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "younger brother",
     "faithful service to elders"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

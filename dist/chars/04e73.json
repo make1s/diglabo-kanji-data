@@ -32,10 +32,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ニュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ちち",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ち",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "milk",
     "breasts"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

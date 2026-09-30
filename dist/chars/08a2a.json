@@ -39,12 +39,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ホウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たず.ねる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "おとず.れる",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "call on",
     "visit",
     "look up",
     "offer sympathy"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

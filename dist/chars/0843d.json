@@ -36,6 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ラク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "お.ちる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "お.とす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "fall",
     "drop",
@@ -43,6 +61,7 @@
     "village",
     "hamlet"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

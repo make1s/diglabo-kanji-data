@@ -34,9 +34,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ニク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "meat"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

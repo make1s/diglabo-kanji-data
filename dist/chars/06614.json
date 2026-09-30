@@ -33,11 +33,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セキ",
+        "stage": "senior"
+      },
+      {
+        "reading": "シャク",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "むかし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "once upon a time",
     "antiquity",
     "old times"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

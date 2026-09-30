@@ -33,6 +33,19 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "テイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "street",
     "ward",
@@ -41,6 +54,7 @@
     "even number",
     "4th calendar sign"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

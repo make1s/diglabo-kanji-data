@@ -33,12 +33,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ノウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "ability",
     "talent",
     "skill",
     "capacity"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

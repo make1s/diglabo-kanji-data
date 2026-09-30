@@ -35,12 +35,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ブ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ム",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "warrior",
     "military",
     "chivalry",
     "arms"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

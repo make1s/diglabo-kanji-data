@@ -37,11 +37,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゴン",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つと.める",
+        "stage": "elementary"
+      },
+      {
+        "reading": "つと.まる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "diligence",
     "become employed",
     "serve"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

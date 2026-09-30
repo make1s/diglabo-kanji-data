@@ -61,11 +61,66 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "い.きる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "い.かす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "い.ける",
+        "stage": "elementary"
+      },
+      {
+        "reading": "う.まれる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "う.む",
+        "stage": "elementary"
+      },
+      {
+        "reading": "は.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "は.やす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "なま",
+        "stage": "elementary"
+      },
+      {
+        "reading": "お.う",
+        "stage": "junior"
+      },
+      {
+        "reading": "き",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "life",
     "genuine",
     "birth"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

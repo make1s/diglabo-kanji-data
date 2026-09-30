@@ -31,6 +31,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "notebook",
     "account book",
@@ -40,6 +49,7 @@
     "net",
     "tent"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

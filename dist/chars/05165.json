@@ -40,10 +40,33 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ニュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "い.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "い.れる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "はい.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "enter",
     "insert"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

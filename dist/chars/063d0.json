@@ -33,11 +33,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "テイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さ.げる",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "propose",
     "take along",
     "carry in hand"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

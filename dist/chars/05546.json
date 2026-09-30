@@ -31,12 +31,27 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あきな.う",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "make a deal",
     "selling",
     "dealing in",
     "merchant"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

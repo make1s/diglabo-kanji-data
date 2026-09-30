@@ -29,6 +29,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "range",
     "region",
@@ -36,6 +45,7 @@
     "stage",
     "level"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

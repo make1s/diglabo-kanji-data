@@ -35,12 +35,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ギ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うたが.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "doubt",
     "distrust",
     "be suspicious",
     "question"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

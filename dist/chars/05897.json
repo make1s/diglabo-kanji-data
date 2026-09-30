@@ -38,6 +38,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゾウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ま.す",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ふ.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ふ.やす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "increase",
     "add",
@@ -45,6 +67,7 @@
     "gain",
     "promote"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

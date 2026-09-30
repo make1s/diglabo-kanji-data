@@ -33,9 +33,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くに",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "country"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

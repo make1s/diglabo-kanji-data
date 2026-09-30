@@ -31,6 +31,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヨウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "sunshine",
     "yang principle",
@@ -39,6 +48,7 @@
     "heaven",
     "daytime"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

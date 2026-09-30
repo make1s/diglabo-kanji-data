@@ -36,12 +36,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヘン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あた.り",
+        "stage": "elementary"
+      },
+      {
+        "reading": "-べ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "environs",
     "boundary",
     "border",
     "vicinity"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

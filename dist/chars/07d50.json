@@ -39,6 +39,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "むす.ぶ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゆ.う",
+        "stage": "junior"
+      },
+      {
+        "reading": "ゆ.わえる",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "tie",
     "bind",
@@ -48,6 +70,7 @@
     "do up hair",
     "fasten"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

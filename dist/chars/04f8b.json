@@ -32,12 +32,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "レイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たと.える",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "example",
     "custom",
     "usage",
     "precedent"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -37,12 +37,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "マン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "み.ちる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "み.たす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "full",
     "fullness",
     "enough",
     "satisfy"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

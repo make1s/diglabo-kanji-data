@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "な",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "vegetable",
     "side dish",
     "greens"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

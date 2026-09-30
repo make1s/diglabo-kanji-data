@@ -37,6 +37,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "やど",
+        "stage": "elementary"
+      },
+      {
+        "reading": "やど.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "やど.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "inn",
     "lodging",
@@ -47,6 +69,7 @@
     "home",
     "dwelling"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

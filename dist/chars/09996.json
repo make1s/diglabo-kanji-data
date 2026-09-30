@@ -39,10 +39,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くび",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "neck",
     "counter for songs and poems"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

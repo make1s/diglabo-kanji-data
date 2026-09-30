@@ -43,6 +43,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "アク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "オ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "わる.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bad",
     "vice",
@@ -51,6 +69,7 @@
     "evil",
     "wrong"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

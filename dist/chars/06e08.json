@@ -44,6 +44,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "す.む",
+        "stage": "elementary"
+      },
+      {
+        "reading": "す.ます",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "settle (debt, etc.)",
     "relieve (burden)",
@@ -52,6 +70,7 @@
     "excusable",
     "need not"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

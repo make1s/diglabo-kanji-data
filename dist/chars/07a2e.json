@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シュ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たね",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "species",
     "kind",
@@ -43,6 +57,7 @@
     "variety",
     "seed"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

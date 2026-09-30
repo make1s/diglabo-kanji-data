@@ -37,6 +37,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こと",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "uncommon",
     "different",
@@ -46,6 +60,7 @@
     "curious",
     "unusual"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

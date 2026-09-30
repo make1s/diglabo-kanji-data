@@ -39,6 +39,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さか.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "は.え",
+        "stage": "senior"
+      },
+      {
+        "reading": "は.える",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "flourish",
     "prosperity",
@@ -46,6 +68,7 @@
     "glory",
     "splendor"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

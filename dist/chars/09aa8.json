@@ -40,12 +40,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ほね",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "skeleton",
     "bone",
     "remains",
     "frame"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

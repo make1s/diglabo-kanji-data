@@ -35,10 +35,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヤ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "よ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "よる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "night",
     "evening"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

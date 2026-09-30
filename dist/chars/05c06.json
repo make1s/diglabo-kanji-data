@@ -36,6 +36,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "leader",
     "commander",
@@ -47,6 +56,7 @@
     "from now on",
     "just about"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -31,12 +31,27 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "もっぱ.ら",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "specialty",
     "exclusive",
     "mainly",
     "solely"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

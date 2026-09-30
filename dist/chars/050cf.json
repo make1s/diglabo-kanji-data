@@ -28,6 +28,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゾウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "statue",
     "picture",
@@ -35,6 +44,7 @@
     "figure",
     "portrait"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

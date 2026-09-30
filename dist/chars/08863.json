@@ -37,11 +37,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ころも",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "garment",
     "clothes",
     "dressing"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

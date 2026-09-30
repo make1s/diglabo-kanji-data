@@ -36,10 +36,29 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ニ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ふた",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ふた.つ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "two",
     "two radical (no. 7)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

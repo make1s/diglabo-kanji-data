@@ -29,6 +29,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "Inst.",
     "institution",
@@ -36,6 +45,7 @@
     "mansion",
     "school"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -30,6 +30,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ドク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "poison",
     "virus",
@@ -39,6 +48,7 @@
     "injury",
     "spite"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

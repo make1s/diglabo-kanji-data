@@ -37,11 +37,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チュウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "むし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "insect",
     "bug",
     "temper"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

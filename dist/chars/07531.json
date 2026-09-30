@@ -36,10 +36,33 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ユ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ユウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ユイ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "よし",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "wherefore",
     "a reason"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

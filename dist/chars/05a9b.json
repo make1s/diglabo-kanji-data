@@ -29,10 +29,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エン",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "beautiful woman",
     "princess"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

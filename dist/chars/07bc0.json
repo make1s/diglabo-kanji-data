@@ -39,6 +39,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セツ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "セチ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ふし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "node",
     "season",
@@ -55,6 +73,7 @@
     "tune",
     "melody"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

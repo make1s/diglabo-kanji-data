@@ -38,11 +38,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゲン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あらわ.れる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あらわ.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "present",
     "existing",
     "actual"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

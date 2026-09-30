@@ -32,6 +32,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くら",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "godown",
     "warehouse",
@@ -39,6 +53,7 @@
     "cellar",
     "treasury"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

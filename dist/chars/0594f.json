@@ -31,11 +31,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かな.でる",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "play music",
     "speak to a ruler",
     "complete"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

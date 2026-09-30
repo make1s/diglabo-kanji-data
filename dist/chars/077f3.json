@@ -40,9 +40,32 @@
   "eduReadingsSpecial": [
     "シャク"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セキ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "シャク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "コク",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "stone"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

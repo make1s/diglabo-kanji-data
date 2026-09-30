@@ -30,10 +30,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チュウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "なか",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "go-between",
     "relationship"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

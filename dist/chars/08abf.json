@@ -40,6 +40,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "しら.べる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ととの.う",
+        "stage": "junior"
+      },
+      {
+        "reading": "ととの.える",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "tune",
     "tone",
@@ -52,6 +74,7 @@
     "harmonize",
     "mediate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

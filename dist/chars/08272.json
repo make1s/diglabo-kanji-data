@@ -38,9 +38,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ショク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "シキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "いろ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "color"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

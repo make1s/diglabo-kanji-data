@@ -29,6 +29,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "faction",
     "group",
@@ -37,6 +46,7 @@
     "sect",
     "school"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

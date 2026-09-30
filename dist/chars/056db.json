@@ -39,9 +39,36 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "よ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "よ.つ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "よっ.つ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "よん",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "four"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -45,9 +45,40 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セキ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "シャク",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あか",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あか.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あか.らむ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あか.らめる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "red"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

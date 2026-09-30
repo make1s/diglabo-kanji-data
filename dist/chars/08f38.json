@@ -34,11 +34,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ユ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "transport",
     "send",
     "be inferior"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

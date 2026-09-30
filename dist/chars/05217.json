@@ -29,6 +29,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "レツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "file",
     "row",
@@ -36,6 +45,7 @@
     "tier",
     "column"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

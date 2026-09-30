@@ -37,12 +37,26 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ザイ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "サイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "property",
     "money",
     "wealth",
     "assets"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

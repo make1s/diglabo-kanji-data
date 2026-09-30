@@ -26,6 +26,14 @@ describe("dist/fonts", () => {
     expect(manifest.bytes).toBe(woff2.length);
   });
 
+  it("字集合は常用漢字 2,136 字＋かな 177 字で、配当学年を持つのは教育漢字 1,026 字", () => {
+    expect(index.counts.kanji).toBe(2136);
+    expect(index.counts.hiragana + index.counts.katakana).toBe(177);
+    const graded = index.chars.filter((c) => c.grade !== null);
+    expect(graded).toHaveLength(1026);
+    expect(graded.every((c) => c.kind === "kanji" && c.grade! >= 1 && c.grade! <= 6)).toBe(true);
+  });
+
   it("字数は索引の全字と同じ", () => {
     expect(manifest.glyphCount).toBe(index.chars.length);
   });

@@ -37,12 +37,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さと",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "ri",
     "village",
     "parent's home",
     "league"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

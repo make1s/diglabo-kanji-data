@@ -35,6 +35,24 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ブン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "モン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ふみ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "sentence",
     "literature",
@@ -45,6 +63,7 @@
     "plan",
     "literary radical (no. 67)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

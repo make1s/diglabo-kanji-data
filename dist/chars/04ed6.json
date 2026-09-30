@@ -32,11 +32,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ほか",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "other",
     "another",
     "the others"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -41,10 +41,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "とり",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bird",
     "chicken"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

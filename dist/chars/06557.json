@@ -34,11 +34,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "やぶ.れる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "failure",
     "defeat",
     "reversal"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

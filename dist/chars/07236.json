@@ -34,9 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ちち",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "father"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

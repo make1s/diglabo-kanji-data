@@ -34,10 +34,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "line",
     "track"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

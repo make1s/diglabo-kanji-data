@@ -35,11 +35,25 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ケン",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ゴン",
+        "stage": "senior"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "authority",
     "power",
     "rights"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

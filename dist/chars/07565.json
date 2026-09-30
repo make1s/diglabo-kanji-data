@@ -38,6 +38,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "リャク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "abbreviation",
     "omission",
@@ -46,6 +55,7 @@
     "capture",
     "plunder"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

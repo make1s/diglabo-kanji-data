@@ -29,6 +29,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シキ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "style",
     "ceremony",
@@ -39,6 +48,7 @@
     "form",
     "expression"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

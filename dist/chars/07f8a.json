@@ -36,9 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヨウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひつじ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "sheep"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -37,12 +37,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かえ.る",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かえ.す",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "homecoming",
     "arrive at",
     "lead to",
     "result in"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

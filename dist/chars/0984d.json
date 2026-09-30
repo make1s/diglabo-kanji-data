@@ -39,6 +39,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ガク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひたい",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "forehead",
     "tablet",
@@ -48,6 +62,7 @@
     "amount",
     "volume"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -31,6 +31,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "グ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "tool",
     "utensil",
@@ -39,6 +48,7 @@
     "ingredients",
     "counter for armor, suits, sets of furniture"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -32,6 +32,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゴウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "nickname",
     "number",
@@ -41,6 +50,7 @@
     "name",
     "call"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -32,10 +32,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ドウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "はたら.く",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "work",
     "(kokuji)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

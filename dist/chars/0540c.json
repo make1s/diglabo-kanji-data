@@ -33,11 +33,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ドウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おな.じ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "same",
     "agree",
     "equal"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

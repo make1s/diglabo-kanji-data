@@ -35,12 +35,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "えら.ぶ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "elect",
     "select",
     "choose",
     "prefer"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

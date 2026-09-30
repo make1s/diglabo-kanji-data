@@ -46,6 +46,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "む.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "む.ける",
+        "stage": "elementary"
+      },
+      {
+        "reading": "む.かう",
+        "stage": "elementary"
+      },
+      {
+        "reading": "む.こう",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "yonder",
     "facing",
@@ -55,6 +81,7 @@
     "tend toward",
     "approach"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

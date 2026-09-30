@@ -32,11 +32,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あらそ.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "contend",
     "dispute",
     "argue"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

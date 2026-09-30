@@ -36,6 +36,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジュン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "semi-",
     "correspond to",
@@ -43,6 +52,7 @@
     "conform",
     "imitate"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

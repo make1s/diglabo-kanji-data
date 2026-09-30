@@ -44,9 +44,32 @@
   "eduReadingsSpecial": [
     "トウ"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ドク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "トク",
+        "stage": "elementary"
+      },
+      {
+        "reading": "トウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "よ.む",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "read"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

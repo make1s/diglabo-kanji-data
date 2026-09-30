@@ -36,11 +36,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "もっと.も",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "utmost",
     "most",
     "extreme"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

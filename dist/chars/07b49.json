@@ -38,6 +38,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "トウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ひと.しい",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "etc.",
     "and so forth",
@@ -46,6 +60,7 @@
     "equal",
     "similar"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

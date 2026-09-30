@@ -35,6 +35,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ユウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ウ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あ.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "possess",
     "have",
@@ -43,6 +61,7 @@
     "occur",
     "approx"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -34,6 +34,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "とも",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "together",
     "both",
@@ -43,6 +57,7 @@
     "alike",
     "with"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -29,11 +29,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "bureaucrat",
     "the government",
     "organ"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

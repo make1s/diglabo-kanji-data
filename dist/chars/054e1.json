@@ -29,12 +29,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "イン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "employee",
     "member",
     "number",
     "the one in charge"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -35,6 +35,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジュ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "う.ける",
+        "stage": "elementary"
+      },
+      {
+        "reading": "う.かる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "accept",
     "undergo",
@@ -44,6 +62,7 @@
     "catch",
     "receive"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

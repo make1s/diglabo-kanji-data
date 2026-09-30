@@ -35,10 +35,29 @@
   "eduReadingsSpecial": [
     "キョウ"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キョウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ケイ",
+        "stage": "junior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "あに",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "elder brother",
     "big brother"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

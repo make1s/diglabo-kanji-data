@@ -36,9 +36,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "メン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "わた",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "cotton"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

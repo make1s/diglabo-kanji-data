@@ -34,12 +34,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "エン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "そ.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "run alongside",
     "follow along",
     "run along",
     "lie along"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -33,10 +33,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ネン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "とし",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "year",
     "counter for years"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

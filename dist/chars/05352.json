@@ -35,12 +35,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "graduate",
     "soldier",
     "private",
     "die"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -30,12 +30,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゴ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "noon",
     "sign of the horse",
     "11AM-1PM",
     "seventh sign of Chinese zodiac"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

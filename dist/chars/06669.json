@@ -30,10 +30,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "バン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "nightfall",
     "night"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

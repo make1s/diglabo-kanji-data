@@ -31,11 +31,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "storey",
     "stair",
     "counter for storeys of a building"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

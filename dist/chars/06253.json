@@ -36,6 +36,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ダ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "う.つ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "strike",
     "hit",
@@ -43,6 +57,7 @@
     "pound",
     "dozen"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

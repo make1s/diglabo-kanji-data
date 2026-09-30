@@ -34,11 +34,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "コ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "と",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "door",
     "counter for houses",
     "door radical (no. 63)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

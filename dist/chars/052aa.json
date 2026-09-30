@@ -32,11 +32,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ド",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つと.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "toil",
     "diligent",
     "as much as possible"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

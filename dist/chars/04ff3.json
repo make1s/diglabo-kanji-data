@@ -28,10 +28,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "haiku",
     "actor"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

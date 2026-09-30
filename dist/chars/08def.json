@@ -39,12 +39,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ロ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "-じ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "path",
     "route",
     "road",
     "distance"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -35,12 +35,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "シン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こころ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "heart",
     "mind",
     "spirit",
     "heart radical (no. 61)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

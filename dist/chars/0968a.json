@@ -29,12 +29,22 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "regiment",
     "party",
     "company",
     "squad"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

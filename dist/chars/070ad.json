@@ -34,10 +34,25 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "タン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "すみ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "charcoal",
     "coal"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

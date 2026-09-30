@@ -33,6 +33,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ホ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たも.つ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "protect",
     "guarantee",
@@ -41,6 +55,7 @@
     "sustain",
     "support"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

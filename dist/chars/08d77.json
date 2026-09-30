@@ -43,11 +43,34 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "お.きる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "お.こる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "お.こす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "rouse",
     "wake up",
     "get up"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

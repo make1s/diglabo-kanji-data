@@ -37,12 +37,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ハイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "くば.る",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "distribute",
     "spouse",
     "exile",
     "rationing"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

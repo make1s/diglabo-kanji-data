@@ -35,11 +35,30 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ビ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "そな.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "そな.わる",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "equip",
     "provision",
     "preparation"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

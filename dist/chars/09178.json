@@ -35,12 +35,27 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "す.い",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "acid",
     "bitterness",
     "sour",
     "tart"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

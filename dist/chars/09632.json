@@ -33,12 +33,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ボウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ふせ.ぐ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "ward off",
     "defend",
     "protect",
     "resist"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

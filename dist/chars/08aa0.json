@@ -35,6 +35,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "まこと",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "sincerity",
     "admonish",
@@ -43,6 +57,7 @@
     "truth",
     "fidelity"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

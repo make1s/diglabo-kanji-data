@@ -37,11 +37,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "セツ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "もう.ける",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "establishment",
     "provision",
     "prepare"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

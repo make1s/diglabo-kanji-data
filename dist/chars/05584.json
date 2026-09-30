@@ -36,11 +36,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ゼン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "よ.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "virtuous",
     "good",
     "goodness"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

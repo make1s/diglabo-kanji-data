@@ -39,6 +39,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ソン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "たっと.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "とうと.い",
+        "stage": "elementary"
+      },
+      {
+        "reading": "たっと.ぶ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "とうと.ぶ",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "revered",
     "valuable",
@@ -46,6 +72,7 @@
     "noble",
     "exalted"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

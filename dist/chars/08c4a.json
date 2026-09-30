@@ -39,11 +39,26 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ホウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ゆた.か",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "bountiful",
     "excellent",
     "rich"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

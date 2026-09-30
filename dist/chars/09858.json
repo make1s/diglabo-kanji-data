@@ -40,6 +40,20 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ガン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ねが.う",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "petition",
     "request",
@@ -47,6 +61,7 @@
     "wish",
     "hope"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

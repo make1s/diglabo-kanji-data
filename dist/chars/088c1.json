@@ -37,12 +37,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "さば.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "た.つ",
+        "stage": "junior"
+      }
+    ]
+  },
   "meanings": [
     "tailor",
     "judge",
     "decision",
     "cut out (pattern)"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

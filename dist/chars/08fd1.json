@@ -34,12 +34,27 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "キン",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "ちか.い",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "near",
     "early",
     "akin",
     "tantamount"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

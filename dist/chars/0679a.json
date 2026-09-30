@@ -31,10 +31,20 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "マイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "sheet of...",
     "counter for flat thin objects or sheets"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

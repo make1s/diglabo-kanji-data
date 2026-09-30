@@ -34,6 +34,15 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "オウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "journey",
     "travel",
@@ -43,6 +52,7 @@
     "before",
     "formerly"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

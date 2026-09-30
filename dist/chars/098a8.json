@@ -44,12 +44,35 @@
   "eduReadingsSpecial": [
     "かざ-"
   ],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "フウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "フ",
+        "stage": "senior"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "かぜ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "かざ-",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "wind",
     "air",
     "style",
     "manner"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

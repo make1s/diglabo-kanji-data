@@ -35,12 +35,31 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ド",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ト",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "つち",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "soil",
     "earth",
     "ground",
     "Turkey"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

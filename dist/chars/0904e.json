@@ -39,12 +39,39 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "す.ぎる",
+        "stage": "elementary"
+      },
+      {
+        "reading": "す.ごす",
+        "stage": "elementary"
+      },
+      {
+        "reading": "あやま.つ",
+        "stage": "senior"
+      },
+      {
+        "reading": "あやま.ち",
+        "stage": "senior"
+      }
+    ]
+  },
   "meanings": [
     "overdo",
     "exceed",
     "go beyond",
     "error"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

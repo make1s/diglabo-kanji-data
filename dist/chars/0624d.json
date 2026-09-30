@@ -29,11 +29,21 @@
     "kun": []
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "サイ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": []
+  },
   "meanings": [
     "genius",
     "years old",
     "cubic shaku"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

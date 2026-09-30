@@ -42,6 +42,28 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "カク",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "おぼ.える",
+        "stage": "elementary"
+      },
+      {
+        "reading": "さ.ます",
+        "stage": "elementary"
+      },
+      {
+        "reading": "さ.める",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "memorize",
     "learn",
@@ -49,6 +71,7 @@
     "awake",
     "sober up"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

@@ -38,9 +38,32 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ジュウ",
+        "stage": "elementary"
+      },
+      {
+        "reading": "ジッ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "とお",
+        "stage": "elementary"
+      },
+      {
+        "reading": "と",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "ten"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,

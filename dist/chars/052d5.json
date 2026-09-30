@@ -34,6 +34,24 @@
     ]
   },
   "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ドウ",
+        "stage": "elementary"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "うご.く",
+        "stage": "elementary"
+      },
+      {
+        "reading": "うご.かす",
+        "stage": "elementary"
+      }
+    ]
+  },
   "meanings": [
     "move",
     "motion",
@@ -42,6 +60,7 @@
     "shift",
     "shake"
   ],
+  "variants": [],
   "viewBox": [
     0,
     0,
