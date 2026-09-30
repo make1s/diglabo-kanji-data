@@ -80,8 +80,9 @@ describe("画数による太さの係数（densityScale）", () => {
     expect(() => validateProfileTable(bad)).toThrow(/densityScale/);
     expect(() => validateProfileTable({ ...table, densityScale: { from: 14, to: 29, min: 1.2 } })).toThrow(/densityScale/);
   });
-  it("実際の表は 14 画から 29 画で 80% まで細くする", () => {
+  it("実際の表は土台 5.9（旧 6.4 の 92%）で、10 画から 22 画で 71% まで細くする（2026-10-01 マスター裁定）", () => {
     const real = validateProfileTable(JSON.parse(readFileSync(new URL("../../data/stroke-profiles.json", import.meta.url), "utf8")));
-    expect(real.densityScale).toEqual({ from: 14, to: 29, min: 0.8 });
+    expect(real.stemWidth).toBe(5.9);
+    expect(real.densityScale).toEqual({ from: 10, to: 22, min: 0.71 });
   });
 });
