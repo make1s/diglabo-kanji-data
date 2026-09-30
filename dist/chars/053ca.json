@@ -6,13 +6,14 @@
   "strokeCount": 3,
   "radical": {
     "number": 29,
-    "element": "丿",
+    "element": "又",
     "position": null,
-    "name": "の",
+    "name": "また",
     "strokes": [
-      1
+      2,
+      3
     ],
-    "source": "general"
+    "source": "override"
   },
   "readings": {
     "on": [

@@ -53,7 +53,7 @@ export interface RadicalRecord {
   /** 部首にあたる画の番号（1 始まり）。ここだけ濃く描けば「どこが部首か」を示せる */
   strokes: number[];
   /** KanjiVG のどの印から取ったか。general＝その字の部首、tradit/nelson＝流派の部首 */
-  source: "general" | "tradit" | "nelson";
+  source: "general" | "tradit" | "nelson" | "override";
 }
 
 export interface CharRecord {

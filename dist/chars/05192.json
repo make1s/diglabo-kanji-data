@@ -5,15 +5,17 @@
   "grade": null,
   "strokeCount": 9,
   "radical": {
-    "number": 13,
-    "element": "冂",
-    "position": null,
-    "name": "どうがまえ",
+    "number": 73,
+    "element": "曰",
+    "position": "top",
+    "name": "ひらび",
     "strokes": [
       1,
-      2
+      2,
+      3,
+      4
     ],
-    "source": "tradit"
+    "source": "override"
   },
   "readings": {
     "on": [

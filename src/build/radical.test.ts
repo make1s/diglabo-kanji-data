@@ -9,6 +9,7 @@ const names: RadicalNameTable = {
     囗: { name: "くにがまえ" },
     木: { name: "き", byPosition: { left: "きへん" } },
     匕: { name: "さじ" },
+    又: { name: "また" },
   },
 };
 
@@ -71,5 +72,43 @@ describe("呼び名の表（常用漢字）", () => {
     const names = JSON.parse(readFileSync(new URL("../../data/radical-names.json", import.meta.url), "utf8")) as RadicalNameTable;
     const added = ["彑", "鬯", "虍", "牙", "瓦", "甘", "缶", "韋", "旡", "鬼", "亀", "臼", "匚", "⺗", "鼓", "⺤", "⻞", "釆", "聿", "巛", "斉", "卜", "辶", "爻", "而", "爪", "屮", "髟", "舛", "豸", "麻", "矛", "竜", "隶"];
     for (const el of added) expect(names.names[el], el).toBeDefined();
+  });
+
+  it("中学で習う字で位置により呼び名が変わる字形（漢字ペディアと照合）", () => {
+    const names = JSON.parse(readFileSync(new URL("../../data/radical-names.json", import.meta.url), "utf8")) as RadicalNameTable;
+    expect(names.names["戸"]?.byPosition?.["tare"]).toBe("とだれ"); // 房扇扉
+    expect(names.names["立"]?.byPosition?.["left"]).toBe("たつへん"); // 端
+    expect(names.names["魚"]?.byPosition?.["left"]).toBe("うおへん"); // 鮮鯨
+    expect(names.names["歯"]?.byPosition?.["left"]).toBe("はへん"); // 齢
+  });
+});
+
+describe("buildRadical の手当て", () => {
+  // 「及」は KanjiVG が 丿 に部首の印を付けるが、辞典（漢字ペディア）の部首は 又
+  const root = node({
+    element: "及",
+    strokes: [1, 2, 3],
+    children: [node({ element: "丿", radical: "general", strokes: [1] }), node({ element: "又", strokes: [2, 3] })],
+  });
+
+  it("手当てがあれば KanjiVG の印より優先し、呼び名は表から引く", () => {
+    const got = buildRadical(root, 29, names, "及", { element: "又", strokes: [2, 3], position: null, number: 29 });
+    expect(got).toEqual({
+      radical: { number: 29, element: "又", position: null, name: "また", strokes: [2, 3], source: "override" },
+      warnings: [],
+    });
+  });
+
+  it("手当てが無ければ今までどおり KanjiVG の印", () => {
+    expect(buildRadical(root, 29, names, "及").radical?.element).toBe("丿");
+  });
+});
+
+describe("部首の手当ての表", () => {
+  it("手当ての字はどれも呼び名の表に字形がある", () => {
+    const table = JSON.parse(readFileSync(new URL("../../data/radical-names.json", import.meta.url), "utf8")) as RadicalNameTable;
+    const overrides = JSON.parse(readFileSync(new URL("../../data/radical-overrides.json", import.meta.url), "utf8")) as { overrides: Record<string, { element: string }> };
+    expect(Object.keys(overrides.overrides).sort()).toEqual(["冒", "及", "巨", "舗"].sort());
+    for (const o of Object.values(overrides.overrides)) expect(table.names[o.element], o.element).toBeDefined();
   });
 });

@@ -11,7 +11,7 @@ import type { MextEntry } from "../mext/parse-tsv.js";
 import { validateProfileTable } from "../profiles/types.js";
 import type { ReadingOverride } from "../readings/edu.js";
 import { buildChar } from "./char.js";
-import type { RadicalNameTable } from "./radical.js";
+import type { RadicalNameTable, RadicalOverride } from "./radical.js";
 import { KANJIDIC2_URL, KANJIVG_RELEASE, KANJIVG_URL } from "./sources.js";
 import { buildTehonFont, tehonManifest, TEHON_FILE } from "../font/tehon.js";
 import type { CharKind, CharRecord, DatasetIndex } from "./types.js";
@@ -29,6 +29,7 @@ const header = readKanjidicHeader(kanjidicXml);
 const mextJson = JSON.parse(readFileSync(p("data/mext-onkun-2017.json"), "utf8")) as { source: { title: string; url: string }; entries: MextEntry[] };
 const mext = new Map(mextJson.entries.map((e) => [e.kanji, e]));
 const overrides = JSON.parse(readFileSync(p("data/edu-readings-overrides.json"), "utf8")) as Record<string, ReadingOverride>;
+const radicalOverrides = JSON.parse(readFileSync(p("data/radical-overrides.json"), "utf8")) as { overrides: Record<string, RadicalOverride> };
 const joyoVariants = JSON.parse(readFileSync(p("data/joyo-variants.json"), "utf8")) as { variants: Record<string, string[]> };
 
 const targets: { cp: number; kind: CharKind }[] = [];
@@ -73,7 +74,7 @@ for (const t of targets) {
   }
   const kvg = parseKanjiVg(readFileSync(svgPath, "utf8"));
   const char = String.fromCodePoint(t.cp);
-  const { record, warnings: w } = buildChar({ kvg, dic: dic.get(char), mext: mext.get(char), override: overrides[char], table, radicalNames, kind: t.kind, variants: joyoVariants.variants[char] });
+  const { record, warnings: w } = buildChar({ kvg, dic: dic.get(char), mext: mext.get(char), override: overrides[char], table, radicalNames, kind: t.kind, variants: joyoVariants.variants[char], radicalOverride: radicalOverrides.overrides[char] });
   warnings.push(...w);
   const json = JSON.stringify(record, null, 2);
   bytes += Buffer.byteLength(json);

@@ -9,7 +9,7 @@ import { resolveProfileKey } from "../profiles/resolve.js";
 import type { ProfileTable } from "../profiles/types.js";
 import { selectEduReadings, type ReadingOverride } from "../readings/edu.js";
 import { selectReadingStages } from "../readings/stages.js";
-import { buildRadical, type RadicalNameTable } from "./radical.js";
+import { buildRadical, type RadicalNameTable, type RadicalOverride } from "./radical.js";
 import type { CharKind, CharRecord, PartNode, StrokeRecord } from "./types.js";
 
 export interface BuildInput {
@@ -22,6 +22,8 @@ export interface BuildInput {
   kind: CharKind;
   /** 一般の字体（検索用の別名）。常用漢字表の字体と符号位置が違う字だけ */
   variants?: string[] | undefined;
+  /** 部首の手当て（KanjiVG の印が辞典の部首と違う字だけ） */
+  radicalOverride?: RadicalOverride | undefined;
 }
 
 const round = (v: number, digits: number): number => Number(v.toFixed(digits));
@@ -78,7 +80,7 @@ export function buildChar(input: BuildInput): { record: CharRecord; warnings: st
   for (const u of edu.unmatched) warnings.push(`${char}: 教育用読み「${u}」を KANJIDIC2 の表記に写せない（data/edu-readings-overrides.json で手当て）`);
 
   const parts = toPartNode(kvg.root, strokeBBoxes);
-  const rad = buildRadical(parts, dic.radicalClassical, input.radicalNames, char);
+  const rad = buildRadical(parts, dic.radicalClassical, input.radicalNames, char, input.radicalOverride);
   warnings.push(...rad.warnings);
 
   const record: CharRecord = {
