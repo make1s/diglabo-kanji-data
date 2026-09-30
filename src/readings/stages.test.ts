@@ -22,6 +22,7 @@ describe("selectReadingStages", () => {
     expect(got).toEqual({
       on: [{ reading: "カ", stage: "elementary" }, { reading: "ケ", stage: "junior" }],
       kun: [{ reading: "ば.ける", stage: "elementary" }, { reading: "ば.かす", stage: "elementary" }],
+      unmatched: [],
     });
   });
 
@@ -36,6 +37,7 @@ describe("selectReadingStages", () => {
     expect(selectReadingStages(dic(["シツ"], ["しか.る"]), mext, { on: [], kun: [] })).toEqual({
       on: [{ reading: "シツ", stage: "junior" }],
       kun: [{ reading: "しか.る", stage: "junior" }],
+      unmatched: [],
     });
   });
 
@@ -45,6 +47,21 @@ describe("selectReadingStages", () => {
   });
 
   it("割り振り表が無い字（かな）は空", () => {
-    expect(selectReadingStages(dic([], []), undefined, { on: [], kun: [] })).toEqual({ on: [], kun: [] });
+    expect(selectReadingStages(dic([], []), undefined, { on: [], kun: [] })).toEqual({ on: [], kun: [], unmatched: [] });
+  });
+});
+
+describe("selectReadingStages の写せない読み", () => {
+  const mext: MextEntry = { kanji: "絡", grade: null, readings: [{ reading: "からめる", kind: "kun", stage: "senior", special: false }] };
+  it("KANJIDIC2 に写せない読みは unmatched に挙げる（黙って入れない）", () => {
+    expect(selectReadingStages(dic([], ["から.む"]), mext, { on: [], kun: [] }).unmatched).toEqual(["からめる"]);
+  });
+  it("手当ての表があれば、その表記（送り仮名の区切りつき）で入れ、unmatched に挙げない", () => {
+    const got = selectReadingStages(dic([], ["から.む"]), mext, { on: [], kun: [] }, { からめる: "から.める" });
+    expect(got.kun).toEqual([{ reading: "から.める", stage: "senior" }]);
+    expect(got.unmatched).toEqual([]);
+  });
+  it("手当ての表は区切りを除くと元の読みと同じでなければ投げる（書き間違いを入れない）", () => {
+    expect(() => selectReadingStages(dic([], []), mext, { on: [], kun: [] }, { からめる: "から.む" })).toThrow(/からめる/);
   });
 });

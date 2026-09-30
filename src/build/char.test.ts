@@ -153,3 +153,15 @@ describe("buildChar の画数による太さ", () => {
     }
   });
 });
+
+describe("buildChar の写せない段階の読み", () => {
+  const juniorMext: MextEntry = { ...mext, grade: null, readings: [...mext.readings, { reading: "ばかしい", kind: "kun", stage: "junior", special: false }] };
+  it("写せない読みは警告し、手当てがあれば警告しない。record には unmatched を入れない", () => {
+    const warned = buildChar({ kvg: parseKanjiVg(KA), dic, mext: juniorMext, table, radicalNames, kind: "kanji" });
+    expect(warned.warnings).toContain("化: 段階の読み「ばかしい」を KANJIDIC2 の表記に写せない（data/stage-readings-overrides.json で手当て）");
+    expect(Object.keys(warned.record.readingStages)).toEqual(["on", "kun"]);
+    const fixed = buildChar({ kvg: parseKanjiVg(KA), dic, mext: juniorMext, table, radicalNames, kind: "kanji", stageFixes: { ばかしい: "ば.かしい" } });
+    expect(fixed.warnings.filter((w) => w.includes("段階の読み"))).toEqual([]);
+    expect(fixed.record.readingStages.kun).toContainEqual({ reading: "ば.かしい", stage: "junior" });
+  });
+});

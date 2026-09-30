@@ -24,6 +24,8 @@ export interface BuildInput {
   variants?: string[] | undefined;
   /** 部首の手当て（KanjiVG の印が辞典の部首と違う字だけ） */
   radicalOverride?: RadicalOverride | undefined;
+  /** 段階の読みの手当て（割り振り表の読み → KANJIDIC2 の表記）。KANJIDIC2 に写せない読みだけ */
+  stageFixes?: Record<string, string> | undefined;
 }
 
 const round = (v: number, digits: number): number => Number(v.toFixed(digits));
@@ -81,6 +83,9 @@ export function buildChar(input: BuildInput): { record: CharRecord; warnings: st
   const edu = selectEduReadings(dic, input.mext, input.override);
   for (const u of edu.unmatched) warnings.push(`${char}: 教育用読み「${u}」を KANJIDIC2 の表記に写せない（data/edu-readings-overrides.json で手当て）`);
 
+  const stages = selectReadingStages(dic, input.mext, { on: edu.on, kun: edu.kun }, input.stageFixes);
+  for (const u of stages.unmatched) warnings.push(`${char}: 段階の読み「${u}」を KANJIDIC2 の表記に写せない（data/stage-readings-overrides.json で手当て）`);
+
   const parts = toPartNode(kvg.root, strokeBBoxes);
   const rad = buildRadical(parts, dic.radicalClassical, input.radicalNames, char, input.radicalOverride);
   warnings.push(...rad.warnings);
@@ -95,7 +100,7 @@ export function buildChar(input: BuildInput): { record: CharRecord; warnings: st
     readings: { on: [...dic.on], kun: [...dic.kun] },
     eduReadings: { on: edu.on, kun: edu.kun },
     eduReadingsSpecial: edu.special,
-    readingStages: selectReadingStages(dic, input.mext, { on: edu.on, kun: edu.kun }),
+    readingStages: { on: stages.on, kun: stages.kun },
     meanings: [...dic.meanings],
     variants: [...(input.variants ?? [])],
     viewBox: [0, 0, 109, 109],
