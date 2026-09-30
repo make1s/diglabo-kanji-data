@@ -33,7 +33,7 @@ export interface ProfileTable {
 /** 教育漢字 9,662 画に現れる kvg:type の基本形 25 種（添字と「／」を除いたもの） */
 export const BASE_STROKE_TYPES = [
   "㇐", "㇑", "㇒", "㇔", "㇏", "㇕", "㇇", "㇚", "㇀", "㇆", "㇜", "㇟", "㇖",
-  "㇁", "㇙", "㇂", "㇃", "㇋", "㇛", "㇓", "㇄", "㇉", "㇗", "㇈", "㇞",
+  "㇁", "㇙", "㇂", "㇃", "㇋", "㇛", "㇓", "㇄", "㇉", "㇗", "㇈", "㇞", "㇅", "㇡",
 ] as const;
 
 const CAPS: ReadonlySet<string> = new Set(["round", "flat", "point"]);

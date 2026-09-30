@@ -51,11 +51,14 @@ describe("validateProfileTable", () => {
     bad.profiles["㇐"]!.width = 0;
     expect(() => validateProfileTable(bad)).toThrow(/width/);
   });
-  it("実際の設計図の表は基本 25 種と kana を全部持ち、検証を通る", () => {
+  it("実際の設計図の表は基本 27 種と kana を全部持ち、検証を通る", () => {
     const json = JSON.parse(readFileSync(new URL("../../data/stroke-profiles.json", import.meta.url), "utf8"));
     const real = validateProfileTable(json);
-    expect(BASE_STROKE_TYPES).toHaveLength(25);
+    expect(BASE_STROKE_TYPES).toHaveLength(27);
     for (const t of BASE_STROKE_TYPES) expect(real.profiles[t], t).toBeDefined();
     expect(real.profiles["kana"]).toBeDefined();
+    // 常用漢字で増えた画種（凹凸の ㇅、携秀透誘の ㇡）
+    expect(resolveProfileKey("㇅", real)).toBe("㇅");
+    expect(resolveProfileKey("㇡", real)).toBe("㇡");
   });
 });
