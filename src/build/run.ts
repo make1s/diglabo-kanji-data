@@ -29,6 +29,7 @@ const header = readKanjidicHeader(kanjidicXml);
 const mextJson = JSON.parse(readFileSync(p("data/mext-onkun-2017.json"), "utf8")) as { source: { title: string; url: string }; entries: MextEntry[] };
 const mext = new Map(mextJson.entries.map((e) => [e.kanji, e]));
 const overrides = JSON.parse(readFileSync(p("data/edu-readings-overrides.json"), "utf8")) as Record<string, ReadingOverride>;
+const joyoVariants = JSON.parse(readFileSync(p("data/joyo-variants.json"), "utf8")) as { variants: Record<string, string[]> };
 
 const targets: { cp: number; kind: CharKind }[] = [];
 // ⚠ 字集合は割り振り表（常用漢字表の 2,136 字）で決める。KANJIDIC2 の grade では決めない（ADR 0009）
@@ -72,7 +73,7 @@ for (const t of targets) {
   }
   const kvg = parseKanjiVg(readFileSync(svgPath, "utf8"));
   const char = String.fromCodePoint(t.cp);
-  const { record, warnings: w } = buildChar({ kvg, dic: dic.get(char), mext: mext.get(char), override: overrides[char], table, radicalNames, kind: t.kind });
+  const { record, warnings: w } = buildChar({ kvg, dic: dic.get(char), mext: mext.get(char), override: overrides[char], table, radicalNames, kind: t.kind, variants: joyoVariants.variants[char] });
   warnings.push(...w);
   const json = JSON.stringify(record, null, 2);
   bytes += Buffer.byteLength(json);

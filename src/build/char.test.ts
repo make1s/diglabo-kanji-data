@@ -120,3 +120,23 @@ describe("buildChar の配当学年（常用漢字）", () => {
     expect(warnings).toContain("化: 学年が違う（KANJIDIC2 4・割り振り表 3）");
   });
 });
+
+describe("buildChar の別名", () => {
+  it("variants を受け取った字は record.variants に持ち、無い字は空", () => {
+    const withVariants = buildChar({ kvg: parseKanjiVg(KA), dic, mext, table, radicalNames, kind: "kanji", variants: ["叱"] });
+    expect(withVariants.record.variants).toEqual(["叱"]);
+    const without = buildChar({ kvg: parseKanjiVg(KA), dic, mext, table, radicalNames, kind: "kanji" });
+    expect(without.record.variants).toEqual([]);
+  });
+
+  it("別名の表は常用漢字表の字体を鍵に持ち、どれも割り振り表にある字", () => {
+    const file = JSON.parse(readFileSync(new URL("../../data/joyo-variants.json", import.meta.url), "utf8")) as { variants: Record<string, string[]> };
+    const joyo = new Set((JSON.parse(readFileSync(new URL("../../data/mext-onkun-2017.json", import.meta.url), "utf8")) as { entries: { kanji: string }[] }).entries.map((e) => e.kanji));
+    expect(Object.keys(file.variants)).toEqual(["𠮟", "塡", "剝", "頰"]);
+    for (const [char, list] of Object.entries(file.variants)) {
+      expect(joyo.has(char), char).toBe(true);
+      for (const v of list) expect(joyo.has(v), v).toBe(false);
+    }
+    expect("𠮟".codePointAt(0)!.toString(16).padStart(5, "0")).toBe("20b9f");
+  });
+});

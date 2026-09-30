@@ -77,6 +77,8 @@ export interface CharRecord {
   readingStages: ReadingStages;
   /** KANJIDIC2 の英語の意味 */
   meanings: string[];
+  /** 一般の字体（検索用の別名）。常用漢字表の字体と符号位置が違う 4 字（𠮟・塡・剝・頰）だけが持つ。他は空 */
+  variants: string[];
   viewBox: [0, 0, 109, 109];
   strokes: StrokeRecord[];
   parts: PartNode;

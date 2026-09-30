@@ -20,6 +20,8 @@ export interface BuildInput {
   table: ProfileTable;
   radicalNames: RadicalNameTable;
   kind: CharKind;
+  /** 一般の字体（検索用の別名）。常用漢字表の字体と符号位置が違う字だけ */
+  variants?: string[] | undefined;
 }
 
 const round = (v: number, digits: number): number => Number(v.toFixed(digits));
@@ -91,6 +93,7 @@ export function buildChar(input: BuildInput): { record: CharRecord; warnings: st
     eduReadingsSpecial: edu.special,
     readingStages: selectReadingStages(dic, input.mext, { on: edu.on, kun: edu.kun }),
     meanings: [...dic.meanings],
+    variants: [...(input.variants ?? [])],
     viewBox: [0, 0, 109, 109],
     strokes,
     parts,
