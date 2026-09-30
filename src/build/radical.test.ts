@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { buildRadical, type RadicalNameTable } from "./radical.js";
 import type { PartNode } from "./types.js";
@@ -62,5 +63,13 @@ describe("buildRadical", () => {
     const out = buildRadical(node({ element: "あ", strokes: [1, 2, 3] }), null, names, "あ");
     expect(out.radical).toBeNull();
     expect(out.warnings).toEqual([]);
+  });
+});
+
+describe("呼び名の表（常用漢字）", () => {
+  it("常用漢字で新しく出る 34 字形がすべて表にある", () => {
+    const names = JSON.parse(readFileSync(new URL("../../data/radical-names.json", import.meta.url), "utf8")) as RadicalNameTable;
+    const added = ["彑", "鬯", "虍", "牙", "瓦", "甘", "缶", "韋", "旡", "鬼", "亀", "臼", "匚", "⺗", "鼓", "⺤", "⻞", "釆", "聿", "巛", "斉", "卜", "辶", "爻", "而", "爪", "屮", "髟", "舛", "豸", "麻", "矛", "竜", "隶"];
+    for (const el of added) expect(names.names[el], el).toBeDefined();
   });
 });
