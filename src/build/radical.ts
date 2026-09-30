@@ -51,12 +51,33 @@ function findRadicalParts(root: PartNode): { parts: PartNode[]; source: RadicalS
   return null;
 }
 
+/**
+ * 字ごとの部首の手当て（data/radical-overrides.json）。KanjiVG の部品の分け方が辞典（漢字ペディア）の部首と違い、
+ * 呼び名の表では直せない字だけに置く。画の番号は KanjiVG の画番号。
+ */
+export interface RadicalOverride {
+  element: string;
+  strokes: number[];
+  position: string | null;
+  number: number;
+}
+
 export function buildRadical(
   root: PartNode,
   number: number | null,
   names: RadicalNameTable,
-  char: string
+  char: string,
+  override?: RadicalOverride
 ): { radical: RadicalRecord | null; warnings: string[] } {
+  if (override) {
+    const entry = names.names[override.element];
+    const spec = entry === undefined ? undefined : entry.byNumber?.[String(override.number)] ?? entry;
+    const name = spec === undefined ? null : (override.position === null ? undefined : spec.byPosition?.[override.position]) ?? spec.name;
+    return {
+      radical: { number: override.number, element: override.element, position: override.position, name, strokes: [...override.strokes], source: "override" },
+      warnings: entry === undefined ? [`${char}: 部首「${override.element}」の呼び名が data/radical-names.json に無い`] : [],
+    };
+  }
   const hit = findRadicalParts(root);
   // かなは部首を持たない。漢字で印が無ければ紙面の部首欄が組めないので警告する
   if (!hit) return { radical: null, warnings: number === null ? [] : [`${char}: KanjiVG に部首の印が無い`] };

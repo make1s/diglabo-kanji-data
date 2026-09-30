@@ -23,17 +23,36 @@ export interface StrokeProfile {
   refinement?: Refinement;
 }
 
+/**
+ * 画数による太さの係数。画の多い字は画と画のすき間が潰れるので、基準の太さを細くする（2026-10-01 マスター裁定）。
+ * from 画までは 1、to 画以上は min、その間は直線で細くする。字ごとの上書きではなく画数だけで決まる。
+ */
+export interface DensityScale {
+  from: number;
+  to: number;
+  min: number;
+}
+
 export interface ProfileTable {
   version: number;
   /** 109 単位系での縦画の基準の太さ */
   stemWidth: number;
+  /** 画数による太さの係数。無ければ全字が stemWidth のまま */
+  densityScale?: DensityScale;
   profiles: Record<string, StrokeProfile>;
+}
+
+/** 画数 strokeCount の字の基準の太さに掛ける係数 */
+export function stemScaleFor(strokeCount: number, spec: DensityScale | undefined): number {
+  if (!spec || strokeCount <= spec.from) return 1;
+  if (strokeCount >= spec.to) return spec.min;
+  return 1 - ((strokeCount - spec.from) / (spec.to - spec.from)) * (1 - spec.min);
 }
 
 /** 教育漢字 9,662 画に現れる kvg:type の基本形 25 種（添字と「／」を除いたもの） */
 export const BASE_STROKE_TYPES = [
   "㇐", "㇑", "㇒", "㇔", "㇏", "㇕", "㇇", "㇚", "㇀", "㇆", "㇜", "㇟", "㇖",
-  "㇁", "㇙", "㇂", "㇃", "㇋", "㇛", "㇓", "㇄", "㇉", "㇗", "㇈", "㇞",
+  "㇁", "㇙", "㇂", "㇃", "㇋", "㇛", "㇓", "㇄", "㇉", "㇗", "㇈", "㇞", "㇅", "㇡",
 ] as const;
 
 const CAPS: ReadonlySet<string> = new Set(["round", "flat", "point"]);
@@ -92,5 +111,11 @@ export function validateProfileTable(json: unknown): ProfileTable {
   if (!isRecord(json["profiles"])) throw new Error("profiles が無い");
   const profiles: Record<string, StrokeProfile> = {};
   for (const [key, v] of Object.entries(json["profiles"])) profiles[key] = validateProfile(key, v);
-  return { version: json["version"], stemWidth: json["stemWidth"], profiles };
+  const d = json["densityScale"];
+  if (d === undefined) return { version: json["version"], stemWidth: json["stemWidth"], profiles };
+  if (!isRecord(d) || typeof d["from"] !== "number" || typeof d["to"] !== "number" || typeof d["min"] !== "number" ||
+      !(d["from"] < d["to"]) || !(d["min"] > 0 && d["min"] <= 1)) {
+    throw new Error("densityScale は from < to、0 < min ≤ 1 の数で書く");
+  }
+  return { version: json["version"], stemWidth: json["stemWidth"], densityScale: { from: d["from"], to: d["to"], min: d["min"] }, profiles };
 }

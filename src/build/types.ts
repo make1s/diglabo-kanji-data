@@ -1,4 +1,5 @@
 import type { BBox } from "../geometry/bbox.js";
+import type { ReadingStages } from "../readings/stages.js";
 
 export type CharKind = "kanji" | "hiragana" | "katakana";
 
@@ -52,7 +53,7 @@ export interface RadicalRecord {
   /** 部首にあたる画の番号（1 始まり）。ここだけ濃く描けば「どこが部首か」を示せる */
   strokes: number[];
   /** KanjiVG のどの印から取ったか。general＝その字の部首、tradit/nelson＝流派の部首 */
-  source: "general" | "tradit" | "nelson";
+  source: "general" | "tradit" | "nelson" | "override";
 }
 
 export interface CharRecord {
@@ -60,7 +61,7 @@ export interface CharRecord {
   /** 5桁の小文字16進 */
   codepoint: string;
   kind: CharKind;
-  /** 学年 1..6（かなは null） */
+  /** 配当学年 1..6。中学で習う字とかなは null */
   grade: number | null;
   /** KanjiVG の画数 */
   strokeCount: number;
@@ -72,8 +73,12 @@ export interface CharRecord {
   eduReadings: { on: string[]; kun: string[] };
   /** 割り振り表で1字下げだった読み（eduReadings にも入っている） */
   eduReadingsSpecial: string[];
+  /** 読みの段階つきの読み（小学校＝eduReadings、中学・高校＝割り振り表）。かなは空 */
+  readingStages: ReadingStages;
   /** KANJIDIC2 の英語の意味 */
   meanings: string[];
+  /** 一般の字体（検索用の別名）。常用漢字表の字体と符号位置が違う 4 字（𠮟・塡・剝・頰）だけが持つ。他は空 */
+  variants: string[];
   viewBox: [0, 0, 109, 109];
   strokes: StrokeRecord[];
   parts: PartNode;

@@ -6,9 +6,10 @@ import type { KanjidicEntry } from "../kanjidic/parse.js";
 import { allStrokesOf, type KvgChar, type KvgGroup } from "../kanjivg/parse.js";
 import type { MextEntry } from "../mext/parse-tsv.js";
 import { resolveProfileKey } from "../profiles/resolve.js";
-import type { ProfileTable } from "../profiles/types.js";
+import { stemScaleFor, type ProfileTable } from "../profiles/types.js";
 import { selectEduReadings, type ReadingOverride } from "../readings/edu.js";
-import { buildRadical, type RadicalNameTable } from "./radical.js";
+import { selectReadingStages } from "../readings/stages.js";
+import { buildRadical, type RadicalNameTable, type RadicalOverride } from "./radical.js";
 import type { CharKind, CharRecord, PartNode, StrokeRecord } from "./types.js";
 
 export interface BuildInput {
@@ -19,6 +20,10 @@ export interface BuildInput {
   table: ProfileTable;
   radicalNames: RadicalNameTable;
   kind: CharKind;
+  /** 一般の字体（検索用の別名）。常用漢字表の字体と符号位置が違う字だけ */
+  variants?: string[] | undefined;
+  /** 部首の手当て（KanjiVG の印が辞典の部首と違う字だけ） */
+  radicalOverride?: RadicalOverride | undefined;
 }
 
 const round = (v: number, digits: number): number => Number(v.toFixed(digits));
@@ -52,12 +57,14 @@ export function buildChar(input: BuildInput): { record: CharRecord; warnings: st
   const warnings: string[] = [];
   const dic = input.dic ?? EMPTY_DIC(char, kvg.codepoint);
 
+  // 画の多い字は基準の太さを細くする（画数だけで決まり、字ごとの上書きは無い）
+  const stemWidth = table.stemWidth * stemScaleFor(kvg.strokes.length, table.densityScale);
   const strokeBBoxes = new Map<number, BBox>();
   const strokes: StrokeRecord[] = kvg.strokes.map((s, i) => {
     const profileKey = resolveProfileKey(s.type, table);
     const profile = table.profiles[profileKey]!;
     const sampled = sampleCenterline(parseSvgPath(s.d), profile.refinement ? 0.3 : 1.5);
-    const poly = simplifyPolyline(buildOutline(sampled, profile, table.stemWidth), profile.refinement ? 0.015 : 0.08);
+    const poly = simplifyPolyline(buildOutline(sampled, profile, stemWidth), profile.refinement ? 0.015 : 0.08);
     const bbox = roundBBox(bboxOfPoints(poly));
     strokeBBoxes.set(s.n, bbox);
     const numberAt = kvg.numbers[i]!;
@@ -66,25 +73,31 @@ export function buildChar(input: BuildInput): { record: CharRecord; warnings: st
 
   if (input.dic && input.dic.strokeCount !== strokes.length) warnings.push(`${char}: 画数が違う（KanjiVG ${strokes.length}・KANJIDIC2 ${input.dic.strokeCount}）`);
   if (kind === "kanji" && !input.mext) warnings.push(`${char}: 割り振り表に無い`);
-  if (input.dic && input.mext && input.dic.grade !== input.mext.grade) warnings.push(`${char}: 学年が違う（KANJIDIC2 ${input.dic.grade}・割り振り表 ${input.mext.grade}）`);
+  // 配当学年は割り振り表（学年別漢字配当表）から取る。KANJIDIC2 は中学で習う字に 8 を入れるので写さない
+  const dicEduGrade = dic.grade !== null && dic.grade <= 6 ? dic.grade : null;
+  if (input.dic && input.mext && dicEduGrade !== input.mext.grade) {
+    warnings.push(`${char}: 学年が違う（KANJIDIC2 ${input.dic.grade}・割り振り表 ${input.mext.grade}）`);
+  }
   const edu = selectEduReadings(dic, input.mext, input.override);
   for (const u of edu.unmatched) warnings.push(`${char}: 教育用読み「${u}」を KANJIDIC2 の表記に写せない（data/edu-readings-overrides.json で手当て）`);
 
   const parts = toPartNode(kvg.root, strokeBBoxes);
-  const rad = buildRadical(parts, dic.radicalClassical, input.radicalNames, char);
+  const rad = buildRadical(parts, dic.radicalClassical, input.radicalNames, char, input.radicalOverride);
   warnings.push(...rad.warnings);
 
   const record: CharRecord = {
     char,
     codepoint: kvg.codepoint,
     kind,
-    grade: dic.grade,
+    grade: kind === "kanji" ? (input.mext?.grade ?? null) : null,
     strokeCount: strokes.length,
     radical: rad.radical,
     readings: { on: [...dic.on], kun: [...dic.kun] },
     eduReadings: { on: edu.on, kun: edu.kun },
     eduReadingsSpecial: edu.special,
+    readingStages: selectReadingStages(dic, input.mext, { on: edu.on, kun: edu.kun }),
     meanings: [...dic.meanings],
+    variants: [...(input.variants ?? [])],
     viewBox: [0, 0, 109, 109],
     strokes,
     parts,

@@ -1,6 +1,7 @@
 /**
  * 全量ビルド: input/ → dist/chars/{codepoint}.json + dist/index.json、build/report.json
- * 対象: KANJIDIC2 で学年 1..6 の 1,026 字、ひらがな U+3041..3096、カタカナ U+30A1..30FA と長音符 U+30FC
+ * 対象: 常用漢字 2,136 字（割り振り表の字。教育漢字は配当学年順、中学で習う字は codepoint 順で後ろ）、
+ *       ひらがな U+3041..3096、カタカナ U+30A1..30FA と長音符 U+30FC
  */
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -10,7 +11,7 @@ import type { MextEntry } from "../mext/parse-tsv.js";
 import { validateProfileTable } from "../profiles/types.js";
 import type { ReadingOverride } from "../readings/edu.js";
 import { buildChar } from "./char.js";
-import type { RadicalNameTable } from "./radical.js";
+import type { RadicalNameTable, RadicalOverride } from "./radical.js";
 import { KANJIDIC2_URL, KANJIVG_RELEASE, KANJIVG_URL } from "./sources.js";
 import { buildTehonFont, tehonManifest, TEHON_FILE } from "../font/tehon.js";
 import type { CharKind, CharRecord, DatasetIndex } from "./types.js";
@@ -28,11 +29,13 @@ const header = readKanjidicHeader(kanjidicXml);
 const mextJson = JSON.parse(readFileSync(p("data/mext-onkun-2017.json"), "utf8")) as { source: { title: string; url: string }; entries: MextEntry[] };
 const mext = new Map(mextJson.entries.map((e) => [e.kanji, e]));
 const overrides = JSON.parse(readFileSync(p("data/edu-readings-overrides.json"), "utf8")) as Record<string, ReadingOverride>;
+const radicalOverrides = JSON.parse(readFileSync(p("data/radical-overrides.json"), "utf8")) as { overrides: Record<string, RadicalOverride> };
+const joyoVariants = JSON.parse(readFileSync(p("data/joyo-variants.json"), "utf8")) as { variants: Record<string, string[]> };
 
 const targets: { cp: number; kind: CharKind }[] = [];
-for (const e of [...dic.values()].filter((e) => e.grade !== null && e.grade <= 6).sort((a, b) => a.grade! - b.grade! || a.codepoint.localeCompare(b.codepoint))) {
-  targets.push({ cp: Number.parseInt(e.codepoint, 16), kind: "kanji" });
-}
+// ⚠ 字集合は割り振り表（常用漢字表の 2,136 字）で決める。KANJIDIC2 の grade では決めない（ADR 0009）
+const joyo = [...mextJson.entries].sort((a, b) => (a.grade ?? 7) - (b.grade ?? 7) || a.kanji.codePointAt(0)! - b.kanji.codePointAt(0)!);
+for (const e of joyo) targets.push({ cp: e.kanji.codePointAt(0)!, kind: "kanji" });
 for (let cp = 0x3041; cp <= 0x3096; cp++) targets.push({ cp, kind: "hiragana" });
 for (let cp = 0x30a1; cp <= 0x30fa; cp++) targets.push({ cp, kind: "katakana" });
 targets.push({ cp: 0x30fc, kind: "katakana" });
@@ -71,7 +74,7 @@ for (const t of targets) {
   }
   const kvg = parseKanjiVg(readFileSync(svgPath, "utf8"));
   const char = String.fromCodePoint(t.cp);
-  const { record, warnings: w } = buildChar({ kvg, dic: dic.get(char), mext: mext.get(char), override: overrides[char], table, radicalNames, kind: t.kind });
+  const { record, warnings: w } = buildChar({ kvg, dic: dic.get(char), mext: mext.get(char), override: overrides[char], table, radicalNames, kind: t.kind, variants: joyoVariants.variants[char], radicalOverride: radicalOverrides.overrides[char] });
   warnings.push(...w);
   const json = JSON.stringify(record, null, 2);
   bytes += Buffer.byteLength(json);
