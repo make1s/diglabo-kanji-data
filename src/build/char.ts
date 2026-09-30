@@ -6,7 +6,7 @@ import type { KanjidicEntry } from "../kanjidic/parse.js";
 import { allStrokesOf, type KvgChar, type KvgGroup } from "../kanjivg/parse.js";
 import type { MextEntry } from "../mext/parse-tsv.js";
 import { resolveProfileKey } from "../profiles/resolve.js";
-import type { ProfileTable } from "../profiles/types.js";
+import { stemScaleFor, type ProfileTable } from "../profiles/types.js";
 import { selectEduReadings, type ReadingOverride } from "../readings/edu.js";
 import { selectReadingStages } from "../readings/stages.js";
 import { buildRadical, type RadicalNameTable, type RadicalOverride } from "./radical.js";
@@ -57,12 +57,14 @@ export function buildChar(input: BuildInput): { record: CharRecord; warnings: st
   const warnings: string[] = [];
   const dic = input.dic ?? EMPTY_DIC(char, kvg.codepoint);
 
+  // 画の多い字は基準の太さを細くする（画数だけで決まり、字ごとの上書きは無い）
+  const stemWidth = table.stemWidth * stemScaleFor(kvg.strokes.length, table.densityScale);
   const strokeBBoxes = new Map<number, BBox>();
   const strokes: StrokeRecord[] = kvg.strokes.map((s, i) => {
     const profileKey = resolveProfileKey(s.type, table);
     const profile = table.profiles[profileKey]!;
     const sampled = sampleCenterline(parseSvgPath(s.d), profile.refinement ? 0.3 : 1.5);
-    const poly = simplifyPolyline(buildOutline(sampled, profile, table.stemWidth), profile.refinement ? 0.015 : 0.08);
+    const poly = simplifyPolyline(buildOutline(sampled, profile, stemWidth), profile.refinement ? 0.015 : 0.08);
     const bbox = roundBBox(bboxOfPoints(poly));
     strokeBBoxes.set(s.n, bbox);
     const numberAt = kvg.numbers[i]!;

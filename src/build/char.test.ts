@@ -140,3 +140,16 @@ describe("buildChar の別名", () => {
     expect("𠮟".codePointAt(0)!.toString(16).padStart(5, "0")).toBe("20b9f");
   });
 });
+
+describe("buildChar の画数による太さ", () => {
+  it("densityScale の係数で輪郭が細くなり、中心線は変わらない", () => {
+    const plain = buildChar({ kvg: parseKanjiVg(KA), dic, mext, table, radicalNames, kind: "kanji" }).record;
+    // 「化」は 4 画。1 画から 4 画で半分まで細くする表で組む
+    const thin = buildChar({ kvg: parseKanjiVg(KA), dic, mext, table: { ...table, densityScale: { from: 1, to: 4, min: 0.5 } }, radicalNames, kind: "kanji" }).record;
+    const area = (b: number[]) => b[2]! * b[3]!;
+    for (let i = 0; i < plain.strokes.length; i++) {
+      expect(thin.strokes[i]!.centerline).toBe(plain.strokes[i]!.centerline);
+      expect(area(thin.strokes[i]!.bbox)).toBeLessThan(area(plain.strokes[i]!.bbox));
+    }
+  });
+});
