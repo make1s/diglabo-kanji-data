@@ -1,4 +1,5 @@
 import type { BBox } from "../geometry/bbox.js";
+import type { ReadingStages } from "../readings/stages.js";
 
 export type CharKind = "kanji" | "hiragana" | "katakana";
 
@@ -72,6 +73,8 @@ export interface CharRecord {
   eduReadings: { on: string[]; kun: string[] };
   /** 割り振り表で1字下げだった読み（eduReadings にも入っている） */
   eduReadingsSpecial: string[];
+  /** 読みの段階つきの読み（小学校＝eduReadings、中学・高校＝割り振り表）。かなは空 */
+  readingStages: ReadingStages;
   /** KANJIDIC2 の英語の意味 */
   meanings: string[];
   viewBox: [0, 0, 109, 109];

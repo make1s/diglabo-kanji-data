@@ -40,6 +40,10 @@ describe("buildChar", () => {
     expect(record.readings).toEqual({ on: ["カ", "ケ"], kun: ["ば.ける", "ば.かす", "ふ.ける", "け.する"] });
     expect(record.eduReadings).toEqual({ on: ["カ"], kun: ["ば.ける", "ば.かす"] });
     expect(record.eduReadingsSpecial).toEqual([]);
+    expect(record.readingStages).toEqual({
+      on: [{ reading: "カ", stage: "elementary" }, { reading: "ケ", stage: "junior" }],
+      kun: [{ reading: "ば.ける", stage: "elementary" }, { reading: "ば.かす", stage: "elementary" }],
+    });
     expect(record.meanings).toEqual(["change", "take the form of"]);
     expect(record.viewBox).toEqual([0, 0, 109, 109]);
     expect(warnings).toEqual([]);

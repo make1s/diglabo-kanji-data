@@ -8,6 +8,7 @@ import type { MextEntry } from "../mext/parse-tsv.js";
 import { resolveProfileKey } from "../profiles/resolve.js";
 import type { ProfileTable } from "../profiles/types.js";
 import { selectEduReadings, type ReadingOverride } from "../readings/edu.js";
+import { selectReadingStages } from "../readings/stages.js";
 import { buildRadical, type RadicalNameTable } from "./radical.js";
 import type { CharKind, CharRecord, PartNode, StrokeRecord } from "./types.js";
 
@@ -88,6 +89,7 @@ export function buildChar(input: BuildInput): { record: CharRecord; warnings: st
     readings: { on: [...dic.on], kun: [...dic.kun] },
     eduReadings: { on: edu.on, kun: edu.kun },
     eduReadingsSpecial: edu.special,
+    readingStages: selectReadingStages(dic, input.mext, { on: edu.on, kun: edu.kun }),
     meanings: [...dic.meanings],
     viewBox: [0, 0, 109, 109],
     strokes,
