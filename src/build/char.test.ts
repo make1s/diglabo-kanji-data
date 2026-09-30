@@ -98,3 +98,21 @@ describe("buildChar", () => {
     expect(out.warnings).toEqual([]);
   });
 });
+
+describe("buildChar の配当学年（常用漢字）", () => {
+  // 中学で習う字は KANJIDIC2 が grade 8、割り振り表が null。形は「化」の KanjiVG を借りる（学年の扱いだけを見る）
+  const juniorDic: KanjidicEntry = { ...dic, grade: 8 };
+  const juniorMext: MextEntry = { ...mext, grade: null };
+
+  it("中学で習う字は grade null で、学年の食い違いを警告しない", () => {
+    const { record, warnings } = buildChar({ kvg: parseKanjiVg(KA), dic: juniorDic, mext: juniorMext, table, radicalNames, kind: "kanji" });
+    expect(record.grade).toBeNull();
+    expect(warnings.filter((w) => w.includes("学年が違う"))).toEqual([]);
+  });
+
+  it("教育漢字で KANJIDIC2 と割り振り表の学年が違えば警告する", () => {
+    const { record, warnings } = buildChar({ kvg: parseKanjiVg(KA), dic: { ...dic, grade: 4 }, mext, table, radicalNames, kind: "kanji" });
+    expect(record.grade).toBe(3);
+    expect(warnings).toContain("化: 学年が違う（KANJIDIC2 4・割り振り表 3）");
+  });
+});

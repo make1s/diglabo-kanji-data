@@ -60,7 +60,7 @@ export interface CharRecord {
   /** 5桁の小文字16進 */
   codepoint: string;
   kind: CharKind;
-  /** 学年 1..6（かなは null） */
+  /** 配当学年 1..6。中学で習う字とかなは null */
   grade: number | null;
   /** KanjiVG の画数 */
   strokeCount: number;
