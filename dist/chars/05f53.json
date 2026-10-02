@@ -5,16 +5,16 @@
   "grade": 2,
   "strokeCount": 6,
   "radical": {
-    "number": 58,
+    "number": 42,
     "element": "⺌",
     "position": "top",
-    "name": "つかんむり",
+    "name": "しょう",
     "strokes": [
       1,
       2,
       3
     ],
-    "source": "general"
+    "source": "override"
   },
   "readings": {
     "on": [
