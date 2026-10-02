@@ -5,24 +5,17 @@
   "grade": null,
   "strokeCount": 19,
   "radical": {
-    "number": 198,
-    "element": "鹿",
-    "position": "bottom",
-    "name": "しか",
+    "number": 75,
+    "element": "木",
+    "position": "top",
+    "name": "き",
     "strokes": [
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19
+      1,
+      2,
+      3,
+      4
     ],
-    "source": "general"
+    "source": "override"
   },
   "readings": {
     "on": [

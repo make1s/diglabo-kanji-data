@@ -6,16 +6,20 @@
   "strokeCount": 8,
   "radical": {
     "number": 165,
-    "element": "⺤",
-    "position": "top",
-    "name": "つめかんむり",
+    "element": "釆",
+    "position": null,
+    "name": "のごめ",
     "strokes": [
       1,
       2,
       3,
-      4
+      4,
+      5,
+      6,
+      7,
+      8
     ],
-    "source": "general"
+    "source": "override"
   },
   "readings": {
     "on": [
