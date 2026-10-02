@@ -1,10 +1,15 @@
 {
   "version": 1,
-  "_note": "字ごとの部首の手当て。KanjiVG の部首の印（general/tradit/nelson）が辞典（漢字ペディア＝日本漢字能力検定協会）の部首と違い、呼び名の表では直せない字だけに置く。strokes は KanjiVG の画番号、number は康熙番号。2026-09-30 に漢検4級の 313 字を漢字ペディアの各字の頁と照合して見つけた 4 字。",
+  "_note": "字ごとの部首の手当て。KanjiVG の部首の印（general/tradit/nelson）が辞典（漢字ペディア＝日本漢字能力検定協会）の部首と違い、呼び名の表では直せない字だけに置く。strokes は KanjiVG の画番号、number は康熙番号。2026-09-30 に漢検4級の 313 字を漢字ペディアの各字の頁と照合して見つけた 4 字（冒・及・巨・舗）。2026-10-02 に漢検準2級の 328 字を照合して見つけた字と、3級で先送りした 5 字。漢字ペディアに合わせた（斎・斉・当・戻・琴。ほかは呼び名の表で直した）。",
   "overrides": {
     "冒": { "element": "曰", "strokes": [1, 2, 3, 4], "position": "top", "number": 73 },
     "及": { "element": "又", "strokes": [2, 3], "position": null, "number": 29 },
     "巨": { "element": "工", "strokes": [1, 2, 5], "position": null, "number": 48 },
-    "舗": { "element": "舌", "strokes": [1, 2, 3, 4, 5, 6, 7, 8], "position": "left", "number": 135 }
+    "舗": { "element": "舌", "strokes": [1, 2, 3, 4, 5, 6, 7, 8], "position": "left", "number": 135 },
+    "斎": { "element": "斉", "strokes": [1, 2, 3, 4, 5, 11], "position": null, "number": 210 },
+    "斉": { "element": "斉", "strokes": [1, 2, 3, 4, 5, 6, 7, 8], "position": null, "number": 210 },
+    "当": { "element": "⺌", "strokes": [1, 2, 3], "position": "top", "number": 42 },
+    "戻": { "element": "戸", "strokes": [1, 2, 3, 4], "position": "tare", "number": 63 },
+    "琴": { "element": "王", "strokes": [1, 2, 3, 4], "position": "top", "number": 96 }
   }
 }

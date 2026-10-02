@@ -5,17 +5,19 @@
   "grade": null,
   "strokeCount": 11,
   "radical": {
-    "number": 67,
-    "element": "文",
-    "position": "top",
-    "name": "ぶん",
+    "number": 210,
+    "element": "斉",
+    "position": null,
+    "name": "せい",
     "strokes": [
       1,
       2,
       3,
-      4
+      4,
+      5,
+      11
     ],
-    "source": "general"
+    "source": "override"
   },
   "readings": {
     "on": [

@@ -81,6 +81,19 @@ describe("呼び名の表（常用漢字）", () => {
     expect(names.names["魚"]?.byPosition?.["left"]).toBe("うおへん"); // 鮮鯨
     expect(names.names["歯"]?.byPosition?.["left"]).toBe("はへん"); // 齢
   });
+
+  it("漢検3級・準2級の照合で漢字ペディアに合わせた呼び名", () => {
+    const names = JSON.parse(readFileSync(new URL("../../data/radical-names.json", import.meta.url), "utf8")) as RadicalNameTable;
+    expect(names.names["工"]?.byPosition?.["left"]).toBe("たくみへん"); // 巧
+    expect(names.names["骨"]?.byPosition?.["left"]).toBe("ほねへん"); // 髄骸
+    expect(names.names["疋"]?.byPosition?.["left"]).toBe("ひきへん"); // 疎
+    expect(names.names["革"]?.byPosition?.["left"]).toBe("かわへん"); // 靴
+    expect(names.names["虫"]?.byPosition?.["left"]).toBe("むしへん"); // 蚊蛇虹蜂
+    expect(names.names["斤"]?.name).toBe("きん"); // 斤斥（位置なし）
+    expect(names.names["斤"]?.byPosition?.["right"]).toBe("おのづくり"); // 断新斬
+    expect(names.names["⺌"]?.byNumber?.["42"]?.name).toBe("しょう"); // 尚当（小部）。巣の ⺍ は つかんむり
+    expect(names.names["月"]?.byNumber?.["130"]?.byPosition?.["bottom"]).toBeUndefined(); // 下の月は にく（肖肯脅膚）
+  });
 });
 
 describe("buildRadical の手当て", () => {
@@ -108,7 +121,7 @@ describe("部首の手当ての表", () => {
   it("手当ての字はどれも呼び名の表に字形がある", () => {
     const table = JSON.parse(readFileSync(new URL("../../data/radical-names.json", import.meta.url), "utf8")) as RadicalNameTable;
     const overrides = JSON.parse(readFileSync(new URL("../../data/radical-overrides.json", import.meta.url), "utf8")) as { overrides: Record<string, { element: string }> };
-    expect(Object.keys(overrides.overrides).sort()).toEqual(["冒", "及", "巨", "舗"].sort());
+    expect(Object.keys(overrides.overrides).sort()).toEqual(["冒", "及", "巨", "舗", "斎", "斉", "当", "戻", "琴"].sort());
     for (const o of Object.values(overrides.overrides)) expect(table.names[o.element], o.element).toBeDefined();
   });
 });

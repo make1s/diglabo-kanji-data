@@ -5,7 +5,7 @@
   "grade": null,
   "strokeCount": 8,
   "radical": {
-    "number": 67,
+    "number": 210,
     "element": "斉",
     "position": null,
     "name": "せい",
@@ -19,7 +19,7 @@
       7,
       8
     ],
-    "source": "general"
+    "source": "override"
   },
   "readings": {
     "on": [

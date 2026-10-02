@@ -7,15 +7,15 @@
   "radical": {
     "number": 63,
     "element": "戸",
-    "position": null,
-    "name": "と",
+    "position": "tare",
+    "name": "とだれ",
     "strokes": [
       1,
       2,
       3,
       4
     ],
-    "source": "general"
+    "source": "override"
   },
   "readings": {
     "on": [

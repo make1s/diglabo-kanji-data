@@ -7,15 +7,15 @@
   "radical": {
     "number": 96,
     "element": "王",
-    "position": "left",
-    "name": "おうへん",
+    "position": "top",
+    "name": "おう",
     "strokes": [
       1,
       2,
       3,
       4
     ],
-    "source": "general"
+    "source": "override"
   },
   "readings": {
     "on": [
