@@ -7,8 +7,8 @@
   "radical": {
     "number": 115,
     "element": "禾",
-    "position": "bottom",
-    "name": "のぎ",
+    "position": "left",
+    "name": "のぎへん",
     "strokes": [
       6,
       7,
@@ -16,7 +16,7 @@
       9,
       10
     ],
-    "source": "tradit"
+    "source": "override"
   },
   "readings": {
     "on": [

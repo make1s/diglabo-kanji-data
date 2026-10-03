@@ -95,6 +95,14 @@ describe("呼び名の表（常用漢字）", () => {
     expect(names.names["月"]?.byNumber?.["130"]?.byPosition?.["bottom"]).toBeUndefined(); // 下の月は にく（肖肯脅膚）
   });
 
+  it("小学校の字の照合で漢字ペディアに合わせた呼び名", () => {
+    const names = JSON.parse(readFileSync(new URL("../../data/radical-names.json", import.meta.url), "utf8")) as RadicalNameTable;
+    expect(names.names["八"]?.byPosition?.["bottom"]).toBe("は"); // 六・共・兵・典・具
+    expect(names.names["酉"]?.byPosition?.["right"]).toBe("ひよみのとり"); // 酒
+    expect(names.names["片"]?.byPosition?.["left"]).toBe("かたへん"); // 版
+    expect(names.names["㔾"]?.name).toBe("ふしづくり"); // 巻
+  });
+
   it("漢検2級の照合で漢字ペディアに合わせた呼び名", () => {
     const names = JSON.parse(readFileSync(new URL("../../data/radical-names.json", import.meta.url), "utf8")) as RadicalNameTable;
     expect(names.names["麦"]?.byPosition?.["nyo"]).toBe("ばくにょう"); // 麺
@@ -118,6 +126,12 @@ describe("buildRadical の手当て", () => {
     });
   });
 
+  it("手当てに呼び名があれば、表より優先する（同じ形で字ごとに呼び名が違う字。単＝つかんむり・当＝しょう）", () => {
+    const got = buildRadical(root, 29, names, "及", { element: "又", strokes: [2, 3], position: null, number: 29, name: "ゆう" });
+    expect(got.radical?.name).toBe("ゆう");
+    expect(got.warnings).toEqual([]);
+  });
+
   it("手当てが無ければ今までどおり KanjiVG の印", () => {
     expect(buildRadical(root, 29, names, "及").radical?.element).toBe("丿");
   });
@@ -127,7 +141,7 @@ describe("部首の手当ての表", () => {
   it("手当ての字はどれも呼び名の表に字形がある", () => {
     const table = JSON.parse(readFileSync(new URL("../../data/radical-names.json", import.meta.url), "utf8")) as RadicalNameTable;
     const overrides = JSON.parse(readFileSync(new URL("../../data/radical-overrides.json", import.meta.url), "utf8")) as { overrides: Record<string, { element: string }> };
-    expect(Object.keys(overrides.overrides).sort()).toEqual(["冒", "及", "巨", "舗", "斎", "斉", "当", "戻", "琴", "爽", "采", "麓"].sort());
+    expect(Object.keys(overrides.overrides).sort()).toEqual(["冒", "及", "巨", "舗", "斎", "斉", "当", "戻", "琴", "爽", "采", "麓", "具", "夏", "弱", "才", "行", "命", "器", "求", "穀", "聖", "内", "門", "着", "単", "営", "厳", "老", "舎", "巻"].sort());
     for (const o of Object.values(overrides.overrides)) expect(table.names[o.element], o.element).toBeDefined();
   });
 });

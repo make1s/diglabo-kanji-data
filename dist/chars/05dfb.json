@@ -5,16 +5,16 @@
   "grade": 6,
   "strokeCount": 9,
   "radical": {
-    "number": 49,
-    "element": "己",
+    "number": 26,
+    "element": "㔾",
     "position": "bottom",
-    "name": "おのれ",
+    "name": "ふしづくり",
     "strokes": [
       7,
       8,
       9
     ],
-    "source": "general"
+    "source": "override"
   },
   "readings": {
     "on": [

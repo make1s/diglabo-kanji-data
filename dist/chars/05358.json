@@ -5,15 +5,16 @@
   "grade": 4,
   "strokeCount": 9,
   "radical": {
-    "number": 24,
-    "element": "十",
-    "position": null,
-    "name": "じゅう",
+    "number": 42,
+    "element": "⺌",
+    "position": "top",
+    "name": "つかんむり",
     "strokes": [
-      8,
-      9
+      1,
+      2,
+      3
     ],
-    "source": "tradit"
+    "source": "override"
   },
   "readings": {
     "on": [

@@ -5,15 +5,15 @@
   "grade": 2,
   "strokeCount": 4,
   "radical": {
-    "number": 13,
-    "element": "冂",
+    "number": 11,
+    "element": "入",
     "position": null,
-    "name": "どうがまえ",
+    "name": "いる",
     "strokes": [
-      1,
-      2
+      3,
+      4
     ],
-    "source": "tradit"
+    "source": "override"
   },
   "readings": {
     "on": [

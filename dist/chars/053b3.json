@@ -5,15 +5,16 @@
   "grade": 6,
   "strokeCount": 17,
   "radical": {
-    "number": 27,
-    "element": "厂",
-    "position": "kamae",
-    "name": "がんだれ",
+    "number": 42,
+    "element": "⺌",
+    "position": "top",
+    "name": "つかんむり",
     "strokes": [
-      4,
-      5
+      1,
+      2,
+      3
     ],
-    "source": "tradit"
+    "source": "override"
   },
   "readings": {
     "on": [

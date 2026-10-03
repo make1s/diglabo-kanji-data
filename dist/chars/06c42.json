@@ -8,7 +8,7 @@
     "number": 85,
     "element": "氺",
     "position": null,
-    "name": "したみず",
+    "name": "みず",
     "strokes": [
       2,
       3,
@@ -16,7 +16,7 @@
       5,
       6
     ],
-    "source": "tradit"
+    "source": "override"
   },
   "readings": {
     "on": [

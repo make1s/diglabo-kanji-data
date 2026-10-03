@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "_note": "字ごとの部首の手当て。KanjiVG の部首の印（general/tradit/nelson）が辞典（漢字ペディア＝日本漢字能力検定協会）の部首と違い、呼び名の表では直せない字だけに置く。strokes は KanjiVG の画番号、number は康熙番号。2026-09-30 に漢検4級の 313 字を漢字ペディアの各字の頁と照合して見つけた 4 字（冒・及・巨・舗）。2026-10-02 に漢検準2級の 328 字を照合して見つけた字と、3級で先送りした 5 字。漢字ペディアに合わせた（斎・斉・当・戻・琴。ほかは呼び名の表で直した）。2026-10-02 に漢検2級の 185 字を照合して見つけた 4 字（爽・采・麓は手当て、麺は呼び名の表の 麦 の位置 nyo で直した）。",
+  "_note": "字ごとの部首の手当て。KanjiVG の部首の印（general/tradit/nelson）が辞典（漢字ペディア＝日本漢字能力検定協会）の部首と違い、呼び名の表では直せない字だけに置く。strokes は KanjiVG の画番号、number は康熙番号。2026-09-30 に漢検4級の 313 字を漢字ペディアの各字の頁と照合して見つけた 4 字（冒・及・巨・舗）。2026-10-02 に漢検準2級の 328 字を照合して見つけた字と、3級で先送りした 5 字。漢字ペディアに合わせた（斎・斉・当・戻・琴。ほかは呼び名の表で直した）。2026-10-02 に漢検2級の 185 字を照合して見つけた 4 字（爽・采・麓は手当て、麺は呼び名の表の 麦 の位置 nyo で直した）。2026-10-03 に小学校の 1,026 字（部首名も見る）を照合して見つけた 25 字のうち、呼び名の表では直せない 19 字（六・共・兵・典・酒・版 は呼び名の表で直した）。単・営・厳 は 当（しょう）と同じ形・番号で呼び名が つかんむり、才・行・門・求 は表の呼び名と違うので、字ごとの呼び名 name を置く。",
   "overrides": {
     "冒": { "element": "曰", "strokes": [1, 2, 3, 4], "position": "top", "number": 73 },
     "及": { "element": "又", "strokes": [2, 3], "position": null, "number": 29 },
@@ -13,6 +13,25 @@
     "琴": { "element": "王", "strokes": [1, 2, 3, 4], "position": "top", "number": 96 },
     "爽": { "element": "大", "strokes": [1, 10, 11], "position": null, "number": 37 },
     "采": { "element": "釆", "strokes": [1, 2, 3, 4, 5, 6, 7, 8], "position": null, "number": 165 },
-    "麓": { "element": "木", "strokes": [1, 2, 3, 4], "position": "top", "number": 75 }
+    "麓": { "element": "木", "strokes": [1, 2, 3, 4], "position": "top", "number": 75 },
+    "具": { "element": "八", "strokes": [7, 8], "position": "bottom", "number": 12 },
+    "夏": { "element": "夂", "strokes": [8, 9, 10], "position": "bottom", "number": 34 },
+    "弱": { "element": "弓", "strokes": [1, 2, 3, 6, 7, 8], "position": null, "number": 57 },
+    "才": { "element": "扌", "strokes": [1, 2, 3], "position": null, "number": 64, "name": "て" },
+    "行": { "element": "行", "strokes": [1, 2, 3, 4, 5, 6], "position": null, "number": 144, "name": "ぎょう" },
+    "命": { "element": "口", "strokes": [4, 5, 6], "position": null, "number": 30 },
+    "器": { "element": "口", "strokes": [1, 2, 3], "position": null, "number": 30 },
+    "求": { "element": "氺", "strokes": [2, 3, 4, 5, 6], "position": null, "number": 85, "name": "みず" },
+    "穀": { "element": "禾", "strokes": [6, 7, 8, 9, 10], "position": "left", "number": 115 },
+    "聖": { "element": "耳", "strokes": [1, 2, 3, 4, 5, 6], "position": null, "number": 128 },
+    "内": { "element": "入", "strokes": [3, 4], "position": null, "number": 11 },
+    "門": { "element": "門", "strokes": [1, 2, 3, 4, 5, 6, 7, 8], "position": null, "number": 169, "name": "もん" },
+    "着": { "element": "羊", "strokes": [1, 2, 3, 4, 5, 6], "position": "top", "number": 123 },
+    "単": { "element": "⺌", "strokes": [1, 2, 3], "position": "top", "number": 42, "name": "つかんむり" },
+    "営": { "element": "⺌", "strokes": [1, 2, 3], "position": "top", "number": 42, "name": "つかんむり" },
+    "厳": { "element": "⺌", "strokes": [1, 2, 3], "position": "top", "number": 42, "name": "つかんむり" },
+    "老": { "element": "耂", "strokes": [1, 2, 3, 4], "position": "top", "number": 125 },
+    "舎": { "element": "舌", "strokes": [1, 2, 3, 4, 5, 6, 7, 8], "position": null, "number": 135 },
+    "巻": { "element": "㔾", "strokes": [7, 8, 9], "position": "bottom", "number": 26 }
   }
 }

@@ -8,7 +8,7 @@
     "number": 169,
     "element": "門",
     "position": null,
-    "name": "もんがまえ",
+    "name": "もん",
     "strokes": [
       1,
       2,
@@ -19,7 +19,7 @@
       7,
       8
     ],
-    "source": "general"
+    "source": "override"
   },
   "readings": {
     "on": [

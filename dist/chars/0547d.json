@@ -7,14 +7,14 @@
   "radical": {
     "number": 30,
     "element": "口",
-    "position": "left",
-    "name": "くちへん",
+    "position": null,
+    "name": "くち",
     "strokes": [
       4,
       5,
       6
     ],
-    "source": "tradit"
+    "source": "override"
   },
   "readings": {
     "on": [
