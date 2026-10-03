@@ -7,8 +7,8 @@
   "radical": {
     "number": 57,
     "element": "弓",
-    "position": "left",
-    "name": "ゆみへん",
+    "position": null,
+    "name": "ゆみ",
     "strokes": [
       1,
       2,
@@ -17,7 +17,7 @@
       7,
       8
     ],
-    "source": "tradit"
+    "source": "override"
   },
   "readings": {
     "on": [

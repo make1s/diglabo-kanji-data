@@ -8,7 +8,7 @@
     "number": 144,
     "element": "行",
     "position": null,
-    "name": "ぎょうがまえ",
+    "name": "ぎょう",
     "strokes": [
       1,
       2,
@@ -17,7 +17,7 @@
       5,
       6
     ],
-    "source": "general"
+    "source": "override"
   },
   "readings": {
     "on": [

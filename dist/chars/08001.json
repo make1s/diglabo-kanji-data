@@ -6,18 +6,16 @@
   "strokeCount": 6,
   "radical": {
     "number": 125,
-    "element": "老",
-    "position": null,
-    "name": "おい",
+    "element": "耂",
+    "position": "top",
+    "name": "おいかんむり",
     "strokes": [
       1,
       2,
       3,
-      4,
-      5,
-      6
+      4
     ],
-    "source": "general"
+    "source": "override"
   },
   "readings": {
     "on": [

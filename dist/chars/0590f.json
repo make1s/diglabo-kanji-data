@@ -5,16 +5,16 @@
   "grade": 2,
   "strokeCount": 10,
   "radical": {
-    "number": 35,
+    "number": 34,
     "element": "夂",
     "position": "bottom",
-    "name": "すいにょう",
+    "name": "ふゆがしら",
     "strokes": [
       8,
       9,
       10
     ],
-    "source": "tradit"
+    "source": "override"
   },
   "readings": {
     "on": [

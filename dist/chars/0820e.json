@@ -5,15 +5,21 @@
   "grade": 5,
   "strokeCount": 8,
   "radical": {
-    "number": 9,
-    "element": "人",
-    "position": "top",
-    "name": "ひとやね",
+    "number": 135,
+    "element": "舌",
+    "position": null,
+    "name": "した",
     "strokes": [
       1,
-      2
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
     ],
-    "source": "general"
+    "source": "override"
   },
   "readings": {
     "on": [

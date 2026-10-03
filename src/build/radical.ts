@@ -60,6 +60,8 @@ export interface RadicalOverride {
   strokes: number[];
   position: string | null;
   number: number;
+  /** 呼び名。同じ字形・位置・番号でも字ごとに呼び名が違うときだけ置く（単＝つかんむり、当＝しょう） */
+  name?: string;
 }
 
 export function buildRadical(
@@ -72,7 +74,8 @@ export function buildRadical(
   if (override) {
     const entry = names.names[override.element];
     const spec = entry === undefined ? undefined : entry.byNumber?.[String(override.number)] ?? entry;
-    const name = spec === undefined ? null : (override.position === null ? undefined : spec.byPosition?.[override.position]) ?? spec.name;
+    const fromTable = spec === undefined ? null : (override.position === null ? undefined : spec.byPosition?.[override.position]) ?? spec.name;
+    const name = override.name ?? fromTable;
     return {
       radical: { number: override.number, element: override.element, position: override.position, name, strokes: [...override.strokes], source: "override" },
       warnings: entry === undefined ? [`${char}: 部首「${override.element}」の呼び名が data/radical-names.json に無い`] : [],

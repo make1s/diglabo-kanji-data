@@ -8,13 +8,13 @@
     "number": 64,
     "element": "扌",
     "position": null,
-    "name": "てへん",
+    "name": "て",
     "strokes": [
       1,
       2,
       3
     ],
-    "source": "tradit"
+    "source": "override"
   },
   "readings": {
     "on": [
