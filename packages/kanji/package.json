@@ -1,0 +1,14 @@
+{
+  "name": "@diglabo/kanji",
+  "version": "0.1.0",
+  "description": "教材向けの手本・筆順段階・部品色分けを生成するSVGライブラリ",
+  "type": "module",
+  "license": "CC-BY-SA-4.0",
+  "repository": { "type": "git", "url": "git+https://github.com/make1s/diglabo-kanji-data.git", "directory": "packages/kanji" },
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "LICENSE", "README.md"],
+  "sideEffects": false,
+  "engines": { "node": ">=22" },
+  "publishConfig": { "access": "public", "tag": "next" }
+}

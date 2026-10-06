@@ -1,0 +1,56 @@
+import { test, expect } from "@playwright/test";
+import { readFile } from "node:fs/promises";
+test("文字を選び、同名部品を区別し、筆順を操作してSVGを保存する", async ({ page }) => {
+  const errors: string[] = [];
+  page.on("pageerror", (e) => errors.push(e.message));
+  await page.goto("/");
+  await expect(page.locator("#drawing path")).toHaveCount(6);
+  await page.getByRole("combobox", { name: "文字", exact: true }).selectOption("06797");
+  await expect(page.locator("#drawing path")).toHaveCount(8);
+  const wood = page.getByRole("checkbox", { name: /^木（/u });
+  await expect(wood).toHaveCount(2);
+  await wood.first().check();
+  await expect(page.locator('#drawing path[fill="#d66339"]')).toHaveCount(4);
+  const slider = page.getByRole("slider", { name: "筆順", exact: true });
+  await slider.focus();
+  await slider.press("Home");
+  await expect(page.locator("#drawing path")).toHaveCount(0);
+  await slider.press("ArrowRight");
+  await slider.press("ArrowRight");
+  await expect(page.locator("#drawing path")).toHaveCount(2);
+  await page.getByRole("button", { name: "全画を表示" }).click();
+  const downloaded = page.waitForEvent("download");
+  await page.getByRole("button", { name: "SVGを保存" }).click();
+  const download = await downloaded;
+  expect(download.suggestedFilename()).toBe("06797.svg");
+  const svg = await readFile((await download.path())!, "utf8");
+  expect(svg).toContain("林の手本");
+  expect(svg).toContain("KANJIDIC2");
+  await expect(page.locator("#attribution")).toContainText("CC-BY-SA-4.0");
+  await page.screenshot({ path: "artifacts/preview-desktop.png", fullPage: true });
+  expect(errors).toEqual([]);
+});
+test("かなと補助漢字を表示できる", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("combobox", { name: "文字", exact: true }).selectOption("20b9f");
+  await expect(page.getByRole("img", { name: "𠮟の手本" })).toBeVisible();
+  await page.getByRole("combobox", { name: "文字", exact: true }).selectOption("03042");
+  await expect(page.getByRole("img", { name: "あの手本" })).toBeVisible();
+  await expect(page.locator("#reading")).toHaveText("かな");
+});
+test("Reactの教材も同じAPIで筆順と部品を切り替える", async ({ page }) => {
+  await page.goto("/react.html");
+  await expect(page.locator("svg path")).toHaveCount(6);
+  await page.getByRole("checkbox", { name: "木に色をつける" }).check();
+  await expect(page.locator('path[fill="#d33"]')).toHaveCount(4);
+  await page.getByLabel("筆順", { exact: true }).press("Home");
+  await expect(page.locator("svg path")).toHaveCount(0);
+});
+test("狭い画面でも文字と操作が画面内に収まる", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/");
+  await expect(page.getByRole("img", { name: "休の手本" })).toBeVisible();
+  const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
+  expect(overflow).toBe(false);
+  await page.screenshot({ path: "artifacts/preview-mobile.png", fullPage: true });
+});

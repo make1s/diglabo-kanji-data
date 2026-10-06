@@ -1,0 +1,17 @@
+{
+  "name": "@diglabo/kanji-data",
+  "version": "0.6.5-pkg.1",
+  "description": "常用漢字2,136字とかな177字の文字別データ・読み・部品・筆順",
+  "type": "module",
+  "license": "CC-BY-SA-4.0",
+  "repository": { "type": "git", "url": "git+https://github.com/make1s/diglabo-kanji-data.git", "directory": "packages/data" },
+  "exports": {
+    ".": { "types": "./dist/manifest.d.ts", "import": "./dist/manifest.js" },
+    "./index": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./chars/*": { "types": "./dist/chars/*.d.ts", "import": "./dist/chars/*.js" }
+  },
+  "types": "./dist/manifest.d.ts",
+  "files": ["dist", "LICENSE", "ATTRIBUTION.md", "README.md"],
+  "sideEffects": false,
+  "publishConfig": { "access": "public", "tag": "next" }
+}

@@ -1,0 +1,12 @@
+import { mkdir, writeFile } from "node:fs/promises";
+import { dirname, resolve } from "node:path";
+import kyu from "@diglabo/kanji-data/chars/04f11";
+import { renderCharacter } from "@diglabo/kanji";
+const { svg, attribution } = renderCharacter(kyu, { size: 240 });
+const escape = (text) => text.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const readings = [...kyu.record.eduReadings.on, ...kyu.record.eduReadings.kun].map(escape).join(" / ");
+const html = `<!doctype html><html lang="ja"><meta charset="utf-8"><title>休の教材</title><main><h1>休</h1>${svg}<p>${readings}</p><p>${escape(attribution.text)}</p></main></html>`;
+const output = resolve(process.argv[2] ?? "artifacts/node/lesson.html");
+await mkdir(dirname(output), { recursive: true });
+await writeFile(output, html);
+console.log(output);
