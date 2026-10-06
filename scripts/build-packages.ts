@@ -35,7 +35,7 @@ const dataDist = file("packages/data/dist");
 rmSync(dataDist, { recursive: true, force: true });
 mkdirSync(resolve(dataDist, "chars"), { recursive: true });
 copyFileSync(file("packages/kanji/dist/types.d.ts"), resolve(dataDist, "types.d.ts"));
-copyFileSync(file("LICENSE"), file("packages/data/LICENSE"));
+writeFileSync(file("packages/data/LICENSE"), read("LICENSE").trimEnd() + "\n");
 copyFileSync(file("ATTRIBUTION.md"), file("packages/data/ATTRIBUTION.md"));
 writeFileSync(resolve(dataDist, "manifest.json"), JSON.stringify(manifest, null, 2) + "\n");
 writeFileSync(resolve(dataDist, "manifest.js"), `const manifest = ${JSON.stringify(manifest)};\nexport { manifest };\nexport default manifest;\n`);
