@@ -34,7 +34,7 @@ const { svg, attribution } = renderCharacter(kyu);
 
 `svg`とともに`attribution.text`を出典欄へ表示します。一文字のimportで全字形をWebへ送りませんが、データnpmのインストールには全2,313字が含まれます。必要なJSONだけをサイトへ同梱する例もあります。
 
-詳しいローカル起動、互換表、検証・公開・データ更新の手順は[公開手順](./docs/public-library-release.md)。現時点のローカル配布物はCC BY-SA 4.0です。独自runtimeをMITにする方針は、対象範囲・権利の確認後に適用します。
+詳しいローカル起動、互換表、検証・公開・データ更新の手順は[公開手順](./docs/public-library-release.md)。描画runtimeと公開型はMIT、文字データとフォントはCC BY-SA 4.0です。[対象範囲・用途別の案内](./docs/library-licenses.md)を確認してください。
 
 ## 何が入っているか
 
@@ -146,4 +146,4 @@ pnpm test
 ## ライセンス
 
 データセット全体は [CC BY-SA 4.0](./LICENSE)。KanjiVG（CC BY-SA 3.0）は同ライセンス §4(b) により後の版で改変物を配布できる。
-生成コード（`src/`, `scripts/`）も同じライセンスで配る。
+生成コード（`src/`, `scripts/`）も同じライセンスで配る。新規の描画runtimeと公開型（`packages/kanji/src/`）は[MIT](./packages/kanji/LICENSE)。データnpmに複製する型にもMITの許諾文を添付する。詳細は[ライセンス範囲](./docs/library-licenses.md)。

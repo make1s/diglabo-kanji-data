@@ -5,3 +5,5 @@
 KanjiVGのSVGを転記したテスト素材などは独自コードと区別し、`src/` 全体を一括でMITに変更しない。配布物には対象範囲ごとのライセンスと帰属情報を添付し、生成SVG・教材掲載・フォント埋め込みに関する説明は、元資料の条件を確認して整備する。
 
 参照: [CC公式のソフトウェア向けFAQ](https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software)、[KanjiVG公式](https://kanjivg.tagaini.net/)、[EDRDG公式条件](https://www.edrdg.org/edrdg/licence.html)。
+
+2026-10-07: 新規runtimeの3ファイルと公開型へMITを追加。対象・来歴・除外範囲・配布時の文書は[ライセンス範囲](../library-licenses.md)へ記録した。既存のCCによる許諾は撤回しない。

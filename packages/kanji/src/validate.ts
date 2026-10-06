@@ -1,3 +1,4 @@
+/*! Copyright (c) 2026 make1s. SPDX-License-Identifier: MIT */
 import type { CharacterIndex, Glyph, DatasetManifest } from "./types.js";
 
 export type KanjiErrorCode = "INVALID_DATA" | "UNSUPPORTED_SCHEMA" | "INVALID_OPTIONS" | "UNKNOWN_PART";

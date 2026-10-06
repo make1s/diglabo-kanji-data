@@ -11,7 +11,7 @@
     "./chars/*": { "types": "./dist/chars/*.d.ts", "import": "./dist/chars/*.js" }
   },
   "types": "./dist/manifest.d.ts",
-  "files": ["dist", "LICENSE", "ATTRIBUTION.md", "README.md"],
+  "files": ["dist", "LICENSE", "LICENSE-MIT", "ATTRIBUTION.md", "README.md"],
   "sideEffects": false,
   "publishConfig": { "access": "public", "tag": "next" }
 }

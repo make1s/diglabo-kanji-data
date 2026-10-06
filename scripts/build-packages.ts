@@ -35,6 +35,7 @@ const dataDist = file("packages/data/dist");
 rmSync(dataDist, { recursive: true, force: true });
 mkdirSync(resolve(dataDist, "chars"), { recursive: true });
 copyFileSync(file("packages/kanji/dist/types.d.ts"), resolve(dataDist, "types.d.ts"));
+copyFileSync(file("packages/kanji/LICENSE"), file("packages/data/LICENSE-MIT"));
 writeFileSync(file("packages/data/LICENSE"), read("LICENSE").trimEnd() + "\n");
 copyFileSync(file("ATTRIBUTION.md"), file("packages/data/ATTRIBUTION.md"));
 writeFileSync(resolve(dataDist, "manifest.json"), JSON.stringify(manifest, null, 2) + "\n");

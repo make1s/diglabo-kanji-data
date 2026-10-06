@@ -1,3 +1,4 @@
+/*! Copyright (c) 2026 make1s. SPDX-License-Identifier: MIT */
 import type { Attribution, CharacterFilter, CharacterIndex, CharacterSummary, Glyph, LookupResult, PartInfo, PartNode, RenderOptions, RenderResult } from "./types.js";
 import { check, object, text, validateGlyph, validateIndex } from "./validate.js";
 export type * from "./types.js";

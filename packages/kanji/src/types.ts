@@ -1,3 +1,4 @@
+/*! Copyright (c) 2026 make1s. SPDX-License-Identifier: MIT */
 /** 公開するデータ契約。両パッケージに自己完結する型として配布する。 */
 export type CharacterKind = "kanji" | "hiragana" | "katakana";
 export type BBox = readonly [number, number, number, number];

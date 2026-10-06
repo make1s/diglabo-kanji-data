@@ -17,8 +17,10 @@ const packs = ["kanji", "data"].map((name) => {
   const pack = result[0]!;
   assert(pack.files.some((f) => f.path === "LICENSE"));
   assert(pack.files.some((f) => f.path === "README.md"));
-  assert(pack.files.every((f) => f.path === "package.json" || f.path === "LICENSE" || f.path === "README.md" || f.path === "ATTRIBUTION.md" || /^dist\/.*\.(?:js|ts|json)$/u.test(f.path)), "開発用ファイルが混入しています");
-  const pkg = JSON.parse(readFileSync(resolve(root, `packages/${name}/package.json`), "utf8")) as { dependencies?: unknown; peerDependencies?: unknown };
+  assert(pack.files.every((f) => f.path === "package.json" || f.path === "LICENSE" || f.path === "LICENSE-MIT" || f.path === "README.md" || f.path === "ATTRIBUTION.md" || /^dist\/.*\.(?:js|ts|json)$/u.test(f.path)), "開発用ファイルが混入しています");
+  const pkg = JSON.parse(readFileSync(resolve(root, `packages/${name}/package.json`), "utf8")) as { license: string; dependencies?: unknown; peerDependencies?: unknown };
+  assert.equal(pkg.license, name === "kanji" ? "MIT" : "CC-BY-SA-4.0");
+  if (name === "data") assert(pack.files.some((f) => f.path === "LICENSE-MIT"));
   assert.equal(pkg.dependencies, undefined);
   assert.equal(pkg.peerDependencies, undefined);
   return pack;
@@ -35,6 +37,11 @@ try {
     try {
       writeFileSync(resolve(independent, "package.json"), '{"private":true,"type":"module"}\n');
       execFileSync("npm", ["install", "--ignore-scripts", "--no-audit", "--no-fund", "--package-lock=false", resolve(out, packs[i]!.filename)], { cwd: independent, stdio: "pipe" });
+      const packageDir = i === 0 ? "kanji" : "data";
+      const installedDir = resolve(independent, "node_modules/@diglabo", i === 0 ? "kanji" : "kanji-data");
+      for (const license of i === 0 ? ["LICENSE"] : ["LICENSE", "LICENSE-MIT", "ATTRIBUTION.md"]) {
+        assert.equal(readFileSync(resolve(installedDir, license), "utf8"), readFileSync(resolve(root, `packages/${packageDir}`, license), "utf8"));
+      }
       writeFileSync(resolve(independent, "consumer.ts"), source);
       writeFileSync(resolve(independent, "tsconfig.json"), JSON.stringify({ compilerOptions: { module: "NodeNext", moduleResolution: "NodeNext", target: "ES2022", strict: true, types: [] }, files: ["consumer.ts"] }));
       execFileSync(process.execPath, [createRequire(import.meta.url).resolve("typescript/bin/tsc"), "-p", "."], { cwd: independent, stdio: "inherit" });

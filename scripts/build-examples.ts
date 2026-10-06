@@ -14,6 +14,7 @@ copyFileSync(resolve(root, "examples/react/index.html"), resolve(out, "react.htm
 for (const name of ["LICENSE", "ATTRIBUTION.md"]) copyFileSync(resolve(root, name), resolve(out, name));
 for (const cp of ["04f11", "06797", "068ee", "06c38", "05fc3", "06c34", "09053", "03042", "030a2", "20b9f"]) copyFileSync(resolve(root, `dist/chars/${cp}.json`), resolve(out, `data/${cp}.json`));
 for (const name of ["tehon.woff2", "tehon.otf", "manifest.json"]) copyFileSync(resolve(root, `dist/fonts/${name}`), resolve(out, `fonts/${name}`));
+copyFileSync(resolve(root, "packages/kanji/LICENSE"), resolve(out, "LICENSE-MIT"));
 const manifest = JSON.parse(readFileSync(resolve(root, "packages/data/dist/manifest.json"), "utf8")) as DatasetManifest;
 const review = ["06c38", "04f11", "06797", "068ee", "05fc3", "06c34", "09053", "03042", "030a2", "20b9f"].map((cp) => {
   const glyph: Glyph = { manifest, record: JSON.parse(readFileSync(resolve(root, `dist/chars/${cp}.json`), "utf8")) as Glyph["record"] };
@@ -23,6 +24,6 @@ const review = ["06c38", "04f11", "06797", "068ee", "05fc3", "06c34", "09053", "
   const colored = renderCharacter(glyph, { size: 100, color: "#172f38", highlightPartIds: part ? [part.id] : [] });
   return `<section><h2>${glyph.record.char}</h2><div>${full.svg}${stage.svg}${colored.svg}</div><p>全画 / 先頭3画まで / 最初の子部品</p></section>`;
 }).join("");
-writeFileSync(resolve(out, "review.html"), `<!doctype html><html lang="ja"><meta charset="utf-8"><title>代表10字の描画確認</title><style>body{font-family:sans-serif;background:#f7f5ed;color:#172f38;margin:24px}main{display:grid;grid-template-columns:repeat(2,340px);gap:14px}section{background:white;padding:14px;border:1px solid #d2d8cc;border-radius:12px}h2{font-size:18px;margin:0 0 8px}section p{font-size:11px;color:#64736e}svg{border:1px solid #eef1e8}</style><h1>代表10字の描画確認</h1><p>renderer 0.1.0 / data 0.6.5 / CC BY-SA 4.0 · <a href="./ATTRIBUTION.md">帰属情報</a></p><main>${review}</main></html>`);
+writeFileSync(resolve(out, "review.html"), `<!doctype html><html lang="ja"><meta charset="utf-8"><title>代表10字の描画確認</title><style>body{font-family:sans-serif;background:#f7f5ed;color:#172f38;margin:24px}main{display:grid;grid-template-columns:repeat(2,340px);gap:14px}section{background:white;padding:14px;border:1px solid #d2d8cc;border-radius:12px}h2{font-size:18px;margin:0 0 8px}section p{font-size:11px;color:#64736e}svg{border:1px solid #eef1e8}</style><h1>代表10字の描画確認</h1><p>renderer 0.1.0 (MIT) / data 0.6.5 (CC BY-SA 4.0) · <a href="./ATTRIBUTION.md">帰属情報</a></p><main>${review}</main></html>`);
 await build({ absWorkingDir: root, entryPoints: { main: "examples/browser/main.js", react: "examples/react/main.tsx" }, outdir: out, bundle: true, format: "esm", platform: "browser", target: "es2022", minify: true, define: { "process.env.NODE_ENV": '"production"' } });
 console.log("静的デモを生成: examples/site（素のJavaScript・React・フォント）");

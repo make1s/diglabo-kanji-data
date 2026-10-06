@@ -2,7 +2,7 @@
 
 手本・筆順の段階表示・部品の色分けをSVGで生成します。ブラウザとNode.js 22以上で使えるESMです。実行時依存・外部通信・外部フォントはありません。
 
-**現在はローカル試用用です。npm名と公開権限、ライセンスの確認が済むまでnpm公開済みとは扱いません。**
+**現在はローカル試用用です。npm名と公開権限の確認が済むまでnpm公開済みとは扱いません。**
 
 ```ts
 import kyu from "@diglabo/kanji-data/chars/04f11";
@@ -35,4 +35,4 @@ const { svg, attribution } = renderCharacter(kyu, {
 
 ## ライセンス
 
-現段階のローカル試用は同梱のCC BY-SA 4.0です。新規runtimeコードをMITにする設計方針はありますが、公開前に対象範囲・権利を確認してから適用します。文字データとフォントのCC BY-SA 4.0は独立して維持します。
+描画runtime・公開型・このREADMEはMITです。著作権・許諾文は同梱の`LICENSE`を参照してください。文字データ・フォント・それらから生成するSVGの利用条件はCC BY-SA 4.0で、runtimeのMITとは別です。対象ファイルと用途別の案内は[ライセンス範囲](https://github.com/make1s/diglabo-kanji-data/blob/docs/library-offering/docs/library-licenses.md)を参照してください。
