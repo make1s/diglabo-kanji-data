@@ -101,6 +101,18 @@ describe("buildChar", () => {
     expect(out.record.parts.children).toEqual([]);
     expect(out.warnings).toEqual([]);
   });
+
+  it("画種が指定されたかなにも、漢字用の終筆延長は適用しない", () => {
+    const kvg = parseKanjiVg(A);
+    kvg.strokes[0]!.type = "㇇";
+    const plainTable = { ...table, profiles: Object.fromEntries(Object.entries(table.profiles).map(([key, value]) => {
+      const { endExtension: _, ...plain } = value;
+      return [key, plain];
+    })) };
+    const actual = buildChar({ kvg, table, radicalNames, kind: "hiragana" });
+    const expected = buildChar({ kvg, table: plainTable, radicalNames, kind: "hiragana" });
+    expect(actual.record).toEqual(expected.record);
+  });
 });
 
 describe("buildChar の配当学年（常用漢字）", () => {

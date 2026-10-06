@@ -80,6 +80,20 @@ KanjiVG の `kvg:type`（添字込み 69 通り）から 完全一致 → 「／
 （`lastSegment` は最後の3次ベジエ1本＝KanjiVG は はね を最後のセグメントとして分けて描く）。`start`/`end` は `round`（とめ）・`flat`・`point`（はらい・はね）。
 見た目が変な画種は設計図を直して全字に効かせる。幾何は `src/geometry/` にあり Node に依存しないので、ブラウザの書き順アニメーションでも同じコードで描ける。
 
+`profilesVersion: 4` の `endExtension` は、漢字のはらい・はねを終端の接線方向へ短く延ばす。
+延長は `min(中心線の全長 × fraction, densityScale 適用後の stemWidth × maxWidth)`。
+払いは `maxWidth: 0.55`、はねは `0.4`、折れからの払いは `0.45`、いずれも `fraction: 0.08` とする。
+既存の点列は動かさず、幅曲線を延長後の先端までつなぐ。`centerline` と `length` は元の KanjiVG の値を保ち、
+描画用の `outline` とそれに基づく `bbox`・部品の範囲・手本フォントを更新する。
+画種が指定されたかなも含め、かなには延長を適用しない。
+
+比較前のチェックアウトを用意して次を実行すると、代表30字の前後比較HTMLと延長量のJSONを生成する。
+HTMLは拡大・16mm・10mm・6mm表示、変更画の強調、元の中心線の重ね合わせを切り替えられる。
+
+```bash
+pnpm exec tsx scripts/stroke-length-preview.ts /path/to/baseline /path/to/output
+```
+
 ## 使い方
 
 ```bash

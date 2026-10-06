@@ -64,7 +64,10 @@ export function buildChar(input: BuildInput): { record: CharRecord; warnings: st
   const strokeBBoxes = new Map<number, BBox>();
   const strokes: StrokeRecord[] = kvg.strokes.map((s, i) => {
     const profileKey = resolveProfileKey(s.type, table);
-    const profile = table.profiles[profileKey]!;
+    const configured = table.profiles[profileKey]!;
+    // 一部のかな（マなど）にも画種がある。漢字の終筆調整をかなへ広げない。
+    const { endExtension: _, ...unextended } = configured;
+    const profile = kind === "kanji" ? configured : unextended;
     const sampled = sampleCenterline(parseSvgPath(s.d), profile.refinement ? 0.3 : 1.5);
     const poly = simplifyPolyline(buildOutline(sampled, profile, stemWidth), profile.refinement ? 0.015 : 0.08);
     const bbox = roundBBox(bboxOfPoints(poly));
