@@ -2,6 +2,7 @@ import type { StrokeProfile } from "../profiles/types.js";
 import type { Point } from "./path.js";
 import type { Sampled } from "./sample.js";
 import { buildRefinedOutline, refinedWidthCurve } from "./refined-outline.js";
+import { extendStrokeEnd } from "./extend-end.js";
 
 const clamp01 = (v: number): number => (v < 0 ? 0 : v > 1 ? 1 : v);
 
@@ -50,6 +51,7 @@ function halfCircle(center: Point, r: number, axis: Point, side: Point, steps: n
  * point の端は左右の点が端点に一致する（太さ 0）。
  */
 export function buildOutline(sampled: Sampled, profile: StrokeProfile, stemWidth: number): Point[] {
+  sampled = extendStrokeEnd(sampled, profile, stemWidth);
   if (profile.refinement) return buildRefinedOutline(sampled, profile, stemWidth);
   const pts = sampled.points;
   const n = pts.length;

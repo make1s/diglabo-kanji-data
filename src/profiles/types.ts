@@ -21,6 +21,8 @@ export interface StrokeProfile {
   endTaper?: EndTaper;
   /** 承認済みの滑らかな輪郭。指定時は keys/endTaper に代えて画種と幾何から幅を求める。 */
   refinement?: Refinement;
+  /** 終筆の接線方向への延長。全長×fraction と 基準太さ×maxWidth の小さい方。 */
+  endExtension?: { fraction: number; maxWidth: number };
 }
 
 /**
@@ -81,6 +83,16 @@ function validateProfile(key: string, v: unknown): StrokeProfile {
   }
   if (keys[0][0] !== 0 || keys[keys.length - 1][0] !== 1) throw new Error(`${key}.keys は 0 で始まり 1 で終わらなければならない`);
   const profile: StrokeProfile = { width: v["width"], start: v["start"] as Cap, end: v["end"] as Cap, keys: keys as [number, number][] };
+  if (v["endExtension"] !== undefined) {
+    const e = v["endExtension"];
+    if (!isRecord(e)) throw new Error(`${key}.endExtension がオブジェクトでない`);
+    assertPositive(e["fraction"], `${key}.endExtension.fraction`);
+    assertPositive(e["maxWidth"], `${key}.endExtension.maxWidth`);
+    if (e["fraction"] > 1 || e["maxWidth"] > 1 || profile.end !== "point") {
+      throw new Error(`${key}.endExtension は point 終端、fraction/maxWidth は 1 以下`);
+    }
+    profile.endExtension = { fraction: e["fraction"], maxWidth: e["maxWidth"] };
+  }
   if (v["refinement"] !== undefined) {
     const refinement = v["refinement"];
     if (refinement !== "rightSweep" && refinement !== "joinedSweep" && refinement !== "leftSweep" && refinement !== "hook" && refinement !== "foldedSweep") throw new Error(`${key}.refinement が不正`);

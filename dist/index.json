@@ -1,6 +1,6 @@
 {
-  "version": "0.6.4",
-  "generatedAt": "2026-10-03",
+  "version": "0.6.5",
+  "generatedAt": "2026-10-06",
   "license": "CC-BY-SA-4.0",
   "sources": {
     "kanjivg": {
@@ -19,7 +19,7 @@
       "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/__icsFiles/afieldfile/2017/05/15/1385768.pdf"
     }
   },
-  "profilesVersion": 3,
+  "profilesVersion": 4,
   "counts": {
     "kanji": 2136,
     "hiragana": 86,
