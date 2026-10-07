@@ -1,0 +1,10 @@
+{
+  "datasetVersion": "0.6.5",
+  "fontSha256": "ebe5394d3e62348b15908b0c49a0f2cb62b21317088b0cbf80257aa084ecbe07",
+  "images": [
+    "hero.png",
+    "font-specimen.png",
+    "stroke-order.png",
+    "parts.png"
+  ]
+}

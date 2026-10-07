@@ -2,9 +2,13 @@
 
 ## 現在の状態
 
-ローカルでパッケージ・デモ・ZIPを作れます。新規の描画runtimeと公開型はMIT、文字データとフォントはCC BY-SA 4.0です。[対象範囲・来歴・用途別の案内](./library-licenses.md)を記録しています。npm名は`@diglabo/kanji`・`@diglabo/kanji-data`です。[デモ](https://make1s.github.io/diglabo-kanji-data/)は公開済みです。二つのnpm publishコマンドは本人認証を経て成功しました。描画`0.1.0`は公開レジストリで取得可能ですが、文字データ`0.6.5-pkg.1`はnpm側の反映待ちです。両方の公開後検証が通るまで、二つを組み合わせるnpm導入は案内せず、GitHub Releaseも下書きに保持します。生成データの本番反映は本公開では行っていません。
+描画[`@diglabo/kanji@0.1.0`](https://www.npmjs.com/package/@diglabo/kanji)と文字データ[`@diglabo/kanji-data@0.6.5-pkg.1`](https://www.npmjs.com/package/@diglabo/kanji-data)を`next`タグで試用公開しています。新規の描画runtimeと公開型はMIT、文字データとフォントはCC BY-SA 4.0です。[対象範囲・来歴・用途別の案内](./library-licenses.md)を確認してください。[デモ](https://make1s.github.io/diglabo-kanji-data/)と[GitHub Release](https://github.com/make1s/diglabo-kanji-data/releases/tag/renderer-v0.1.0-rc.1)も公開済みです。
 
-2026-10-07、無料のnpm組織`diglabo`を作成し、`dighacks`のOwner権限・CLIログインを確認しました。公開名は上記二つに確定。2段階認証（auth-and-writes）も有効化済み。GitHub Pagesはworkflow方式で設定済みです。デモの配信・公開URLでの動作を確認済みです。npmの本人認証は完了。描画npmのintegrityは候補と一致しました。データ側は公開ページが一時的な`0.0.0-stage`のままで、実データ版の取得・全字形の読み戻しが残ります。CLIとnpm管理画面のStaged Packagesは空で、追加承認待ちはありません。
+2026-10-07、無料npm組織`diglabo`（Owner: `dighacks`）から本人認証を経て初回公開しました。別ディレクトリへ公開レジストリから導入し、候補tarballと同じintegrity・全2,313字の元JSONとの一致・SVG描画を確認しました。既存の字形・フォントと本番データは本公開で変更していません。trusted publishing・provenanceは未設定です。
+
+```sh
+npm install @diglabo/kanji@next @diglabo/kanji-data@next
+```
 
 | 描画 | データnpm | データ版 | schemaVersion |
 |---|---|---|---|
