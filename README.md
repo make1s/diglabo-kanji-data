@@ -10,11 +10,9 @@
 
 ## 何を使いますか？
 
-| やりたいこと | 使うもの | はじめる |
-|---|---|---|
-| プリント・スライド・Webに手本の文字を載せる | **DiglaboTehon**（OTF / WOFF2） | [フォントだけ使いたい](#フォントだけ使いたい) |
-| 筆順を表示する・部品に色をつける | **@diglabo/kanji** + 文字データ | [アプリに組み込みたい](#アプリに組み込みたい) |
-| 読み・学年・部首・部品構造を使う | **@diglabo/kanji-data** / JSON | [文字データを使いたい](#文字データを使いたい) |
+- **[フォントだけ使いたい](#フォントだけ使いたい)** — プリント・スライド・Webに手本の文字を載せる。
+- **[アプリに組み込みたい](#アプリに組み込みたい)** — 筆順を表示する、部品に色をつける。
+- **[文字データを使いたい](#文字データを使いたい)** — 読み・学年・部首・部品構造を使う。
 
 ## フォントだけ使いたい
 
@@ -26,12 +24,12 @@ PC用のOTF、Web用のWOFF2、使い方、ライセンスと出典情報をま�
 
 ![DiglaboTehonの書体見本。「春夏秋冬 山川空海」、ひらがな、カタカナを配布フォントで表示](./docs/images/font-specimen.png)
 
-| 使う場所 | ファイル | 使い方 |
-|---|---|---|
-| **PCの文書・スライド・DTP** | `fonts/tehon.otf` | OSにインストールし、アプリのフォント欄で **DiglaboTehon** を選ぶ |
-| **Webサイト・Web教材** | `fonts/tehon.woff2` | サイトに同梱し、CSSの`@font-face`で読み込む |
+| 使う場所 | 選ぶファイル |
+|---|---|
+| **PCの文書・スライド・DTP** | **OTF**<br>`tehon.otf` |
+| **Webサイト・Web教材** | **WOFF2**<br>`tehon.woff2` |
 
-PCではZIP内の`tehon.otf`を開いてインストールします。Web用CSSと、単体ファイルのダウンロードは[フォントの使い方](./docs/fonts.md)にまとめています。
+PCではZIPの`fonts/tehon.otf`を開いてインストールし、アプリのフォント欄で **DiglaboTehon** を選びます。Web用CSSと、単体ファイルのダウンロードは[フォントの使い方](./docs/fonts.md)にまとめています。
 
 収録範囲は常用漢字・ひらがな・カタカナ・長音符です。英数字・句読点などは、併用するフォントで表示してください。
 
@@ -78,10 +76,10 @@ const { svg, attribution } = renderCharacter(kyu, { size: 160 });
 
 筆順・画の輪郭・部品階層に加え、**読み・教育用読み・読みの段階・配当学年・部首**を使えます。
 
-| 取り込み方 | 入手先 | 内容 |
-|---|---|---|
-| JavaScript / TypeScript | [@diglabo/kanji-data](https://www.npmjs.com/package/@diglabo/kanji-data) | 型付きの文字別モジュール・索引・manifest |
-| JSONを直接読む | [JSON一式をダウンロード（ZIP）](https://github.com/make1s/diglabo-kanji-data/releases/download/renderer-v0.1.0-rc.1/diglabo-kanji-data-0.6.5.zip) | 1字1ファイルのJSON・索引・ライセンス |
+| 入手先 | 内容 |
+|---|---|
+| [npm（JavaScript / TypeScript）](https://www.npmjs.com/package/@diglabo/kanji-data) | 型付きの文字別モジュール・索引・manifest |
+| [JSON一式（ZIP）](https://github.com/make1s/diglabo-kanji-data/releases/download/renderer-v0.1.0-rc.1/diglabo-kanji-data-0.6.5.zip) | 1字1ファイルのJSON・索引・ライセンス |
 
 ```ts
 import kyu from "@diglabo/kanji-data/chars/04f11";
