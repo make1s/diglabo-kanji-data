@@ -9,6 +9,33 @@
 
 帰属の詳細と、印刷物に載せる1行は [ATTRIBUTION.md](./ATTRIBUTION.md)。
 
+## 手本を表示・教材を作る・フォントを使う
+
+教材向けの公開ライブラリをローカルで試せます。描画と文字データを二つのパッケージに分け、手本表示・筆順の段階表示・部品の色分けを提供します。**npmは試用公開の準備中です。公開名は`@diglabo/kanji`と`@diglabo/kanji-data`です。**
+
+- **手本を表示**：[描画APIと最小の例](./packages/kanji/README.md)。ブラウザ／Node.js 22以上のESMで、外部通信やフォントを使わずSVGを生成します。
+- **教材を作る**：[文字データの取得](./packages/data/README.md)。読み・学年・部首も型付きで扱えます。[素のJavaScript](./examples/browser/main.js)・[React](./examples/react/main.tsx)・[Node.js](./examples/node/lesson.mjs)の例があります。
+- **フォントを使う**：[`dist/fonts/tehon.woff2`](./dist/fonts/tehon.woff2)（Web用）・[`tehon.otf`](./dist/fonts/tehon.otf)（PC用）。書体名は`DiglaboTehon`です。CC BY-SA 4.0と帰属表示の条件を確認してください。
+
+```sh
+pnpm install --frozen-lockfile
+pnpm build:packages
+pnpm build:examples
+pnpm release:prepare
+```
+
+`artifacts/`に二つのnpm tarball、フォントZIP、JSON ZIP、検証結果、ハッシュ付きmanifestを作ります。別のプロジェクトへtarballをインストールして、次のように使えます。
+
+```ts
+import kyu from "@diglabo/kanji-data/chars/04f11";
+import { renderCharacter } from "@diglabo/kanji";
+const { svg, attribution } = renderCharacter(kyu);
+```
+
+`svg`とともに`attribution.text`を出典欄へ表示します。一文字のimportで全字形をWebへ送りませんが、データnpmのインストールには全2,313字が含まれます。必要なJSONだけをサイトへ同梱する例もあります。
+
+詳しいローカル起動、互換表、検証・公開・データ更新の手順は[公開手順](./docs/public-library-release.md)。描画runtimeと公開型はMIT、文字データとフォントはCC BY-SA 4.0です。[対象範囲・用途別の案内](./docs/library-licenses.md)を確認してください。
+
 ## 何が入っているか
 
 `dist/index.json` が索引、`dist/chars/{codepoint}.json` が1字1ファイル。座標系は KanjiVG のまま `viewBox 0 0 109 109`。
@@ -94,7 +121,7 @@ HTMLは拡大・16mm・10mm・6mm表示、変更画の強調、元の中心線�
 pnpm exec tsx scripts/stroke-length-preview.ts /path/to/baseline /path/to/output
 ```
 
-## 使い方
+## 生成環境（貢献者向け）
 
 ```bash
 pnpm install
@@ -119,4 +146,4 @@ pnpm test
 ## ライセンス
 
 データセット全体は [CC BY-SA 4.0](./LICENSE)。KanjiVG（CC BY-SA 3.0）は同ライセンス §4(b) により後の版で改変物を配布できる。
-生成コード（`src/`, `scripts/`）も同じライセンスで配る。
+生成コード（`src/`, `scripts/`）も同じライセンスで配る。新規の描画runtimeと公開型（`packages/kanji/src/`）は[MIT](./packages/kanji/LICENSE)。データnpmに複製する型にもMITの許諾文を添付する。詳細は[ライセンス範囲](./docs/library-licenses.md)。

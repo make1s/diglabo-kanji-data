@@ -1,5 +1,5 @@
 import { existsSync, readFileSync } from "node:fs";
-import { describe, expect, it } from "vitest";
+import { beforeAll, describe, expect, it } from "vitest";
 import { parseMextAppendix, parseMextTsv } from "./parse-tsv.js";
 
 const HEADER = "level\tpage_num\tpar_num\tblock_num\tline_num\tword_num\tleft\ttop\twidth\theight\tconf\ttext";
@@ -61,8 +61,12 @@ describe("parseMextTsv", () => {
 const appendixInputPath = new URL("../../input/mext-onkun-2017.tsv", import.meta.url);
 
 describe.skipIf(!existsSync(appendixInputPath))("parseMextAppendix", () => {
-  const tsv = readFileSync(appendixInputPath, "utf8");
-  const { jukujikun, prefectures, warnings } = parseMextAppendix(tsv);
+  let jukujikun: ReturnType<typeof parseMextAppendix>["jukujikun"];
+  let prefectures: ReturnType<typeof parseMextAppendix>["prefectures"];
+  let warnings: string[];
+  beforeAll(() => {
+    ({ jukujikun, prefectures, warnings } = parseMextAppendix(readFileSync(appendixInputPath, "utf8")));
+  });
 
   it("付表1 に 迷子・真っ青・明日 がある", () => {
     expect(jukujikun.find((w) => w.word === "迷子")).toEqual({ word: "迷子", reading: "まいご", stage: "elementary" });
