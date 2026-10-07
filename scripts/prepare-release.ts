@@ -61,7 +61,7 @@ const manifest = {
   sourceDirty: execFileSync("git", ["status", "--porcelain"], { cwd: root, encoding: "utf8" }).trim().length > 0,
   rendererVersion: renderer.version, dataPackageVersion: dataPkg.version, datasetVersion: data.version, schemaVersion: 1,
   currentRendererLicense: renderer.license,
-  publicationChecks: ["npm名・scopeと公開権限", "デモ公開先"],
+  publicationChecks: ["npm公開時の本人認証と公開後の読み戻し", "デモの公開と表示確認"],
   files,
 };
 writeFileSync(resolve(out, "release-manifest.json"), JSON.stringify(manifest, null, 2) + "\n");

@@ -2,7 +2,11 @@
 
 手本・筆順の段階表示・部品の色分けをSVGで生成します。ブラウザとNode.js 22以上で使えるESMです。実行時依存・外部通信・外部フォントはありません。
 
-**現在は試用公開の準備中です。`@diglabo`のOwner権限を確認済みで、初回公開の2段階認証を準備しています。**
+0.1.0は試用版です。`next`タグで導入し、利用するデータの版も固定してください。
+
+```sh
+npm install @diglabo/kanji@next @diglabo/kanji-data@next
+```
 
 ```ts
 import kyu from "@diglabo/kanji-data/chars/04f11";

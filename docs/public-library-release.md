@@ -4,7 +4,7 @@
 
 ローカルでパッケージ・デモ・ZIPを作れます。新規の描画runtimeと公開型はMIT、文字データとフォントはCC BY-SA 4.0です。[対象範囲・来歴・用途別の案内](./library-licenses.md)を記録しています。npm名は`@diglabo/kanji`・`@diglabo/kanji-data`です。npm公開・デモ公開・生成データの本番反映は行っていません。
 
-2026-10-07、無料のnpm組織`diglabo`を作成し、`dighacks`のOwner権限・CLIログインを確認しました。公開名は上記二つに確定。2段階認証の登録と、初回公開時の本人認証が残っています。GitHubの管理権限も確認済みです。
+2026-10-07、無料のnpm組織`diglabo`を作成し、`dighacks`のOwner権限・CLIログインを確認しました。公開名は上記二つに確定。2段階認証（auth-and-writes）も有効化済み。GitHub Pagesはworkflow方式で設定済みです。初回公開時の本人認証・公開後の読み戻し・デモの配信確認が残っています。
 
 | 描画 | データnpm | データ版 | schemaVersion |
 |---|---|---|---|

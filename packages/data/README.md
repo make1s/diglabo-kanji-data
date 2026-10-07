@@ -1,6 +1,10 @@
 # @diglabo/kanji-data
 
-常用漢字2,136字＋かな177字の文字別データです。現在は試用公開の準備中です。`@diglabo`のOwner権限を確認済みで、初回公開の2段階認証を準備しています。
+常用漢字2,136字＋かな177字の文字別データです。初版は`next`タグで提供する試用版です。
+
+```sh
+npm install @diglabo/kanji-data@next
+```
 
 ```ts
 import kyu from "@diglabo/kanji-data/chars/04f11";
