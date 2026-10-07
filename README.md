@@ -13,7 +13,7 @@
 
 [公開デモを試す](https://make1s.github.io/diglabo-kanji-data/) · [Reactの例](https://make1s.github.io/diglabo-kanji-data/react.html)
 
-教材向けの公開ライブラリをブラウザとローカルで試せます。描画と文字データを二つのパッケージに分け、手本表示・筆順の段階表示・部品の色分けを提供します。**npmは試用公開の準備中です。公開名は`@diglabo/kanji`と`@diglabo/kanji-data`です。**
+教材向けの公開ライブラリをブラウザとローカルで試せます。描画と文字データを二つのパッケージに分け、手本表示・筆順の段階表示・部品の色分けを提供します。**npmの試用公開を進めています。** [`@diglabo/kanji@0.1.0`](https://www.npmjs.com/package/@diglabo/kanji)は公開済み。`@diglabo/kanji-data@0.6.5-pkg.1`は公開コマンドが成功し、npm側の反映を待っています。二つの公開後検証が通るまでは、下記のローカル試用手順を使ってください。
 
 - **手本を表示**：[描画APIと最小の例](./packages/kanji/README.md)。ブラウザ／Node.js 22以上のESMで、外部通信やフォントを使わずSVGを生成します。
 - **教材を作る**：[文字データの取得](./packages/data/README.md)。読み・学年・部首も型付きで扱えます。[素のJavaScript](./examples/browser/main.js)・[React](./examples/react/main.tsx)・[Node.js](./examples/node/lesson.mjs)の例があります。
