@@ -2,7 +2,7 @@
 
 ## 現在の状態
 
-描画[`@diglabo/kanji@0.1.0`](https://www.npmjs.com/package/@diglabo/kanji)と文字データ[`@diglabo/kanji-data@0.6.5-pkg.1`](https://www.npmjs.com/package/@diglabo/kanji-data)を`next`タグで試用公開しています。新規の描画runtimeと公開型はMIT、文字データとフォントはCC BY-SA 4.0です。[対象範囲・来歴・用途別の案内](./library-licenses.md)を確認してください。[デモ](https://make1s.github.io/diglabo-kanji-data/)と[GitHub Release](https://github.com/make1s/diglabo-kanji-data/releases/tag/renderer-v0.1.0-rc.1)も公開済みです。
+描画[`@diglabo/kanji@0.1.0`](https://www.npmjs.com/package/@diglabo/kanji)と文字データ[`@diglabo/kanji-data@0.6.6-pkg.1`](https://www.npmjs.com/package/@diglabo/kanji-data)を`next`タグで試用公開しています。新規の描画runtimeと公開型はMIT、文字データとフォントはCC BY-SA 4.0です。[対象範囲・来歴・用途別の案内](./library-licenses.md)を確認してください。[デモ](https://make1s.github.io/diglabo-kanji-data/)と[GitHub Release](https://github.com/make1s/diglabo-kanji-data/releases/tag/renderer-v0.1.0-rc.1)も公開済みです。
 
 2026-10-07、無料npm組織`diglabo`（Owner: `dighacks`）から本人認証を経て初回公開しました。別ディレクトリへ公開レジストリから導入し、候補tarballと同じintegrity・全2,313字の元JSONとの一致・SVG描画を確認しました。既存の字形・フォントと本番データは本公開で変更していません。trusted publishing・provenanceは未設定です。
 
@@ -12,7 +12,7 @@ npm install @diglabo/kanji@next @diglabo/kanji-data@next
 
 | 描画 | データnpm | データ版 | schemaVersion |
 |---|---|---|---|
-| 0.1.0 | 0.6.5-pkg.1 | 0.6.5 | 1 |
+| 0.1.0 | 0.6.6-pkg.1 | 0.6.6 | 1 |
 
 ## 試す
 
@@ -47,7 +47,7 @@ pnpm release:prepare
 
 `artifacts/`へ二つのnpm tarball、フォントZIP、JSON ZIP、SHA256SUMS、release-manifest.jsonを作ります。元の`dist/`は生成し直しません。manifestにはソースcommit・未コミット差分の有無と未確認事項を記録し、公開済みとは表記しません。
 
-別のプロジェクトで試す場合は、二つのtarballの絶対パスを指定して`npm install /path/to/diglabo-kanji-0.1.0.tgz /path/to/diglabo-kanji-data-0.6.5-pkg.1.tgz`を実行します。READMEのimport例がそのまま使えます。
+別のプロジェクトで試す場合は、二つのtarballの絶対パスを指定して`npm install /path/to/diglabo-kanji-0.1.0.tgz /path/to/diglabo-kanji-data-0.6.6-pkg.1.tgz`を実行します。READMEのimport例がそのまま使えます。
 
 ## 公開前に確認すること
 
@@ -66,7 +66,7 @@ pnpm release:prepare
 
 ```sh
 npm publish ./artifacts/diglabo-kanji-0.1.0.tgz --access public --tag next --registry=https://registry.npmjs.org
-npm publish ./artifacts/diglabo-kanji-data-0.6.5-pkg.1.tgz --access public --tag next --registry=https://registry.npmjs.org
+npm publish ./artifacts/diglabo-kanji-data-0.6.6-pkg.1.tgz --access public --tag next --registry=https://registry.npmjs.org
 ```
 
 検証したtarballを`next`タグで公開し、GitHub ReleaseへZIP・manifest・SHA256SUMSを添付します。この文書やCIは公開を自動実行しません。二つのnpm公開は原子的ではないため、片方が失敗した場合は失敗した側だけを再試行し、両方の読み戻し確認後にREADMEの推奨版を更新します。
@@ -81,7 +81,7 @@ npm publish ./artifacts/diglabo-kanji-data-0.6.5-pkg.1.tgz --access public --tag
 
 ### データ版0.6.6（2026-10-10）
 
-手本フォントに常用外の10字を加えたデータ版0.6.6を、mainのクリーンなcommit `ad52448` から `pnpm release:prepare` で作り、[GitHub Release v0.6.6](https://github.com/make1s/diglabo-kanji-data/releases/tag/v0.6.6)へフォントZIP・JSON ZIP・二つのtarball・release-manifest.json・SHA256SUMSを添付した。再ダウンロードしてSHA-256とZIPの整合を確認。描画tarball `diglabo-kanji-0.1.0.tgz` は前回公開分とbytes同一。文字データnpmの `0.6.6-pkg.1` は字データが0.6.5と同一で、フォントを含まない。npmへの公開と読み戻しの確認が済むまで、READMEとこの文書のnpmの推奨版は0.6.5-pkg.1のままにする。
+手本フォントに常用外の10字を加えたデータ版0.6.6を、mainのクリーンなcommit `ad52448` から `pnpm release:prepare` で作り、[GitHub Release v0.6.6](https://github.com/make1s/diglabo-kanji-data/releases/tag/v0.6.6)へフォントZIP・JSON ZIP・二つのtarball・release-manifest.json・SHA256SUMSを添付した。再ダウンロードしてSHA-256とZIPの整合を確認。描画tarball `diglabo-kanji-0.1.0.tgz` は前回公開分とbytes同一。文字データnpmの `0.6.6-pkg.1` は字データが0.6.5と同一で、フォントを含まない。2026-10-10、本人のパスキー認証で `next` タグに公開し、レジストリのintegrity（`sha512-M0FC…`）とnpm packで取り直したtarballのSHA-256がRelease添付の検証済みtarballと一致することを確認した。`latest` タグは0.6.5-pkg.1のまま（`next` で試用公開する手順のため付け替えていない）。npmの公開は端末の対話入力でブラウザ認証を行う（`| tail` 等で出力をパイプするとOTPエラーになる）。
 
 初回のGitHub Releaseはprereleaseとし、二つのtarball・二つのZIP・release-manifest.json・SHA256SUMSを添付します。公開名が未確定の候補はdraftに置きます。npm公開が済むまではnpmのインストールコマンドを公開済みとして案内しません。公開後は別ディレクトリからtarball・ZIPを取り直し、ハッシュ・全字形・型解決を確認します。npmは[公開時のスキャン](https://github.blog/changelog/2026-07-28-npm-publish-time-malware-scanning-and-dual-use-metadata/)により、publish成功直後でも読み戻しが404になる場合があります。同じ版を再公開せず、インストール可能になるまで待って確認します。
 

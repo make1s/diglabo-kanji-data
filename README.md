@@ -70,7 +70,7 @@ const { svg, attribution } = renderCharacter(kyu, { size: 160 });
 | Reactに組み込む | [Reactデモ](https://make1s.github.io/diglabo-kanji-data/react.html) · [ソース](./examples/react/main.tsx) |
 | Node.jsで教材を作る | [HTML教材を書き出す例](./examples/node/lesson.mjs) |
 
-現在は0.xの試用版です。描画 **0.1.0** / 文字データnpm **0.6.5-pkg.1** / データ版 **0.6.5** / schemaVersion **1**。版を固定する場合は`next`をそれぞれのバージョンに置き換えます。画の途中までのアニメーションや手書き採点は含みません。
+現在は0.xの試用版です。描画 **0.1.0** / 文字データnpm **0.6.6-pkg.1** / データ版 **0.6.6** / schemaVersion **1**。版を固定する場合は`next`をそれぞれのバージョンに置き換えます。画の途中までのアニメーションや手書き採点は含みません。
 
 ## 文字データを使いたい
 
