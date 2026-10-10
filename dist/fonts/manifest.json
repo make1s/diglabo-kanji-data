@@ -1,9 +1,21 @@
 {
-  "version": "0.6.5",
+  "version": "0.6.6",
   "profilesVersion": 4,
   "family": "DiglaboTehon",
   "file": "tehon.woff2",
-  "sha256": "ebe5394d3e62348b15908b0c49a0f2cb62b21317088b0cbf80257aa084ecbe07",
-  "bytes": 1158796,
-  "glyphCount": 2313
+  "sha256": "93b0b16e6303f9b22078207ec3bb737e7338f1f677d62e03568a373a8af57de3",
+  "bytes": 1164572,
+  "glyphCount": 2323,
+  "extraChars": [
+    "伊",
+    "彦",
+    "杵",
+    "栗",
+    "薩",
+    "藁",
+    "袴",
+    "阿",
+    "陀",
+    "饉"
+  ]
 }

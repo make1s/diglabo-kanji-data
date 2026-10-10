@@ -52,6 +52,8 @@ export interface TehonManifest {
   sha256: string;
   bytes: number;
   glyphCount: number;
+  /** 字データに無く、フォントだけに入れた字（data/tehon-extra-chars.json）。codepoint 順 */
+  extraChars: string[];
 }
 
 const TOKEN = /([ML])(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)|Z/g;
@@ -238,7 +240,7 @@ export function buildTehonFont(chars: readonly TehonGlyphSource[]): { otf: Buffe
 export function tehonManifest(
   woff2: Uint8Array,
   glyphCount: number,
-  meta: { version: string; profilesVersion: number }
+  meta: { version: string; profilesVersion: number; extraChars: readonly string[] }
 ): TehonManifest {
   return {
     version: meta.version,
@@ -248,5 +250,6 @@ export function tehonManifest(
     sha256: createHash("sha256").update(woff2).digest("hex"),
     bytes: woff2.length,
     glyphCount,
+    extraChars: [...meta.extraChars],
   };
 }

@@ -138,7 +138,7 @@ describe("縦書きでの字の置き方（2026-09-29 漢字だけ左に寄る�
 describe("tehonManifest", () => {
   it("sha256 と bytes は woff2 の実バイトから取る", () => {
     const { woff2 } = buildTehonFont(CHARS);
-    expect(tehonManifest(woff2, 2, { version: "9.9.9", profilesVersion: 3 })).toEqual({
+    expect(tehonManifest(woff2, 2, { version: "9.9.9", profilesVersion: 3, extraChars: ["伊"] })).toEqual({
       version: "9.9.9",
       profilesVersion: 3,
       family: "DiglaboTehon",
@@ -146,6 +146,7 @@ describe("tehonManifest", () => {
       sha256: createHash("sha256").update(woff2).digest("hex"),
       bytes: woff2.length,
       glyphCount: 2,
+      extraChars: ["伊"],
     });
   });
 });

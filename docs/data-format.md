@@ -50,6 +50,6 @@
 - `eduReadings` は割り振り表の順（主要な読みが先、1字下げの読みは末尾）。紙に載せるときは先頭から6つまでを目安にする（「生」のように小学校段階だけで 10 個ある字がある）
 - 送り仮名の区切りは KANJIDIC2 の記法（`ば.ける` の `.`）。割り振り表に無い区切りは KANJIDIC2 から写しているので、`data/edu-readings-overrides.json` で 3 字だけ手当てしている
 - `dist/index.json` の `sources` に入力の版（KanjiVG のリリース、KANJIDIC2 の database_version）を記録する
-- `dist/fonts/tehon.woff2` は全 2,313 字の筆圧アウトラインを塗った手本フォント（family `DiglaboTehon`・UPM 1000・y は上向き）。`dist/fonts/manifest.json` に版・sha256・字数を書く。
+- `dist/fonts/tehon.woff2` は全 2,313 字に、文字データに入れない常用外の 10 字（`data/tehon-extra-chars.json`）を加えた 2,323 字の筆圧アウトラインを塗った手本フォント（family `DiglaboTehon`・UPM 1000・y は上向き）。`dist/fonts/manifest.json` に版・sha256・字数と、フォントだけの字の一覧 `extraChars` を書く。
   バイト列は輪郭だけで決まる（作成・更新日時は固定、版番号は入れない）ので、版を上げても字形が同じなら sha256 は変わらない。
   1 グリフに画を重ねたまま入れている（重なりは除いていない）。1 画ずつ色を変える・画番号を出す用途には `strokes[].outline` を使う

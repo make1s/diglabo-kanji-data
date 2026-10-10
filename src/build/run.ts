@@ -2,6 +2,7 @@
  * 全量ビルド: input/ → dist/chars/{codepoint}.json + dist/index.json、build/report.json
  * 対象: 常用漢字 2,136 字（割り振り表の字。教育漢字は配当学年順、中学で習う字は codepoint 順で後ろ）、
  *       ひらがな U+3041..3096、カタカナ U+30A1..30FA と長音符 U+30FC
+ * 手本フォントには、これに data/tehon-extra-chars.json の常用外の字を足す（字データ・索引には入れない）
  */
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -32,6 +33,7 @@ const overrides = JSON.parse(readFileSync(p("data/edu-readings-overrides.json"),
 const radicalOverrides = JSON.parse(readFileSync(p("data/radical-overrides.json"), "utf8")) as { overrides: Record<string, RadicalOverride> };
 const stageFixes = JSON.parse(readFileSync(p("data/stage-readings-overrides.json"), "utf8")) as { fixes: Record<string, Record<string, string>> };
 const joyoVariants = JSON.parse(readFileSync(p("data/joyo-variants.json"), "utf8")) as { variants: Record<string, string[]> };
+const tehonExtra = JSON.parse(readFileSync(p("data/tehon-extra-chars.json"), "utf8")) as { chars: string[] };
 
 const targets: { cp: number; kind: CharKind }[] = [];
 // ⚠ 字集合は割り振り表（常用漢字表の 2,136 字）で決める。KANJIDIC2 の grade では決めない（ADR 0009）
@@ -88,10 +90,24 @@ for (const t of targets) {
 }
 
 writeFileSync(p("dist/index.json"), JSON.stringify(index, null, 2) + "\n");
-const tehon = buildTehonFont(records);
+
+// 文に読みがな付きで出る常用外の字。同じ処理で輪郭を作り、フォントにだけ入れる（字データは常用漢字表で閉じる・ADR 0009）
+const inData = new Set(records.map((r) => r.char));
+const extraChars = [...tehonExtra.chars].sort((a, b) => a.codePointAt(0)! - b.codePointAt(0)!);
+const extraRecords: CharRecord[] = [];
+for (const char of extraChars) {
+  const cp = char.codePointAt(0)!;
+  if ([...char].length !== 1 || inData.has(char)) throw new Error(`tehon-extra-chars.json: 1 字でない・字データと重なる字「${char}」`);
+  const svgPath = p(`input/kvg/kanji/${hex(cp)}.svg`);
+  if (!existsSync(svgPath)) throw new Error(`tehon-extra-chars.json: KanjiVG に無い「${char}」（${hex(cp)}）`);
+  const kvg = parseKanjiVg(readFileSync(svgPath, "utf8"));
+  const { record } = buildChar({ kvg, dic: dic.get(char), table, radicalNames, kind: "kanji" });
+  extraRecords.push(record);
+}
+const tehon = buildTehonFont([...records, ...extraRecords]);
 writeFileSync(p("dist/fonts/tehon.otf"), tehon.otf);
 writeFileSync(p(`dist/fonts/${TEHON_FILE}`), tehon.woff2);
-const manifest = tehonManifest(tehon.woff2, tehon.glyphCount, { version: pkg.version, profilesVersion: table.version });
+const manifest = tehonManifest(tehon.woff2, tehon.glyphCount, { version: pkg.version, profilesVersion: table.version, extraChars });
 writeFileSync(p("dist/fonts/manifest.json"), JSON.stringify(manifest, null, 2) + "\n");
 const report = {
   generatedAt: new Date().toISOString(),
@@ -104,6 +120,6 @@ const report = {
 };
 writeFileSync(p("build/report.json"), JSON.stringify(report, null, 2) + "\n");
 console.log(`chars ${report.files}（漢字 ${index.counts.kanji}・ひらがな ${index.counts.hiragana}・カタカナ ${index.counts.katakana}）・画 ${index.counts.strokes}・${(bytes / 1e6).toFixed(1)}MB・警告 ${warnings.length} 件`);
-console.log(`手本フォント ${TEHON_FILE}・${manifest.glyphCount} 字・${(manifest.bytes / 1024).toFixed(0)}KB・sha256 ${manifest.sha256.slice(0, 16)}`);
+console.log(`手本フォント ${TEHON_FILE}・${manifest.glyphCount} 字（うちフォントだけの字 ${extraChars.join("")}）・${(manifest.bytes / 1024).toFixed(0)}KB・sha256 ${manifest.sha256.slice(0, 16)}`);
 for (const w of warnings.slice(0, 40)) console.log("  warn:", w);
 if (warnings.length > 40) console.log(`  ... ほか ${warnings.length - 40} 件（build/report.json）`);

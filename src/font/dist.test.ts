@@ -1,5 +1,6 @@
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
+import opentype from "opentype.js";
 import { describe, expect, it } from "vitest";
 import type { DatasetIndex } from "../build/types.js";
 import type { TehonManifest } from "./tehon.js";
@@ -34,7 +35,19 @@ describe("dist/fonts", () => {
     expect(graded.every((c) => c.kind === "kanji" && c.grade! >= 1 && c.grade! <= 6)).toBe(true);
   });
 
-  it("字数は索引の全字と同じ", () => {
-    expect(manifest.glyphCount).toBe(index.chars.length);
+  it("字数は索引の全字と、フォントだけの字（data/tehon-extra-chars.json）の合計", () => {
+    const extra = JSON.parse(read("data/tehon-extra-chars.json").toString("utf8")) as { chars: string[] };
+    const sorted = [...extra.chars].sort((a, b) => a.codePointAt(0)! - b.codePointAt(0)!);
+    expect(manifest.extraChars).toEqual(sorted);
+    const inIndex = new Set(index.chars.map((c) => c.char));
+    expect(manifest.extraChars.filter((c) => inIndex.has(c))).toEqual([]);
+    expect(manifest.glyphCount).toBe(index.chars.length + manifest.extraChars.length);
+  });
+
+  it("フォントは索引の全字とフォントだけの字を収録する", () => {
+    const font = opentype.parse(new Uint8Array(read("dist/fonts/tehon.otf")).buffer);
+    const missing = [...index.chars.map((c) => c.char), ...manifest.extraChars].filter((c) => !font.charToGlyph(c) || font.charToGlyph(c).index === 0);
+    expect(missing).toEqual([]);
+    expect(font.numGlyphs).toBe(manifest.glyphCount + 1);
   });
 });
