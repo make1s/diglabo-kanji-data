@@ -6,7 +6,7 @@
 
 ![配布中の手本フォントDiglaboTehonによる「永・休・林・道」の字形](./docs/images/hero.png)
 
-**[フォントをダウンロード](https://github.com/make1s/diglabo-kanji-data/releases/download/renderer-v0.1.0-rc.1/diglabo-kanji-fonts-0.6.5.zip)** · **[ブラウザで試す](https://make1s.github.io/diglabo-kanji-data/)** · [配布物と変更履歴](https://github.com/make1s/diglabo-kanji-data/releases/tag/renderer-v0.1.0-rc.1)
+**[フォントをダウンロード](https://github.com/make1s/diglabo-kanji-data/releases/download/v0.6.6/diglabo-kanji-fonts-0.6.6.zip)** · **[ブラウザで試す](https://make1s.github.io/diglabo-kanji-data/)** · [配布物と変更履歴](https://github.com/make1s/diglabo-kanji-data/releases/tag/renderer-v0.1.0-rc.1)
 
 ## 何を使いますか？
 
@@ -18,7 +18,7 @@
 
 ### まずはZIPをダウンロード
 
-**[DiglaboTehon 一式をダウンロード（ZIP / データ版0.6.5）](https://github.com/make1s/diglabo-kanji-data/releases/download/renderer-v0.1.0-rc.1/diglabo-kanji-fonts-0.6.5.zip)**
+**[DiglaboTehon 一式をダウンロード（ZIP / データ版0.6.6）](https://github.com/make1s/diglabo-kanji-data/releases/download/v0.6.6/diglabo-kanji-fonts-0.6.6.zip)**
 
 PC用のOTF、Web用のWOFF2、使い方、ライセンスと出典情報をまとめています。ZIPを解凍して使えます。
 
@@ -79,7 +79,7 @@ const { svg, attribution } = renderCharacter(kyu, { size: 160 });
 | 入手先 | 内容 |
 |---|---|
 | [npm（JavaScript / TypeScript）](https://www.npmjs.com/package/@diglabo/kanji-data) | 型付きの文字別モジュール・索引・manifest |
-| [JSON一式（ZIP）](https://github.com/make1s/diglabo-kanji-data/releases/download/renderer-v0.1.0-rc.1/diglabo-kanji-data-0.6.5.zip) | 1字1ファイルのJSON・索引・ライセンス |
+| [JSON一式（ZIP）](https://github.com/make1s/diglabo-kanji-data/releases/download/v0.6.6/diglabo-kanji-data-0.6.6.zip) | 1字1ファイルのJSON・索引・ライセンス |
 
 ```ts
 import kyu from "@diglabo/kanji-data/chars/04f11";
