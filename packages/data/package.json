@@ -1,6 +1,6 @@
 {
   "name": "@diglabo/kanji-data",
-  "version": "0.6.5-pkg.1",
+  "version": "0.6.6-pkg.1",
   "description": "常用漢字2,136字とかな177字の文字別データ・読み・部品・筆順",
   "type": "module",
   "license": "CC-BY-SA-4.0",
