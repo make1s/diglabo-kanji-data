@@ -79,6 +79,10 @@ npm publish ./artifacts/diglabo-kanji-data-0.6.5-pkg.1.tgz --access public --tag
 
 公開URLは[https://make1s.github.io/diglabo-kanji-data/](https://make1s.github.io/diglabo-kanji-data/)です。2026-10-07、workflow run `37549849026`で初回配信。公開URLで手本・筆順操作・同名部品の区別と色分け・SVG保存・フォント・React例・PC/スマートフォン表示を確認しました。
 
+### データ版0.6.6（2026-10-10）
+
+手本フォントに常用外の10字を加えたデータ版0.6.6を、mainのクリーンなcommit `ad52448` から `pnpm release:prepare` で作り、[GitHub Release v0.6.6](https://github.com/make1s/diglabo-kanji-data/releases/tag/v0.6.6)へフォントZIP・JSON ZIP・二つのtarball・release-manifest.json・SHA256SUMSを添付した。再ダウンロードしてSHA-256とZIPの整合を確認。描画tarball `diglabo-kanji-0.1.0.tgz` は前回公開分とbytes同一。文字データnpmの `0.6.6-pkg.1` は字データが0.6.5と同一で、フォントを含まない。npmへの公開と読み戻しの確認が済むまで、READMEとこの文書のnpmの推奨版は0.6.5-pkg.1のままにする。
+
 初回のGitHub Releaseはprereleaseとし、二つのtarball・二つのZIP・release-manifest.json・SHA256SUMSを添付します。公開名が未確定の候補はdraftに置きます。npm公開が済むまではnpmのインストールコマンドを公開済みとして案内しません。公開後は別ディレクトリからtarball・ZIPを取り直し、ハッシュ・全字形・型解決を確認します。npmは[公開時のスキャン](https://github.blog/changelog/2026-07-28-npm-publish-time-malware-scanning-and-dual-use-metadata/)により、publish成功直後でも読み戻しが404になる場合があります。同じ版を再公開せず、インストール可能になるまで待って確認します。
 
 ## 月次のデータ更新確認

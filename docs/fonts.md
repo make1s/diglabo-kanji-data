@@ -6,12 +6,12 @@
 
 ## ダウンロード
 
-**[フォント一式のZIP（データ版0.6.5）](https://github.com/make1s/diglabo-kanji-data/releases/download/renderer-v0.1.0-rc.1/diglabo-kanji-fonts-0.6.5.zip)**を使うと、二つのフォントと使い方・ライセンス・帰属情報がまとめて手に入ります。
+**[フォント一式のZIP（データ版0.6.6）](https://github.com/make1s/diglabo-kanji-data/releases/download/v0.6.6/diglabo-kanji-fonts-0.6.6.zip)**を使うと、二つのフォントと使い方・ライセンス・帰属情報がまとめて手に入ります。
 
 | 用途 | 単体ダウンロード |
 |---|---|
-| PCの文書・スライド・DTP | [tehon.otf（OTF）](https://raw.githubusercontent.com/make1s/diglabo-kanji-data/v0.6.5/dist/fonts/tehon.otf) |
-| Webサイト・Web教材 | [tehon.woff2（WOFF2）](https://raw.githubusercontent.com/make1s/diglabo-kanji-data/v0.6.5/dist/fonts/tehon.woff2) |
+| PCの文書・スライド・DTP | [tehon.otf（OTF）](https://raw.githubusercontent.com/make1s/diglabo-kanji-data/v0.6.6/dist/fonts/tehon.otf) |
+| Webサイト・Web教材 | [tehon.woff2（WOFF2）](https://raw.githubusercontent.com/make1s/diglabo-kanji-data/v0.6.6/dist/fonts/tehon.woff2) |
 
 単体で取得する場合も、再配布時には[LICENSE](../LICENSE)と[ATTRIBUTION.md](../ATTRIBUTION.md)を含めてください。
 
