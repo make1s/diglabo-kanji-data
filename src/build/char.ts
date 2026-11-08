@@ -50,7 +50,7 @@ function toPartNode(group: KvgGroup, strokeBBoxes: Map<number, BBox>): PartNode 
   return ordered;
 }
 
-const EMPTY_DIC = (char: string, codepoint: string): KanjidicEntry => ({ char, codepoint, grade: null, strokeCount: 0, radicalClassical: null, on: [], kun: [], meanings: [] });
+const EMPTY_DIC = (char: string, codepoint: string): KanjidicEntry => ({ char, codepoint, grade: null, strokeCount: 0, radicalClassical: null, on: [], kun: [], meanings: [], jisLevel: null });
 
 /** KanjiVG 1字と辞書・割り振り表から CharRecord を組む。幾何は設計図の表だけで決まり、字ごとの上書きは無い */
 export function buildChar(input: BuildInput): { record: CharRecord; warnings: string[] } {

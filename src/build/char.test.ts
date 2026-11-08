@@ -12,7 +12,7 @@ const table = validateProfileTable(JSON.parse(readFileSync(new URL("../../data/s
 const radicalNames = JSON.parse(readFileSync(new URL("../../data/radical-names.json", import.meta.url), "utf8")) as RadicalNameTable;
 const dic: KanjidicEntry = {
   char: "化", codepoint: "05316", grade: 3, strokeCount: 4, radicalClassical: 21,
-  on: ["カ", "ケ"], kun: ["ば.ける", "ば.かす", "ふ.ける", "け.する"], meanings: ["change", "take the form of"],
+  on: ["カ", "ケ"], kun: ["ば.ける", "ば.かす", "ふ.ける", "け.する"], meanings: ["change", "take the form of"], jisLevel: 1,
 };
 const mext: MextEntry = {
   kanji: "化", grade: 3,
