@@ -1,7 +1,9 @@
 /**
  * 全量ビルド: input/ → dist/chars/{codepoint}.json + dist/index.json、build/report.json
  * 対象: 常用漢字 2,136 字（割り振り表の字。教育漢字は配当学年順、中学で習う字は codepoint 順で後ろ）、
- *       ひらがな U+3041..3096、カタカナ U+30A1..30FA と長音符 U+30FC
+ *       ひらがな U+3041..3096、カタカナ U+30A1..30FA と長音符 U+30FC、
+ *       JIS X 0208 の第1・第2水準のうち常用漢字の外の 4,223 字（codepoint 順で最後。jisLevel を持つ。ADR 0022）
+ * ⚠ 常用漢字・かなのレコードは 0.6.6 とバイト列を変えない（字形の指紋 glyphs を保つ。spec 2026-11-08 §3）
  * 手本フォントには、これに data/tehon-extra-chars.json の常用外の字を足す（字データ・索引には入れない）
  */
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
@@ -14,7 +16,7 @@ import type { ReadingOverride } from "../readings/edu.js";
 import { buildChar } from "./char.js";
 import type { RadicalNameTable, RadicalOverride } from "./radical.js";
 import { KANJIDIC2_URL, KANJIVG_RELEASE, KANJIVG_URL } from "./sources.js";
-import { buildTehonFont, tehonManifest, TEHON_FILE } from "../font/tehon.js";
+import { buildTehonFont, tehonManifest, TEHON_EXT_FILE, TEHON_FILE } from "../font/tehon.js";
 import type { CharKind, CharRecord, DatasetIndex } from "./types.js";
 
 const root = fileURLToPath(new URL("../../", import.meta.url));
@@ -35,13 +37,17 @@ const stageFixes = JSON.parse(readFileSync(p("data/stage-readings-overrides.json
 const joyoVariants = JSON.parse(readFileSync(p("data/joyo-variants.json"), "utf8")) as { variants: Record<string, string[]> };
 const tehonExtra = JSON.parse(readFileSync(p("data/tehon-extra-chars.json"), "utf8")) as { chars: string[] };
 
-const targets: { cp: number; kind: CharKind }[] = [];
+const targets: { cp: number; kind: CharKind; ext?: true }[] = [];
 // ⚠ 字集合は割り振り表（常用漢字表の 2,136 字）で決める。KANJIDIC2 の grade では決めない（ADR 0009）
 const joyo = [...mextJson.entries].sort((a, b) => (a.grade ?? 7) - (b.grade ?? 7) || a.kanji.codePointAt(0)! - b.kanji.codePointAt(0)!);
 for (const e of joyo) targets.push({ cp: e.kanji.codePointAt(0)!, kind: "kanji" });
 for (let cp = 0x3041; cp <= 0x3096; cp++) targets.push({ cp, kind: "hiragana" });
 for (let cp = 0x30a1; cp <= 0x30fa; cp++) targets.push({ cp, kind: "katakana" });
 targets.push({ cp: 0x30fc, kind: "katakana" });
+// 常用外の字（JIS 第1・第2水準）。割り振り表の見出し字を除いて codepoint 順に後ろへ足す
+const joyoSet = new Set(joyo.map((e) => e.kanji));
+const extChars = [...dic.values()].filter((e) => e.jisLevel !== null && !joyoSet.has(e.char)).map((e) => e.char.codePointAt(0)!).sort((a, b) => a - b);
+for (const cp of extChars) targets.push({ cp, kind: "kanji", ext: true });
 
 rmSync(p("dist/chars"), { recursive: true, force: true });
 mkdirSync(p("dist/chars"), { recursive: true });
@@ -60,7 +66,7 @@ const index: DatasetIndex = {
     mext: { title: mextJson.source.title, url: mextJson.source.url },
   },
   profilesVersion: table.version,
-  counts: { kanji: 0, hiragana: 0, katakana: 0, strokes: 0 },
+  counts: { kanji: 0, kanjiExt: 0, hiragana: 0, katakana: 0, strokes: 0 },
   chars: [],
 };
 const profileUse = new Map<string, number>();
@@ -77,22 +83,26 @@ for (const t of targets) {
   }
   const kvg = parseKanjiVg(readFileSync(svgPath, "utf8"));
   const char = String.fromCodePoint(t.cp);
-  const { record, warnings: w } = buildChar({ kvg, dic: dic.get(char), mext: mext.get(char), override: overrides[char], table, radicalNames, kind: t.kind, variants: joyoVariants.variants[char], radicalOverride: radicalOverrides.overrides[char], stageFixes: stageFixes.fixes[char] });
+  const { record, warnings: w } = buildChar({ kvg, dic: dic.get(char), mext: mext.get(char), override: overrides[char], table, radicalNames, kind: t.kind, variants: joyoVariants.variants[char], radicalOverride: radicalOverrides.overrides[char], stageFixes: stageFixes.fixes[char], ext: t.ext });
   warnings.push(...w);
   const json = JSON.stringify(record, null, 2);
   bytes += Buffer.byteLength(json);
   writeFileSync(p(`dist/chars/${cp}.json`), json + "\n");
   records.push(record);
-  index.counts[t.kind]++;
+  if (t.ext) index.counts.kanjiExt++;
+  else index.counts[t.kind]++;
   index.counts.strokes += record.strokes.length;
-  index.chars.push({ char, codepoint: cp, kind: t.kind, grade: record.grade, strokeCount: record.strokeCount });
+  index.chars.push({ char, codepoint: cp, kind: t.kind, grade: record.grade, ...(record.jisLevel ? { jisLevel: record.jisLevel } : {}), strokeCount: record.strokeCount });
   for (const s of record.strokes) profileUse.set(s.profile, (profileUse.get(s.profile) ?? 0) + 1);
 }
 
 writeFileSync(p("dist/index.json"), JSON.stringify(index, null, 2) + "\n");
 
-// 文に読みがな付きで出る常用外の字。同じ処理で輪郭を作り、フォントにだけ入れる（字データは常用漢字表で閉じる・ADR 0009）
-const inData = new Set(records.map((r) => r.char));
+// 文に読みがな付きで出る常用外の字。0.6.6 と同じ処理で輪郭を作り、tehon.woff2 に入れる。
+// ⚠ この字は 0.7.0 から常用外の字として字データにもある。tehon.woff2 のバイト列を変えないため、作り方は 0.6.6 のまま（ext で組まない）
+const baseRecords = records.filter((r) => r.jisLevel === undefined);
+const extRecords = records.filter((r) => r.jisLevel !== undefined);
+const inData = new Set(baseRecords.map((r) => r.char));
 const extraChars = [...tehonExtra.chars].sort((a, b) => a.codePointAt(0)! - b.codePointAt(0)!);
 const extraRecords: CharRecord[] = [];
 for (const char of extraChars) {
@@ -104,22 +114,30 @@ for (const char of extraChars) {
   const { record } = buildChar({ kvg, dic: dic.get(char), table, radicalNames, kind: "kanji" });
   extraRecords.push(record);
 }
-const tehon = buildTehonFont([...records, ...extraRecords]);
+const tehon = buildTehonFont([...baseRecords, ...extraRecords]);
 writeFileSync(p("dist/fonts/tehon.otf"), tehon.otf);
 writeFileSync(p(`dist/fonts/${TEHON_FILE}`), tehon.woff2);
 const manifest = tehonManifest(tehon.woff2, tehon.glyphCount, { version: pkg.version, profilesVersion: table.version, extraChars });
 writeFileSync(p("dist/fonts/manifest.json"), JSON.stringify(manifest, null, 2) + "\n");
+// 常用外の字の手本フォント。tehon.woff2 に入っている字（extraChars）は除く（同じ family 名で unicode-range を分けて読む）
+const extraSet = new Set(extraChars);
+const tehonExt = buildTehonFont(extRecords.filter((r) => !extraSet.has(r.char)));
+writeFileSync(p(`dist/fonts/${TEHON_EXT_FILE}`), tehonExt.woff2);
+const manifestExt = tehonManifest(tehonExt.woff2, tehonExt.glyphCount, { version: pkg.version, profilesVersion: table.version, extraChars: [], file: TEHON_EXT_FILE });
+writeFileSync(p("dist/fonts/manifest-ext.json"), JSON.stringify(manifestExt, null, 2) + "\n");
 const report = {
   generatedAt: new Date().toISOString(),
   counts: index.counts,
   files: readdirSync(p("dist/chars")).length,
   bytes,
   font: { bytes: manifest.bytes, sha256: manifest.sha256 },
+  fontExt: { bytes: manifestExt.bytes, sha256: manifestExt.sha256, glyphCount: manifestExt.glyphCount },
   profileUse: Object.fromEntries([...profileUse].sort((a, b) => b[1] - a[1])),
   warnings,
 };
 writeFileSync(p("build/report.json"), JSON.stringify(report, null, 2) + "\n");
-console.log(`chars ${report.files}（漢字 ${index.counts.kanji}・ひらがな ${index.counts.hiragana}・カタカナ ${index.counts.katakana}）・画 ${index.counts.strokes}・${(bytes / 1e6).toFixed(1)}MB・警告 ${warnings.length} 件`);
+console.log(`chars ${report.files}（漢字 ${index.counts.kanji}・常用外 ${index.counts.kanjiExt}・ひらがな ${index.counts.hiragana}・カタカナ ${index.counts.katakana}）・画 ${index.counts.strokes}・${(bytes / 1e6).toFixed(1)}MB・警告 ${warnings.length} 件`);
+console.log(`常用外の手本フォント ${TEHON_EXT_FILE}・${manifestExt.glyphCount} 字・${(manifestExt.bytes / 1024).toFixed(0)}KB・sha256 ${manifestExt.sha256.slice(0, 16)}`);
 console.log(`手本フォント ${TEHON_FILE}・${manifest.glyphCount} 字（うちフォントだけの字 ${extraChars.join("")}）・${(manifest.bytes / 1024).toFixed(0)}KB・sha256 ${manifest.sha256.slice(0, 16)}`);
 for (const w of warnings.slice(0, 40)) console.log("  warn:", w);
 if (warnings.length > 40) console.log(`  ... ほか ${warnings.length - 40} 件（build/report.json）`);

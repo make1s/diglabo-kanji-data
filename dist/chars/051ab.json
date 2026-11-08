@@ -1,0 +1,137 @@
+{
+  "char": "冫",
+  "codepoint": "051ab",
+  "kind": "kanji",
+  "grade": null,
+  "jisLevel": 2,
+  "strokeCount": 2,
+  "radical": {
+    "number": 15,
+    "element": "冫",
+    "position": null,
+    "name": "にすい",
+    "strokes": [
+      1,
+      2
+    ],
+    "source": "general"
+  },
+  "readings": {
+    "on": [
+      "ヒョウ"
+    ],
+    "kun": [
+      "こおり"
+    ]
+  },
+  "eduReadings": {
+    "on": [],
+    "kun": []
+  },
+  "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "ヒョウ",
+        "stage": "beyond"
+      }
+    ],
+    "kun": [
+      {
+        "reading": "こおり",
+        "stage": "beyond"
+      }
+    ]
+  },
+  "meanings": [
+    "two-stroke water radical or ice radical (no. 15)"
+  ],
+  "variants": [],
+  "viewBox": [
+    0,
+    0,
+    109,
+    109
+  ],
+  "strokes": [
+    {
+      "n": 1,
+      "type": "㇔",
+      "profile": "㇔",
+      "centerline": "M47.5,18.5c5.12,2.43,13.22,9.98,14.5,13.75",
+      "outline": "M47.5,18.5L47.9,20.4L50.1,22.1L52.4,24.2L54.6,26.6L56.5,29L58,31.2L58.5,32.1L58.9,33.3L59.6,34.4L60.6,35.2L61.8,35.5L63,35.3L64.1,34.7L64.9,33.7L65.2,32.5L65.1,31.2L64.4,29.9L63.6,28.8L61.6,26.5L57.8,23.2L55,21.1L52.1,19.3L49.4,17.8L47.5,18.5Z",
+      "length": 20.3,
+      "numberAt": [
+        38.25,
+        15.13
+      ],
+      "bbox": [
+        47.5,
+        17.84,
+        17.74,
+        17.65
+      ]
+    },
+    {
+      "n": 2,
+      "type": "㇀",
+      "profile": "㇀",
+      "centerline": "M41.5,85.75c2.5,2.66,5.75,2.25,7.5,0c1.7-2.19,12-19.4,18.5-30.5",
+      "outline": "M39.5,87.7L41.3,89.2L43.4,90.1L45.6,90.4L47.8,90L49.7,89L51.2,87.5L54.7,82L67.5,55.3L50,79.1L46.8,84L45.9,84.7L44.9,84.7L44.3,84.4L42.7,83.2L41.6,82.9L40.5,83.1L39.6,83.7L38.9,84.6L38.7,85.7L38.9,86.7Z",
+      "length": 44.3,
+      "numberAt": [
+        35.25,
+        94.63
+      ],
+      "bbox": [
+        38.7,
+        55.25,
+        28.8,
+        35.14
+      ]
+    }
+  ],
+  "parts": {
+    "element": "冫",
+    "original": "氷",
+    "radical": "general",
+    "strokes": [
+      1,
+      2
+    ],
+    "bbox": [
+      38.7,
+      17.84,
+      28.8,
+      72.55
+    ],
+    "children": [
+      {
+        "position": "top",
+        "strokes": [
+          1
+        ],
+        "bbox": [
+          47.5,
+          17.84,
+          17.74,
+          17.65
+        ],
+        "children": []
+      },
+      {
+        "position": "bottom",
+        "strokes": [
+          2
+        ],
+        "bbox": [
+          38.7,
+          55.25,
+          28.8,
+          35.14
+        ],
+        "children": []
+      }
+    ]
+  }
+}

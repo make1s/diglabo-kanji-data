@@ -26,6 +26,8 @@ export interface BuildInput {
   radicalOverride?: RadicalOverride | undefined;
   /** 段階の読みの手当て（割り振り表の読み → KANJIDIC2 の表記）。KANJIDIC2 に写せない読みだけ */
   stageFixes?: Record<string, string> | undefined;
+  /** 常用外の字（JIS 第1・第2水準）。割り振り表を見ず、読みは KANJIDIC2 の全読みを beyond で持つ */
+  ext?: true | undefined;
 }
 
 const round = (v: number, digits: number): number => Number(v.toFixed(digits));
@@ -77,16 +79,19 @@ export function buildChar(input: BuildInput): { record: CharRecord; warnings: st
   });
 
   if (input.dic && input.dic.strokeCount !== strokes.length) warnings.push(`${char}: 画数が違う（KanjiVG ${strokes.length}・KANJIDIC2 ${input.dic.strokeCount}）`);
-  if (kind === "kanji" && !input.mext) warnings.push(`${char}: 割り振り表に無い`);
+  if (kind === "kanji" && !input.mext && !input.ext) warnings.push(`${char}: 割り振り表に無い`);
+  if (input.ext && (dic.jisLevel === null || input.mext)) throw new Error(`${char}: 常用外の字として組むには JIS の水準があり、割り振り表に無いこと`);
   // 配当学年は割り振り表（学年別漢字配当表）から取る。KANJIDIC2 は中学で習う字に 8 を入れるので写さない
   const dicEduGrade = dic.grade !== null && dic.grade <= 6 ? dic.grade : null;
   if (input.dic && input.mext && dicEduGrade !== input.mext.grade) {
     warnings.push(`${char}: 学年が違う（KANJIDIC2 ${input.dic.grade}・割り振り表 ${input.mext.grade}）`);
   }
-  const edu = selectEduReadings(dic, input.mext, input.override);
+  const edu = input.ext ? { on: [], kun: [], special: [], unmatched: [] } : selectEduReadings(dic, input.mext, input.override);
   for (const u of edu.unmatched) warnings.push(`${char}: 教育用読み「${u}」を KANJIDIC2 の表記に写せない（data/edu-readings-overrides.json で手当て）`);
 
-  const stages = selectReadingStages(dic, input.mext, { on: edu.on, kun: edu.kun }, input.stageFixes);
+  const stages = input.ext
+    ? { on: dic.on.map((reading) => ({ reading, stage: "beyond" as const })), kun: dic.kun.map((reading) => ({ reading, stage: "beyond" as const })), unmatched: [] }
+    : selectReadingStages(dic, input.mext, { on: edu.on, kun: edu.kun }, input.stageFixes);
   for (const u of stages.unmatched) warnings.push(`${char}: 段階の読み「${u}」を KANJIDIC2 の表記に写せない（data/stage-readings-overrides.json で手当て）`);
 
   const parts = toPartNode(kvg.root, strokeBBoxes);
@@ -98,6 +103,7 @@ export function buildChar(input: BuildInput): { record: CharRecord; warnings: st
     codepoint: kvg.codepoint,
     kind,
     grade: kind === "kanji" ? (input.mext?.grade ?? null) : null,
+    ...(input.ext ? { jisLevel: dic.jisLevel as 1 | 2 } : {}),
     strokeCount: strokes.length,
     radical: rad.radical,
     readings: { on: [...dic.on], kun: [...dic.kun] },

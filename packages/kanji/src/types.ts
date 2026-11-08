@@ -37,12 +37,14 @@ export interface RadicalRecord {
   readonly source: "general" | "tradit" | "nelson" | "override";
 }
 export interface Readings { readonly on: readonly string[]; readonly kun: readonly string[] }
-export interface StagedReading { readonly reading: string; readonly stage: "elementary" | "junior" | "senior" }
+export interface StagedReading { readonly reading: string; readonly stage: "elementary" | "junior" | "senior" | "beyond" }
 export interface CharacterRecord {
   readonly char: string;
   readonly codepoint: string;
   readonly kind: CharacterKind;
   readonly grade: number | null;
+  /** JIS X 0208 の水準。常用外の字（JIS 第1・第2水準）だけが持つ */
+  readonly jisLevel?: 1 | 2;
   readonly strokeCount: number;
   readonly radical: RadicalRecord | null;
   readonly readings: Readings;
@@ -74,6 +76,7 @@ export interface CharacterSummary {
   readonly codepoint: string;
   readonly kind: CharacterKind;
   readonly grade: number | null;
+  readonly jisLevel?: 1 | 2;
   readonly strokeCount: number;
 }
 export interface CharacterIndex { readonly manifest: DatasetManifest; readonly chars: readonly CharacterSummary[] }

@@ -177,3 +177,34 @@ describe("buildChar の写せない段階の読み", () => {
     expect(fixed.record.readingStages.kun).toContainEqual({ reading: "ば.かしい", stage: "junior" });
   });
 });
+
+describe("buildChar（常用外の字）", () => {
+  // 化 の字形を借りて、割り振り表に無い常用外の字として組む（字形は読みに関わらない）
+  const extDic: KanjidicEntry = { ...dic, grade: null, jisLevel: 1, on: ["カ", "ケ"], kun: ["ば.ける", "け.する"] };
+  const { record, warnings } = buildChar({ kvg: parseKanjiVg(KA), dic: extDic, table, radicalNames, kind: "kanji", ext: true });
+
+  it("jisLevel を持ち、学年・教育用読みは空、段階はすべて beyond（KANJIDIC2 の順のまま）", () => {
+    expect(record.jisLevel).toBe(1);
+    expect(record.grade).toBeNull();
+    expect(record.eduReadings).toEqual({ on: [], kun: [] });
+    expect(record.eduReadingsSpecial).toEqual([]);
+    expect(record.readingStages).toEqual({
+      on: [{ reading: "カ", stage: "beyond" }, { reading: "ケ", stage: "beyond" }],
+      kun: [{ reading: "ば.ける", stage: "beyond" }, { reading: "け.する", stage: "beyond" }],
+    });
+    expect(warnings.some((w) => w.includes("割り振り表に無い"))).toBe(false);
+  });
+
+  it("jisLevel は grade の直後に置く", () => {
+    expect(Object.keys(record).slice(0, 5)).toEqual(["char", "codepoint", "kind", "grade", "jisLevel"]);
+  });
+
+  it("常用漢字のレコードには jisLevel のキーが無い（バイト列を 0.6.6 から変えない）", () => {
+    const joyo = buildChar({ kvg: parseKanjiVg(KA), dic, mext, table, radicalNames, kind: "kanji" }).record;
+    expect("jisLevel" in joyo).toBe(false);
+  });
+
+  it("水準の無い字を ext で組もうとしたら止める", () => {
+    expect(() => buildChar({ kvg: parseKanjiVg(KA), dic: { ...extDic, jisLevel: null }, table, radicalNames, kind: "kanji", ext: true })).toThrow(/水準/);
+  });
+});

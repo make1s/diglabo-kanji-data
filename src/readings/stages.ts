@@ -1,7 +1,8 @@
 import type { KanjidicEntry } from "../kanjidic/parse.js";
 import type { MextEntry } from "../mext/parse-tsv.js";
 
-export type ReadingStage = "elementary" | "junior" | "senior";
+/** beyond＝割り振り表に無い読み（常用外の字の読み。spec 2026-11-08-kanji-kanken-pre1-level1-design §3） */
+export type ReadingStage = "elementary" | "junior" | "senior" | "beyond";
 export interface StagedReading { reading: string; stage: ReadingStage }
 export interface ReadingStages { on: StagedReading[]; kun: StagedReading[] }
 

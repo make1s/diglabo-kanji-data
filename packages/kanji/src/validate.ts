@@ -29,6 +29,7 @@ function summary(v: unknown): asserts v is Record<string, unknown> {
   check(text(v.char) && Array.from(v.char).length === 1, "charはUnicodeの一文字です");
   check(v.codepoint === v.char.codePointAt(0)!.toString(16).padStart(5, "0"), "codepointが文字と一致しません");
   check(kind(v.kind) && grade(v.grade) && integer(v.strokeCount) && v.strokeCount > 0, "文字の種別・学年・画数が不正です");
+  check(!("jisLevel" in v) || v.jisLevel === 1 || v.jisLevel === 2, "JIS の水準が不正です");
 }
 export function validateManifest(v: unknown): asserts v is DatasetManifest {
   check(object(v) && integer(v.schemaVersion), "manifestが不正です");
@@ -61,7 +62,7 @@ export function validateGlyph(v: unknown): asserts v is Glyph {
   check(object(r.readingStages), "読みの段階がありません");
   for (const key of ["on", "kun"]) {
     const items = r.readingStages[key];
-    check(Array.isArray(items) && items.every((s: unknown) => object(s) && text(s.reading) && ["elementary", "junior", "senior"].includes(s.stage as string)), "読みの段階が不正です");
+    check(Array.isArray(items) && items.every((s: unknown) => object(s) && text(s.reading) && ["elementary", "junior", "senior", "beyond"].includes(s.stage as string)), "読みの段階が不正です");
   }
   const strokeNumbers = (value: unknown): value is number[] => Array.isArray(value)
     && value.every((n) => integer(n) && n >= 1 && n <= count) && new Set(value).size === value.length;

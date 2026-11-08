@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { existsSync, readFileSync } from "node:fs";
 import { A, GYOU, KA } from "../fixtures/kanjivg-samples.js";
 import { parseKanjiVg } from "./parse.js";
 
@@ -45,5 +46,15 @@ describe("parseKanjiVg", () => {
 
   it("画番号の数が画数と違えば投げる", () => {
     expect(() => parseKanjiVg(A.replace('<text transform="matrix(1 0 0 1 57.51 42)">3</text>', ""))).toThrow(/画番号/);
+  });
+});
+
+describe("KanjiVG の画番号の抜けの手当て", () => {
+  const file = new URL("../../input/kvg/kanji/053c3.svg", import.meta.url);
+  it.skipIf(!existsSync(file))("參（053c3）は 12・13 画の番号が抜けている。書き始めの左上に補う", () => {
+    const kvg = parseKanjiVg(readFileSync(file, "utf8"));
+    expect(kvg.strokes).toHaveLength(13);
+    expect(kvg.numbers[11]).toEqual([58.5, 64.5]);
+    expect(kvg.numbers[12]).toEqual([67.5, 75.5]);
   });
 });

@@ -37,6 +37,14 @@ function kvgAttrs(all: Record<string, string>): Record<string, string> {
   return out;
 }
 
+/**
+ * KanjiVG の画番号の抜け（codepoint → 画番号 → 位置）。常用漢字には無い（常用漢字のレコードは変わらない）。
+ * 參（053c3）: 13 画のうち 12・13 画の番号が無い。書き始め（65.78,65.4・74.91,75.68）の左上に、ほかの画と同じ程度ずらして置く（2026-11-08）
+ */
+const NUMBER_FIXES: Readonly<Record<string, Readonly<Record<number, [number, number]>>>> = {
+  "053c3": { 12: [58.5, 64.5], 13: [67.5, 75.5] },
+};
+
 /** KanjiVG の SVG 1ファイルを読む（既定字形のファイルだけを渡すこと） */
 export function parseKanjiVg(svg: string): KvgChar {
   const idMatch = svg.match(/id="kvg:StrokePaths_([0-9a-f]+)"/);
@@ -87,6 +95,9 @@ export function parseKanjiVg(svg: string): KvgChar {
     }
   }
   if (!root) throw new Error(`グループが無い: ${codepoint}`);
+  for (const [n, at] of Object.entries(NUMBER_FIXES[codepoint] ?? {})) {
+    if (numbers[Number(n) - 1] === undefined) numbers[Number(n) - 1] = at;
+  }
   if (numbers.length !== strokes.length || numbers.some((p) => p === undefined)) {
     throw new Error(`画番号の数（${numbers.filter(Boolean).length}）が画数（${strokes.length}）と違う: ${codepoint}`);
   }

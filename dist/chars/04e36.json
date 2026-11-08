@@ -1,0 +1,83 @@
+{
+  "char": "丶",
+  "codepoint": "04e36",
+  "kind": "kanji",
+  "grade": null,
+  "jisLevel": 2,
+  "strokeCount": 1,
+  "radical": {
+    "number": 3,
+    "element": "丶",
+    "position": null,
+    "name": "てん",
+    "strokes": [
+      1
+    ],
+    "source": "general"
+  },
+  "readings": {
+    "on": [
+      "チュ"
+    ],
+    "kun": []
+  },
+  "eduReadings": {
+    "on": [],
+    "kun": []
+  },
+  "eduReadingsSpecial": [],
+  "readingStages": {
+    "on": [
+      {
+        "reading": "チュ",
+        "stage": "beyond"
+      }
+    ],
+    "kun": []
+  },
+  "meanings": [
+    "dot",
+    "tick or dot radical (no. 3)"
+  ],
+  "variants": [],
+  "viewBox": [
+    0,
+    0,
+    109,
+    109
+  ],
+  "strokes": [
+    {
+      "n": 1,
+      "type": "㇔",
+      "profile": "㇔",
+      "centerline": "M44.75,43.5c10.77,8.33,16.92,17.19,20.25,25",
+      "outline": "M44.8,43.5L45.3,45.8L47.8,48.2L51.2,51.8L54.1,55.3L56.5,58.8L59.2,63.4L60.8,66.6L62,69.8L62.7,70.8L63.8,71.5L65,71.7L66.3,71.5L67.3,70.8L68,69.7L68.2,68.5L68,67.2L66.2,63.9L64.8,61.6L62.4,58.2L60.5,55.9L57.5,52.4L55.2,50.2L50,45.7L47.1,43.5L44.8,43.5Z",
+      "length": 32.5,
+      "numberAt": [
+        42.5,
+        39.5
+      ],
+      "bbox": [
+        44.75,
+        43.5,
+        23.49,
+        28.24
+      ]
+    }
+  ],
+  "parts": {
+    "element": "丶",
+    "radical": "general",
+    "strokes": [
+      1
+    ],
+    "bbox": [
+      44.75,
+      43.5,
+      23.49,
+      28.24
+    ],
+    "children": []
+  }
+}
