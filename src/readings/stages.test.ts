@@ -4,7 +4,7 @@ import type { MextEntry } from "../mext/parse-tsv.js";
 import { selectReadingStages } from "./stages.js";
 
 const dic = (on: string[], kun: string[]): KanjidicEntry => ({
-  char: "x", codepoint: "00000", grade: null, strokeCount: 1, radicalClassical: null, on, kun, meanings: [],
+  char: "x", codepoint: "00000", grade: null, strokeCount: 1, radicalClassical: null, on, kun, meanings: [], jisLevel: null,
 });
 
 describe("selectReadingStages", () => {

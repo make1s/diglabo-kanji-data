@@ -7,7 +7,7 @@ const sei: KanjidicEntry = {
   char: "生", codepoint: "0751f", grade: 1, strokeCount: 5, radicalClassical: 100,
   on: ["セイ", "ショウ"],
   kun: ["い.きる", "い.かす", "い.ける", "う.まれる", "うま.れる", "う.まれ", "うまれ", "う.む", "お.う", "は.える", "は.やす", "き", "なま", "なま-", "な.る", "な.す", "む.す", "-う"],
-  meanings: ["life"],
+  meanings: ["life"], jisLevel: 1,
 };
 const r = (reading: string, stage: MextEntry["readings"][number]["stage"], special = false): MextEntry["readings"][number] => ({
   reading, kind: /^[ァ-ヶー]+$/.test(reading) ? "on" : "kun", stage, special,

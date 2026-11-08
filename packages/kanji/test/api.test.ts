@@ -71,7 +71,9 @@ describe("公開APIから教材を作る", () => {
     expect(lookupCharacter(index, "😀")).toEqual({ status: "unsupported", input: "😀" });
     expect(lookupCharacter(index, "休林").status).toBe("invalid-input");
     expect(lookupCharacter(index, "").status).toBe("invalid-input");
-    expect(lookupCharacter(index, "叱").status).toBe("unsupported");
+    // 叱 は 0.7.0 から常用外の字（JIS 第1水準）として収録。JIS X 0208 の外の 鷗 は未収録
+    expect(lookupCharacter(index, "叱")).toMatchObject({ status: "found", entry: { jisLevel: 1 } });
+    expect(lookupCharacter(index, "鷗").status).toBe("unsupported");
     error(() => lookupCharacter({ ...index, manifest: { ...manifest, schemaVersion: 2 } }, "休"), "UNSUPPORTED_SCHEMA");
   });
   it("学年と文字種を絞り込み、かなを中学生向けと解釈しない", () => {
@@ -79,7 +81,7 @@ describe("公開APIから教材を作る", () => {
     expect(second).toHaveLength(160);
     expect(second.every((c) => c.grade === 2 && c.kind === "kanji")).toBe(true);
     expect(filterCharacters(index, { kind: "hiragana" })).toHaveLength(86);
-    expect(filterCharacters(index)).toHaveLength(2313);
+    expect(filterCharacters(index)).toHaveLength(6536);
     error(() => filterCharacters(index, { grade: 8 }), "INVALID_OPTIONS");
   });
 });

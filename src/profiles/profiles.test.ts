@@ -86,3 +86,10 @@ describe("画数による太さの係数（densityScale）", () => {
     expect(real.densityScale).toEqual({ from: 10, to: 22, min: 0.71 });
   });
 });
+
+describe("resolveProfileKey の KanjiVG の誤記", () => {
+  const t = validateProfileTable(JSON.parse(readFileSync(new URL("../../data/stroke-profiles.json", import.meta.url), "utf8")));
+  it("禺 の部品の全角数字「６」は ㇀ として引く（偶 の同じ画は ㇀。寓・嵎・癘・礪・勵 で 11 画）", () => {
+    expect(resolveProfileKey("６", t)).toBe("㇀");
+  });
+});

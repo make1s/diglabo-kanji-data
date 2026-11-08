@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { existsSync, readFileSync } from "node:fs";
 import { parseKanjidic2, readKanjidicHeader } from "./parse.js";
 
 const XML = `<?xml version="1.0" encoding="UTF-8"?>
@@ -85,16 +86,58 @@ describe("parseKanjidic2", () => {
       on: ["カ", "ケ"],
       kun: ["ば.ける", "ば.かす", "ふ.ける", "け.する"],
       meanings: ["change", "take the form of"],
+      jisLevel: 1,
     });
   });
   it("学年なしは null、画数が複数なら最初", () => {
     const m = parseKanjidic2(XML);
     expect(m.get("亜")?.grade).toBe(8);
     expect(m.get("亜")?.strokeCount).toBe(7);
-    expect(m.get("丂")).toEqual({ char: "丂", codepoint: "04e02", grade: null, strokeCount: 2, radicalClassical: 1, on: [], kun: [], meanings: [] });
+    expect(m.get("丂")).toEqual({ char: "丂", codepoint: "04e02", grade: null, strokeCount: 2, radicalClassical: 1, on: [], kun: [], meanings: [], jisLevel: null });
     expect(m.size).toBe(3);
   });
   it("header の版を読む", () => {
     expect(readKanjidicHeader(XML)).toEqual({ fileVersion: "4", databaseVersion: "2026-248", dateOfCreation: "2026-09-05" });
+  });
+});
+
+describe("jisLevel（JIS X 0208 の水準）", () => {
+  const entry = (literal: string, ucs: string, codepoint: string) => `<character>
+<literal>${literal}</literal>
+<codepoint>
+<cp_value cp_type="ucs">${ucs}</cp_value>
+${codepoint}
+</codepoint>
+<misc><stroke_count>1</stroke_count></misc>
+</character>`;
+  const xml = `<kanjidic2><header></header>
+${entry("亜", "4e9c", '<cp_value cp_type="jis208">1-16-01</cp_value>')}
+${entry("弌", "5f0c", '<cp_value cp_type="jis208">1-48-02</cp_value>')}
+${entry("丂", "4e02", '<cp_value cp_type="jis212">1-16-02</cp_value>')}
+${entry("丄", "4e04", "")}
+</kanjidic2>`;
+  // ⚠ <variant var_type="jis208"> は別字の符号なので見ない（拾うと水準1が 1,371 字に化けた。2026-11-08）
+  const withVariant = xml.replace("</kanjidic2>", `${entry("丅", "4e05", "").replace("</codepoint>", "</codepoint>\n<misc><variant var_type=\"jis208\">1-20-01</variant></misc>")}\n</kanjidic2>`);
+
+  it("区 16〜47 は 1、48〜84 は 2、jis208 の符号が無ければ null", () => {
+    const map = parseKanjidic2(xml);
+    expect(map.get("亜")!.jisLevel).toBe(1);
+    expect(map.get("弌")!.jisLevel).toBe(2);
+    expect(map.get("丂")!.jisLevel).toBeNull();
+    expect(map.get("丄")!.jisLevel).toBeNull();
+  });
+
+  it("variant の jis208 は水準に数えない", () => {
+    expect(parseKanjidic2(withVariant).get("丅")!.jisLevel).toBeNull();
+  });
+
+  const real = new URL("../../input/kanjidic2.xml", import.meta.url);
+  const mextFile = new URL("../../data/mext-onkun-2017.json", import.meta.url);
+  it.skipIf(!existsSync(real))("実物: 常用漢字を除くと水準1が 863 字・水準2が 3,360 字", () => {
+    const map = parseKanjidic2(readFileSync(real, "utf8"));
+    const joyo = new Set((JSON.parse(readFileSync(mextFile, "utf8")) as { entries: { kanji: string }[] }).entries.map((e) => e.kanji));
+    const count = (lv: 1 | 2) => [...map.values()].filter((e) => e.jisLevel === lv && !joyo.has(e.char)).length;
+    expect(count(1)).toBe(863);
+    expect(count(2)).toBe(3360);
   });
 });

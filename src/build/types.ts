@@ -63,6 +63,8 @@ export interface CharRecord {
   kind: CharKind;
   /** 配当学年 1..6。中学で習う字とかなは null */
   grade: number | null;
+  /** JIS X 0208 の水準。常用外の字（JIS 第1・第2水準）だけが持つ。常用漢字・かなはキーごと持たない（0.6.6 とバイト列を変えないため） */
+  jisLevel?: 1 | 2;
   /** KanjiVG の画数 */
   strokeCount: number;
   /** 部首。康熙番号に加えて、字形・位置・呼び名・部首にあたる画を持つ（かなは null） */
@@ -94,6 +96,8 @@ export interface DatasetIndex {
     mext: { title: string; url: string };
   };
   profilesVersion: number;
-  counts: { kanji: number; hiragana: number; katakana: number; strokes: number };
-  chars: { char: string; codepoint: string; kind: CharKind; grade: number | null; strokeCount: number }[];
+  /** kanji は常用漢字の数、kanjiExt は常用外の字（JIS 第1・第2水準）の数 */
+  counts: { kanji: number; kanjiExt: number; hiragana: number; katakana: number; strokes: number };
+  /** jisLevel は常用外の字だけ */
+  chars: { char: string; codepoint: string; kind: CharKind; grade: number | null; jisLevel?: 1 | 2; strokeCount: number }[];
 }

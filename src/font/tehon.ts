@@ -13,6 +13,8 @@ import ttf2woff2 from "ttf2woff2";
 
 export const TEHON_FAMILY = "DiglaboTehon";
 export const TEHON_FILE = "tehon.woff2";
+/** 常用外の字（JIS 第1・第2水準）の手本フォント。今の tehon.woff2 のバイト列を変えないため別の 1 本にする（spec 2026-11-08 §3） */
+export const TEHON_EXT_FILE = "tehon-ext.woff2";
 export const TEHON_ATTRIBUTION = "KanjiVG (CC BY-SA 3.0) / KANJIDIC2 © EDRDG (CC BY-SA 4.0)";
 
 const UNITS_PER_EM = 1000;
@@ -48,7 +50,7 @@ export interface TehonManifest {
   version: string;
   profilesVersion: number;
   family: typeof TEHON_FAMILY;
-  file: typeof TEHON_FILE;
+  file: typeof TEHON_FILE | typeof TEHON_EXT_FILE;
   sha256: string;
   bytes: number;
   glyphCount: number;
@@ -240,13 +242,13 @@ export function buildTehonFont(chars: readonly TehonGlyphSource[]): { otf: Buffe
 export function tehonManifest(
   woff2: Uint8Array,
   glyphCount: number,
-  meta: { version: string; profilesVersion: number; extraChars: readonly string[] }
+  meta: { version: string; profilesVersion: number; extraChars: readonly string[]; file?: typeof TEHON_FILE | typeof TEHON_EXT_FILE }
 ): TehonManifest {
   return {
     version: meta.version,
     profilesVersion: meta.profilesVersion,
     family: TEHON_FAMILY,
-    file: TEHON_FILE,
+    file: meta.file ?? TEHON_FILE,
     sha256: createHash("sha256").update(woff2).digest("hex"),
     bytes: woff2.length,
     glyphCount,
