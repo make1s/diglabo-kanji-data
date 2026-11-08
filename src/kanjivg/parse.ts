@@ -23,7 +23,7 @@ export interface KvgChar {
   root: KvgGroup;
 }
 
-const TAG = /<g\b([^>]*)>|<\/g>|<path\b([^>]*)\/>|<text\b[^>]*transform="matrix\(1 0 0 1 ([-\d.]+) ([-\d.]+)\)"[^>]*>(\d+)<\/text>/g;
+const TAG = /<g\b([^>]*)>|<\/g>|<path\b([^>]*)\/>|<text\b[^>]*transform="matrix\(1 0 0 1 ([-\d.]+) ([-\d.]+)\s*\)"[^>]*>(\d+)<\/text>/g;
 
 function parseAttrs(s: string): Record<string, string> {
   const out: Record<string, string> = {};
@@ -98,7 +98,7 @@ export function parseKanjiVg(svg: string): KvgChar {
   for (const [n, at] of Object.entries(NUMBER_FIXES[codepoint] ?? {})) {
     if (numbers[Number(n) - 1] === undefined) numbers[Number(n) - 1] = at;
   }
-  if (numbers.length !== strokes.length || numbers.some((p) => p === undefined)) {
+  if (numbers.length !== strokes.length || Array.from(numbers).some((p) => p === undefined)) {
     throw new Error(`画番号の数（${numbers.filter(Boolean).length}）が画数（${strokes.length}）と違う: ${codepoint}`);
   }
   return { codepoint, strokes, numbers, root };

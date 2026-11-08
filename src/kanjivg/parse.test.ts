@@ -47,6 +47,15 @@ describe("parseKanjiVg", () => {
   it("画番号の数が画数と違えば投げる", () => {
     expect(() => parseKanjiVg(A.replace('<text transform="matrix(1 0 0 1 57.51 42)">3</text>', ""))).toThrow(/画番号/);
   });
+
+  it("途中の画番号が抜けていても投げる（配列の穴を見逃さない）", () => {
+    expect(() => parseKanjiVg(A.replace('<text transform="matrix(1 0 0 1 41.51 19)">2</text>', ""))).toThrow(/画番号/);
+  });
+
+  it("transform の閉じ括弧の前に空白があっても番号の位置を読む（捲 06372 の 5 画）", () => {
+    const c = parseKanjiVg(A.replace('matrix(1 0 0 1 41.51 19)', "matrix(1 0 0 1 41.51 19 )"));
+    expect(c.numbers).toEqual([[22.51, 35], [41.51, 19], [57.51, 42]]);
+  });
 });
 
 describe("KanjiVG の画番号の抜けの手当て", () => {

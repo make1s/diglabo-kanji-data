@@ -25,7 +25,7 @@ const packs = ["kanji", "data"].map((name) => {
   assert.equal(pkg.peerDependencies, undefined);
   return pack;
 });
-assert.equal(packs[1]!.files.filter((f) => /^dist\/chars\/[^/]+\.js$/u.test(f.path)).length, 2313);
+assert.equal(packs[1]!.files.filter((f) => /^dist\/chars\/[^/]+\.js$/u.test(f.path)).length, 6536);
 assert(packs[1]!.files.some((f) => f.path === "ATTRIBUTION.md"));
 const temp = mkdtempSync(resolve(tmpdir(), "diglabo-kanji-consumer-"));
 try {
